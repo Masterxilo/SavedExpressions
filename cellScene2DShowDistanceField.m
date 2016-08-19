@@ -1,0 +1,15 @@
+Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Scene2DShowDistanceField\"", 
+      ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
+        RowBox[{RowBox[{"Scene2DShowDistanceField", "[", 
+            RowBox[{"s_Scene2D", ",", "which_String", ",", "o___"}], "]"}], 
+          "\[IndentingNewLine]", ",", "\"visualize scene distance field\"", 
+          "\[IndentingNewLine]", ",", RowBox[{"ShowDistanceField", "[", 
+            RowBox[{RowBox[{"GDSingleDatumToArray", "[", RowBox[
+                 {RowBox[{"s", "@", "\"GridData\""}], ",", "which"}], "]"}], 
+              ",", "o", ",", RowBox[{"PerformanceGoal", "->", 
+                "\"Quality\""}]}], "]"}]}], "\[IndentingNewLine]", "]"}]}], 
+    "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]], "Input", 
+ GeneratedCell -> True, CellAutoOverwrite -> True, 
+ CellChangeTimes -> {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
+   {3.68056362122238*^9, 3.6805638183011074*^9}, 3.6805646355662155*^9}]

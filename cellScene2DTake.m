@@ -1,0 +1,15 @@
+Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Scene2DTake\"", ",", 
+      "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
+        RowBox[{RowBox[{"Scene2DTake", "[", RowBox[{"s_Scene2D", ",", 
+              "coordinateBounds_"}], "]"}], "\[IndentingNewLine]", ",", 
+          "\"Create a subscene of a given scene\"", "\[IndentingNewLine]", 
+          ",", RowBox[{"Scene2DMake", "[", RowBox[{RowBox[{"s", "@", 
+                "\"l\""}], ",", RowBox[{"GDSubsetCoordinateBounds", "[", 
+                RowBox[{RowBox[{"s", "@", "\"GridData\""}], ",", 
+                  "coordinateBounds"}], "]"}]}], "]"}]}], 
+        "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+    "\[IndentingNewLine]", "]"}]], "Input", GeneratedCell -> True, 
+ CellAutoOverwrite -> True, CellChangeTimes -> 
+  {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
+   {3.68056362122238*^9, 3.680563825093933*^9}, 3.680564635657282*^9}]

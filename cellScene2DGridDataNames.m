@@ -1,0 +1,11 @@
+Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Scene2DGridDataNames\"", ",", 
+      "\[IndentingNewLine]", RowBox[{RowBox[{"RedefinePublicFunction", "[", 
+          "\[IndentingNewLine]", RowBox[{RowBox[{"Scene2DGridDataNames", "[", 
+              "s_Scene2D", "]"}], "\[IndentingNewLine]", ",", 
+            "\"The names of the Properties defined at each grid point\"", 
+            "\[IndentingNewLine]", ",", RowBox[{"GDDataNames", "@", 
+              RowBox[{"s", "@", "\"GridData\""}]}]}], "\[IndentingNewLine]", 
+          "]"}], ";"}]}], "\[IndentingNewLine]", "]"}]], "Input", 
+ CellChangeTimes -> {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
+   {3.68056362122238*^9, 3.680563722111163*^9}, 3.6805646351319094*^9, 
+   {3.6805651314662657*^9, 3.680565168408513*^9}}]

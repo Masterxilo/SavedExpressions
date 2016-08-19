@@ -1,0 +1,23 @@
+Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Scene2DEnergyfAt\"", ",", 
+      "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
+        RowBox[{RowBox[{RowBox[{"Scene2DEnergyfAt", "[", 
+              "\[IndentingNewLine]", RowBox[{"s_Scene2D", 
+                "\[IndentingNewLine]", ",", RowBox[{"p", ":", RowBox[
+                   {"{", RowBox[{"_Integer", ",", "_Integer"}], "}"}]}], 
+                "\[IndentingNewLine]", ",", RowBox[{"weights", ":", 
+                  "$SceneXEnergyWeightPattern"}]}], "\[IndentingNewLine]", 
+              "]"}], "/;", RowBox[{RowBox[{"Scene2DEnergyP", "@", "s"}], "~", 
+              "Contains", "~", "p"}]}], "\[IndentingNewLine]", ",", 
+          "\"Evaluate energy vector for a specific p\"", 
+          "\[IndentingNewLine]", ",", RowBox[{"SOPfAt", "[", 
+            RowBox[{RowBox[{"Scene2DSparseOptimizationProblem", "[", 
+                RowBox[{"s", ",", "weights"}], "]"}], ",", "p"}], "]"}], 
+          "\[IndentingNewLine]", ",", RowBox[{"_", "?", "NumericVectorQ"}]}], 
+        "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+    "\[IndentingNewLine]", "]"}]], "Input", GeneratedCell -> True, 
+ CellAutoOverwrite -> True, CellChangeTimes -> 
+  {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
+   {3.68056362122238*^9, 3.680563877380669*^9}, {3.6805639599082575*^9, 
+    3.6805640430372915*^9}, {3.6805640989959984*^9, 3.680564109257283*^9}, 
+   3.6805646347326255*^9}]

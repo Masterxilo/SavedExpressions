@@ -1,0 +1,18 @@
+Cell[BoxData[RowBox[{"Persist", "[", "\[IndentingNewLine]", 
+    RowBox[{"\"SOPFullyAbstractObjectiveVector\"", "\[IndentingNewLine]", 
+      "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
+      RowBox[{RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
+          RowBox[{RowBox[{"SOPFullyAbstractObjectiveVector", "[", 
+              RowBox[{"SparseOptimizationProblem", "[", RowBox[{"f_", ",", 
+                  "select_", ",", "P_", ",", "data_", ",", "y_"}], "]"}], 
+              "]"}], "\[IndentingNewLine]", ",", 
+            "\"List of all objective vectors with no data inserted\"", 
+            "\[IndentingNewLine]", ",", RowBox[{"Table", "[", 
+              RowBox[{RowBox[{"f", "/.", RowBox[{"select", "@", "p"}]}], ",", 
+                RowBox[{"{", RowBox[{"p", ",", "P"}], "}"}]}], "]"}]}], 
+          "\[IndentingNewLine]", "]"}], ";"}]}], "\[IndentingNewLine]", 
+    "]"}]], "Input", CellChangeTimes -> 
+  {{3.680596448127592*^9, 3.6805964559533396*^9}, 
+   {3.6805965077750015*^9, 3.680596617194547*^9}, 
+   {3.6805966555504074*^9, 3.680596721436619*^9}, 
+   {3.680596752742683*^9, 3.680596800175851*^9}}]

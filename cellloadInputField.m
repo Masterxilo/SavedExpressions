@@ -1,0 +1,52 @@
+Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"loadInputField\"", ",", 
+      "\[IndentingNewLine]", RowBox[{RowBox[{"NeedsDefined", "[", 
+          "NotebookAllDeleteCells", "]"}], ";", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", RowBox[
+         {RowBox[{"load", "[", RowBox[{"s_String", ",", "id_String"}], "]"}], 
+          ":=", RowBox[{"Module", "[", RowBox[{RowBox[{"{", "c", "}"}], ",", 
+              "\[IndentingNewLine]", RowBox[{RowBox[
+                 {"NotebookAllDeleteCells", "[", RowBox[{"CellTags", 
+                    "\[Rule]", RowBox[{"\"depersistedCell\"", "<>", "id"}]}], 
+                  "]"}], ";", "\[IndentingNewLine]", RowBox[{"c", "=", 
+                  RowBox[{"DepersistCell", "@", "s"}]}], ";", 
+                "\[IndentingNewLine]", RowBox[{"If", "[", RowBox[
+                   {RowBox[{RowBox[{"Head", "@", "c"}], "===", "Cell"}], 
+                    "\[IndentingNewLine]", ",", RowBox[{"CellPrint", "[", 
+                      RowBox[{"c", "~", "Append", "~", RowBox[{"(", RowBox[
+                          {"CellTags", "\[Rule]", RowBox[
+                          {"\"depersistedCell\"", "<>", "id"}]}], ")"}]}], 
+                      "]"}], "\[IndentingNewLine]", ",", RowBox[{"CellPrint", 
+                      "[", RowBox[{RowBox[{"MakeInputCell", "[", RowBox[
+                          {"Unevaluated", "@", RowBox[{"Persist", "[", 
+                          RowBox[{"s", ",", "Null"}], "]"}]}], "]"}], "~", 
+                        "Append", "~", RowBox[{"(", RowBox[{"CellTags", 
+                          "\[Rule]", RowBox[{"\"depersistedCell\"", "<>", 
+                          "id"}]}], ")"}]}], "]"}]}], "\[IndentingNewLine]", 
+                  "]"}]}]}], "\[IndentingNewLine]", "]"}]}], ";", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        RowBox[{RowBox[{"{", RowBox[{"id", "=", RowBox[{"CreateUUID", "[", 
+                "]"}]}], "}"}], "~", "With", "~", 
+          RowBox[{"DynamicModule", "[", RowBox[{RowBox[{"{", "name", "}"}], 
+              ",", "\[IndentingNewLine]", RowBox[{"InputField", "[", 
+                RowBox[{RowBox[{"Dynamic", "[", RowBox[{"name", ",", 
+                      "\[IndentingNewLine]", RowBox[{"{", RowBox[
+                         {"Automatic", ",", RowBox[{RowBox[{"(", RowBox[
+                          {RowBox[{"load", "[", RowBox[{"#", ",", "id"}], 
+                          "]"}], ";", RowBox[{"name", "=", "#"}], ";"}], 
+                          ")"}], "&"}]}], "}"}]}], "]"}], ",", "String"}], 
+                "]"}]}], "\[IndentingNewLine]", "]"}]}]}]}], 
+    "\[IndentingNewLine]", "]"}]], "Input", 
+ CellChangeTimes -> {{3.680606705316435*^9, 3.6806067894404187*^9}, 
+   {3.6806068232846484*^9, 3.6806069166361136*^9}, 
+   {3.6806069538885965*^9, 3.680606960716116*^9}, 
+   {3.680606996819164*^9, 3.6806069986344285*^9}, 
+   {3.680607115051717*^9, 3.6806071201019926*^9}, 
+   {3.680607236762578*^9, 3.680607265006816*^9}, 
+   {3.6806073081085815*^9, 3.680607396022297*^9}, 
+   {3.6806074694739285*^9, 3.6806074853257093*^9}, 
+   {3.68060757010351*^9, 3.6806075894566402*^9}, 
+   {3.680607671912526*^9, 3.680607673887991*^9}, 
+   {3.6806078249064426*^9, 3.680607865887594*^9}, 
+   {3.6806084213386545*^9, 3.680608575989623*^9}, 
+   {3.680608927459162*^9, 3.68060902713754*^9}}, 
+ CellTags -> "depersistedCell241ae8e2-cb5d-4f67-98f4-3def82baadb2"]

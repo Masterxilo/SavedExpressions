@@ -1,0 +1,15 @@
+Cell[BoxData[RowBox[{"Persist", "[", "\[IndentingNewLine]", 
+    RowBox[{"\"SOPFullyAbstractObjectiveExpression\"", "\[IndentingNewLine]", 
+      "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
+      RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
+        RowBox[{RowBox[{"SOPFullyAbstractObjectiveExpression", "[", 
+            "p_SparseOptimizationProblem", "]"}], "\[IndentingNewLine]", ",", 
+          "\"norm2 of objective without data\"", "\[IndentingNewLine]", ",", 
+          RowBox[{"Norm2", "@", RowBox[{"Flatten", "@", RowBox[{
+                "SOPFullyAbstractObjectiveVector", "[", "p", "]"}]}]}]}], 
+        "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+    "\[IndentingNewLine]", "]"}]], "Input", 
+ CellChangeTimes -> {{3.680596448127592*^9, 3.6805964559533396*^9}, 
+   {3.6805965077750015*^9, 3.680596617194547*^9}, 
+   {3.6805966555504074*^9, 3.680596721436619*^9}, 
+   {3.680596752742683*^9, 3.6805968393157063*^9}}]

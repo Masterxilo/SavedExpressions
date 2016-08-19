@@ -1,0 +1,16 @@
+Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"FlattenNull\"", ",", 
+      "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
+        RowBox[{RowBox[{"FlattenNull", "[", "expr_", "]"}], ",", 
+          "\[IndentingNewLine]", 
+          "\"Removes all Null arguments at level 1 in expression\"", ",", 
+          "\[IndentingNewLine]", "\[IndentingNewLine]", 
+          RowBox[{"FixedPointReplace", "[", "\[IndentingNewLine]", 
+            RowBox[{"expr", ",", RowBox[{RowBox[{"x_", "[", RowBox[
+                   {"a___", ",", "Null", ",", "b___"}], "]"}], 
+                "\[RuleDelayed]", RowBox[{"x", "[", RowBox[{"a", ",", "b"}], 
+                  "]"}]}]}], "\[IndentingNewLine]", "]"}]}], 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]}], 
+    "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]], "Input", 
+ CellChangeTimes -> {{3.6806119398639555*^9, 3.6806119972215414*^9}}, 
+ CellTags -> "depersistedCell9a8b53c2-8cb3-4d40-8672-fed04424b912"]

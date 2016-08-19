@@ -1,0 +1,1 @@
+HoldComplete[SetAttributes[SparseOptimizationProblem, HoldAllComplete]]

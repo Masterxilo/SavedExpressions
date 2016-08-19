@@ -1,0 +1,11 @@
+Cell[BoxData[RowBox[{"Persist", "[", "\[IndentingNewLine]", 
+    RowBox[{"\"SceneXEnergy\"", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      ",", "\[IndentingNewLine]", "Null"}], "\[IndentingNewLine]", 
+    RowBox[{"(*", RowBox[{RowBox[{"code", " ", "shared", " ", "between", " ", 
+          "the", " ", "Scene", " ", "implementations"}], ",", " ", 
+        RowBox[{"in", " ", "particular"}], ",", " ", 
+        RowBox[{"code", " ", "related", " ", "to", " ", "computing", " ", 
+          "the", " ", "vsfs", " ", "energy"}]}], "*)"}], 
+    "\[IndentingNewLine]", "]"}]], "Input", 
+ CellChangeTimes -> {{3.680596448127592*^9, 3.6805964559533396*^9}, 
+   {3.6805965077750015*^9, 3.680596561477009*^9}}]

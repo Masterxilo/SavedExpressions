@@ -1,0 +1,15 @@
+Cell[BoxData[RowBox[{"Persist", "[", "\[IndentingNewLine]", 
+    RowBox[{"\"coordFlat\"", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      ",", "\[IndentingNewLine]", RowBox[{"RedefinePublicFunction", "[", 
+        "\[IndentingNewLine]", RowBox[{RowBox[{"coordFlat", "[", 
+            RowBox[{"s_Symbol", ",", "bounds_"}], "]"}], 
+          "\[IndentingNewLine]", ",", "\"creates symbols of the form produced \
+by $SceneXAtomRuleNameConversion\"", "\[IndentingNewLine]", ",", 
+          RowBox[{"Map", "[", RowBox[{"s", ",", RowBox[{
+                "CoordinateBoundsArray", "[", "bounds", "]"}], ",", 
+              RowBox[{"{", RowBox[{"-", "2"}], "}"}]}], "]"}]}], 
+        "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+    "\[IndentingNewLine]", "]"}]], "Input", 
+ CellChangeTimes -> {{3.680596448127592*^9, 3.6805964559533396*^9}, 
+   {3.6805965077750015*^9, 3.680596617194547*^9}, 
+   {3.6805966555504074*^9, 3.680596708945015*^9}}]

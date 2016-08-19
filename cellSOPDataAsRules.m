@@ -1,0 +1,15 @@
+Cell[BoxData[RowBox[{"Persist", "[", "\[IndentingNewLine]", 
+    RowBox[{"\"SOPDataAsRules\"", "\[IndentingNewLine]", 
+      "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
+      RowBox[{RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
+          RowBox[{RowBox[{"SOPDataAsRules", "[", RowBox[{
+                "SparseOptimizationProblem", "[", RowBox[{"f_", ",", 
+                  "select_", ",", "p_", ",", "data_", ",", "y_"}], "]"}], 
+              "]"}], "\[IndentingNewLine]", ",", 
+            "\"one representation of data\"", "\[IndentingNewLine]", ",", 
+            "data"}], "\[IndentingNewLine]", "]"}], ";"}]}], 
+    "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]], "Input", 
+ CellChangeTimes -> {{3.680596448127592*^9, 3.6805964559533396*^9}, 
+   {3.6805965077750015*^9, 3.680596617194547*^9}, 
+   {3.6805966555504074*^9, 3.680596721436619*^9}, 
+   {3.680596752742683*^9, 3.680596771496065*^9}}]

@@ -1,0 +1,30 @@
+Cell[BoxData[RowBox[{"Persist", "[", 
+    RowBox[{"\"Scene2DMakeFromScene3DSlice\"", ",", "\[IndentingNewLine]", 
+      "\[IndentingNewLine]", RowBox[{"(*", RowBox[{"todo", " ", "how", " ", 
+          "to", " ", "set", " ", "the", " ", "new", " ", 
+          RowBox[{RowBox[{"l", "?", " ", "pass"}], "!"}], 
+          "\[IndentingNewLine]", "what", " ", "to", " ", "do", " ", "when", 
+          " ", "colorDim", " ", RowBox[{"differs", "?", " ", "Assume"}], " ", 
+          "3"}], "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
+        RowBox[{RowBox[{"Scene2DMakeFromScene3DSlice", "[", 
+            RowBox[{"s3d_Scene3D", ",", "height_Integer", ",", "l_"}], "]"}], 
+          ",", "\[IndentingNewLine]", 
+          "\"Take one section of a 3D scene. l will not match\"", 
+          "\[IndentingNewLine]", ",", RowBox[
+           {RowBox[{"{", RowBox[{RowBox[{"cbheight", "=", RowBox[
+                   {RowBox[{"Most", "@", RowBox[{"Scene3DCoordinateBounds", 
+                        "@", "s3d"}]}], "~", "Prepend", "~", RowBox[
+                     {"{", RowBox[{"height", ",", "height"}], "}"}]}]}], ",", 
+                "\[IndentingNewLine]", RowBox[{"gd3d", "=", RowBox[
+                   {"GDSubsetCoordinateBounds", "[", RowBox[{RowBox[{"s3d", 
+                        "@", "\"GridData\""}], ",", "cbheight"}], "]"}]}], 
+                ",", "\[IndentingNewLine]", RowBox[{"gd2d", "=", 
+                  RowBox[{"GDRestDimension", "@", "gd3d"}]}]}], 
+              "\[IndentingNewLine]", "}"}], "~", "LetL", "~", 
+            RowBox[{"Scene2DMake", "[", RowBox[{"l", ",", "gd2d"}], 
+              "]"}]}]}], "\[IndentingNewLine]", "]"}]}], 
+    "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]], "Input", 
+ GeneratedCell -> True, CellAutoOverwrite -> True, 
+ CellChangeTimes -> {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
+   {3.68056362122238*^9, 3.6805638481340275*^9}, 3.6805646353690968*^9}]

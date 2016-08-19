@@ -1,0 +1,17 @@
+Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"importedScene\"", ",", 
+      "\[IndentingNewLine]", RowBox[
+       {"(*", RowBox[{RowBox[{"the", " ", "outline", " ", "of", " ", "the", 
+            " ", "shape", " ", "goes", " ", "through", " ", "the", " ", 
+            "middle", " ", "of", " ", "the", " ", "edge", " ", "pixels", " ", 
+            RowBox[{"(", RowBox[{"here", " ", "the", " ", "center", " ", 
+                RowBox[{"pixel", "'"}], "s", " ", "center", " ", "is", " ", 
+                "the", " ", "only", " ", "point", " ", "on", " ", "the", " ", 
+                "shape"}], ")"}]}], ",", " ", RowBox[{"and", " ", "distance", 
+            " ", "is", " ", "measured", " ", "from", " ", "the", " ", 
+            "middle", " ", "of", " ", "pixels"}]}], "*)"}], 
+      RowBox[{"importedScene", "=", RowBox[{"Scene2DImport", "[", 
+          RowBox[{"\"trivialScenePointInCenter.PNG\"", ",", 
+            "Scene2DEnergyLightIntensityExampleParameters", ",", "0"}], 
+          "]"}]}]}], "\[IndentingNewLine]", "]"}]], "Input", 
+ CellChangeTimes -> {{3.680609638109892*^9, 3.680609651931138*^9}}, 
+ CellTags -> "depersistedCellc7dbb792-81e2-4bec-a372-b1bae4a00ad9"]

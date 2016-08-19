@@ -1,0 +1,31 @@
+Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"NeedDefined\"", ",", 
+      "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{RowBox[{"ClearAll", "@", "NeedDefined"}], ";", 
+        "\[IndentingNewLine]", RowBox[{"NeedDefined", "~", "SetAttributes", 
+          "~", "HoldAll"}], ";", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", RowBox[{RowBox[{"NeedDefined", "::", 
+            "usage"}], "=", "\"NeedDefined[s] Checks that s has some \
+Definitions, otherwise calls DepersistDef on the symbols name or string.\nUse \
+this within Persist[] blocks to declare dependencies.\n\""}], ";", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        RowBox[{RowBox[{"NeedDefined", "[", "x_Symbol", "]"}], ":=", 
+          RowBox[{"NeedDefined", "@", RowBox[{"SymbolName", "@", 
+              RowBox[{"Unevaluated", "@", "x"}]}]}]}], ";", 
+        "\[IndentingNewLine]", RowBox[
+         {RowBox[{RowBox[{"NeedDefined", "[", "x_String", "]"}], "/;", 
+            RowBox[{RowBox[{"IsDefined", "@", "x"}], "||", 
+              RowBox[{RowBox[{"Definitions", "@", "x"}], "=!=", 
+                RowBox[{"{", "}"}]}]}]}], ":=", "Null"}], ";", 
+        "\[IndentingNewLine]", RowBox[
+         {RowBox[{RowBox[{"NeedDefined", "[", "x_String", "]"}], "/;", 
+            RowBox[{RowBox[{"!", RowBox[{"TrueQ", "@", RowBox[{"IsDefined", 
+                    "@", "x"}]}]}], "&&", RowBox[{RowBox[{"Definitions", "@", 
+                  "x"}], "===", RowBox[{"{", "}"}]}]}]}], ":=", 
+          RowBox[{"(", RowBox[{RowBox[{RowBox[{"IsDefined", "@", "x"}], "=", 
+                "True"}], ";", RowBox[{"DepersistDef", "@", "x"}]}], ")"}]}], 
+        ";"}]}], "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]], 
+ "Input", CellChangeTimes -> {{3.680604576070638*^9, 3.6806046842866526*^9}, 
+   {3.6806047294129753*^9, 3.6806047704041443*^9}, 
+   {3.680604800756979*^9, 3.680604938924407*^9}, 
+   {3.680604991076455*^9, 3.68060502475648*^9}, {3.6806050830772653*^9, 
+    3.680605100298746*^9}}]

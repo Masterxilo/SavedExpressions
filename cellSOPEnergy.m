@@ -1,0 +1,15 @@
+Cell[BoxData[RowBox[{"Persist", "[", "\[IndentingNewLine]", 
+    RowBox[{"\"SOPEnergy\"", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      ",", "\[IndentingNewLine]", 
+      RowBox[{RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
+          RowBox[{RowBox[{"SOPEnergy", "[", "p_SparseOptimizationProblem", 
+              "]"}], "\[IndentingNewLine]", ",", 
+            "\"current energy, a number\"", "\[IndentingNewLine]", ",", 
+            RowBox[{"Norm2", "@", RowBox[{"Flatten", "@", RowBox[
+                 {"SOPEnergyVector", "@", "p"}]}]}], "\[IndentingNewLine]", 
+            ",", "_Real"}], "\[IndentingNewLine]", "]"}], ";"}]}], 
+    "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]], "Input", 
+ CellChangeTimes -> {{3.680596448127592*^9, 3.6805964559533396*^9}, 
+   {3.6805965077750015*^9, 3.680596617194547*^9}, 
+   {3.6805966555504074*^9, 3.680596721436619*^9}, 
+   {3.680596752742683*^9, 3.680596833267141*^9}}]

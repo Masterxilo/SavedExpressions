@@ -1,0 +1,12 @@
+Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Scene2DCoordinateBounds\"", 
+      ",", "\[IndentingNewLine]", 
+      RowBox[{RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
+          RowBox[{RowBox[{"Scene2DCoordinateBounds", "[", "s_Scene2D", "]"}], 
+            "\[IndentingNewLine]", ",", 
+            "\"maximum extents on which scene points exist\"", 
+            "\[IndentingNewLine]", ",", RowBox[{"GDCoordinateBounds", "@", 
+              RowBox[{"s", "@", "\"GridData\""}]}]}], "\[IndentingNewLine]", 
+          "]"}], ";"}]}], "\[IndentingNewLine]", "]"}]], "Input", 
+ GeneratedCell -> True, CellAutoOverwrite -> True, 
+ CellChangeTimes -> {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
+   {3.68056362122238*^9, 3.6805637031582394*^9}, 3.680564634539488*^9}]
