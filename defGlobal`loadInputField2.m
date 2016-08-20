@@ -1,5 +1,6 @@
 System`HoldComplete[Global`NeedsDefined[Global`NotebookAllDeleteCells, 
-   Global`MakeInputCell]; Global`loadInputField2[] := 
+   Global`MakeInputCell]; Global`NeedsDefinedAll["CreateSymbol`"]; 
+  Global`loadInputField2[] := 
    (Global`load2[Global`s_System`String, Global`id_System`String] := 
      System`Module[{Global`c}, Global`NotebookAllDeleteCells[
         System`CellTags -> System`StringJoin["depersistedCell", Global`id]]; 

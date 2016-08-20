@@ -57,16 +57,18 @@ System`Cell[System`BoxData[System`RowBox[
               " ", "for", " ", System`RowBox[{"uniqueness", "."}]}]}], 
           "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
         "\[IndentingNewLine]", System`RowBox[
-         {System`RowBox[{"ClearAll", "@", "CreateSymbol`CreateSymbol"}], ";", 
+         {System`RowBox[{"NeedsDefined", "[", 
+            "CreateSymbol`Private`CreateSymbolPattern", "]"}], ";", 
+          "\[IndentingNewLine]", System`RowBox[{"ClearAll", "@", 
+            "CreateSymbol`CreateSymbol"}], ";", "\[IndentingNewLine]", 
+          "\[IndentingNewLine]", System`RowBox[{"CreateSymbol`CreateSymbol", 
+            "~", "SetAttributes", "~", "HoldAll"}], ";", 
           "\[IndentingNewLine]", "\[IndentingNewLine]", 
-          System`RowBox[{"CreateSymbol`CreateSymbol", "~", "SetAttributes", 
-            "~", "HoldAll"}], ";", "\[IndentingNewLine]", 
-          "\[IndentingNewLine]", System`RowBox[
-           {System`RowBox[{"CreateSymbol`CreateSymbol", "::", "usage"}], "=", 
-            "\"CreateSymbol`CreateSymbol[sym] Creates a representation symbol \
-which displays in short form but has a fixed long form Interpretation and \
-cannot be edited.\[IndentingNewLine]Output must be copy-pasted\""}], ";", 
-          "\[IndentingNewLine]", "\[IndentingNewLine]", 
+          System`RowBox[{System`RowBox[{"CreateSymbol`CreateSymbol", "::", 
+              "usage"}], "=", "\"CreateSymbol`CreateSymbol[sym] Creates a \
+representation symbol which displays in short form but has a fixed long form \
+Interpretation and cannot be edited.\[IndentingNewLine]Output must be \
+copy-pasted\""}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
           System`RowBox[{"(*", System`RowBox[{"RedefinePublicFunction", 
               "["}], "*)"}], System`RowBox[{"(*", System`RowBox[
              {System`RowBox[{"don", "'"}], "t", " ", System`RowBox[{"use", 
@@ -83,4 +85,5 @@ cannot be edited.\[IndentingNewLine]Output must be copy-pasted\""}], ";",
   {3.6806418681059384*^9, 3.6806418684423523*^9}, {3.6806419798863993*^9, 
   3.6806419811119285*^9}, {3.680642018784936*^9, 3.680642025528365*^9}, 
   {3.6806423369809723*^9, 3.6806423388963614*^9}, {3.6806427254066386*^9, 
-  3.6806428054134684*^9}}]
+  3.6806428054134684*^9}, {3.6806492904342957*^9, 3.680649306352157*^9}}, 
+ System`CellTags -> "depersistedCell7341d222-5ea1-4b76-a3fa-c7366d4ae4ec"]

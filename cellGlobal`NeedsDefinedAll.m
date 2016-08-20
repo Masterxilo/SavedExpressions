@@ -1,0 +1,11 @@
+System`Cell[System`BoxData[System`RowBox[{"Persist", "[", 
+    System`RowBox[{"\"Global`NeedsDefinedAll\"", ",", "\[IndentingNewLine]", 
+      System`RowBox[{System`RowBox[{"Global`NeedsDefinedAll", "[", "x_", 
+          "]"}], ":=", System`RowBox[{"NeedsDefined", "/@", 
+          System`RowBox[{"Flatten", "@", System`RowBox[{"StringCases", "[", 
+              System`RowBox[{System`RowBox[{"PersistedNames", "[", "]"}], 
+                ",", System`RowBox[{"StartOfString", "~~", "x", "~~", 
+                  "__"}]}], "]"}]}]}]}]}], "\[IndentingNewLine]", "]"}]], 
+ "Input", System`CellChangeTimes -> {{3.6806495927955737*^9, 
+  3.680649641593461*^9}, {3.6806505348230085*^9, 3.680650546487562*^9}}, 
+ System`CellTags -> "depersistedCell680824e9-41de-4e5e-9f1b-b52a89f2c9b9"]

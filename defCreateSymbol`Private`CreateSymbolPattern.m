@@ -1,5 +1,6 @@
-System`HoldComplete[
- System`ClearAll[CreateSymbol`Private`CreateSymbolPattern]; 
+System`HoldComplete[Global`NeedsDefined[
+   CreateSymbol`Private`CreateSymbolStyle]; 
+  System`ClearAll[CreateSymbol`Private`CreateSymbolPattern]; 
   CreateSymbol`Private`CreateSymbolPattern::usage = "used for detecting and \
 restoring CreateSymbol`CreateSymbol results in Cell expressions"; 
   System`SetAttributes[CreateSymbol`Private`CreateSymbolPattern, 

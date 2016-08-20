@@ -24,11 +24,13 @@ System`Cell[System`BoxData[System`RowBox[
                  $CellContext`MakeInputCell], System`StandardForm], 
               System`Null, System`ImageSizeCache -> {105., {2., 8.}}], 
              $CellContext`MakeInputCell]}], "]"}], ";", 
-        "\[IndentingNewLine]", "\[IndentingNewLine]", 
-        System`RowBox[{System`RowBox[{"Global`loadInputField2", "[", "]"}], 
-          ":=", System`RowBox[{"(", "\[IndentingNewLine]", 
-            System`RowBox[{System`RowBox[{System`RowBox[
-                 {System`InterpretationBox[System`DynamicBox[System`ToBoxes[
+        "\[IndentingNewLine]", System`RowBox[{"NeedsDefinedAll", "[", 
+          "\"CreateSymbol`\"", "]"}], ";", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", System`RowBox[
+         {System`RowBox[{"Global`loadInputField2", "[", "]"}], ":=", 
+          System`RowBox[{"(", "\[IndentingNewLine]", System`RowBox[
+             {System`RowBox[{System`RowBox[{System`InterpretationBox[
+                   System`DynamicBox[System`ToBoxes[
                      CreateSymbol`ContextChangeNotification; 
                       CreateSymbol`Private`CreateSymbolStyle[
                        $CellContext`load2], System`StandardForm], 
@@ -355,7 +357,8 @@ System`Cell[System`BoxData[System`RowBox[
    {3.6806473225478215*^9, 3.680647335144539*^9}, 3.6806473739819994*^9, 
    3.6806475449823685*^9, {3.6806475951449604*^9, 3.6806476539022765*^9}, 
    {3.680647709817045*^9, 3.680647754389662*^9}, {3.6806477934594145*^9, 
-   3.680647798065159*^9}, {3.6806478506377573*^9, 3.6806479151462493*^9}}, 
- System`CellTags -> "depersistedCell060c9a92-7cf8-4c45-9a60-1c08be3223d9", 
+   3.680647798065159*^9}, {3.6806478506377573*^9, 3.6806479151462493*^9}, 
+   {3.6806505526923046*^9, 3.680650561476265*^9}}, 
+ System`CellTags -> "depersistedCell680824e9-41de-4e5e-9f1b-b52a89f2c9b9", 
  $CellContext`CellTags -> 
   "depersistedCell241ae8e2-cb5d-4f67-98f4-3def82baadb2"]

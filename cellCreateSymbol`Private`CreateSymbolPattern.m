@@ -1,8 +1,10 @@
 System`Cell[System`BoxData[System`RowBox[
    {System`RowBox[{"Persist`Persist", "[", System`RowBox[
        {"\"CreateSymbol`Private`CreateSymbolPattern\"", ",", 
-        "\[IndentingNewLine]", "\[IndentingNewLine]", 
-        System`RowBox[{System`RowBox[{"ClearAll", "@", 
+        "\[IndentingNewLine]", System`RowBox[
+         {System`RowBox[{"NeedsDefined", "[", 
+            "CreateSymbol`Private`CreateSymbolStyle", "]"}], ";", 
+          "\[IndentingNewLine]", System`RowBox[{"ClearAll", "@", 
             "CreateSymbol`Private`CreateSymbolPattern"}], ";", 
           "\[IndentingNewLine]", "\[IndentingNewLine]", 
           System`RowBox[{System`RowBox[
@@ -68,4 +70,6 @@ CreateSymbol`CreateSymbol results in Cell expressions\""}], ";",
                       "\[IndentingNewLine]", ",", "sym"}], "]"}]}], 
                 "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
               "]"}]}]}]}], "\[IndentingNewLine]", "]"}], ";"}]], "Input", 
- System`CellChangeTimes -> {{3.6806425123357744*^9, 3.68064251561787*^9}}]
+ System`CellChangeTimes -> {{3.6806425123357744*^9, 3.68064251561787*^9}, 
+  {3.68064939611516*^9, 3.6806494089041348*^9}}, 
+ System`CellTags -> "depersistedCell7341d222-5ea1-4b76-a3fa-c7366d4ae4ec"]

@@ -1,16 +1,19 @@
 System`Cell[System`BoxData[
   {System`RowBox[{"Persist", "[", System`RowBox[
       {"\"CreateSymbol`CreateSymbolsInCell\"", ",", "\[IndentingNewLine]", 
-       "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[
-          {"hackfixes", " ", "for", " ", "comments", " ", "and", " ", 
-           System`RowBox[{"DynamicBox", "/", "InterpretationBox"}], " ", 
-           "which", " ", "contain", " ", "strings", " ", "that", " ", 
-           "definitely", " ", "are", " ", "not", " ", "Symbols"}], "*)"}], 
-       "\[IndentingNewLine]", System`RowBox[
-        {System`RowBox[{"CreateSymbol`Private`HoldBoxes", "~", 
-           "SetAttributes", "~", "HoldAllComplete"}], ";", 
-         "\[IndentingNewLine]", "\[IndentingNewLine]", 
-         System`RowBox[{System`RowBox[{"remove", "[", "b_", "]"}], ":=", 
+       "\[IndentingNewLine]", "\[IndentingNewLine]", 
+       System`RowBox[{System`RowBox[{"NeedsDefined", "[", 
+           "Global`WolframLanguageSymbol", "]"}], ";", "\[IndentingNewLine]", 
+         "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[
+            {"hackfixes", " ", "for", " ", "comments", " ", "and", " ", 
+             System`RowBox[{"DynamicBox", "/", "InterpretationBox"}], " ", 
+             "which", " ", "contain", " ", "strings", " ", "that", " ", 
+             "definitely", " ", "are", " ", "not", " ", "Symbols"}], "*)"}], 
+         "\[IndentingNewLine]", System`RowBox[
+          {"CreateSymbol`Private`HoldBoxes", "~", "SetAttributes", "~", 
+           "HoldAllComplete"}], ";", "\[IndentingNewLine]", 
+         "\[IndentingNewLine]", System`RowBox[
+          {System`RowBox[{"remove", "[", "b_", "]"}], ":=", 
            System`RowBox[{"b", "/.", System`RowBox[{System`RowBox[
                 {"l", ":", System`RowBox[{"(", System`RowBox[{System`RowBox[
                       {System`RowBox[{"(", System`RowBox[{"DynamicBox", "|", 
@@ -46,15 +49,9 @@ System`Cell[System`BoxData[
                 {"remove", "@", "bd"}], "/.", System`RowBox[
                 {System`RowBox[{"(", System`RowBox[{"s_String", "/;", 
                      System`RowBox[{"StringMatchQ", "[", System`RowBox[
-                        {"s", ",", System`RowBox[{"LetterCharacter", "~~", 
-                          " ", System`RowBox[{System`RowBox[{"(", 
-                          System`RowBox[{System`RowBox[{
-                          "identifierCharacter", "..."}], "~~", System`RowBox[
-                          {"Omittable", "[", System`RowBox[{"\"`\"", "~~", 
-                          System`RowBox[{"identifierCharacter", ".."}]}], 
-                          "]"}]}], ")"}], "..."}]}]}], "]"}]}], ")"}], 
-                 "\[RuleDelayed]", System`RowBox[{"ToExpression", "[", 
-                   System`RowBox[{"s", ",", "StandardForm", ",", 
+                        {"s", ",", "Global`WolframLanguageSymbol"}], "]"}]}], 
+                   ")"}], "\[RuleDelayed]", System`RowBox[{"ToExpression", 
+                   "[", System`RowBox[{"s", ",", "StandardForm", ",", 
                      System`RowBox[
                       {"CreateSymbol`Private`CreateSymbolPattern", "[", 
                        "False", "]"}]}], "]"}]}]}], System`RowBox[
@@ -85,4 +82,7 @@ System`Cell[System`BoxData[
              "]"}], ":=", System`RowBox[{"convertBoxes", "@", "bd"}]}], 
          ";"}]}], "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]"}], 
  "Input", System`CellChangeTimes -> {{3.6806470327522225*^9, 
-  3.680647087718809*^9}}]
+  3.680647087718809*^9}, {3.680648851007991*^9, 3.68064887647677*^9}, 
+  {3.6806489278088207*^9, 3.6806489562633257*^9}, {3.68064917550589*^9, 
+  3.6806491769567003*^9}}, System`CellTags -> 
+  "depersistedCell0e4d80b5-1487-4dad-80af-c2bcd059f8ef"]

@@ -1,4 +1,6 @@
-System`HoldComplete[System`ClearAll[CreateSymbol`CreateSymbol]; 
+System`HoldComplete[Global`NeedsDefined[
+   CreateSymbol`Private`CreateSymbolPattern]; 
+  System`ClearAll[CreateSymbol`CreateSymbol]; 
   System`SetAttributes[CreateSymbol`CreateSymbol, System`HoldAll]; 
   CreateSymbol`CreateSymbol::usage = "CreateSymbol`CreateSymbol[sym] Creates \
 a representation symbol which displays in short form but has a fixed long \

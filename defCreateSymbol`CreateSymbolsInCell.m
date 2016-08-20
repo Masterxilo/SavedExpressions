@@ -1,4 +1,5 @@
-System`HoldComplete[System`SetAttributes[CreateSymbol`Private`HoldBoxes, 
+System`HoldComplete[Global`NeedsDefined[Global`WolframLanguageSymbol]; 
+  System`SetAttributes[CreateSymbol`Private`HoldBoxes, 
    System`HoldAllComplete]; Global`remove[Persist`b_] := 
    Persist`b /. Global`l:(System`DynamicBox | System`InterpretationBox)[
         ___] | System`RowBox[{"(*", _, "*)"}] :> 
@@ -11,11 +12,10 @@ System`HoldComplete[System`SetAttributes[CreateSymbol`Private`HoldBoxes,
    System`WordCharacter | "$"; Global`convertBoxes[Global`bd:{___}] := 
    Global`restore[Global`remove[Global`bd] /. 
      Global`s_System`String /; System`StringMatchQ[Global`s, 
-        System`LetterCharacter~~(Global`identifierCharacter...~~
-           paul`Omittable["`"~~Global`identifierCharacter..])...] :> 
-      System`ToExpression[Global`s, System`StandardForm, 
-       CreateSymbol`Private`CreateSymbolPattern[System`False]]]; 
-  Global`convertBoxes[Global`bd_] := Global`convertBoxes[{Global`bd}]; 
+        Global`WolframLanguageSymbol] :> System`ToExpression[Global`s, 
+       System`StandardForm, CreateSymbol`Private`CreateSymbolPattern[
+        System`False]]]; Global`convertBoxes[Global`bd_] := 
+   Global`convertBoxes[{Global`bd}]; 
   CreateSymbol`CreateSymbolsInCell[System`Cell[System`BoxData[Global`bd_], 
      Global`r___]] := System`Cell[System`BoxData[Global`convertBoxes[
       Global`bd]], Global`r]; CreateSymbol`CreateSymbolsInBoxes[
