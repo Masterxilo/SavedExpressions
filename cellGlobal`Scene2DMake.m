@@ -1,4 +1,4 @@
-Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Scene2DMake\"", ",", 
+Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Global`Scene2DMake\"", ",", 
       "\[IndentingNewLine]", "\[IndentingNewLine]", 
       RowBox[{RowBox[{"Needs", "[", "\"GridData`\"", "]"}], ";", 
         "\[IndentingNewLine]", "\[IndentingNewLine]", 
@@ -27,5 +27,6 @@ components\"", "\[IndentingNewLine]", "\[IndentingNewLine]", ",",
               RowBox[{"Scene2D", "[", "f", "]"}]}]}], "\[IndentingNewLine]", 
           "]"}], ";"}]}], "\[IndentingNewLine]", "]"}]], "Input", 
  CellChangeTimes -> {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
-   3.680564635225975*^9, {3.6806210817670507*^9, 3.680621120366212*^9}}, 
- CellTags -> "depersistedCell596fe613-0cc5-4bf7-9394-4a1589fb4c5b"]
+   3.680564635225975*^9, {3.6806210817670507*^9, 3.680621120366212*^9}, 
+   {3.680622380806999*^9, 3.680622400329299*^9}}, 
+ CellTags -> "depersistedCellb615e9aa-982f-4437-a708-52ad414ddef4"]
