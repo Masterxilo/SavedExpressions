@@ -1,11 +1,19 @@
 System`HoldComplete[Global`NeedsDefined[Global`PRedefinePublicFunction, 
-   Scene2D`def, Scene2D`f, Scene2D`u, Scene2D`e, Global`PTagSet, 
-   PackageDeveloper`RedefinePublicFunction]; 
+   Global`PTagSet, PackageDeveloper`RedefinePublicFunction]; 
   (System`ClearAll[Global`PRedefinePublicFunction]; 
    System`SetAttributes[Global`PRedefinePublicFunction, System`HoldAll]; 
    Global`PRedefinePublicFunction::usage = 
     "Idiom for calling RedefinePublicFunction within PTagSet"; 
-   Global`PRedefinePublicFunction[Scene2D`def:(Scene2D`f_System`Symbol)[___], 
-     Scene2D`u_System`String, Scene2D`e_] := Global`PTagSet[Scene2D`f, 
-     PackageDeveloper`RedefinePublicFunction[Scene2D`def, Scene2D`u, 
-      Scene2D`e]]; )]
+   Global`PRedefinePublicFunction[System`\[FormalD]:
+      (System`\[FormalF]:System`Except[System`Condition, _System`Symbol])[
+       ___], System`\[FormalU]_System`String, System`\[FormalE]_] := 
+    Global`PTagSet[System`\[FormalF], PackageDeveloper`RedefinePublicFunction[
+      System`\[FormalD], System`\[FormalU], System`\[FormalE]]]; 
+   Global`PRedefinePublicFunction[System`\[FormalD]:
+      System`Verbatim[System`Condition][(System`\[FormalF]_System`Symbol)[
+        ___], _], System`\[FormalU]_System`String, System`\[FormalE]_] := 
+    Global`PTagSet[System`\[FormalF], PackageDeveloper`RedefinePublicFunction[
+      System`\[FormalD], System`\[FormalU], System`\[FormalE]]]; 
+   Global`PRedefinePublicFunction[___] := 
+    (System`Message[Global`PRedefinePublicFunction::failed]; 
+     System`$Failed); )]

@@ -28,7 +28,7 @@ System`Cell[System`BoxData[System`RowBox[
                 System`ToBoxes[CreateSymbol`ContextChangeNotification; 
                   CreateSymbol`Private`CreateSymbolStyle[
                    GridData`GDDataNames], System`StandardForm], System`Null, 
-                System`ImageSizeCache -> {160., {0., 9.}}], 
+                System`ImageSizeCache -> {88., {0., 8.}}], 
                GridData`GDDataNames], "@", System`InterpretationBox[
                System`DynamicBox[System`ToBoxes[
                  CreateSymbol`ContextChangeNotification; 
@@ -70,13 +70,13 @@ System`Cell[System`BoxData[System`RowBox[
                      CreateSymbol`ContextChangeNotification; 
                       CreateSymbol`Private`CreateSymbolStyle[
                        GridData`GDDataSubset], System`StandardForm], 
-                    System`Null, System`ImageSizeCache -> {96., {0., 8.}}], 
+                    System`Null, System`ImageSizeCache -> {168., {0., 9.}}], 
                    GridData`GDDataSubset], "[", System`RowBox[
                    {System`InterpretationBox[System`DynamicBox[System`ToBoxes[
                        CreateSymbol`ContextChangeNotification; 
                         CreateSymbol`Private`CreateSymbolStyle[
                          $CellContext`gd], System`StandardForm], System`Null, 
-                      System`ImageSizeCache -> {16., {2., 8.}}], 
+                      System`ImageSizeCache -> {72., {2., 9.}}], 
                      $CellContext`gd], ",", System`RowBox[
                      {System`InterpretationBox[System`DynamicBox[
                         System`ToBoxes[
@@ -163,5 +163,4 @@ System`Cell[System`BoxData[System`RowBox[
                 8., {0., 8.}}], $CellContext`f], "]"}]}], 
         "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}]], 
  "Input", System`CellChangeTimes -> {{3.6806939382438755*^9, 
-   3.680693963590516*^9}, {3.680694332789193*^9, 3.6806943404847937*^9}, 
-   {3.680694492804859*^9, 3.680694493457655*^9}, 3.680694654271328*^9}]
+   3.680693963590516*^9}, 3.680694332789193*^9}]

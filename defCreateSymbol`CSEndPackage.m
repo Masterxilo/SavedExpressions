@@ -1,5 +1,7 @@
-System`HoldComplete[Global`NeedsDefined[CreateSymbol`CreateSymbol]; 
-  PackageDeveloper`RedefinePublicFunction[CreateSymbol`CSEndPackage[
-    Global`v___], "Like EndPackage but notifies CreateSymbol wrappers of the \
-context change.", System`EndPackage[Global`v]; 
-    CreateSymbol`ContextChangeNotification = System`RandomReal[]; ]; ]
+System`HoldComplete[Global`NeedsDefined[
+   PackageDeveloper`RedefinePublicFunction, CreateSymbol`CSEndPackage, 
+   CreateSymbol`ContextChangeNotification]; 
+  PackageDeveloper`RedefinePublicFunction[CreateSymbol`CSEndPackage[], 
+   "Like EndPackage but notifies CreateSymbol wrappers of the context \
+change.", System`EndPackage[]; CreateSymbol`ContextChangeNotification = 
+     System`RandomReal[]; ]]

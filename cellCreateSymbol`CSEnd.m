@@ -8,18 +8,18 @@ System`Cell[System`BoxData[System`RowBox[
       System`RowBox[{System`RowBox[{System`InterpretationBox[
            System`DynamicBox[System`ToBoxes[
              CreateSymbol`ContextChangeNotification; 
-              CreateSymbol`Private`CreateSymbolStyle[
-               CreateSymbol`CSEndPackage], System`StandardForm], System`Null, 
-            System`ImageSizeCache -> {500., {6., 22.}}], 
-           CreateSymbol`CSEndPackage], "[", "]"}], "\[IndentingNewLine]", 
-        ",", "\"Like EndPackage but notifies CreateSymbol wrappers of the \
-context change.\"", "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
-        "\[IndentingNewLine]", System`RowBox[
-         {System`RowBox[{System`InterpretationBox[System`DynamicBox[
-              System`ToBoxes[CreateSymbol`ContextChangeNotification; 
-                CreateSymbol`Private`CreateSymbolStyle[System`EndPackage], 
+              CreateSymbol`Private`CreateSymbolStyle[CreateSymbol`CSEnd], 
+             System`StandardForm], System`Null, System`ImageSizeCache -> 
+             {101., {0., 20.}}], CreateSymbol`CSEnd], "[", "]"}], 
+        "\[IndentingNewLine]", ",", "\"Like End but notifies CreateSymbol \
+wrappers of the context change.\"", "\[IndentingNewLine]", ",", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        System`RowBox[{System`RowBox[{System`InterpretationBox[
+             System`DynamicBox[System`ToBoxes[
+               CreateSymbol`ContextChangeNotification; 
+                CreateSymbol`Private`CreateSymbolStyle[System`End], 
                System`StandardForm], System`Null, System`ImageSizeCache -> {
-                200., {6., 20.}}], System`EndPackage], "[", "]"}], ";", 
+                61., {0., 20.}}], System`End], "[", "]"}], ";", 
           "\[IndentingNewLine]", System`RowBox[{System`InterpretationBox[
              System`DynamicBox[System`ToBoxes[
                CreateSymbol`ContextChangeNotification; 
@@ -66,6 +66,7 @@ context change.\"", "\[IndentingNewLine]", ",", "\[IndentingNewLine]",
    {3.6806426030880127*^9, 3.680642617629157*^9}, {3.680642685878316*^9, 
    3.6806427112069206*^9}, {3.6806429251949625*^9, 3.680642927421707*^9}, 
    {3.6806481804663086*^9, 3.6806482747579627*^9}, {3.680648309828723*^9, 
-   3.6806483671912985*^9}, {3.6806900229437637*^9, 3.68069004763229*^9}, 
-   {3.6806900933927774*^9, 3.680690128104427*^9}}, 
- System`CellTags -> "depersistedCellccda0451-2013-44ac-926b-f1f05a59ba55"]
+   3.680648351224375*^9}, {3.6806893049260273*^9, 3.6806893694308224*^9}, 
+   {3.6806894173488407*^9, 3.6806895051401625*^9}, {3.680690052218561*^9, 
+   3.6806900821297817*^9}}, System`CellTags -> 
+  "depersistedCellccda0451-2013-44ac-926b-f1f05a59ba55"]
