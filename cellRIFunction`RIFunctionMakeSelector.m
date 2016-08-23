@@ -1,7 +1,7 @@
 System`Cell[System`BoxData[
   {System`RowBox[{"PTagSet", "[", System`RowBox[{"RIFunctionMakeSelector", 
        ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-       System`RowBox[{System`RowBox[{"PRedefinePublicFunction", "[", 
+       System`RowBox[{System`RowBox[{"RedefinePublicFunction", "[", 
            System`RowBox[{System`RowBox[{"RIFunctionMakeSelector", "[", 
                System`RowBox[{System`RowBox[{"s_FiniteMapping", "?", 
                    "FMInjectiveQ"}], ",", "b_List"}], "]"}], ",", "\"Create a \
@@ -32,5 +32,6 @@ flips its arguments.\"", ",", System`RowBox[{"RIFunctionMakeSelector", "[",
                    "[", System`RowBox[{"a", ",", "a"}], "]"}], ",", "b"}], 
                "]"}]}], "]"}], ";"}]}], "\[IndentingNewLine]", "]"}], "\n"}], 
  "Input", System`CellChangeTimes -> {{3.680945640512753*^9, 
-  3.680945662294927*^9}}, System`CellTags -> 
-  "depersistedCell13000ac4-4c3e-45ad-94e5-7a2cfa704727"]
+   3.680945662294927*^9}, {3.680946617957721*^9, 3.6809466221724515*^9}, 
+   3.6809466837474904*^9, 3.680946813785245*^9}, 
+ System`CellTags -> "depersistedCell13000ac4-4c3e-45ad-94e5-7a2cfa704727"]

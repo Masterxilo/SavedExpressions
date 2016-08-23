@@ -1,19 +1,28 @@
 System`HoldComplete[Global`NeedsDefined[
    PackageDeveloper`RedefinePublicFunction, 
-   SOP`SparseOptimizationProblemMake, PackagePackage`f, SceneX`select, 
-   Global`p, Scene2D`data, PackagePackage`Private`y, paul`LetL, SOP`xs, 
-   Global`a, RIFunction`RIFunctionMakeFromExpressionList, 
+   SOP`SparseOptimizationProblemMake, Scene2D`f, SceneX`select, Global`p, 
+   Scene2D`data, PackagePackage`Private`y, paul`LetL, SOP`xs, SOP`rif, 
+   RIFunction`RIFunctionMakeFromExpressionList, Global`a, 
+   RIFunction`RIFunctionArgumentsLength, RIFunction`RIFunctionOutputsLength, 
+   RIFunction`RIFunctionMakeDerivativeIndexed, 
    SOP`SOPSparseDerivativeZtoYIndices, SOP`SOPxIndices, SOP`SOPyIndices, 
    SOP`SparseOptimizationProblem]; PackageDeveloper`RedefinePublicFunction[
-   SOP`SparseOptimizationProblemMake[PackagePackage`f:{__}, SceneX`select_, 
+   SOP`SparseOptimizationProblemMake[Scene2D`f:{__}, SceneX`select_, 
      Global`p:{__}, Scene2D`data:{_System`Rule..}, PackagePackage`Private`y:
       {__}] /; System`ContainsAll[System`Keys[Scene2D`data], 
      PackagePackage`Private`y], "stores all data necessary for describing a \
 SparseOptimization problem in the format covered here", 
    paul`LetL[{SOP`xs = System`Keys[Scene2D`data], 
-     Global`a = System`Association["f" -> PackagePackage`f, 
-       "rif" -> RIFunction`RIFunctionMakeFromExpressionList[PackagePackage`f, 
-         System`First /@ SceneX`select[System`First[Global`p]]], 
+     SOP`rif = RIFunction`RIFunctionMakeFromExpressionList[Scene2D`f, 
+       System`Keys[SceneX`select[System`First[Global`p]]]], 
+     Global`a = System`Association["f" -> Scene2D`f, 
+       "lengthz" -> RIFunction`RIFunctionArgumentsLength[SOP`rif], 
+       "lengthfz" -> RIFunction`RIFunctionOutputsLength[SOP`rif], 
+       "lengthp" -> System`Length[Global`p], "lengthY" -> 
+        System`Length[PackagePackage`Private`y], "lengthFx" -> 
+        System`Length[Scene2D`f]*System`Length[Global`p], "rif" -> SOP`rif, 
+       "ridf" -> System`Array[RIFunction`RIFunctionMakeDerivativeIndexed[
+           SOP`rif, #1] & , RIFunction`RIFunctionArgumentsLength[SOP`rif]], 
        "select" -> SceneX`select, "data" -> Scene2D`data, 
        "y" -> PackagePackage`Private`y, "p" -> Global`p, 
        "sparseDerivativeZtoYIndices" -> SOP`SOPSparseDerivativeZtoYIndices[
