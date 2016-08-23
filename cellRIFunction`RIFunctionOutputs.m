@@ -1,6 +1,13 @@
 System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[", 
-    System`RowBox[{"RIFunctionOutputs", ",", "\[IndentingNewLine]", "\n", 
-      System`RowBox[{System`RowBox[{"RedefinePublicFunction", "[", "\n", 
+    System`RowBox[{"RIFunctionOutputs", ",", "\[IndentingNewLine]", 
+      "\[IndentingNewLine]", System`RowBox[
+       {System`RowBox[{"RedefinePublicFunction", "[", System`RowBox[
+           {System`RowBox[{"RIFunctionOutputs", "@", System`RowBox[{
+                "RIFunction", "[", System`RowBox[{"Compiled", ",", 
+                  "rif_RIFunction", ",", "___"}], "]"}]}], ",", "\"I\"", ",", 
+            " ", System`RowBox[{"RIFunctionOutputs", "@", "rif"}]}], "]"}], 
+        ";", "\[IndentingNewLine]", "\[IndentingNewLine]", "\n", 
+        System`RowBox[{"DefinePublicFunction", "[", "\n", 
           System`RowBox[{System`RowBox[{"RIFunctionOutputs", "[", 
               System`RowBox[{"f", " ", ":", " ", System`RowBox[{"RIFunction", 
                   "[", System`RowBox[{"ExpressionList", ",", " ", "expr_", 
@@ -62,6 +69,8 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
                   "f_RIFunction", ",", " ", "g_RIFunction"}], "]"}]}], " ", 
             ",", "\"J\"", ",", " ", System`RowBox[{"RIFunctionOutputs", "@", 
               "f"}]}], "\n", "]"}], ";"}]}], "\[IndentingNewLine]", "\n", 
-    "]"}]], "Input", System`CellChangeTimes -> {{3.680942057189578*^9, 
-  3.6809420648461313*^9}, {3.680945539618854*^9, 3.6809455475387383*^9}}, 
- System`CellTags -> "depersistedCell13000ac4-4c3e-45ad-94e5-7a2cfa704727"]
+    "]"}]], "Input", System`CellChangeTimes -> 
+  {{3.680942057189578*^9, 3.6809420648461313*^9}, {3.680945539618854*^9, 
+   3.6809455475387383*^9}, {3.6809676132726636*^9, 3.6809676192260127*^9}, 
+   3.6809676909198637*^9}, System`CellTags -> 
+  "depersistedCell3083307f-c8d4-48f1-a067-499b66868078"]

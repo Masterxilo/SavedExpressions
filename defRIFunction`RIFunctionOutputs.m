@@ -1,14 +1,17 @@
 System`HoldComplete[Global`NeedsDefined[
    PackageDeveloper`RedefinePublicFunction, RIFunction`RIFunctionOutputs, 
-   Scene2D`f, RIFunction`RIFunction, Global`ExpressionList, Scene2D`expr, 
-   Scene2D`vars, FiniteMapping`FMMakeListDomainNames, 
-   PackageDeveloper`DefinePublicFunction, Global`outputs, Global`Selector, 
+   RIFunction`RIFunction, SOP`rif, PackageDeveloper`DefinePublicFunction, 
+   Scene2D`f, Global`ExpressionList, Scene2D`expr, Scene2D`vars, 
+   FiniteMapping`FMMakeListDomainNames, Global`outputs, Global`Selector, 
    Global`a, Persist`b, Global`saIndex, RIFunction`Multiple, 
    Global`components, FiniteMapping`FiniteMapping, RIFunction`pairing, 
    Global`k, FiniteMapping`FMDomain, Global`is, FiniteMapping`FMEvaluateAll, 
    Global`p, RIFunction`inputs, Global`output, RVarval`RVarval, 
    RVarval`RVVVariables, PackagePackage`Private`g]; 
   (PackageDeveloper`RedefinePublicFunction[RIFunction`RIFunctionOutputs[
+     RIFunction`RIFunction[System`Compiled, SOP`rif_RIFunction`RIFunction, 
+      ___]], "I", RIFunction`RIFunctionOutputs[SOP`rif]]; 
+   PackageDeveloper`DefinePublicFunction[RIFunction`RIFunctionOutputs[
      Scene2D`f:RIFunction`RIFunction[Global`ExpressionList, Scene2D`expr_, 
        Scene2D`vars_System`List, ___]], "J", 
     FiniteMapping`FMMakeListDomainNames[System`Length[Scene2D`expr]]]; 

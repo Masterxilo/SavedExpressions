@@ -6,4 +6,4 @@ System`HoldComplete[Global`NeedsDefined[
      PackagePackage`Private`y_System`List] /; System`ContainsAll[
      PackagePackage`Private`x, PackagePackage`Private`y], 
    "gives the indices into x that are y", paul`Positions[
-    PackagePackage`Private`x, PackagePackage`Private`y]]]
+    PackagePackage`Private`x, PackagePackage`Private`y, System`True]]]

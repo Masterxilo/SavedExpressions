@@ -1,14 +1,20 @@
 System`HoldComplete[Global`NeedsDefined[
    PackageDeveloper`RedefinePublicFunction, 
-   RIFunction`RIFunctionEvaluateNameless, RIFunction`RIFunction, Scene2D`f, 
-   PackagePackage`Private`g, Global`vals, numerics`NumericVectorQ, 
-   PackageDeveloper`DefinePublicFunction, Global`ExpressionList, 
-   Scene2D`expr, Scene2D`vars, Global`Selector, Global`a, Persist`b, 
-   Global`saIndex, RIFunction`Multiple, Global`components, 
-   FiniteMapping`FiniteMapping, RIFunction`pairing, 
-   RIFunction`RIFunctionArguments, FiniteMapping`FMEvaluateAll, 
-   RIFunction`inputs, Global`output, RVarval`RVarval, RVarval`RVVValues, 
-   SOP`ps]; (PackageDeveloper`RedefinePublicFunction[
+   RIFunction`RIFunctionEvaluateNameless, RIFunction`RIFunction, SOP`rif, 
+   Global`cf, Global`vals, numerics`NumericVectorQ, 
+   PackageDeveloper`DefinePublicFunction, Scene2D`f, 
+   PackagePackage`Private`g, Global`ExpressionList, Scene2D`expr, 
+   Scene2D`vars, Global`Selector, Global`a, Persist`b, Global`saIndex, 
+   RIFunction`Multiple, Global`components, FiniteMapping`FiniteMapping, 
+   RIFunction`pairing, RIFunction`RIFunctionArguments, 
+   FiniteMapping`FMEvaluateAll, RIFunction`inputs, Global`output, 
+   RVarval`RVarval, RVarval`RVVValues, SOP`ps]; 
+  (PackageDeveloper`RedefinePublicFunction[
+    RIFunction`RIFunctionEvaluateNameless[RIFunction`RIFunction[
+      System`Compiled, SOP`rif_RIFunction`RIFunction, 
+      Global`cf_System`CompiledFunction], (Global`vals_)?
+      numerics`NumericVectorQ], "", Global`cf @@ Global`vals]; 
+   PackageDeveloper`DefinePublicFunction[
     RIFunction`RIFunctionEvaluateNameless[RIFunction`RIFunction[
       System`Composition, Scene2D`f_RIFunction`RIFunction, 
       PackagePackage`Private`g_RIFunction`RIFunction], 

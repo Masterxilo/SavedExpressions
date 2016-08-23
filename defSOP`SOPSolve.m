@@ -9,7 +9,7 @@ System`HoldComplete[Global`NeedsDefined[SOP`SOPSolve,
     SOP`SOPSolve[Global`p_SOP`SparseOptimizationProblem, 
      System`OptionsPattern[]], "construct a new SOP with less SOPEnergy", 
     SOP`SOPSolve[Global`p, System`OptionValue[System`Method]]]; 
-   System`Options[SOP`SOPSolve] = {System`Method -> System`FindMinimum}; 
+   System`Options[SOP`SOPSolve] = {System`Method -> "GaussNewton"}; 
    PackageDeveloper`DefinePublicFunction[SOP`SOPSolve[
      Global`p_SOP`SparseOptimizationProblem, System`FindMinimum], 
     "construct a new SOP with less SOPEnergy", 

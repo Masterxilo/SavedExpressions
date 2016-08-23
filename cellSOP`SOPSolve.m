@@ -13,14 +13,18 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
              {"SOPSolve", "[", System`RowBox[{"p", ",", System`RowBox[
                  {"OptionValue", "[", "Method", "]"}]}], "]"}]}], 
           "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}], ";", 
-        "\[IndentingNewLine]", System`RowBox[
-         {System`RowBox[{"Options", "@", "SOPSolve"}], "=", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        System`RowBox[{"(*", System`RowBox[{"must", " ", "be", " ", 
+            "defined", " ", "below", " ", "because", " ", "Redefine", " ", 
+            "does", " ", "ClearAll"}], "*)"}], "\[IndentingNewLine]", 
+        System`RowBox[{System`RowBox[{"Options", "@", "SOPSolve"}], "=", 
           System`RowBox[{"{", System`RowBox[{"Method", "\[Rule]", 
-              "FindMinimum"}], "}"}]}], ";", "\[IndentingNewLine]", 
-        "\[IndentingNewLine]", System`RowBox[{"(*", "reference", "*)"}], 
-        "\[IndentingNewLine]", System`RowBox[{"DefinePublicFunction", "[", 
-          "\[IndentingNewLine]", System`RowBox[
-           {System`RowBox[{"SOPSolve", "[", System`RowBox[{
+              "\"GaussNewton\""}], "}"}]}], ";", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[
+           {"reference", ",", " ", System`RowBox[{"slow", " ", "for", " ", 
+              "big", " ", "problems"}]}], "*)"}], "\[IndentingNewLine]", 
+        System`RowBox[{"DefinePublicFunction", "[", "\[IndentingNewLine]", 
+          System`RowBox[{System`RowBox[{"SOPSolve", "[", System`RowBox[{
                 "p_SparseOptimizationProblem", ",", "FindMinimum"}], "]"}], 
             "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
             "\"construct a new SOP with less SOPEnergy\"", ",", 
@@ -65,13 +69,13 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
             System`RowBox[{"Module", "[", System`RowBox[{System`RowBox[
                  {"{", "sol", "}"}], ",", "\[IndentingNewLine]", 
                 System`RowBox[{System`RowBox[{"sol", "=", System`RowBox[
-                     {"GaussNewton", "[", "\[IndentingNewLine]", 
-                      System`RowBox[{System`RowBox[{"SOPMakeFy", "@", "p"}], 
-                        ",", "\[IndentingNewLine]", System`RowBox[{"SOPJF", 
-                          "@", "p"}], ",", "\[IndentingNewLine]", 
-                        System`RowBox[{"SOPGetY0", "@", "p"}]}], 
-                      "\[IndentingNewLine]", "]"}]}], ";", 
-                  "\[IndentingNewLine]", System`RowBox[
+                     {"LocalGaussNewton`GaussNewton", "[", 
+                      "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+                         {"SOPMakeFy", "@", "p"}], ",", 
+                        "\[IndentingNewLine]", System`RowBox[{"SOPJF", "@", 
+                          "p"}], ",", "\[IndentingNewLine]", System`RowBox[
+                         {"SOPGetY0", "@", "p"}]}], "\[IndentingNewLine]", 
+                      "]"}]}], ";", "\[IndentingNewLine]", System`RowBox[
                    {"SparseOptimizationProblemMakeWithUpdatedY", "[", 
                     System`RowBox[{"p", ",", System`RowBox[{"Last", "@", 
                         "sol"}]}], "]"}]}]}], "\[IndentingNewLine]", "]"}], 
@@ -86,6 +90,8 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
    3.680950079968808*^9}, {3.680950415556018*^9, 3.6809504800093365*^9}, 
    {3.680950546712488*^9, 3.6809505599804306*^9}, {3.6809505955809145*^9, 
    3.680950628415713*^9}, {3.6809506957131767*^9, 3.6809507035604*^9}, 
-   {3.6809507630566607*^9, 3.6809508277287645*^9}, 3.680950906777294*^9}, 
- System`CellTags -> "depersistedCell577ba1c3-4c5e-42dc-946b-749a87b82acd", 
+   {3.6809507630566607*^9, 3.6809508277287645*^9}, 3.680950906777294*^9, 
+   3.6809685365169387*^9, 3.680968576138256*^9, {3.6809690688914137*^9, 
+   3.6809691018927794*^9}}, System`CellTags -> 
+  "depersistedCell990ad3d3-958e-40e7-8ff9-18e57089474a", 
  System`CellID -> 176634483]

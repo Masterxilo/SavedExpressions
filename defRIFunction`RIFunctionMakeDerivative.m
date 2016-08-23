@@ -4,13 +4,14 @@ System`HoldComplete[Global`NeedsDefined[
    PackagePackage`Private`x, paul`Contains, RIFunction`RIFunctionArguments, 
    RIFunction`RIFunctionMakeFromExpressionList, 
    RIFunction`RIFunctionExpressionList, RIFunction`RIFunctionOutputs, 
-   PackageDeveloper`DefinePublicFunction, RIFunction`inputs, Global`output, 
-   RVarval`RVarval, Global`outputzeros, RVarval`RVarvalMakeConstant, 
-   RVarval`RVVVariables, RIFunction`Multiple, Global`components, 
-   FiniteMapping`FiniteMapping, RIFunction`pairing, Global`dcomponents, 
-   FiniteMapping`FMMapValues, Global`Selector, Global`a, Persist`b, 
-   Global`saIndex, Global`indexOfXInB, RIFunction`RIFunctionMakeConstant, 
-   RVarval`RVarvalMake]; (PackageDeveloper`RedefinePublicFunction[
+   PackageDeveloper`DefinePublicFunction, SOP`rif, RIFunction`inputs, 
+   Global`output, RVarval`RVarval, Global`outputzeros, 
+   RVarval`RVarvalMakeConstant, RVarval`RVVVariables, RIFunction`Multiple, 
+   Global`components, FiniteMapping`FiniteMapping, RIFunction`pairing, 
+   Global`dcomponents, FiniteMapping`FMMapValues, Global`Selector, Global`a, 
+   Persist`b, Global`saIndex, Global`indexOfXInB, 
+   RIFunction`RIFunctionMakeConstant, RVarval`RVarvalMake]; 
+  (PackageDeveloper`RedefinePublicFunction[
     RIFunction`RIFunctionMakeDerivative[System`PatternSequence[], 
       Scene2D`f_RIFunction`RIFunction, PackagePackage`Private`x_] /; 
      paul`Contains[RIFunction`RIFunctionArguments[Scene2D`f], 
@@ -19,6 +20,10 @@ System`HoldComplete[Global`NeedsDefined[
      1.*System`D[RIFunction`RIFunctionExpressionList[Scene2D`f], 
        PackagePackage`Private`x], RIFunction`RIFunctionArguments[Scene2D`f], 
      RIFunction`RIFunctionOutputs[Scene2D`f]]]; 
+   PackageDeveloper`DefinePublicFunction[RIFunction`RIFunctionMakeDerivative[
+     RIFunction`RIFunction[System`Compiled, SOP`rif_RIFunction`RIFunction, 
+      ___], PackagePackage`Private`x_], "", 
+    RIFunction`RIFunctionMakeDerivative[SOP`rif, PackagePackage`Private`x]]; 
    PackageDeveloper`DefinePublicFunction[
     RIFunction`RIFunctionMakeDerivative[Scene2D`f:RIFunction`RIFunction[
         System`Constant, RIFunction`inputs_System`List, 

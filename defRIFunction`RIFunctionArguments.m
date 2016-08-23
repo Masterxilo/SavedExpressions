@@ -1,13 +1,16 @@
 System`HoldComplete[Global`NeedsDefined[
    PackageDeveloper`RedefinePublicFunction, RIFunction`RIFunctionArguments, 
-   RIFunction`RIFunction, Scene2D`f, PackagePackage`Private`g, 
-   PackageDeveloper`DefinePublicFunction, Global`ExpressionList, 
-   Scene2D`expr, Scene2D`vars, Global`Selector, Global`a, Persist`b, 
-   Global`saIndex, RIFunction`Multiple, Global`components, 
-   FiniteMapping`FiniteMapping, RIFunction`pairing, 
-   FiniteMapping`FMEvaluateAll, Global`p, RIFunction`inputs, Global`output, 
-   RVarval`RVarval]; (PackageDeveloper`RedefinePublicFunction[
-    RIFunction`RIFunctionArguments[RIFunction`RIFunction[System`Composition, 
+   RIFunction`RIFunction, SOP`rif, PackageDeveloper`DefinePublicFunction, 
+   Scene2D`f, PackagePackage`Private`g, Global`ExpressionList, Scene2D`expr, 
+   Scene2D`vars, Global`Selector, Global`a, Persist`b, Global`saIndex, 
+   RIFunction`Multiple, Global`components, FiniteMapping`FiniteMapping, 
+   RIFunction`pairing, FiniteMapping`FMEvaluateAll, Global`p, 
+   RIFunction`inputs, Global`output, RVarval`RVarval]; 
+  (PackageDeveloper`RedefinePublicFunction[RIFunction`RIFunctionArguments[
+     RIFunction`RIFunction[System`Compiled, SOP`rif_RIFunction`RIFunction, 
+      ___]], "I", RIFunction`RIFunctionArguments[SOP`rif]]; 
+   PackageDeveloper`DefinePublicFunction[RIFunction`RIFunctionArguments[
+     RIFunction`RIFunction[System`Composition, 
       Scene2D`f_RIFunction`RIFunction, 
       PackagePackage`Private`g_RIFunction`RIFunction]], "I", 
     RIFunction`RIFunctionArguments[PackagePackage`Private`g]]; 

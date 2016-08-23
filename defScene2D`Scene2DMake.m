@@ -3,7 +3,8 @@ System`HoldComplete[Global`NeedsDefined[
    Global`gd, GridData`GridData, GridData`GDDataNames, GridData`GDArrayDepth, 
    paul`LetL, Global`canonicalGd, GridData`GDDataSubset, 
    Scene2D`Scene2DRequiredData, Scene2D`f, 
-   FiniteMapping`FiniteMappingMakeFromLists, Scene2D`Scene2D]; 
+   FiniteMapping`FiniteMappingMakeFromLists, GridData`GDLookup, 
+   GridData`GDDomain, Scene2D`Scene2D]; 
   PackageDeveloper`RedefinePublicFunction[
    Scene2D`Scene2DMake[Global`l_, Global`gd_GridData`GridData] /; 
     System`ContainsAll[GridData`GDDataNames[Global`gd], 
@@ -20,5 +21,8 @@ d and doriginal)\n", paul`LetL[{Global`canonicalGd =
       GridData`GDDataSubset[Global`gd, System`Join[
         Scene2D`Scene2DRequiredData, System`Complement[GridData`GDDataNames[
           Global`gd], Scene2D`Scene2DRequiredData]]], 
-     Scene2D`f = FiniteMapping`FiniteMappingMakeFromLists[{"l", "GridData"}, 
-       {Global`l, Global`canonicalGd}]}, Scene2D`Scene2D[Scene2D`f]]]]
+     Scene2D`f = FiniteMapping`FiniteMappingMakeFromLists[
+       {"l", "colorDim", "GridData"}, {Global`l, System`Length[
+         GridData`GDLookup[Global`gd, System`First[GridData`GDDomain[
+             Global`gd]]]["c"]], Global`canonicalGd}]}, 
+    Scene2D`Scene2D[Scene2D`f]]]]
