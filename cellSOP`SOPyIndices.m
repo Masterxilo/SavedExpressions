@@ -1,0 +1,17 @@
+System`Cell[System`BoxData[System`RowBox[
+   {System`RowBox[{"PRedefinePublicFunction", "[", "\[IndentingNewLine]", 
+      System`RowBox[{System`RowBox[{System`RowBox[{"SOPyIndices", "[", 
+            System`RowBox[{System`RowBox[{"x", ":", "_List"}], ",", 
+              System`RowBox[{"y", ":", "_List"}]}], "]"}], "/;", 
+          System`RowBox[{"ContainsAll", "[", System`RowBox[{"x", ",", "y"}], 
+            "]"}]}], "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+        "\"gives the indices into x that are y\"", ",", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        System`RowBox[{"Positions", "[", System`RowBox[{"x", ",", "y"}], 
+          "]"}]}], "\[IndentingNewLine]", "]"}], ";"}]], "Input", 
+ System`CellChangeTimes -> {{3.680274840977332*^9, 3.680274859933992*^9}, 
+   {3.6803803829594965*^9, 3.6803803958605957*^9}, 3.680933625240054*^9, 
+   3.680936913108512*^9, {3.6809370553782167*^9, 3.680937124982049*^9}, 
+   {3.6809371615275135*^9, 3.680937279917074*^9}}, 
+ System`CellTags -> "depersistedCellecf3fa98-3420-4b53-8e7a-807da574a9f1", 
+ System`CellID -> 499267113]

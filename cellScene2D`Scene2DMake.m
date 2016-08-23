@@ -1,167 +1,42 @@
 System`Cell[System`BoxData[System`RowBox[
-   {System`InterpretationBox[System`DynamicBox[System`ToBoxes[
-       CreateSymbol`ContextChangeNotification; 
-        CreateSymbol`Private`CreateSymbolStyle[
-         $CellContext`PRedefinePublicFunction], System`StandardForm], 
-      System`Null, System`ImageSizeCache -> {240., {0., 9.}}], 
-     $CellContext`PRedefinePublicFunction], "[", "\[IndentingNewLine]", 
-    "\[IndentingNewLine]", System`RowBox[
-     {System`RowBox[{System`RowBox[{System`InterpretationBox[
-           System`DynamicBox[System`ToBoxes[
-             CreateSymbol`ContextChangeNotification; 
-              CreateSymbol`Private`CreateSymbolStyle[Scene2D`Scene2DMake], 
-             System`StandardForm], System`Null, System`ImageSizeCache -> 
-             {88., {0., 8.}}], Scene2D`Scene2DMake], "[", 
-          System`RowBox[{System`RowBox[{System`InterpretationBox[
-               System`DynamicBox[System`ToBoxes[
-                 CreateSymbol`ContextChangeNotification; 
-                  CreateSymbol`Private`CreateSymbolStyle[$CellContext`l], 
-                 System`StandardForm], System`Null, System`ImageSizeCache -> 
-                 {8., {0., 8.}}], $CellContext`l], ":", "_"}], ",", 
-            System`RowBox[{System`InterpretationBox[System`DynamicBox[
-                System`ToBoxes[CreateSymbol`ContextChangeNotification; 
-                  CreateSymbol`Private`CreateSymbolStyle[$CellContext`gd], 
-                 System`StandardForm], System`Null, System`ImageSizeCache -> 
-                 {16., {2., 8.}}], $CellContext`gd], ":", "_GridData"}]}], 
-          "]"}], "/;", System`RowBox[{System`RowBox[
-           {System`RowBox[{System`InterpretationBox[System`DynamicBox[
-                System`ToBoxes[CreateSymbol`ContextChangeNotification; 
-                  CreateSymbol`Private`CreateSymbolStyle[
-                   GridData`GDDataNames], System`StandardForm], System`Null, 
-                System`ImageSizeCache -> {160., {0., 9.}}], 
-               GridData`GDDataNames], "@", System`InterpretationBox[
-               System`DynamicBox[System`ToBoxes[
-                 CreateSymbol`ContextChangeNotification; 
-                  CreateSymbol`Private`CreateSymbolStyle[$CellContext`gd], 
-                 System`StandardForm], System`Null, System`ImageSizeCache -> 
-                 {72., {2., 9.}}], $CellContext`gd]}], "~", 
-            System`InterpretationBox[System`DynamicBox[System`ToBoxes[
-               CreateSymbol`ContextChangeNotification; 
-                CreateSymbol`Private`CreateSymbolStyle[System`ContainsAll], 
-               System`StandardForm], System`Null, System`ImageSizeCache -> {
-                88., {0., 8.}}], System`ContainsAll], "~", 
-            System`RowBox[{"{", System`RowBox[{"\"a\"", ",", "\"d\"", ",", 
-                "\"doriginal\"", ",", "\"c\""}], "}"}]}], "&&", 
-          System`RowBox[{System`RowBox[{System`InterpretationBox[
-               System`DynamicBox[System`ToBoxes[
-                 CreateSymbol`ContextChangeNotification; 
-                  CreateSymbol`Private`CreateSymbolStyle[
-                   GridData`GDArrayDepth], System`StandardForm], System`Null, 
-                System`ImageSizeCache -> {168., {2., 9.}}], 
-               GridData`GDArrayDepth], "@", System`InterpretationBox[
-               System`DynamicBox[System`ToBoxes[
-                 CreateSymbol`ContextChangeNotification; 
-                  CreateSymbol`Private`CreateSymbolStyle[$CellContext`gd], 
-                 System`StandardForm], System`Null, System`ImageSizeCache -> 
-                 {72., {2., 9.}}], $CellContext`gd]}], "===", "2"}]}]}], 
-      "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
-      "\"Make a Scene2D object from the internal representation components\""\
-, "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
-      System`RowBox[{"LetL", "[", "\[IndentingNewLine]", 
+   {System`RowBox[{"PRedefinePublicFunction", "[", "\[IndentingNewLine]", 
+      System`RowBox[{System`RowBox[{System`RowBox[{"Scene2DMake", "[", 
+            System`RowBox[{"l_", ",", "gd_GridData"}], "]"}], "/;", 
+          System`RowBox[{System`RowBox[{System`RowBox[{"GDDataNames", "@", 
+                "gd"}], "~", "ContainsAll", "~", System`RowBox[{"{", 
+                System`RowBox[{"\"a\"", ",", "\"d\"", ",", "\"doriginal\"", 
+                  ",", "\"c\""}], "}"}]}], "&&", System`RowBox[
+             {System`RowBox[{"GDArrayDepth", "@", "gd"}], "===", "2"}]}]}], 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", ",", "\"Make a Scene2D \
+object from the internal representation components:\n\nGridData components:\n \
+-a albedo (current estimate to intensity of diffuse color)\n -c color with \
+lighting and albedo\n - d (current refined distance field)\n - doriginal \
+(completely unrefined distance field)\n \noptionally information about the \
+original, non-blurred scene such as:\n - diffuse (color without lighting)\n - \
+normalSharp (used to compute lighting, together with the lighting model, its \
+parameters l and the diffuse color)\n - dsharp (distance field before \
+blurring, used to construct initial d and doriginal)\n\"", ",", 
         System`RowBox[{System`RowBox[{"{", "\[IndentingNewLine]", 
-            System`RowBox[{System`RowBox[{System`InterpretationBox[
-                 System`DynamicBox[System`ToBoxes[
-                   CreateSymbol`ContextChangeNotification; 
-                    CreateSymbol`Private`CreateSymbolStyle[
-                     $CellContext`canonicalGd], System`StandardForm], 
-                  System`Null, System`ImageSizeCache -> {144., {0., 9.}}], 
-                 $CellContext`canonicalGd], "=", System`RowBox[
-                 {System`InterpretationBox[System`DynamicBox[System`ToBoxes[
-                     CreateSymbol`ContextChangeNotification; 
-                      CreateSymbol`Private`CreateSymbolStyle[
-                       GridData`GDDataSubset], System`StandardForm], 
-                    System`Null, System`ImageSizeCache -> {96., {0., 8.}}], 
-                   GridData`GDDataSubset], "[", System`RowBox[
-                   {System`InterpretationBox[System`DynamicBox[System`ToBoxes[
-                       CreateSymbol`ContextChangeNotification; 
-                        CreateSymbol`Private`CreateSymbolStyle[
-                         $CellContext`gd], System`StandardForm], System`Null, 
-                      System`ImageSizeCache -> {16., {2., 8.}}], 
-                     $CellContext`gd], ",", System`RowBox[
-                     {System`InterpretationBox[System`DynamicBox[
-                        System`ToBoxes[
-                         CreateSymbol`ContextChangeNotification; 
-                          CreateSymbol`Private`CreateSymbolStyle[
-                          Scene2D`Scene2DRequiredData], System`StandardForm], 
-                        System`Null, System`ImageSizeCache -> {152., {2., 
-                          8.}}], Scene2D`Scene2DRequiredData], "~", 
-                      System`InterpretationBox[System`DynamicBox[
-                        System`ToBoxes[
-                         CreateSymbol`ContextChangeNotification; 
-                          CreateSymbol`Private`CreateSymbolStyle[
-                          System`Join], System`StandardForm], System`Null, 
-                        System`ImageSizeCache -> {32., {0., 8.}}], 
-                       System`Join], "~", System`RowBox[{"(", System`RowBox[
-                         {System`RowBox[{System`InterpretationBox[
-                          System`DynamicBox[System`ToBoxes[
-                          CreateSymbol`ContextChangeNotification; 
-                          CreateSymbol`Private`CreateSymbolStyle[
-                          GridData`GDDataNames], System`StandardForm], 
-                          System`Null, System`ImageSizeCache -> {88., {0., 
-                          8.}}], GridData`GDDataNames], "[", 
-                          System`InterpretationBox[System`DynamicBox[
-                          System`ToBoxes[
-                          CreateSymbol`ContextChangeNotification; 
-                          CreateSymbol`Private`CreateSymbolStyle[
-                          $CellContext`gd], System`StandardForm], 
-                          System`Null, System`ImageSizeCache -> {16., {2., 
-                          8.}}], $CellContext`gd], "]"}], "~", 
-                          System`InterpretationBox[System`DynamicBox[
-                          System`ToBoxes[
-                          CreateSymbol`ContextChangeNotification; 
-                          CreateSymbol`Private`CreateSymbolStyle[
-                          System`Complement], System`StandardForm], 
-                          System`Null, System`ImageSizeCache -> {80., {2., 
-                          8.}}], System`Complement], "~", 
-                          System`InterpretationBox[System`DynamicBox[
-                          System`ToBoxes[
-                          CreateSymbol`ContextChangeNotification; 
-                          CreateSymbol`Private`CreateSymbolStyle[
-                          Scene2D`Scene2DRequiredData], System`StandardForm], 
-                          System`Null, System`ImageSizeCache -> {152., {2., 
-                          8.}}], Scene2D`Scene2DRequiredData]}], ")"}]}]}], 
-                  "]"}]}], ",", "\[IndentingNewLine]", System`RowBox[{
-                System`InterpretationBox[System`DynamicBox[System`ToBoxes[
-                   CreateSymbol`ContextChangeNotification; 
-                    CreateSymbol`Private`CreateSymbolStyle[$CellContext`f], 
-                   System`StandardForm], System`Null, 
-                  System`ImageSizeCache -> {8., {0., 8.}}], $CellContext`f], 
-                "=", System`RowBox[{System`InterpretationBox[
-                   System`DynamicBox[System`ToBoxes[
-                     CreateSymbol`ContextChangeNotification; 
-                      CreateSymbol`Private`CreateSymbolStyle[
-                       FiniteMapping`FiniteMappingMakeFromLists], 
-                     System`StandardForm], System`Null, 
-                    System`ImageSizeCache -> {208., {2., 8.}}], 
-                   FiniteMapping`FiniteMappingMakeFromLists], "[", 
-                  System`RowBox[{System`RowBox[{"{", System`RowBox[{"\"l\"", 
-                        ",", "\"GridData\""}], "}"}], ",", System`RowBox[
-                     {"{", System`RowBox[{System`InterpretationBox[
-                         System`DynamicBox[System`ToBoxes[
-                          CreateSymbol`ContextChangeNotification; 
-                          CreateSymbol`Private`CreateSymbolStyle[
-                          $CellContext`l], System`StandardForm], System`Null, 
-                          System`ImageSizeCache -> {8., {0., 8.}}], 
-                         $CellContext`l], ",", System`InterpretationBox[
-                         System`DynamicBox[System`ToBoxes[
-                          CreateSymbol`ContextChangeNotification; 
-                          CreateSymbol`Private`CreateSymbolStyle[
-                          $CellContext`canonicalGd], System`StandardForm], 
-                          System`Null, System`ImageSizeCache -> {88., {0., 
-                          8.}}], $CellContext`canonicalGd]}], "}"}]}], 
-                  "]"}]}]}], "\[IndentingNewLine]", "}"}], 
-          "\[IndentingNewLine]", ",", System`RowBox[
-           {System`InterpretationBox[System`DynamicBox[System`ToBoxes[
-               CreateSymbol`ContextChangeNotification; 
-                CreateSymbol`Private`CreateSymbolStyle[Scene2D`Scene2D], 
-               System`StandardForm], System`Null, System`ImageSizeCache -> {
-                56., {0., 8.}}], Scene2D`Scene2D], "[", 
-            System`InterpretationBox[System`DynamicBox[System`ToBoxes[
-               CreateSymbol`ContextChangeNotification; 
-                CreateSymbol`Private`CreateSymbolStyle[$CellContext`f], 
-               System`StandardForm], System`Null, System`ImageSizeCache -> {
-                8., {0., 8.}}], $CellContext`f], "]"}]}], 
-        "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}]], 
- "Input", System`CellChangeTimes -> {{3.6806939382438755*^9, 
-   3.680693963590516*^9}, {3.680694332789193*^9, 3.6806943404847937*^9}, 
-   {3.680694492804859*^9, 3.680694493457655*^9}, 3.680694654271328*^9}]
+            System`RowBox[{System`RowBox[{"canonicalGd", "=", System`RowBox[
+                 {"GDDataSubset", "[", System`RowBox[{"gd", ",", 
+                    System`RowBox[{"Scene2DRequiredData", "~", "Join", "~", 
+                      System`RowBox[{"(", System`RowBox[{System`RowBox[
+                          {"GDDataNames", "[", "gd", "]"}], "~", 
+                          "Complement", "~", "Scene2DRequiredData"}], 
+                        ")"}]}]}], "]"}]}], ",", "\[IndentingNewLine]", 
+              System`RowBox[{"f", "=", System`RowBox[
+                 {"FiniteMappingMakeFromLists", "[", System`RowBox[
+                   {System`RowBox[{"{", System`RowBox[{"\"l\"", ",", 
+                        "\"GridData\""}], "}"}], ",", System`RowBox[
+                     {"{", System`RowBox[{"l", ",", "canonicalGd"}], "}"}]}], 
+                  "]"}]}]}], "\[IndentingNewLine]", "}"}], "~", "LetL", "~", 
+          System`RowBox[{"Scene2D", "[", "f", "]"}]}]}], 
+      "\[IndentingNewLine]", "]"}], ";"}]], "Input", 
+ System`InitializationCell -> System`True, System`CellChangeTimes -> 
+  {{3.680279099635494*^9, 3.680279129666951*^9}, {3.6803346945496063*^9, 
+   3.6803347896784935*^9}, {3.6803348632596035*^9, 3.6803348633689623*^9}, 
+   {3.680376119270403*^9, 3.6803761513384137*^9}, {3.680376968264736*^9, 
+   3.6803769690917683*^9}, 3.6808928460880785*^9, {3.6808931669604993*^9, 
+   3.6808932033057117*^9}}, System`CellTags -> 
+  "depersistedCellc8c67770-4b2c-4451-ae22-512891c164b6", 
+ System`CellID -> 289223647]

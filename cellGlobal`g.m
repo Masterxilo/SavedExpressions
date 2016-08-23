@@ -1,6 +1,4 @@
-System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[", 
-    System`RowBox[{"g", ",", "\[IndentingNewLine]", 
-      System`RowBox[{System`RowBox[{System`RowBox[{"g", "[", "x_", "]"}], 
-          ":=", System`RowBox[{"2", "x"}]}], ";"}]}], "\[IndentingNewLine]", 
-    "]"}]], "Input", System`CellChangeTimes -> {{3.6806828210221543*^9, 
-  3.6806828322761445*^9}}]
+System`Cell[System`BoxData[System`RowBox[{"Persist", "[", 
+    System`RowBox[{"\"Global`g\"", ",", "hi"}], "]"}]], "Input", 
+ System`CellChangeTimes -> {{3.6808878907093644*^9, 3.6808878975166144*^9}}, 
+ System`CellTags -> "depersistedCell09e9abf8-af7f-49bd-8cbb-5b02a409fd65"]

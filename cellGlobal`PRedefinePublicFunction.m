@@ -8,7 +8,7 @@ System`Cell[System`BoxData[System`RowBox[
           System`ToBoxes[CreateSymbol`ContextChangeNotification; 
             CreateSymbol`Private`CreateSymbolStyle[
              $CellContext`PRedefinePublicFunction], System`StandardForm], 
-          System`Null, System`ImageSizeCache -> {240., {0., 9.}}], 
+          System`Null, System`ImageSizeCache -> {184., {0., 8.}}], 
          $CellContext`PRedefinePublicFunction], ",", "\[IndentingNewLine]", 
         System`RowBox[{System`RowBox[{System`InterpretationBox[
              System`DynamicBox[System`ToBoxes[
@@ -20,14 +20,14 @@ System`Cell[System`BoxData[System`RowBox[
                CreateSymbol`ContextChangeNotification; 
                 CreateSymbol`Private`CreateSymbolStyle[
                  $CellContext`PRedefinePublicFunction], System`StandardForm], 
-              System`Null, System`ImageSizeCache -> {240., {0., 9.}}], 
+              System`Null, System`ImageSizeCache -> {184., {0., 8.}}], 
              $CellContext`PRedefinePublicFunction]}], ";", 
           "\[IndentingNewLine]", "\[IndentingNewLine]", 
           System`RowBox[{System`InterpretationBox[System`DynamicBox[
               System`ToBoxes[CreateSymbol`ContextChangeNotification; 
                 CreateSymbol`Private`CreateSymbolStyle[
                  $CellContext`PRedefinePublicFunction], System`StandardForm], 
-              System`Null, System`ImageSizeCache -> {240., {0., 9.}}], 
+              System`Null, System`ImageSizeCache -> {184., {0., 8.}}], 
              $CellContext`PRedefinePublicFunction], "~", 
             System`InterpretationBox[System`DynamicBox[System`ToBoxes[
                CreateSymbol`ContextChangeNotification; 
@@ -45,9 +45,41 @@ System`Cell[System`BoxData[System`RowBox[
                   CreateSymbol`Private`CreateSymbolStyle[
                    $CellContext`PRedefinePublicFunction], 
                  System`StandardForm], System`Null, System`ImageSizeCache -> 
-                 {240., {0., 9.}}], $CellContext`PRedefinePublicFunction], 
-              "::", "usage"}], "=", 
-            "\"Idiom for calling RedefinePublicFunction within PTagSet\""}], 
+                 {184., {0., 8.}}], $CellContext`PRedefinePublicFunction], 
+              "::", "usage"}], "=", "\"PRedefinePublicFunction[f[x,y,...] /; \
+cond, usage, body] Idiom for calling RedefinePublicFunction within PTagSet. \
+cond is optional\""}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+          System`RowBox[{System`RowBox[{System`InterpretationBox[
+               System`DynamicBox[System`ToBoxes[
+                 CreateSymbol`ContextChangeNotification; 
+                  CreateSymbol`Private`CreateSymbolStyle[
+                   $CellContext`PRedefinePublicFunction], 
+                 System`StandardForm], System`Null, System`ImageSizeCache -> 
+                 {184., {0., 8.}}], $CellContext`PRedefinePublicFunction], 
+              "[", "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+                 {"\[FormalD]", ":", System`RowBox[{System`RowBox[{"(", 
+                      System`RowBox[{"\[FormalF]", ":", System`RowBox[
+                         {"Except", "[", System`RowBox[{"Condition", ",", 
+                          "_Symbol"}], "]"}]}], ")"}], "[", "___", "]"}]}], 
+                ",", "\[IndentingNewLine]", "\[FormalU]_String", ",", 
+                "\[IndentingNewLine]", "\[FormalE]_", ",", 
+                "\[IndentingNewLine]", System`RowBox[{"expectedType", ":", 
+                  "_", ":", "_"}]}], "\[IndentingNewLine]", "]"}], ":=", 
+            System`RowBox[{System`InterpretationBox[System`DynamicBox[
+                System`ToBoxes[CreateSymbol`ContextChangeNotification; 
+                  CreateSymbol`Private`CreateSymbolStyle[
+                   $CellContext`PTagSet], System`StandardForm], System`Null, 
+                System`ImageSizeCache -> {56., {2., 8.}}], 
+               $CellContext`PTagSet], "[", System`RowBox[{"\[FormalF]", ",", 
+                System`RowBox[{System`InterpretationBox[System`DynamicBox[
+                    System`ToBoxes[CreateSymbol`ContextChangeNotification; 
+                      CreateSymbol`Private`CreateSymbolStyle[
+                       PackageDeveloper`RedefinePublicFunction], 
+                     System`StandardForm], System`Null, 
+                    System`ImageSizeCache -> {176., {0., 8.}}], 
+                   PackageDeveloper`RedefinePublicFunction], "[", 
+                  System`RowBox[{"\[FormalD]", ",", "\[FormalU]", ",", 
+                    "\[FormalE]", ",", "expectedType"}], "]"}]}], "]"}]}], 
           ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
           System`RowBox[{System`RowBox[{System`InterpretationBox[
                System`DynamicBox[System`ToBoxes[
@@ -55,14 +87,15 @@ System`Cell[System`BoxData[System`RowBox[
                   CreateSymbol`Private`CreateSymbolStyle[
                    $CellContext`PRedefinePublicFunction], 
                  System`StandardForm], System`Null, System`ImageSizeCache -> 
-                 {240., {0., 9.}}], $CellContext`PRedefinePublicFunction], 
+                 {184., {0., 8.}}], $CellContext`PRedefinePublicFunction], 
               "[", "\[IndentingNewLine]", System`RowBox[{System`RowBox[
-                 {"\[FormalD]", ":", System`RowBox[{System`RowBox[{"(", 
-                      System`RowBox[{"\[FormalF]", ":", System`RowBox[
-                         {"Except", "[", System`RowBox[{"Condition", ",", 
-                          "_Symbol"}], "]"}]}], ")"}], "[", "___", "]"}]}], 
-                ",", "\[IndentingNewLine]", "\[FormalU]_String", ",", 
-                "\[IndentingNewLine]", "\[FormalE]_"}], 
+                 {"\[FormalD]", ":", System`RowBox[{System`RowBox[
+                     {"Verbatim", "[", "Condition", "]"}], "[", System`RowBox[
+                     {System`RowBox[{"\[FormalF]_Symbol", "[", "___", "]"}], 
+                      ",", "_"}], "]"}]}], ",", "\[IndentingNewLine]", 
+                "\[FormalU]_String", ",", "\[IndentingNewLine]", 
+                "\[FormalE]_", ",", "\[IndentingNewLine]", System`RowBox[
+                 {"expectedType", ":", "_", ":", "_"}]}], 
               "\[IndentingNewLine]", "]"}], ":=", System`RowBox[
              {System`InterpretationBox[System`DynamicBox[System`ToBoxes[
                  CreateSymbol`ContextChangeNotification; 
@@ -86,37 +119,7 @@ System`Cell[System`BoxData[System`RowBox[
                   CreateSymbol`Private`CreateSymbolStyle[
                    $CellContext`PRedefinePublicFunction], 
                  System`StandardForm], System`Null, System`ImageSizeCache -> 
-                 {240., {0., 9.}}], $CellContext`PRedefinePublicFunction], 
-              "[", "\[IndentingNewLine]", System`RowBox[{System`RowBox[
-                 {"\[FormalD]", ":", System`RowBox[{System`RowBox[
-                     {"Verbatim", "[", "Condition", "]"}], "[", System`RowBox[
-                     {System`RowBox[{"\[FormalF]_Symbol", "[", "___", "]"}], 
-                      ",", "_"}], "]"}]}], ",", "\[IndentingNewLine]", 
-                "\[FormalU]_String", ",", "\[IndentingNewLine]", 
-                "\[FormalE]_"}], "\[IndentingNewLine]", "]"}], ":=", 
-            System`RowBox[{System`InterpretationBox[System`DynamicBox[
-                System`ToBoxes[CreateSymbol`ContextChangeNotification; 
-                  CreateSymbol`Private`CreateSymbolStyle[
-                   $CellContext`PTagSet], System`StandardForm], System`Null, 
-                System`ImageSizeCache -> {56., {2., 8.}}], 
-               $CellContext`PTagSet], "[", System`RowBox[{"\[FormalF]", ",", 
-                System`RowBox[{System`InterpretationBox[System`DynamicBox[
-                    System`ToBoxes[CreateSymbol`ContextChangeNotification; 
-                      CreateSymbol`Private`CreateSymbolStyle[
-                       PackageDeveloper`RedefinePublicFunction], 
-                     System`StandardForm], System`Null, 
-                    System`ImageSizeCache -> {176., {0., 8.}}], 
-                   PackageDeveloper`RedefinePublicFunction], "[", 
-                  System`RowBox[{"\[FormalD]", ",", "\[FormalU]", ",", 
-                    "\[FormalE]"}], "]"}]}], "]"}]}], ";", 
-          "\[IndentingNewLine]", "\[IndentingNewLine]", 
-          System`RowBox[{System`RowBox[{System`InterpretationBox[
-               System`DynamicBox[System`ToBoxes[
-                 CreateSymbol`ContextChangeNotification; 
-                  CreateSymbol`Private`CreateSymbolStyle[
-                   $CellContext`PRedefinePublicFunction], 
-                 System`StandardForm], System`Null, System`ImageSizeCache -> 
-                 {240., {0., 9.}}], $CellContext`PRedefinePublicFunction], 
+                 {184., {0., 8.}}], $CellContext`PRedefinePublicFunction], 
               "[", "___", "]"}], ":=", System`RowBox[{"(", System`RowBox[{
                 System`RowBox[{"Message", "[", System`RowBox[
                    {"Global`PRedefinePublicFunction", "::", "failed"}], 
@@ -127,5 +130,6 @@ System`Cell[System`BoxData[System`RowBox[
    {3.680689223136965*^9, 3.680689263223423*^9}, {3.680689925144333*^9, 
    3.680689989139765*^9}, {3.680693836051361*^9, 3.680693868082349*^9}, 
    {3.6806946047174973*^9, 3.680694638345457*^9}, {3.6806946762957964*^9, 
-   3.68069473508016*^9}}, System`CellTags -> 
-  "depersistedCellc14d0a86-5a7d-462b-9020-f031b42c7b71"]
+   3.68069473508016*^9}, {3.6808927839341917*^9, 3.680892834592487*^9}, 
+   {3.680932906174328*^9, 3.6809329397796855*^9}}, 
+ System`CellTags -> "depersistedCelladecc715-7b62-4218-bc5d-ce16f274dad1"]
