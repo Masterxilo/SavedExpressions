@@ -9,7 +9,8 @@ System`HoldComplete[Global`NeedsDefined[
     Scene2D`e_RIFunction`RIFunction, Global`out_System`String:"out", 
     Global`i_System`String:"i"], "", SymbolicC`CSwitch[Global`i, 
     System`Sequence @@ System`Flatten[System`MapIndexed[
-       {Global`CIndex[#2], {RIFunction`RIFunctionCFormOutputArrayAssignments[
+       {Global`CIndex[System`First[#2]], 
+         {RIFunction`RIFunctionCFormOutputArrayAssignments[
            RIFunction`RIFunctionMakeDerivative[Scene2D`e, #1]], 
           SymbolicC`CBreak[]}} & , RIFunction`RIFunctionArguments[
         Scene2D`e]], 1]], _]]

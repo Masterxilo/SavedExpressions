@@ -19,7 +19,7 @@ optimization weights\"", "\[IndentingNewLine]", ",", "\[IndentingNewLine]",
                 ",", "$SceneXAtomRuleNameConversion"}], "]"}], "~", "Join", 
             "~", System`RowBox[{"Thread", "@", System`RowBox[{"Rule", "[", 
                 System`RowBox[{System`RowBox[{"Array", "[", System`RowBox[
-                     {"l", ",", 
+                     {System`RowBox[{"Symbol", "[", "\"l\"", "]"}], ",", 
                       "Scene2DEnergyLightIntensityParameterCount"}], "]"}], 
                   ",", System`RowBox[{"s", "@", "\"l\""}]}], "]"}]}], "~", 
             "Join", "~", System`RowBox[{"Thread", "@", System`RowBox[{"Rule", 
@@ -33,6 +33,6 @@ optimization weights\"", "\[IndentingNewLine]", ",", "\[IndentingNewLine]",
    3.6804163591505527*^9}, 3.680933148410515*^9, {3.6809333246398897*^9, 
    3.680933330560403*^9}, {3.6809548271854515*^9, 3.680954868798848*^9}, 
    {3.6809575298835993*^9, 3.6809575615699563*^9}, 3.6809576607429676*^9, 
-   3.680957742567516*^9}, System`CellTags -> 
-  "depersistedCelld88e7ebc-a712-40b3-b7ed-4b2500adfd41", 
+   3.680957742567516*^9, {3.6810373089192133*^9, 3.6810373163101797*^9}}, 
+ System`CellTags -> "depersistedCell1e6bcac8-5391-419a-ab84-bf22906663ee", 
  System`CellID -> 753015891]

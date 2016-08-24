@@ -52,9 +52,19 @@ System`Cell[System`BoxData[System`RowBox[
 \[IndentingNewLine]\[IndentingNewLine]CreateColoredDistanceFieldGridData.nb's \
 CreateVsfs2DSceneGridData1 function\[IndentingNewLine]\[IndentingNewLine]Note \
 that this requires the lighting model to match that of the vsfs2d library \""\
-, "\[IndentingNewLine]", ",", System`RowBox[{System`InterpretationBox[
-               System`DynamicBox[System`ToBoxes[
-                 CreateSymbol`ContextChangeNotification; 
+, "\[IndentingNewLine]", ",", System`RowBox[{"(*", System`RowBox[{
+                System`RowBox[{System`InterpretationBox[System`DynamicBox[
+                    System`ToBoxes[CreateSymbol`ContextChangeNotification; 
+                      CreateSymbol`Private`CreateSymbolStyle[
+                       Scene2D`Scene2DMake1], System`StandardForm], 
+                    System`Null, System`ImageSizeCache -> {96., {0., 8.}}], 
+                   Scene2D`Scene2DMake1], "[", System`RowBox[{"l", ",", 
+                    "blur"}], "]"}], "=", " ", System`RowBox[
+                 {System`RowBox[{System`RowBox[{"caching", ".."}], " ", 
+                    "does", " ", "not", " ", "deal", " ", "with", " ", 
+                    "Optional", " ", "parameters"}], ".."}]}], "*)"}], 
+            System`RowBox[{System`InterpretationBox[System`DynamicBox[
+                System`ToBoxes[CreateSymbol`ContextChangeNotification; 
                   CreateSymbol`Private`CreateSymbolStyle[
                    Scene2D`Scene2DMake], System`StandardForm], System`Null, 
                 System`ImageSizeCache -> {88., {0., 8.}}], 
@@ -88,5 +98,6 @@ that this requires the lighting model to match that of the vsfs2d library \""\
     "]"}]], "Input", System`CellChangeTimes -> {{3.6805635175748672*^9, 
    3.6805635864137363*^9}, {3.68056362122238*^9, 3.6805638020075397*^9}, 
    3.6805646352559967*^9, 3.6805649539622593*^9, {3.680651984559949*^9, 
-   3.6806520597427597*^9}}, System`CellTags -> 
-  "depersistedCellf0b32f62-cd58-4eb9-894a-44c96fd546c6"]
+   3.6806520597427597*^9}, {3.6809711161158876*^9, 3.6809711441170125*^9}, 
+   {3.6809712318436847*^9, 3.680971246977671*^9}}, 
+ System`CellTags -> "depersistedCell990ad3d3-958e-40e7-8ff9-18e57089474a"]

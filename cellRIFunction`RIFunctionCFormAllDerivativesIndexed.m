@@ -20,10 +20,10 @@ System`Cell[System`BoxData[System`RowBox[
             "      ", System`RowBox[{"Sequence", "@@", System`RowBox[{
                 "Flatten", "[", "\n", "        ", System`RowBox[
                  {System`RowBox[{System`RowBox[{System`RowBox[{"{", 
-                        System`RowBox[{System`RowBox[{"CIndex", "@", "#2"}], 
-                          ",", " ", System`RowBox[{"{", System`RowBox[
-                          {System`RowBox[{
-                          "RIFunctionCFormOutputArrayAssignments", "[", 
+                        System`RowBox[{System`RowBox[{"CIndex", "@", 
+                          System`RowBox[{"First", "@", "#2"}]}], ",", " ", 
+                          System`RowBox[{"{", System`RowBox[{System`RowBox[
+                          {"RIFunctionCFormOutputArrayAssignments", "[", 
                           System`RowBox[{"RIFunctionMakeDerivative", "[", 
                           System`RowBox[{"e", ",", " ", "#1"}], "]"}], "]"}], 
                           ",", System`RowBox[{"CBreak", "[", "]"}]}], 
@@ -31,6 +31,7 @@ System`Cell[System`BoxData[System`RowBox[
                     "MapIndexed", "~", "\n", "        ", System`RowBox[
                      {"RIFunctionArguments", "@", "e"}]}], "\n", "      ", 
                   ",", "1"}], "]"}]}]}], "\n", "      ", "]"}]}], "\n", 
-      "    ", "]"}], ";"}]], "Input", System`GeneratedCell -> System`True, 
- System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
-  {3.6809438747004204*^9, 3.6809439340985327*^9, 3.6809442477048254*^9}]
+      "    ", "]"}], ";"}]], "Input", System`CellChangeTimes -> 
+  {3.6809438747004204*^9, 3.6809439340985327*^9, 3.6809442477048254*^9, 
+   {3.6810228636551194*^9, 3.681022868061569*^9}}, 
+ System`CellTags -> "depersistedCell075c3583-be27-474b-b931-a615fc205850"]

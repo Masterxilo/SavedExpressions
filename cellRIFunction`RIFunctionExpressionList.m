@@ -1,6 +1,7 @@
 System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[", 
     System`RowBox[{"RIFunctionExpressionList", ",", "\[IndentingNewLine]", 
-      System`RowBox[{System`RowBox[{"RedefinePublicFunction", "[", "\n", 
+      "\[IndentingNewLine]", System`RowBox[
+       {System`RowBox[{"RedefinePublicFunction", "[", "\n", 
           System`RowBox[{System`RowBox[{"RIFunctionExpressionList", "@", 
               System`RowBox[{"RIFunction", "[", System`RowBox[{"Composition", 
                   ",", " ", "f_RIFunction", ",", " ", "g_RIFunction"}], 
@@ -15,14 +16,21 @@ of length #J\n\nNote that this loses the names of outputs.\"", ",", "\n",
                   "]"}]}]}]}], " ", System`RowBox[{"(*", " ", 
             System`RowBox[{"re", "-", System`RowBox[{"enforce", " ", "J", 
                 " ", "argument", " ", "names"}]}], " ", "*)"}], "\n", "]"}], 
-        ";", "\n", System`RowBox[{"DefinePublicFunction", "[", "\n", 
+        ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        System`RowBox[{"DefinePublicFunction", "[", "\n", 
           System`RowBox[{System`RowBox[{"RIFunctionExpressionList", "[", 
-              System`RowBox[{"RIFunction", "[", System`RowBox[
-                 {"ExpressionList", ",", " ", "expr_", ",", " ", "vars_List", 
-                  ",", "___"}], "]"}], "]"}], " ", ",", "\"Return a list of \
-expression that, when all variables in I are defined to real numbers, \
-evaluates to a NumericVector of length #J  Note that this loses the names of \
-outputs.\"", ",", " ", "expr"}], "\n", "]"}], ";", "\n", 
+              System`RowBox[{"RIFunction", "[", System`RowBox[{"Compiled", 
+                  ",", " ", "rif_RIFunction", ",", "___"}], "]"}], "]"}], 
+            " ", ",", "\"\"", ",", " ", System`RowBox[
+             {"RIFunctionExpressionList", "@", "rif"}]}], "\n", "]"}], ";", 
+        "\[IndentingNewLine]", "\n", System`RowBox[{"DefinePublicFunction", 
+          "[", "\n", System`RowBox[{System`RowBox[
+             {"RIFunctionExpressionList", "[", System`RowBox[{"RIFunction", 
+                "[", System`RowBox[{"ExpressionList", ",", " ", "expr_", ",", 
+                  " ", "vars_List", ",", "___"}], "]"}], "]"}], " ", ",", "\"\
+Return a list of expression that, when all variables in I are defined to real \
+numbers, evaluates to a NumericVector of length #J  Note that this loses the \
+names of outputs.\"", ",", " ", "expr"}], "\n", "]"}], ";", "\n", 
         System`RowBox[{"DefinePublicFunction", "[", "\n", 
           System`RowBox[{System`RowBox[{"RIFunctionExpressionList", "[", 
               System`RowBox[{"RIFunction", "[", System`RowBox[{"Selector", 
@@ -85,5 +93,6 @@ outputs.\"", ",", "\n", "    ", System`RowBox[{System`RowBox[{"{",
         System`RowBox[{"ability", " ", "to", " ", "evaluate", " ", 
           System`RowBox[{"symbolically", "?"}]}]}], " ", "*)"}], "\n", "\n", 
     "]"}]], "Input", System`CellChangeTimes -> 
-  {3.6809442482585306*^9, {3.680945026247284*^9, 3.6809450300129833*^9}}, 
- System`CellTags -> "depersistedCell13000ac4-4c3e-45ad-94e5-7a2cfa704727"]
+  {3.6809442482585306*^9, {3.680945026247284*^9, 3.6809450300129833*^9}, 
+   {3.681038941877372*^9, 3.681038980345083*^9}}, 
+ System`CellTags -> "depersistedCellffeeb060-3e23-4b38-87c9-e6cf80c9107c"]

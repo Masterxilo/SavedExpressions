@@ -3,7 +3,7 @@ System`HoldComplete[Global`NeedsDefined[
    Global`s, Scene2D`Scene2D, SceneX`weights, 
    SceneX`$SceneXEnergyWeightPattern, Global`$Scene2DEnergyDefaultWeights, 
    Global`r, Scene2D`Scene2DRequiredData, GridData`GDAsPairedAtomRules, 
-   SceneX`$SceneXAtomRuleNameConversion, Global`l, 
+   SceneX`$SceneXAtomRuleNameConversion, 
    Scene2D`Scene2DEnergyLightIntensityParameterCount, 
    SceneX`$SceneXEnergyWeightNames]; PackageDeveloper`RedefinePublicFunction[
    SceneX`Scene2DEnergyData[Global`s_Scene2D`Scene2D, 
@@ -15,7 +15,7 @@ sop\nincluding optimization weights",
      System`ClearAll /@ Global`r]; System`ClearAll["l"]; 
     System`Join[System`Join[GridData`GDAsPairedAtomRules[
        Global`s["GridData"], SceneX`$SceneXAtomRuleNameConversion], 
-      System`Thread[System`Array[Global`l, 
+      System`Thread[System`Array[System`Symbol["l"], 
          Scene2D`Scene2DEnergyLightIntensityParameterCount] -> 
         Global`s["l"]]], System`Thread[SceneX`$SceneXEnergyWeightNames -> 
        SceneX`weights]], _]]

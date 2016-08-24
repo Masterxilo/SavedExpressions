@@ -146,39 +146,49 @@ model,\ndefined by lightIntensityParametrized[l,n]\"", ",",
               "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[{
                 "v", "=", System`RowBox[{"Table", "[", System`RowBox[
                    {"0", ",", "dimension"}], "]"}]}], ";", 
-              "\[IndentingNewLine]", System`RowBox[{"Join", "[", 
-                "\[IndentingNewLine]", System`RowBox[{System`RowBox[
-                   {"eg", "*", System`RowBox[{"(", System`RowBox[
-                       {System`RowBox[{System`RowBox[{"backwardGradient", 
-                          "[", "b", "]"}], "@", "v"}], "-", System`RowBox[
-                         {System`RowBox[{"backwardGradient", "[", "i", "]"}], 
-                          "@", "v"}]}], ")"}]}], ",", System`RowBox[
-                   {"(*", System`RowBox[{"alternative", ":", System`RowBox[
-                       {"eg", System`RowBox[{"(", System`RowBox[
-                          {System`RowBox[{"b", "@", "v"}], "-", System`RowBox[
-                          {"i", "@", "v"}]}], ")"}]}]}], "*)"}], 
-                  "\[IndentingNewLine]", System`RowBox[{"er", "*", 
-                    System`RowBox[{"{", System`RowBox[{System`RowBox[
-                         {"laplacian", "[", "d", "]"}], "@", "v"}], "}"}]}], 
-                  ",", "\[IndentingNewLine]", System`RowBox[{"es", "*", 
-                    System`RowBox[{"{", System`RowBox[{System`RowBox[
-                         {"d", "@", "v"}], "-", System`RowBox[{"doriginal", 
+              "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+                 {"Join", "[", "\[IndentingNewLine]", System`RowBox[
+                   {System`RowBox[{"eg", "*", System`RowBox[{"(", 
+                        System`RowBox[{System`RowBox[{System`RowBox[
+                          {"backwardGradient", "[", "b", "]"}], "@", "v"}], 
+                          "-", System`RowBox[{System`RowBox[
+                          {"backwardGradient", "[", "i", "]"}], "@", "v"}]}], 
+                        ")"}]}], ",", System`RowBox[{"(*", System`RowBox[
+                       {"alternative", ":", System`RowBox[{"eg", 
+                          System`RowBox[{"(", System`RowBox[{System`RowBox[
+                          {"b", "@", "v"}], "-", System`RowBox[{"i", "@", 
+                          "v"}]}], ")"}]}]}], "*)"}], "\[IndentingNewLine]", 
+                    System`RowBox[{"er", "*", System`RowBox[{"{", 
+                        System`RowBox[{System`RowBox[{"laplacian", "[", "d", 
+                          "]"}], "@", "v"}], "}"}]}], ",", 
+                    "\[IndentingNewLine]", System`RowBox[{"es", "*", 
+                      System`RowBox[{"{", System`RowBox[{System`RowBox[
+                          {"d", "@", "v"}], "-", System`RowBox[{"doriginal", 
                           "@", "v"}]}], "}"}]}], ",", "\[IndentingNewLine]", 
-                  System`RowBox[{"ea", "*", System`RowBox[{"Table", "[", 
-                      System`RowBox[{System`RowBox[{System`RowBox[{"Sqrt", 
+                    System`RowBox[{"ea", "*", System`RowBox[{"Table", "[", 
+                        System`RowBox[{System`RowBox[{System`RowBox[{"Sqrt", 
                           "@", System`RowBox[{"phi", "[", System`RowBox[
                           {"norm", "[", System`RowBox[{System`RowBox[
                           {"gamma", "@", "v"}], "-", System`RowBox[{"gamma", 
-                          "@", "u"}]}], "]"}], "]"}]}], System`RowBox[
-                          {"(", System`RowBox[{System`RowBox[{"a", "@", 
-                          "v"}], "-", System`RowBox[{"a", "@", "u"}]}], 
-                          ")"}]}], ",", System`RowBox[{"{", System`RowBox[
-                          {"u", ",", System`RowBox[{System`RowBox[
-                          {System`RowBox[{"v", "+", "#"}], "&"}], "/@", 
-                          System`RowBox[{"id", "~", "Join", "~", 
-                          System`RowBox[{"(", System`RowBox[{System`RowBox[
-                          {"-", "1"}], " ", "id"}], ")"}]}]}]}], "}"}]}], 
-                      "]"}]}]}], "\[IndentingNewLine]", "]"}]}]}], 
+                          "@", "u"}]}], "]"}], "]"}]}], System`RowBox[{"(", 
+                          System`RowBox[{System`RowBox[{"a", "@", "v"}], "-", 
+                          System`RowBox[{"a", "@", "u"}]}], ")"}]}], ",", 
+                          System`RowBox[{"{", System`RowBox[{"u", ",", 
+                          System`RowBox[{System`RowBox[{System`RowBox[{"v", 
+                          "+", "#"}], "&"}], "/@", System`RowBox[{"id", "~", 
+                          "Join", "~", System`RowBox[{"(", System`RowBox[
+                          {System`RowBox[{"-", "1"}], " ", "id"}], 
+                          ")"}]}]}]}], "}"}]}], "]"}]}]}], 
+                  "\[IndentingNewLine]", "]"}], "/.", System`RowBox[
+                 {"Thread", "[", System`RowBox[{"Rule", "[", System`RowBox[
+                     {System`RowBox[{"{", System`RowBox[{"a", ",", "d", ",", 
+                          "doriginal", ",", "eg", ",", "er", ",", "es", ",", 
+                          "ea", ",", "c", ",", "l"}], "}"}], ",", 
+                      System`RowBox[{"Symbol", "/@", System`RowBox[{"{", 
+                          System`RowBox[{"\"a\"", ",", "\"d\"", ",", 
+                          "\"doriginal\"", ",", "\"eg\"", ",", "\"er\"", ",", 
+                          "\"es\"", ",", "\"ea\"", ",", "\"c\"", ",", 
+                          "\"l\""}], "}"}]}]}], "]"}], "]"}]}]}]}], 
           "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", ",", 
       System`RowBox[{"{", "__", "}"}]}], "\[IndentingNewLine]", "]"}]], 
  "Input", System`CellChangeTimes -> {{3.680252807354599*^9, 
@@ -192,6 +202,7 @@ model,\ndefined by lightIntensityParametrized[l,n]\"", ",",
   {3.6804161521813*^9, 3.6804161662268114*^9}, {3.680421329872245*^9, 
   3.6804213556536407*^9}, {3.680421450528352*^9, 3.6804214604491644*^9}, 
   {3.680932656233935*^9, 3.680932674239468*^9}, {3.680932873831879*^9, 
-  3.680932880607691*^9}, {3.6809566449875774*^9, 3.6809566598250685*^9}}, 
- System`CellTags -> "depersistedCell577ba1c3-4c5e-42dc-946b-749a87b82acd", 
+  3.680932880607691*^9}, {3.6809566449875774*^9, 3.6809566598250685*^9}, 
+  {3.681037360226377*^9, 3.6810374225265803*^9}}, 
+ System`CellTags -> "depersistedCell1e6bcac8-5391-419a-ab84-bf22906663ee", 
  System`CellID -> 591844988]

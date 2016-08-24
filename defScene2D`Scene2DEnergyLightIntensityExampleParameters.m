@@ -1,2 +1,4 @@
-System`HoldComplete[Scene2D`Scene2DEnergyLightIntensityExampleParameters = 
-   System`Normalize[{1., 1.}]; ]
+System`HoldComplete[Global`NeedsDefined[
+   Scene2D`Scene2DEnergyLightIntensityExampleParameters]; 
+  (Scene2D`Scene2DEnergyLightIntensityExampleParameters = 
+    System`Normalize[{1., 1.}]; )]
