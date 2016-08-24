@@ -11,7 +11,8 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
             "\"construct a new SOP with less SOPEnergy\"", ",", 
             "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
              {"SOPSolve", "[", System`RowBox[{"p", ",", System`RowBox[
-                 {"OptionValue", "[", "Method", "]"}]}], "]"}], 
+                 {"OptionValue", "[", "Method", "]"}], ",", System`RowBox[
+                 {"OptionValue", "@", "MaxIterations"}]}], "]"}], 
             "\[IndentingNewLine]", ",", System`RowBox[
              {"_SparseOptimizationProblem", "|", "$Failed"}]}], 
           "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
@@ -20,15 +21,18 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
             " ", "Redefine", " ", "does", " ", "ClearAll"}], "*)"}], 
         "\[IndentingNewLine]", System`RowBox[
          {System`RowBox[{"Options", "@", "SOPSolve"}], "=", 
-          System`RowBox[{"{", System`RowBox[{"Method", "\[Rule]", 
-              "\"GaussNewton\""}], "}"}]}], ";", "\[IndentingNewLine]", 
-        "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[
-           {"reference", ",", " ", System`RowBox[{"slow", " ", "for", " ", 
-              "big", " ", "problems"}]}], "*)"}], "\[IndentingNewLine]", 
+          System`RowBox[{"{", System`RowBox[{System`RowBox[{"Method", 
+                "\[Rule]", "\"GaussNewton\""}], ",", System`RowBox[{
+                "MaxIterations", "\[Rule]", "1"}]}], "}"}]}], ";", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        System`RowBox[{"(*", System`RowBox[{"reference", ",", " ", 
+            System`RowBox[{"slow", " ", "for", " ", "big", " ", 
+              "problems"}]}], "*)"}], "\[IndentingNewLine]", 
         System`RowBox[{"DefinePublicFunction", "[", "\[IndentingNewLine]", 
           System`RowBox[{System`RowBox[{"SOPSolve", "[", System`RowBox[{
-                "p_SparseOptimizationProblem", ",", "FindMinimum"}], "]"}], 
-            "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+                "p_SparseOptimizationProblem", ",", "FindMinimum", ",", 
+                "iterations_Integer"}], "]"}], "\[IndentingNewLine]", 
+            "\[IndentingNewLine]", ",", 
             "\"construct a new SOP with less SOPEnergy\"", ",", 
             "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
              {"Catch", "@", System`RowBox[{"Module", "[", 
@@ -41,10 +45,11 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
                           {"FindMinimum", "[", System`RowBox[{System`RowBox[
                           {"SOPObjectiveExpression", "@", "p"}], ",", 
                           System`RowBox[{"List", "@@@", System`RowBox[
-                          {"SOPYData", "@", "p"}]}]}], "]"}]}], ";"}], 
-                        "\[IndentingNewLine]", ",", System`RowBox[{"Throw", 
-                          "@", "$Failed"}]}], "]"}], ";", 
-                    "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                          {"SOPYData", "@", "p"}]}], ",", System`RowBox[
+                          {"MaxIterations", "\[Rule]", "iterations"}]}], 
+                          "]"}]}], ";"}], "\[IndentingNewLine]", ",", 
+                        System`RowBox[{"Throw", "@", "$Failed"}]}], "]"}], 
+                    ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
                     System`RowBox[{System`RowBox[{"{", System`RowBox[
                          {"energy", ",", "sol"}], "}"}], "=", "sol"}], ";", 
                     "\[IndentingNewLine]", System`RowBox[{"Assert", "[", 
@@ -68,16 +73,21 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
            {"gauss", "-", "newton"}], "*)"}], "\[IndentingNewLine]", 
         System`RowBox[{"DefinePublicFunction", "[", "\[IndentingNewLine]", 
           System`RowBox[{System`RowBox[{"SOPSolve", "[", System`RowBox[{
-                "p_SparseOptimizationProblem", ",", "\"GaussNewton\""}], 
-              "]"}], "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+                "p_SparseOptimizationProblem", ",", "\"GaussNewton\"", ",", 
+                "iterations_Integer"}], "]"}], "\[IndentingNewLine]", 
+            "\[IndentingNewLine]", ",", 
             "\"construct a new SOP with less SOPEnergy\"", 
             "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
             System`RowBox[{"Module", "[", System`RowBox[{System`RowBox[
-                 {"{", System`RowBox[{"finalEnergy", ",", "x1"}], "}"}], ",", 
-                "\[IndentingNewLine]", System`RowBox[{System`RowBox[
-                   {System`RowBox[{"{", System`RowBox[{"finalEnergy", ",", 
-                        "x1"}], "}"}], "=", System`RowBox[
-                     {"LocalGaussNewton`GaussNewton", "[", 
+                 {"{", System`RowBox[{"finalEnergy", ",", "y1"}], "}"}], ",", 
+                "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[
+                   {"TODO", " ", "implement", " ", "multiple", " ", 
+                    System`RowBox[{"iterations", ":", " ", System`RowBox[
+                       {"create", " ", "SOPMakeFy", " ", "for", " ", "given", 
+                        " ", "x"}]}]}], "*)"}], "\[IndentingNewLine]", 
+                System`RowBox[{System`RowBox[{System`RowBox[{"{", 
+                      System`RowBox[{"finalEnergy", ",", "y1"}], "}"}], "=", 
+                    System`RowBox[{"LocalGaussNewton`GaussNewton", "[", 
                       "\[IndentingNewLine]", System`RowBox[{System`RowBox[
                          {"SOPMakeFy", "@", "p"}], ",", 
                         "\[IndentingNewLine]", System`RowBox[{"SOPJF", "@", 
@@ -85,7 +95,7 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
                          {"SOPGetY0", "@", "p"}]}], "\[IndentingNewLine]", 
                       "]"}]}], ";", "\[IndentingNewLine]", System`RowBox[
                    {"SparseOptimizationProblemMakeWithUpdatedY", "[", 
-                    System`RowBox[{"p", ",", "x1"}], "]"}]}]}], 
+                    System`RowBox[{"p", ",", "y1"}], "]"}]}]}], 
               "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", ",", 
             "_SparseOptimizationProblem"}], "\[IndentingNewLine]", "]"}], 
         ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
@@ -97,16 +107,18 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
             System`RowBox[{"the", " ", "interface", " ", "should", " ", 
               "take", " ", "that", " ", "into", " ", "account"}]}], "*)"}], 
         "\[IndentingNewLine]", System`RowBox[{"DefinePublicFunction", "[", 
-          "\[IndentingNewLine]", System`RowBox[
-           {System`RowBox[{"SOPSolve", "[", System`RowBox[{System`RowBox[
-                 {"p", ":", System`RowBox[{"SparseOptimizationProblem", "[", 
-                    "a_Association", "]"}]}], ",", "\"SOPCompiled\""}], 
-              "]"}], "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
-            "\"\"", ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-            System`RowBox[{"Module", "[", System`RowBox[{System`RowBox[
-                 {"{", System`RowBox[{"engine", ",", "x1"}], "}"}], ",", 
-                "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
-                 {System`RowBox[{"engine", "=", System`RowBox[
+          "\[IndentingNewLine]", "\[IndentingNewLine]", 
+          System`RowBox[{System`RowBox[{"SOPSolve", "[", System`RowBox[{
+                System`RowBox[{"p", ":", System`RowBox[
+                   {"SparseOptimizationProblem", "[", "a_Association", 
+                    "]"}]}], ",", "\"SOPCompiled\"", ",", 
+                "iterations_Integer"}], "]"}], "\[IndentingNewLine]", 
+            "\[IndentingNewLine]", ",", "\"\"", ",", "\[IndentingNewLine]", 
+            "\[IndentingNewLine]", System`RowBox[{"Module", "[", 
+              System`RowBox[{System`RowBox[{"{", System`RowBox[{"engine", 
+                    ",", "x1"}], "}"}], ",", "\[IndentingNewLine]", 
+                "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+                   {"engine", "=", System`RowBox[
                      {"SOPCompiled`SOPCompiledPrepare", "@", System`RowBox[
                        {"a", "@", "\"rif\""}]}]}], ";", 
                   "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
@@ -121,7 +133,9 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
                           "\"flattenedSparseDerivativeZtoYIndicesCIndex\""}], 
                         ",", "\[IndentingNewLine]", System`RowBox[{"a", "@", 
                           "\"xIndicesCIndex\""}], ",", "\[IndentingNewLine]", 
-                        System`RowBox[{"a", "@", "\"yIndicesCIndex\""}]}], 
+                        System`RowBox[{"a", "@", "\"yIndicesCIndex\""}], ",", 
+                        "\[IndentingNewLine]", System`RowBox[
+                         {"MaxIterations", "->", "iterations"}]}], 
                       "\[IndentingNewLine]", "]"}]}], ";", 
                   "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
                    {"SparseOptimizationProblemMakeWithUpdatedX", "[", 
@@ -146,6 +160,8 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
    {3.6810346733441553*^9, 3.6810347409195385*^9}, {3.6810388934464006*^9, 
    3.6810389104174814*^9}, {3.6810390383732567*^9, 3.681039045696541*^9}, 
    3.681048505366353*^9, {3.681048536800454*^9, 3.6810485784879684*^9}, 
-   {3.6810499921761484*^9, 3.681050025104937*^9}}, 
- System`CellTags -> "depersistedCell49f8580d-9a9b-45d8-a275-fb022bfe9fa9", 
+   {3.6810499921761484*^9, 3.681050025104937*^9}, {3.6810519143635054*^9, 
+   3.681051973881157*^9}, {3.6810520107183037*^9, 3.681052114619223*^9}, 
+   {3.6810574436034594*^9, 3.681057448487417*^9}}, 
+ System`CellTags -> "depersistedCell3567851b-222d-4c2c-b363-329fe924d9bb", 
  System`CellID -> 176634483]
