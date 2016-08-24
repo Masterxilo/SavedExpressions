@@ -9,5 +9,4 @@ e.g. {\"/p:TargetName=hello\"} possibly /t:Rebuild",
        System`FindFile[SOPCompiled`sln]}, Global`extra]]; 
     System`RunProcess[System`Join[
       {"C:\\Program Files (x86)\\MSBuild\\12.0\\Bin\\msbuild.exe", 
-       System`FindFile[SOPCompiled`sln]}, Global`extra], "StandardOutput"], 
-   _]]
+       System`FindFile[SOPCompiled`sln]}, Global`extra]], _]]

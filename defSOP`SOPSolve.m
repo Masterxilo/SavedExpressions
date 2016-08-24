@@ -22,9 +22,10 @@ System`HoldComplete[Global`NeedsDefined[SOP`SOPSolve,
      SOPCompiled`Private`iterations_System`Integer], 
     "construct a new SOP with less SOPEnergy", 
     System`Catch[System`Module[{SOP`energy, SOP`sol, SOP`nsop}, 
-      System`Check[SOP`sol = System`FindMinimum[SOP`SOPObjectiveExpression[
-            Global`p], System`Apply[System`List, SOP`SOPYData[Global`p], 
-            {1}], System`MaxIterations -> SOPCompiled`Private`iterations]; , 
+      System`Off[System`FindMinimum::cvmit]; System`Check[
+        SOP`sol = System`FindMinimum[SOP`SOPObjectiveExpression[Global`p], 
+           System`Apply[System`List, SOP`SOPYData[Global`p], {1}], 
+           System`MaxIterations -> SOPCompiled`Private`iterations]; , 
         System`Throw[System`$Failed]]; {SOP`energy, SOP`sol} = SOP`sol; 
        System`Assert[System`Keys[SOP`sol] === SOP`SOPGetY[Global`p]]; 
        SOP`nsop = SOP`SparseOptimizationProblemMakeWithUpdatedY[Global`p, 

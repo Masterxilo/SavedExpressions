@@ -5,7 +5,10 @@ System`HoldComplete[Global`NeedsDefined[
    numerics`NumericVectorQ, SOP`flattenedSparseDerivativeZtoYIndicesCIndex, 
    SOP`xIndicesCIndex, SOP`yIndicesCIndex, SOPCompiled`Private`val, 
    SOPCompiled`Private`lengthz, SOPCompiled`Private`lengthfz, 
-   SOPCompiled`EnsureInstalled, 
+   SOPCompiled`EnsureInstalled, SOPCompiled`Private`lengthzGet, 
+   SOPCompiled`Private`lengthfzGet, 
+   SOPCompiled`Private`receiveOptimizationData, 
+   SOPCompiled`Private`buildFxAndJFxAndSolveRepeatedlyCUDA, 
    SOPCompiled`Private`receiveOptimizationDataBuildFxAndJFxAndSolveRepeatedly\
 , SOPCompiled`Private`xGet, SOPCompiled`x1]; 
   (PackageDeveloper`RedefinePublicFunction[
@@ -20,11 +23,21 @@ only, and data only by values", System`Module[{SOPCompiled`Private`val,
       SOPCompiled`Private`lengthz = SOPCompiled`Private`a["lengthz"], 
       SOPCompiled`Private`lengthfz = SOPCompiled`Private`a["lengthfz"]}, 
      SOPCompiled`EnsureInstalled[SOPCompiled`engine]; 
-      SOPCompiled`Private`receiveOptimizationDataBuildFxAndJFxAndSolveRepeate\
-dly[SOP`dataValues, SOP`flattenedSparseDerivativeZtoYIndicesCIndex, 
-       SOP`xIndicesCIndex, SOP`yIndicesCIndex, System`OptionValue[
-        System`MaxIterations]]; SOPCompiled`Private`xGet[]], 
+      System`Assert[SOPCompiled`Private`lengthzGet[] === 
+        SOPCompiled`Private`lengthz]; System`Assert[
+       SOPCompiled`Private`lengthfzGet[] === SOPCompiled`Private`lengthfz]; 
+      System`If[System`OptionValue[System`Method] === "CUDA", 
+       SOPCompiled`Private`receiveOptimizationData[SOP`dataValues, 
+         SOP`flattenedSparseDerivativeZtoYIndicesCIndex, SOP`xIndicesCIndex, 
+         SOP`yIndicesCIndex]; 
+        SOPCompiled`Private`buildFxAndJFxAndSolveRepeatedlyCUDA[1, 1, 
+         System`OptionValue[System`MaxIterations]]; , 
+       System`Assert[System`OptionValue[System`Method] === "CPU"]; 
+        SOPCompiled`Private`receiveOptimizationDataBuildFxAndJFxAndSolveRepea\
+tedly[SOP`dataValues, SOP`flattenedSparseDerivativeZtoYIndicesCIndex, 
+         SOP`xIndicesCIndex, SOP`yIndicesCIndex, System`OptionValue[
+          System`MaxIterations]]; ]; SOPCompiled`Private`xGet[]], 
     SOPCompiled`x1_ /; numerics`NumericVectorQ[SOPCompiled`x1] && 
       System`Length[SOPCompiled`x1] > 0]; 
    System`Options[SOPCompiled`SOPCompiledOptimizePreprocessed] = 
-    {System`MaxIterations -> 1}; )]
+    {System`MaxIterations -> 1, System`Method -> "CPU"}; )]

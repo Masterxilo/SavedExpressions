@@ -8,12 +8,13 @@ System`HoldComplete[Global`NeedsDefined[
    RIFunction`RIFunctionOutputExpressionMap, cform`$CFormDefinesCUDAFloat, 
    RIFunction`RIFunctionArgumentsLength, RIFunction`RIFunctionOutputsLength, 
    SymbolicC`ToCCodeString, RIFunction`RIFunctionCFormOutputArrayAssignments, 
-   RIFunction`RIFunctionCFormAllDerivativesIndexed, paul`TaskKill, 
-   paul`MSBuild, SOPCompiled`SOPCompiled]; 
-  PackageDeveloper`RedefinePublicFunction[SOPCompiled`SOPCompiledPrepare[
-    SOP`rif_RIFunction`RIFunction, System`Optional[(Global`forceRebuild_)?
-      System`BooleanQ, System`False]], "compiles and loads the sparse \
-optimization Framework for the given function", 
+   RIFunction`RIFunctionCFormAllDerivativesIndexed, 
+   RIFunction`RIFunctionArguments, RIFunction`RIFunctionExpressionList, 
+   paul`TaskKill, paul`MSBuild, SOPCompiled`SOPCompiled, 
+   SOPCompiled`Private`a]; PackageDeveloper`RedefinePublicFunction[
+   SOPCompiled`SOPCompiledPrepare[SOP`rif_RIFunction`RIFunction, 
+    System`Optional[(Global`forceRebuild_)?System`BooleanQ, System`False]], "\
+compiles and loads the sparse optimization Framework for the given function", 
    System`Module[{SOPCompiled`fn, SOPCompiled`fng, Global`exe, 
      SOPCompiled`link, SOPCompiled`Private`lengthz, 
      SOPCompiled`Private`lengthfz, SOPCompiled`targetName, 
@@ -37,15 +38,17 @@ optimization Framework for the given function",
      Global`exportGeneratedText["df.cpp", SymbolicC`ToCCodeString[
        RIFunction`RIFunctionCFormAllDerivativesIndexed[SOP`rif]]]; 
      SOPCompiled`targetName = System`StringJoin["Framework", 
-       System`ToString[System`Hash[SOP`rif, "CRC32"]]]; 
+       System`ToString[System`Hash[{RIFunction`RIFunctionArguments[SOP`rif], 
+          RIFunction`RIFunctionExpressionList[SOP`rif]}, "CRC32"]]]; 
      Global`targetFile = SOPCompiled`fn[System`StringJoin["x64\\Debug\\", 
         SOPCompiled`targetName, ".exe"]]; 
      System`If[ !System`FileExistsQ[Global`targetFile] || 
        Global`forceRebuild, paul`TaskKill[System`StringJoin[
          SOPCompiled`targetName, ".exe"]]; System`Print[
-        paul`MSBuild[SOPCompiled`fn["Framework.sln"], 
-         {System`StringJoin["/p:TargetName=", SOPCompiled`targetName]}]]]; 
+        paul`MSBuild[SOPCompiled`fn["Framework.sln"], {"/t:Rebuild", 
+          System`StringJoin["/p:TargetName=", SOPCompiled`targetName]}]]]; 
      SOPCompiled`SOPCompiled[System`Association["rif" -> SOP`rif, 
        "lengthz" -> SOPCompiled`Private`lengthz, "lengthfz" -> 
         SOPCompiled`Private`lengthfz, "targetName" -> Global`targetFile]]], 
-   SOPCompiled`SOPCompiled[_System`Association]]]
+   SOPCompiled`SOPCompiled[SOPCompiled`Private`a_System`Association] /; 
+    System`FileExistsQ[SOPCompiled`Private`a["targetName"]]]]

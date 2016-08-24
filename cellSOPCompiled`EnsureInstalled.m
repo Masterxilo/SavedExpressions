@@ -34,14 +34,25 @@ currently installed SOPCompiled engine is the one indicated\"", ",",
                   System`RowBox[{System`TagBox[System`RowBox[
                       {"SOPCompiled`Private`get42", "[", "]"}], 
                      System`HoldForm], ",", "42"}], "]"}]}], ";", 
-              System`RowBox[{"(*", System`RowBox[{"interestingly", ",", " ", 
-                  System`RowBox[{"this", " ", "often", " ", "fails"}], ",", 
-                  " ", System`RowBox[{"the", " ", "link", " ", "seems", " ", 
-                    "to", " ", "not", " ", "get", " ", "properly", " ", 
-                    "set", " ", "up", " ", "for", " ", "this", " ", "one"}], 
-                  ",", " ", System`RowBox[{"or", " ", "it", " ", "returns", 
-                    " ", "too", " ", System`RowBox[{"early", "?"}]}]}], 
-                "*)"}], "\[IndentingNewLine]", System`RowBox[{
+              "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[{
+                "Print", "@", System`RowBox[{"VerificationTest", "[", 
+                  System`RowBox[{System`TagBox[System`RowBox[
+                      {"SOPCompiled`Private`lengthzGet", "[", "]"}], 
+                     System`HoldForm], ",", System`RowBox[{"a", "@", 
+                      "\"lengthz\""}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+              System`RowBox[{"Print", "@", System`RowBox[{"VerificationTest", 
+                  "[", System`RowBox[{System`TagBox[System`RowBox[
+                      {"SOPCompiled`Private`lengthfzGet", "[", "]"}], 
+                     System`HoldForm], ",", System`RowBox[{"a", "@", 
+                      "\"lengthfz\""}]}], "]"}]}], ";", System`RowBox[{"(*", 
+                System`RowBox[{"interestingly", ",", " ", System`RowBox[
+                   {"this", " ", "often", " ", "fails"}], ",", " ", 
+                  System`RowBox[{"the", " ", "link", " ", "seems", " ", "to", 
+                    " ", "not", " ", "get", " ", "properly", " ", "set", " ", 
+                    "up", " ", "for", " ", "this", " ", "one"}], ",", " ", 
+                  System`RowBox[{"or", " ", "it", " ", "returns", " ", "too", 
+                    " ", System`RowBox[{"early", "?"}]}]}], "*)"}], 
+              "\[IndentingNewLine]", System`RowBox[{
                 "SOPCompiled`Private`printv", "@", System`RowBox[
                  {"RandomReal", "[", System`RowBox[{"1.", ",", System`RowBox[
                      {"{", "100", "}"}]}], "]"}]}], ";", 
@@ -58,5 +69,5 @@ currently installed SOPCompiled engine is the one indicated\"", ",",
   {3.6810332386273623*^9, 3.681033249536153*^9}, {3.681033484123273*^9, 
   3.6810334905605135*^9}, {3.681036296393781*^9, 3.681036360384598*^9}, 
   {3.6810363912546034*^9, 3.6810363988555927*^9}, {3.681036682270783*^9, 
-  3.6810366827551765*^9}}, System`CellTags -> 
-  "depersistedCell1e6bcac8-5391-419a-ab84-bf22906663ee"]
+  3.6810366827551765*^9}, {3.6810576525389433*^9, 3.681057702837369*^9}}, 
+ System`CellTags -> "depersistedCell3567851b-222d-4c2c-b363-329fe924d9bb"]

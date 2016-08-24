@@ -29,21 +29,51 @@ implicitly only, and data only by values\"", ",", "\[IndentingNewLine]",
                   "}"}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
                 System`RowBox[{System`RowBox[{"SOPCompiled`EnsureInstalled", 
                     "@", "engine"}], ";", "\[IndentingNewLine]", 
+                  System`RowBox[{"Assert", "[", System`RowBox[{System`RowBox[
+                       {"SOPCompiled`Private`lengthzGet", "[", "]"}], "===", 
+                      "lengthz"}], "]"}], ";", "\[IndentingNewLine]", 
+                  System`RowBox[{"Assert", "[", System`RowBox[{System`RowBox[
+                       {"SOPCompiled`Private`lengthfzGet", "[", "]"}], "===", 
+                      "lengthfz"}], "]"}], ";", "\[IndentingNewLine]", 
                   "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[
                      {"actual", " ", "work"}], "*)"}], "\[IndentingNewLine]", 
-                  System`RowBox[{"SOPCompiled`Private`receiveOptimizationData\
-BuildFxAndJFxAndSolveRepeatedly", "[", "\[IndentingNewLine]", System`RowBox[
-                     {"dataValues", ",", "\[IndentingNewLine]", 
-                      "flattenedSparseDerivativeZtoYIndicesCIndex", ",", 
-                      "\[IndentingNewLine]", "xIndicesCIndex", ",", 
-                      "\[IndentingNewLine]", "yIndicesCIndex", ",", 
-                      "\[IndentingNewLine]", System`RowBox[{"OptionValue", 
-                        "@", "MaxIterations"}]}], "\[IndentingNewLine]", 
-                    "]"}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-                  System`RowBox[{"(*", System`RowBox[{System`RowBox[{"solve", 
-                        "[", "]"}], ";", System`RowBox[{System`RowBox[
-                         {"--", " ", "done"}], " ", "above"}]}], "*)"}], 
-                  "\[IndentingNewLine]", System`RowBox[
+                  System`RowBox[{"If", "[", System`RowBox[{System`RowBox[
+                       {System`RowBox[{"OptionValue", "@", "Method"}], "===", 
+                        "\"CUDA\""}], ",", "\[IndentingNewLine]", 
+                      "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+                         {"SOPCompiled`Private`receiveOptimizationData", "[", 
+                          "\[IndentingNewLine]", System`RowBox[{"dataValues", 
+                          ",", "\[IndentingNewLine]", 
+                          "flattenedSparseDerivativeZtoYIndicesCIndex", ",", 
+                          "\[IndentingNewLine]", "xIndicesCIndex", ",", 
+                          "\[IndentingNewLine]", "yIndicesCIndex"}], 
+                          "\[IndentingNewLine]", "]"}], ";", 
+                        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                        System`RowBox[{"buildFxAndJFxAndSolveRepeatedlyCUDA", 
+                          "[", System`RowBox[{"1", ",", "1", ",", 
+                          System`RowBox[{"OptionValue", "@", 
+                          "MaxIterations"}]}], "]"}], ";"}], 
+                      "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+                      System`RowBox[{"(*", "else", "*)"}], System`RowBox[
+                       {System`RowBox[{"Assert", "[", System`RowBox[
+                          {System`RowBox[{"OptionValue", "@", "Method"}], 
+                          "===", "\"CPU\""}], "]"}], ";", 
+                        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                        System`RowBox[{"SOPCompiled`Private`receiveOptimizati\
+onDataBuildFxAndJFxAndSolveRepeatedly", "[", "\[IndentingNewLine]", 
+                          System`RowBox[{"dataValues", ",", 
+                          "\[IndentingNewLine]", 
+                          "flattenedSparseDerivativeZtoYIndicesCIndex", ",", 
+                          "\[IndentingNewLine]", "xIndicesCIndex", ",", 
+                          "\[IndentingNewLine]", "yIndicesCIndex", ",", 
+                          "\[IndentingNewLine]", System`RowBox[
+                          {"OptionValue", "@", "MaxIterations"}]}], 
+                          "\[IndentingNewLine]", "]"}], ";"}]}], 
+                    "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
+                  "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[
+                     {System`RowBox[{"solve", "[", "]"}], ";", System`RowBox[
+                       {System`RowBox[{"--", " ", "done"}], " ", "above"}]}], 
+                    "*)"}], "\[IndentingNewLine]", System`RowBox[
                    {"SOPCompiled`Private`xGet", "[", "]"}]}]}], 
               System`RowBox[{"(*", System`RowBox[{"TODO", " ", "doing", " ", 
                   "just", " ", "getY", " ", "would", " ", "submit", " ", 
@@ -56,8 +86,9 @@ BuildFxAndJFxAndSolveRepeatedly", "[", "\[IndentingNewLine]", System`RowBox[
         "\[IndentingNewLine]", System`RowBox[
          {System`RowBox[{"Options", "@", 
             "SOPCompiled`SOPCompiledOptimizePreprocessed"}], "=", 
-          System`RowBox[{"{", System`RowBox[{"MaxIterations", "\[Rule]", 
-              "1"}], "}"}]}], ";"}]}], "\[IndentingNewLine]", 
+          System`RowBox[{"{", System`RowBox[{System`RowBox[{"MaxIterations", 
+                "\[Rule]", "1"}], ",", System`RowBox[{"Method", "\[Rule]", 
+                "\"CPU\""}]}], "}"}]}], ";"}]}], "\[IndentingNewLine]", 
     "\[IndentingNewLine]", "]"}]], "Input", System`CellChangeTimes -> 
   {{3.681030499676237*^9, 3.6810305956891823*^9}, {3.6810313423106284*^9, 
    3.6810313819131823*^9}, {3.6810338632279153*^9, 3.681033983951528*^9}, 
@@ -66,5 +97,6 @@ BuildFxAndJFxAndSolveRepeatedly", "[", "\[IndentingNewLine]", System`RowBox[
    3.681047643802143*^9, {3.681047685439969*^9, 3.6810478594515915*^9}, 
    3.6810507663585424*^9, {3.6810515437324595*^9, 3.681051555749798*^9}, 
    {3.681051713952569*^9, 3.6810517914704313*^9}, {3.6810518495086994*^9, 
-   3.6810518499503546*^9}}, System`CellTags -> 
-  "depersistedCell49f8580d-9a9b-45d8-a275-fb022bfe9fa9"]
+   3.6810518499503546*^9}, 3.6810659895520267*^9, {3.6810660586842937*^9, 
+   3.681066073221874*^9}, {3.681066142822384*^9, 3.6810662676503468*^9}}, 
+ System`CellTags -> "depersistedCell4472b501-03ee-418a-b7c6-fd753ed2b01a"]

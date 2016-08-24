@@ -38,8 +38,12 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
              {"Catch", "@", System`RowBox[{"Module", "[", 
                 "\[IndentingNewLine]", System`RowBox[{System`RowBox[
                    {"{", System`RowBox[{"energy", ",", "sol", ",", "nsop"}], 
-                    "}"}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-                  System`RowBox[{System`RowBox[{"Check", "[", 
+                    "}"}], ",", "\[IndentingNewLine]", System`RowBox[
+                   {System`RowBox[{"Off", "[", System`StyleBox[System`RowBox[
+                        {"FindMinimum", "::", "cvmit"}], "MessageName"], 
+                      "]"}], ";", System`RowBox[{"(*", System`RowBox[
+                       {"nevermind", " ", "convergence"}], "*)"}], 
+                    "\[IndentingNewLine]", System`RowBox[{"Check", "[", 
                       "\[IndentingNewLine]", System`RowBox[{System`RowBox[
                          {System`RowBox[{"sol", "=", System`RowBox[
                           {"FindMinimum", "[", System`RowBox[{System`RowBox[
@@ -49,7 +53,10 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
                           {"MaxIterations", "\[Rule]", "iterations"}]}], 
                           "]"}]}], ";"}], "\[IndentingNewLine]", ",", 
                         System`RowBox[{"Throw", "@", "$Failed"}]}], "]"}], 
-                    ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                    ";", "\[IndentingNewLine]", System`RowBox[{"(*", 
+                      System`RowBox[{"TODO", " ", "restore", " ", "previous", 
+                        " ", "message", " ", "state"}], "*)"}], 
+                    "\[IndentingNewLine]", "\[IndentingNewLine]", 
                     System`RowBox[{System`RowBox[{"{", System`RowBox[
                          {"energy", ",", "sol"}], "}"}], "=", "sol"}], ";", 
                     "\[IndentingNewLine]", System`RowBox[{"Assert", "[", 
@@ -162,6 +169,7 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
    3.681048505366353*^9, {3.681048536800454*^9, 3.6810485784879684*^9}, 
    {3.6810499921761484*^9, 3.681050025104937*^9}, {3.6810519143635054*^9, 
    3.681051973881157*^9}, {3.6810520107183037*^9, 3.681052114619223*^9}, 
-   {3.6810574436034594*^9, 3.681057448487417*^9}}, 
+   {3.6810574436034594*^9, 3.681057448487417*^9}, 3.681058661910597*^9, 
+   {3.68105869792666*^9, 3.681058717752473*^9}}, 
  System`CellTags -> "depersistedCell3567851b-222d-4c2c-b363-329fe924d9bb", 
  System`CellID -> 176634483]
