@@ -16,20 +16,21 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
                   System`RowBox[{"{", "__Integer", "}"}]}], ",", 
                 "\[IndentingNewLine]", System`RowBox[{"yIndicesCIndex", ":", 
                   System`RowBox[{"{", "__Integer", "}"}]}], ",", 
-                "\[IndentingNewLine]", System`RowBox[{"OptionsPattern", "[", 
-                  "]"}]}], "\[IndentingNewLine]", "]"}], 
-            "\[IndentingNewLine]", "\[IndentingNewLine]", ",", "\"using the \
-given engine, solves the given optimization problem, taking ps, select and ys \
-implicitly only, and data only by values\"", ",", "\[IndentingNewLine]", 
-            "\[IndentingNewLine]", System`RowBox[{"Module", "[", 
-              System`RowBox[{System`RowBox[{"{", System`RowBox[{"val", ",", 
-                    System`RowBox[{"lengthz", "=", System`RowBox[{"a", "@", 
-                        "\"lengthz\""}]}], ",", System`RowBox[{"lengthfz", 
-                      "=", System`RowBox[{"a", "@", "\"lengthfz\""}]}]}], 
-                  "}"}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-                System`RowBox[{System`RowBox[{"SOPCompiled`EnsureInstalled", 
-                    "@", "engine"}], ";", "\[IndentingNewLine]", 
-                  System`RowBox[{"Assert", "[", System`RowBox[{System`RowBox[
+                "\[IndentingNewLine]", System`RowBox[{"options", ":", 
+                  System`RowBox[{"OptionsPattern", "[", "]"}]}]}], 
+              "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", 
+            "\[IndentingNewLine]", ",", "\"using the given engine, solves the \
+given optimization problem, taking ps, select and ys implicitly only, and \
+data only by values\"", ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+            System`RowBox[{"Module", "[", System`RowBox[{System`RowBox[
+                 {"{", System`RowBox[{"val", ",", System`RowBox[{"lengthz", 
+                      "=", System`RowBox[{"a", "@", "\"lengthz\""}]}], ",", 
+                    System`RowBox[{"lengthfz", "=", System`RowBox[{"a", "@", 
+                        "\"lengthfz\""}]}]}], "}"}], ",", 
+                "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
+                 {System`RowBox[{"SOPCompiled`EnsureInstalled", "@", 
+                    "engine"}], ";", "\[IndentingNewLine]", System`RowBox[
+                   {"Assert", "[", System`RowBox[{System`RowBox[
                        {"SOPCompiled`Private`lengthzGet", "[", "]"}], "===", 
                       "lengthz"}], "]"}], ";", "\[IndentingNewLine]", 
                   System`RowBox[{"Assert", "[", System`RowBox[{System`RowBox[
@@ -98,5 +99,7 @@ onDataBuildFxAndJFxAndSolveRepeatedly", "[", "\[IndentingNewLine]",
    3.6810507663585424*^9, {3.6810515437324595*^9, 3.681051555749798*^9}, 
    {3.681051713952569*^9, 3.6810517914704313*^9}, {3.6810518495086994*^9, 
    3.6810518499503546*^9}, 3.6810659895520267*^9, {3.6810660586842937*^9, 
-   3.681066073221874*^9}, {3.681066142822384*^9, 3.6810662676503468*^9}}, 
- System`CellTags -> "depersistedCell4472b501-03ee-418a-b7c6-fd753ed2b01a"]
+   3.681066073221874*^9}, {3.681066142822384*^9, 3.6810662676503468*^9}, 
+   3.681067707675727*^9, {3.681067751274124*^9, 3.681067813226429*^9}, 
+   {3.6810738830095377*^9, 3.6810738972122765*^9}}, 
+ System`CellTags -> "depersistedCell789a562f-06aa-4101-a96f-9f37aafa6f05"]

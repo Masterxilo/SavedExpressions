@@ -1,20 +1,27 @@
 System`HoldComplete[Global`NeedsDefined[
    PackageDeveloper`RedefinePublicFunction, SOPCompiled`SOPCompiledPrepare, 
-   SOP`rif, RIFunction`RIFunction, Global`forceRebuild, SOPCompiled`fn, 
-   SOPCompiled`fng, Global`exe, SOPCompiled`link, 
-   SOPCompiled`Private`lengthz, SOPCompiled`Private`lengthfz, 
-   SOPCompiled`targetName, Global`exportGeneratedText, Global`targetFile, 
-   Global`s, SOPCompiled`$FrameworkDirectory, Global`t, 
-   RIFunction`RIFunctionOutputExpressionMap, cform`$CFormDefinesCUDAFloat, 
+   System`Pattern, SOP`rif, System`Blank, RIFunction`RIFunction, 
+   System`Optional, System`PatternTest, Global`forceRebuild, System`BooleanQ, 
+   System`False, System`Module, System`List, SOPCompiled`fn, SOPCompiled`fng, 
+   Global`exe, SOPCompiled`link, SOPCompiled`Private`lengthz, 
+   SOPCompiled`Private`lengthfz, SOPCompiled`targetName, 
+   Global`exportGeneratedText, Global`targetFile, System`CompoundExpression, 
+   System`SetDelayed, Global`s, System`FileNameJoin, 
+   SOPCompiled`$FrameworkDirectory, System`String, Global`t, System`Export, 
+   System`Print, RIFunction`RIFunctionOutputExpressionMap, 
+   cform`$CFormDefinesCUDAFloat, System`Set, 
    RIFunction`RIFunctionArgumentsLength, RIFunction`RIFunctionOutputsLength, 
+   System`Off, System`MessageName, System`StringTrim, 
    SymbolicC`ToCCodeString, RIFunction`RIFunctionCFormOutputArrayAssignments, 
-   RIFunction`RIFunctionCFormAllDerivativesIndexed, 
-   RIFunction`RIFunctionArguments, RIFunction`RIFunctionExpressionList, 
-   paul`TaskKill, paul`MSBuild, SOPCompiled`SOPCompiled, 
-   SOPCompiled`Private`a]; PackageDeveloper`RedefinePublicFunction[
-   SOPCompiled`SOPCompiledPrepare[SOP`rif_RIFunction`RIFunction, 
-    System`Optional[(Global`forceRebuild_)?System`BooleanQ, System`False]], "\
-compiles and loads the sparse optimization Framework for the given function", 
+   RIFunction`RIFunctionCFormAllDerivativesIndexed, System`StringJoin, 
+   System`ToString, System`Hash, RIFunction`RIFunctionArguments, 
+   RIFunction`RIFunctionExpressionList, System`If, System`Or, System`Not, 
+   System`FileExistsQ, paul`TaskKill, paul`MSBuild, SOPCompiled`SOPCompiled, 
+   System`Association, System`Rule, System`Condition, SOPCompiled`Private`a]; 
+  PackageDeveloper`RedefinePublicFunction[SOPCompiled`SOPCompiledPrepare[
+    SOP`rif_RIFunction`RIFunction, System`Optional[(Global`forceRebuild_)?
+      System`BooleanQ, System`False]], "compiles and loads the sparse \
+optimization Framework for the given function", 
    System`Module[{SOPCompiled`fn, SOPCompiled`fng, Global`exe, 
      SOPCompiled`link, SOPCompiled`Private`lengthz, 
      SOPCompiled`Private`lengthfz, SOPCompiled`targetName, 
@@ -51,4 +58,5 @@ compiles and loads the sparse optimization Framework for the given function",
        "lengthz" -> SOPCompiled`Private`lengthz, "lengthfz" -> 
         SOPCompiled`Private`lengthfz, "targetName" -> Global`targetFile]]], 
    SOPCompiled`SOPCompiled[SOPCompiled`Private`a_System`Association] /; 
-    System`FileExistsQ[SOPCompiled`Private`a["targetName"]]]]
+    System`FileExistsQ[SOPCompiled`Private`a["targetName"]], 
+   "probably compilation failed"]]

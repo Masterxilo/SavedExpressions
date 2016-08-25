@@ -3,7 +3,7 @@ System`HoldComplete[Global`NeedsDefined[
    SOPCompiled`SOPCompiledOptimizePreprocessed, SOPCompiled`engine, 
    SOPCompiled`SOPCompiled, SOPCompiled`Private`a, SOP`dataValues, 
    numerics`NumericVectorQ, SOP`flattenedSparseDerivativeZtoYIndicesCIndex, 
-   SOP`xIndicesCIndex, SOP`yIndicesCIndex, SOPCompiled`Private`val, 
+   SOP`xIndicesCIndex, SOP`yIndicesCIndex, Global`options, varval`val, 
    SOPCompiled`Private`lengthz, SOPCompiled`Private`lengthfz, 
    SOPCompiled`EnsureInstalled, SOPCompiled`Private`lengthzGet, 
    SOPCompiled`Private`lengthfzGet, 
@@ -17,12 +17,12 @@ System`HoldComplete[Global`NeedsDefined[
      (SOP`dataValues_)?numerics`NumericVectorQ, 
      SOP`flattenedSparseDerivativeZtoYIndicesCIndex:{__System`Integer}, 
      SOP`xIndicesCIndex:{__System`Integer}, SOP`yIndicesCIndex:
-      {__System`Integer}, System`OptionsPattern[]], "using the given engine, \
-solves the given optimization problem, taking ps, select and ys implicitly \
-only, and data only by values", System`Module[{SOPCompiled`Private`val, 
-      SOPCompiled`Private`lengthz = SOPCompiled`Private`a["lengthz"], 
-      SOPCompiled`Private`lengthfz = SOPCompiled`Private`a["lengthfz"]}, 
-     SOPCompiled`EnsureInstalled[SOPCompiled`engine]; 
+      {__System`Integer}, Global`options:System`OptionsPattern[]], "using the \
+given engine, solves the given optimization problem, taking ps, select and ys \
+implicitly only, and data only by values", System`Module[
+     {varval`val, SOPCompiled`Private`lengthz = SOPCompiled`Private`a[
+        "lengthz"], SOPCompiled`Private`lengthfz = SOPCompiled`Private`a[
+        "lengthfz"]}, SOPCompiled`EnsureInstalled[SOPCompiled`engine]; 
       System`Assert[SOPCompiled`Private`lengthzGet[] === 
         SOPCompiled`Private`lengthz]; System`Assert[
        SOPCompiled`Private`lengthfzGet[] === SOPCompiled`Private`lengthfz]; 

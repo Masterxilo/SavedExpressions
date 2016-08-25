@@ -111,7 +111,8 @@ optimization Framework for the given function\"", ",", "\[IndentingNewLine]",
       "\[IndentingNewLine]", ",", System`RowBox[
        {System`RowBox[{"SOPCompiled`SOPCompiled", "[", "a_Association", 
           "]"}], "/;", System`RowBox[{"FileExistsQ", "@", 
-          System`RowBox[{"a", "@", "\"targetName\""}]}]}]}], 
+          System`RowBox[{"a", "@", "\"targetName\""}]}]}], 
+      "\[IndentingNewLine]", ",", "\"probably compilation failed\""}], 
     "\[IndentingNewLine]", "]"}]], "Input", System`CellChangeTimes -> 
   {{3.681029702527623*^9, 3.6810299120821843*^9}, {3.681029943170094*^9, 
    3.6810299607525735*^9}, {3.6810300725597916*^9, 3.681030075842641*^9}, 
@@ -128,5 +129,6 @@ optimization Framework for the given function\"", ",", "\[IndentingNewLine]",
    3.681047479224801*^9}, {3.6810580054550514*^9, 3.681058043087534*^9}, 
    {3.681058960397457*^9, 3.681059010967534*^9}, {3.681061253075346*^9, 
    3.681061264746176*^9}, {3.681061312425886*^9, 3.6810613304362926*^9}, 
-   {3.681061708412974*^9, 3.6810617215002594*^9}}, 
- System`CellTags -> "depersistedCella245f635-eed2-4124-99d6-7f32f749d74d"]
+   {3.681061708412974*^9, 3.6810617215002594*^9}, {3.681084994047612*^9, 
+   3.6810850031820087*^9}}, System`CellTags -> 
+  "depersistedCell7be5b217-b81f-45e2-a539-cdd1a54f2d0f"]

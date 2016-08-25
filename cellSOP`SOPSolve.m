@@ -9,12 +9,18 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
                  {"OptionsPattern", "[", "]"}]}], "]"}], 
             "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
             "\"construct a new SOP with less SOPEnergy\"", ",", 
-            "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
-             {"SOPSolve", "[", System`RowBox[{"p", ",", System`RowBox[
-                 {"OptionValue", "[", "Method", "]"}], ",", System`RowBox[
-                 {"OptionValue", "@", "MaxIterations"}]}], "]"}], 
-            "\[IndentingNewLine]", ",", System`RowBox[
-             {"_SparseOptimizationProblem", "|", "$Failed"}]}], 
+            "\[IndentingNewLine]", System`RowBox[{System`RowBox[{"Print", 
+                "@", System`RowBox[{"StackInhibit", "@", System`RowBox[
+                   {"StackWithoutContexts", "[", System`RowBox[{"{", 
+                      System`RowBox[{"\"System`\"", ",", "\"paul`\""}], 
+                      "}"}], "]"}]}]}], ";", "\[IndentingNewLine]", 
+              System`RowBox[{"Assert", "[", System`RowBox[{"False", ",", 
+                  System`RowBox[{"Stack", "[", "]"}]}], "]"}], ";", 
+              "\[IndentingNewLine]", System`RowBox[{"SOPSolve", "[", 
+                System`RowBox[{"p", ",", System`RowBox[{"OptionValue", "[", 
+                    "Method", "]"}], ",", System`RowBox[{"OptionValue", "@", 
+                    "MaxIterations"}]}], "]"}]}], "\[IndentingNewLine]", ",", 
+            System`RowBox[{"_SparseOptimizationProblem", "|", "$Failed"}]}], 
           "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
         "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[
            {"must", " ", "be", " ", "defined", " ", "below", " ", "because", 
@@ -170,6 +176,10 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
    {3.6810499921761484*^9, 3.681050025104937*^9}, {3.6810519143635054*^9, 
    3.681051973881157*^9}, {3.6810520107183037*^9, 3.681052114619223*^9}, 
    {3.6810574436034594*^9, 3.681057448487417*^9}, 3.681058661910597*^9, 
-   {3.68105869792666*^9, 3.681058717752473*^9}}, 
- System`CellTags -> "depersistedCell3567851b-222d-4c2c-b363-329fe924d9bb", 
+   {3.68105869792666*^9, 3.681058717752473*^9}, {3.681087846949382*^9, 
+   3.681087853491561*^9}, 3.681087926759984*^9, {3.6810881286446247*^9, 
+   3.68108813805136*^9}, 3.6810884247330713*^9, {3.6810884741056786*^9, 
+   3.681088506214744*^9}, {3.6810886377668886*^9, 3.681088639865507*^9}, 
+   {3.6810887411949286*^9, 3.681088763593892*^9}}, 
+ System`CellTags -> "depersistedCell06937c16-f54c-4fff-92de-03b52db30eb3", 
  System`CellID -> 176634483]

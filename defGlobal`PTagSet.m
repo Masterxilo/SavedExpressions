@@ -12,6 +12,6 @@ PRedefinePublicFunction when defining a function.",
    Global`PersistNeeding[Global`tag, Global`e, 
     System`Evaluate[paul`ListOfHoldToHold[System`DeleteDuplicates[
        paul`HeldAtomsMatching[System`Unevaluated[Global`e], 
-        Global`x_System`Symbol /; System`Context[Global`x] =!= "System`", 
-        System`Heads -> System`True]]]]]]; System`SetAttributes[
-   Global`PTagSet, System`HoldAll]; ]
+        SOPCompiled`Private`x_System`Symbol /; System`Context[Global`x] =!= 
+          "System`", System`Heads -> System`True]]]]]]; 
+  System`SetAttributes[Global`PTagSet, System`HoldAll]; ]
