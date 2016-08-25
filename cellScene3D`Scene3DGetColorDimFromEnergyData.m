@@ -1,6 +1,6 @@
 System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
     "\[IndentingNewLine]", System`RowBox[
-     {System`RowBox[{"Scene2DGetColorDimFromEnergyData", "[", 
+     {System`RowBox[{"Scene3DGetColorDimFromEnergyData", "[", 
         "\[IndentingNewLine]", System`RowBox[{"data", ":", 
           "$SceneXEnergyDataPattern"}], "\[IndentingNewLine]", "]"}], 
       "\[IndentingNewLine]", ",", "\"\"", "\[IndentingNewLine]", ",", 
@@ -17,6 +17,6 @@ System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[",
    {3.681037675982669*^9, 3.6810377061575255*^9}, {3.681038115676594*^9, 
    3.681038188485957*^9}, {3.6810384525517616*^9, 3.6810385351567564*^9}, 
    {3.681038590318075*^9, 3.681038610186551*^9}, 3.681116493915663*^9, 
-   {3.681116526047801*^9, 3.681116539187544*^9}}, 
+   {3.681116526047801*^9, 3.681116546489729*^9}}, 
  System`CellTags -> "depersistedCelldb6dedbf-d1ed-4e3d-a799-3af6fdc7c200", 
  System`CellID -> 144335916]

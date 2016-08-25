@@ -19,11 +19,14 @@ weights\"", "\[IndentingNewLine]", ",", "\[IndentingNewLine]",
               ",", "$SceneXAtomRuleNameConversion"}], "]"}], "~", "Join", 
           "~", System`RowBox[{"Thread", "@", System`RowBox[{"Rule", "[", 
               System`RowBox[{System`RowBox[{"Array", "[", System`RowBox[
-                   {"l", ",", "Scene3DEnergyLightIntensityParameterCount"}], 
-                  "]"}], ",", System`RowBox[{"s", "@", "\"l\""}]}], "]"}]}], 
-          "~", "Join", "~", System`RowBox[{"Thread", "@", System`RowBox[
+                   {System`RowBox[{"Symbol", "[", "\"l\"", "]"}], ",", 
+                    "Scene3DEnergyLightIntensityParameterCount"}], "]"}], 
+                ",", System`RowBox[{"s", "@", "\"l\""}]}], "]"}]}], "~", 
+          "Join", "~", System`RowBox[{"Thread", "@", System`RowBox[
              {"Rule", "[", System`RowBox[{"$SceneXEnergyWeightNames", ",", 
                 "weights"}], "]"}]}]}]}]}], "\[IndentingNewLine]", 
     "\[IndentingNewLine]", "]"}]], "Input", System`CellChangeTimes -> 
   {{3.6809833394501905*^9, 3.6809833504819803*^9}, {3.680983399837556*^9, 
-  3.680983421849005*^9}, {3.6809835878910017*^9, 3.680983627500281*^9}}]
+  3.680983421849005*^9}, {3.6809835878910017*^9, 3.680983627500281*^9}, 
+  {3.6811154038172984*^9, 3.6811154115438085*^9}}, 
+ System`CellTags -> "depersistedCell41f18800-9bd5-4743-912a-7cfc7b4d14c8"]

@@ -1,8 +1,8 @@
 System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
     "\[IndentingNewLine]", System`RowBox[
      {System`RowBox[{"Scene3DShowDistanceField", "[", 
-        System`RowBox[{"s_Scene3D", ",", "which_String", ",", "o___"}], 
-        "]"}], "\[IndentingNewLine]", ",", 
+        System`RowBox[{"s_Scene3D", ",", System`RowBox[{"which_String:", 
+            "\"d\""}], ",", "o___"}], "]"}], "\[IndentingNewLine]", ",", 
       "\"Show the volumetric distance field\"", "\[IndentingNewLine]", ",", 
       System`RowBox[{"ShowDistanceField3D", "[", System`RowBox[
          {System`RowBox[{"GDSingleDatumToArray", "[", System`RowBox[
@@ -22,4 +22,6 @@ System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[",
    3.6802873852179947*^9}, {3.6802874480133486*^9, 3.6802874900257874*^9}, 
    {3.680347558445272*^9, 3.6803475665706024*^9}, {3.6803477033730392*^9, 
    3.680347714092229*^9}, {3.6803788388227825*^9, 3.6803788783450966*^9}, 
-   3.6809821243162403*^9}, System`CellID -> 316654346]
+   3.6809821243162403*^9, {3.681115030047224*^9, 3.6811150338443046*^9}}, 
+ System`CellTags -> "depersistedCell41f18800-9bd5-4743-912a-7cfc7b4d14c8", 
+ System`CellID -> 316654346]

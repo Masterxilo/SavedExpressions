@@ -66,7 +66,7 @@ cond is optional\""}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]",
                   "\[IndentingNewLine]", "\[FormalE]_", ",", 
                   "\[IndentingNewLine]", System`RowBox[{"expectedType", ":", 
                     "_", ":", "_"}], ",", "\[IndentingNewLine]", 
-                  System`RowBox[{"error_:", "Null"}]}], 
+                  System`RowBox[{"error_:", "\"\""}]}], 
                 "\[IndentingNewLine]", "]"}], "/;", System`RowBox[{
                 System`RowBox[{"Context", "@", "\[FormalF]"}], "=!=", 
                 "\"System`\""}]}], ":=", System`RowBox[
@@ -104,7 +104,7 @@ cond is optional\""}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]",
                   "\[IndentingNewLine]", "\[FormalE]_", ",", 
                   "\[IndentingNewLine]", System`RowBox[{"expectedType", ":", 
                     "_", ":", "_"}], ",", "\[IndentingNewLine]", 
-                  System`RowBox[{"error_:", "Null"}]}], 
+                  System`RowBox[{"error_:", "\"\""}]}], 
                 "\[IndentingNewLine]", "]"}], "/;", System`RowBox[{
                 System`RowBox[{"Context", "@", "\[FormalF]"}], "=!=", 
                 "\"System`\""}]}], ":=", System`RowBox[
@@ -144,5 +144,6 @@ cond is optional\""}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]",
    3.68069473508016*^9}, {3.6808927839341917*^9, 3.680892834592487*^9}, 
    {3.680932906174328*^9, 3.6809329397796855*^9}, 3.6809657035279107*^9, 
    {3.680965736597604*^9, 3.6809657576453533*^9}, {3.6810850146022587*^9, 
-   3.681085071706528*^9}, {3.6810857511983624*^9, 3.6810857524669447*^9}}, 
- System`CellTags -> "depersistedCell9806b049-45bd-4b79-8277-0347b4c14e35"]
+   3.681085071706528*^9}, {3.6810857511983624*^9, 3.6810857524669447*^9}, 
+   {3.6811172163226347*^9, 3.6811172203210106*^9}}, 
+ System`CellTags -> "depersistedCelldb6dedbf-d1ed-4e3d-a799-3af6fdc7c200"]
