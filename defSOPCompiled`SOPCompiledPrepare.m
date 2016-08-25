@@ -58,5 +58,6 @@ optimization Framework for the given function",
        "lengthz" -> SOPCompiled`Private`lengthz, "lengthfz" -> 
         SOPCompiled`Private`lengthfz, "targetName" -> Global`targetFile]]], 
    SOPCompiled`SOPCompiled[SOPCompiled`Private`a_System`Association] /; 
-    System`FileExistsQ[SOPCompiled`Private`a["targetName"]], 
-   "probably compilation failed"]]
+    System`FileExistsQ[SOPCompiled`Private`a["targetName"]], "Hint: Probably \
+compilation of Framework.sln failed. Try manually compiling it. If the log \
+says 'Internal error', just try running it again."]]

@@ -88,32 +88,39 @@ numeric vector y1 with which the given sop would have less energy\"", ",",
             "\"construct a new SOP with less SOPEnergy\"", 
             "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
             System`RowBox[{"Module", "[", System`RowBox[{System`RowBox[
-                 {"{", System`RowBox[{"finalEnergy", ",", "y1"}], "}"}], ",", 
+                 {"{", System`RowBox[{"finalEnergy", ",", System`RowBox[
+                     {"Fy", "=", System`RowBox[{"SOPMakeFy", "@", "p"}]}], 
+                    ",", System`RowBox[{"y1", "=", System`RowBox[{"SOPGetY0", 
+                        "@", "p"}]}]}], "}"}], ",", "\[IndentingNewLine]", 
                 "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[
                    {"TODO", " ", "implement", " ", "multiple", " ", 
                     System`RowBox[{"iterations", ":", " ", System`RowBox[
                        {"create", " ", "SOPMakeFy", " ", "for", " ", "given", 
                         " ", "x"}]}]}], "*)"}], "\[IndentingNewLine]", 
-                System`RowBox[{System`RowBox[{System`RowBox[{"{", 
-                      System`RowBox[{"finalEnergy", ",", "y1"}], "}"}], "=", 
-                    System`RowBox[{"LocalGaussNewton`GaussNewton", "[", 
+                System`RowBox[{System`RowBox[{"ForEach", "[", System`RowBox[
+                     {"iterations", ",", "\[IndentingNewLine]", 
                       "\[IndentingNewLine]", System`RowBox[{System`RowBox[
-                         {"SOPMakeFy", "@", "p"}], ",", 
-                        "\[IndentingNewLine]", System`RowBox[{"SOPJF", "@", 
-                          "p"}], ",", "\[IndentingNewLine]", System`RowBox[
-                         {"SOPGetY0", "@", "p"}]}], "\[IndentingNewLine]", 
-                      "]"}]}], ";", "\[IndentingNewLine]", 
-                  "\[IndentingNewLine]", "y1"}]}], "\[IndentingNewLine]", 
-              "]"}], "\[IndentingNewLine]", ",", System`RowBox[
-             {"_", "?", "NumericVectorQ"}]}], "\[IndentingNewLine]", "]"}], 
-        ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-        System`RowBox[{"(*", System`RowBox[{"gauss", "-", System`RowBox[
-             {"newton", " ", "in", " ", "SOPCompiled"}]}], "*)"}], 
+                         {System`RowBox[{"{", System`RowBox[{"finalEnergy", 
+                          ",", "y1"}], "}"}], "=", System`RowBox[
+                          {"LocalGaussNewton`GaussNewton", "[", 
+                          "\[IndentingNewLine]", System`RowBox[{"Fy", ",", 
+                          "\[IndentingNewLine]", System`RowBox[{"SOP`SOPJFy", 
+                          "[", System`RowBox[{"p", ",", "y1"}], "]"}], ",", 
+                          "\[IndentingNewLine]", "y1"}], 
+                          "\[IndentingNewLine]", "]"}]}], ";"}]}], 
+                    "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}], ";", 
+                  "\[IndentingNewLine]", "\[IndentingNewLine]", "y1"}]}], 
+              "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", ",", 
+            System`RowBox[{"_", "?", "NumericVectorQ"}]}], 
+          "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
         "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[
-           {System`RowBox[{"TODO", " ", "since", " ", "this", " ", "needs", 
-              " ", "quite", " ", "some", " ", "preparation"}], ",", " ", 
-            System`RowBox[{"the", " ", "interface", " ", "should", " ", 
-              "take", " ", "that", " ", "into", " ", "account"}]}], "*)"}], 
+           {"gauss", "-", System`RowBox[{"newton", " ", "in", " ", 
+              "SOPCompiled"}]}], "*)"}], "\[IndentingNewLine]", 
+        System`RowBox[{"(*", System`RowBox[{System`RowBox[{"TODO", " ", 
+              "since", " ", "this", " ", "needs", " ", "quite", " ", "some", 
+              " ", "preparation"}], ",", " ", System`RowBox[
+             {"the", " ", "interface", " ", "should", " ", "take", " ", 
+              "that", " ", "into", " ", "account"}]}], "*)"}], 
         "\[IndentingNewLine]", System`RowBox[{"DefinePublicFunction", "[", 
           "\[IndentingNewLine]", "\[IndentingNewLine]", 
           System`RowBox[{System`RowBox[{"SOPSolveForY", "[", System`RowBox[{
@@ -176,6 +183,8 @@ numeric vector y1 with which the given sop would have less energy\"", ",",
    3.681088639865507*^9}, {3.6810887411949286*^9, 3.681088763593892*^9}, 
    {3.6811167347941256*^9, 3.6811167392689*^9}, {3.6811339079637613*^9, 
    3.681133960641507*^9}, {3.6811339931031694*^9, 3.6811340801438327*^9}, 
-   {3.681134150301581*^9, 3.681134211174858*^9}}, 
- System`CellTags -> "depersistedCell13ba795d-02ee-45ab-90cb-585ceeb31ef3", 
+   {3.681134150301581*^9, 3.681134211174858*^9}, {3.6811510252655525*^9, 
+   3.681151058698228*^9}, {3.6811510984473753*^9, 3.681151148264715*^9}, 
+   {3.681151528081287*^9, 3.6811516203294306*^9}}, 
+ System`CellTags -> "depersistedCellb2acbb41-fbc1-4fa3-b494-22ca7cce11a7", 
  System`CellID -> 176634483]

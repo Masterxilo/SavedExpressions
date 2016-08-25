@@ -150,7 +150,7 @@ System`HoldComplete[Global`NeedsDefined[
            System`True, {}, {}]], System`Hold[System`VerificationTest[
            SOP`SOPEnergy[SOP`SOPSolve[Global`soptest2, System`Method -> 
                System`FindMinimum]] < SOP`SOPEnergy[Global`soptest2], 
-           System`True, {}, {}]]}]; SceneX`select[_] := 
+           System`True, {}, {}]]}, Global`silent]; SceneX`select[_] := 
         {SOPCompiled`Private`x -> SOPCompiled`Private`x}; 
        Global`ys = {SOPCompiled`Private`x}; SOP`xs = {SOPCompiled`Private`x}; 
        SOP`ps = {0}; Testing`RunHeldVerificationTests[
@@ -159,8 +159,8 @@ System`HoldComplete[Global`NeedsDefined[
             Global`ys], {{{1}, {1}}}, {}, {}]], System`Hold[
           System`VerificationTest[SOP`SOPxIndices[SceneX`select, SOP`ps, 
             SOP`xs], {{1}}, {}, {}]], System`Hold[System`VerificationTest[
-           SOP`SOPyIndices[SOP`xs, Global`ys], {1}, {}, {}]]}]; 
-       SceneX`select[SOPCompiled`Private`i_] := 
+           SOP`SOPyIndices[SOP`xs, Global`ys], {1}, {}, {}]]}, 
+        Global`silent]; SceneX`select[SOPCompiled`Private`i_] := 
         {SOPCompiled`Private`x[0] -> SOPCompiled`Private`x[
            SOPCompiled`Private`i]}; Global`ys = {SOPCompiled`Private`x[0], 
          SOPCompiled`Private`x[1]}; SOP`xs = {SOPCompiled`Private`x[0], 
@@ -171,7 +171,8 @@ System`HoldComplete[Global`NeedsDefined[
          System`Hold[System`VerificationTest[SOP`SOPxIndices[SceneX`select, 
             SOP`ps, SOP`xs], {{1}, {2}}, {}, {}]], System`Hold[
           System`VerificationTest[SOP`SOPyIndices[SOP`xs, Global`ys], {1, 2}, 
-           {}, {}]]}]; SceneX`select[SOPCompiled`Private`i_] := 
+           {}, {}]]}, Global`silent]; 
+       SceneX`select[SOPCompiled`Private`i_] := 
         {SOPCompiled`Private`x[0] -> SOPCompiled`Private`x[
            SOPCompiled`Private`i]}; Global`ys = {SOPCompiled`Private`x[0]}; 
        SOP`xs = {SOPCompiled`Private`x[0], SOPCompiled`Private`x[1]}; 
@@ -182,4 +183,4 @@ System`HoldComplete[Global`NeedsDefined[
          System`Hold[System`VerificationTest[SOP`SOPxIndices[SceneX`select, 
             SOP`ps, SOP`xs], {{1}, {2}}, {}, {}]], System`Hold[
           System`VerificationTest[SOP`SOPyIndices[SOP`xs, Global`ys], {1}, 
-           {}, {}]]}]; ]]; , _, ""]]
+           {}, {}]]}, Global`silent]; ]]; , _, ""]]

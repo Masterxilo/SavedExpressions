@@ -10,9 +10,9 @@ System`HoldComplete[Global`NeedsDefined[System`CompoundExpression,
    System`Module, SOP`energy, SOP`sol, SOP`nsop, System`Off, 
    System`MessageName, System`Check, SOP`SOPObjectiveExpression, 
    System`Apply, SOP`SOPYData, System`Null, System`False, System`SameQ, 
-   System`Keys, System`Values, SOPCompiled`finalEnergy, 
-   LocalGaussNewton`GaussNewton, SOP`SOPMakeFy, SOP`SOPJF, SOP`SOPGetY0, 
-   SOPCompiled`Private`a, System`Association, SOPCompiled`engine, 
+   System`Keys, System`Values, SOPCompiled`finalEnergy, Global`Fy, 
+   SOP`SOPMakeFy, SOP`SOPGetY0, paul`ForEach, LocalGaussNewton`GaussNewton, 
+   SOP`SOPJFy, SOPCompiled`Private`a, System`Association, SOPCompiled`engine, 
    SOPCompiled`SOPCompiledPrepare, 
    SOPCompiled`SOPCompiledOptimizePreprocessed, SOP`SOPGetX0]; 
   (PackageDeveloper`RedefinePublicFunction[SOPD`SOPSolveForY[
@@ -41,12 +41,13 @@ n numeric vector y1 with which the given sop would have less energy",
      Global`p_SOP`SparseOptimizationProblem, "GaussNewton", 
      SOPCompiled`Private`iterations_System`Integer], 
     "construct a new SOP with less SOPEnergy", 
-    System`Module[{SOPCompiled`finalEnergy, SOP`y1}, 
-     {SOPCompiled`finalEnergy, SOP`y1} = LocalGaussNewton`GaussNewton[
-        SOP`SOPMakeFy[Global`p], SOP`SOPJF[Global`p], 
-        SOP`SOPGetY0[Global`p]]; SOP`y1], _?numerics`NumericVectorQ]; 
-   PackageDeveloper`DefinePublicFunction[SOPD`SOPSolveForY[
-     Global`p:SOP`SparseOptimizationProblem[
+    System`Module[{SOPCompiled`finalEnergy, Global`Fy = 
+       SOP`SOPMakeFy[Global`p], SOP`y1 = SOP`SOPGetY0[Global`p]}, 
+     paul`ForEach[SOPCompiled`Private`iterations, 
+       {SOPCompiled`finalEnergy, SOP`y1} = LocalGaussNewton`GaussNewton[
+          Global`Fy, SOP`SOPJFy[Global`p, SOP`y1], SOP`y1]; ]; SOP`y1], 
+    _?numerics`NumericVectorQ]; PackageDeveloper`DefinePublicFunction[
+    SOPD`SOPSolveForY[Global`p:SOP`SparseOptimizationProblem[
        SOPCompiled`Private`a_System`Association], "SOPCompiled", 
      SOPCompiled`Private`iterations_System`Integer], "", 
     System`Module[{SOPCompiled`engine, SOP`y1}, 

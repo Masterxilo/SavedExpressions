@@ -6,11 +6,12 @@ System`HoldComplete[Global`NeedsDefined[
    System`And, System`SameQ, SOPCompiled`$InstalledExe, paul`Contains, 
    System`Links, SOPCompiled`$InstalledLink, System`Quiet, System`Check, 
    SOPCompiled`Private`get42, System`False, System`Throw, System`Uninstall, 
-   System`Set, System`Install, System`Print, System`LinkPatterns, 
-   System`VerificationTest, SOPCompiled`Private`addf, System`HoldForm, 
-   SOPCompiled`Private`lengthzGet, SOPCompiled`Private`lengthfzGet, 
-   SOPCompiled`Private`printv, System`RandomReal, 
-   SOPCompiled`Private`testMain, SOPCompiled`Private`print, System`Null]; 
+   System`SetEnvironment, System`Rule, System`Set, System`Install, 
+   System`Print, System`LinkPatterns, System`VerificationTest, 
+   SOPCompiled`Private`addf, System`HoldForm, SOPCompiled`Private`lengthzGet, 
+   SOPCompiled`Private`lengthfzGet, SOPCompiled`Private`printv, 
+   System`RandomReal, SOPCompiled`Private`testMain, 
+   SOPCompiled`Private`print, System`Null]; 
   PackageDeveloper`RedefinePublicFunction[SOPCompiled`EnsureInstalled[
     SOPCompiled`engine:SOPCompiled`SOPCompiled[
       SOPCompiled`Private`a_System`Association]], "Ensures that the currently \
@@ -21,7 +22,8 @@ installed SOPCompiled engine is the one indicated",
          SOPCompiled`$InstalledLink] && System`Quiet[System`Check[
           SOPCompiled`Private`get42[] === 42, System`False]], 
        System`Throw[0]]; System`Quiet[System`Uninstall[
-        SOPCompiled`$InstalledExe]]; SOPCompiled`$InstalledLink = 
+        SOPCompiled`$InstalledExe]]; System`SetEnvironment[
+       "NSIGHT_CUDA_DEBUGGER" -> "1"]; SOPCompiled`$InstalledLink = 
        System`Install[SOPCompiled`$InstalledExe = SOPCompiled`Private`a[
           "targetName"]]; System`Print[System`LinkPatterns[
         SOPCompiled`$InstalledLink]]; System`Print[System`VerificationTest[
@@ -35,4 +37,4 @@ installed SOPCompiled engine is the one indicated",
          SOPCompiled`Private`lengthfzGet[]], SOPCompiled`Private`a[
          "lengthfz"]]]; SOPCompiled`Private`printv[System`RandomReal[1., 
         {100}]]; SOPCompiled`Private`testMain[]; SOPCompiled`Private`print[
-       "POST ends"]; ]], _, System`Null]]
+       "POST ends"]; ]], _, ""]]

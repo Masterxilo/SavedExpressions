@@ -15,14 +15,13 @@ System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[",
                           ",", System`RowBox[{"{", System`RowBox[{"1", ",", 
                           "1", ",", "1"}], "}"}]}], "}"}], ",", "3"}], 
                     "]"}]}]}], ",", "\[IndentingNewLine]", System`RowBox[{
-                "trivialScene3Dl", "=", System`RowBox[{"Normalize", "@", 
-                  System`RowBox[{"{", System`RowBox[{"1.", ",", "1."}], 
-                    "}"}]}]}], ",", System`RowBox[{"(*", System`RowBox[
-                 {"TODO", " ", "change", " ", "lighting", " ", "model"}], 
-                "*)"}], "\[IndentingNewLine]", System`RowBox[{
-                "trivialScene3DC", "=", System`RowBox[{"Table", "[", 
-                  System`RowBox[{"1.", ",", "3", ",", "3", ",", "3", ",", 
-                    "3"}], "]"}]}], ",", "\[IndentingNewLine]", 
+                "trivialScene3Dl", "=", 
+                "Scene3DEnergyLightIntensityExampleParameters"}], ",", 
+              System`RowBox[{"(*", System`RowBox[{"TODO", " ", "change", " ", 
+                  "lighting", " ", "model"}], "*)"}], "\[IndentingNewLine]", 
+              System`RowBox[{"trivialScene3DC", "=", System`RowBox[
+                 {"Table", "[", System`RowBox[{"1.", ",", "3", ",", "3", ",", 
+                    "3", ",", "3"}], "]"}]}], ",", "\[IndentingNewLine]", 
               System`RowBox[{"trivialScene3Dgd", "=", System`RowBox[
                  {"GridDataMakeFromArrays", "[", "\[IndentingNewLine]", 
                   System`RowBox[{System`RowBox[{"{", System`RowBox[{"\"a\"", 
@@ -35,7 +34,9 @@ System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[",
                   "]"}]}]}], "\[IndentingNewLine]", "}"}], ",", 
           "\[IndentingNewLine]", System`RowBox[{"Scene3DMake", "[", 
             System`RowBox[{"trivialScene3Dl", ",", "trivialScene3Dgd"}], 
-            "]"}]}], "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
-    "\[IndentingNewLine]", "]"}]], "Input", System`CellChangeTimes -> 
-  {{3.680982224136711*^9, 3.680982283937095*^9}, {3.6809824653688207*^9, 
-  3.680982467369991*^9}}]
+            "]"}]}], "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", 
+      ",", "_Scene3D"}], "\[IndentingNewLine]", "]"}]], "Input", 
+ System`CellChangeTimes -> {{3.680982224136711*^9, 3.680982283937095*^9}, 
+  {3.6809824653688207*^9, 3.680982467369991*^9}, {3.6811499733174324*^9, 
+  3.6811499976835117*^9}}, System`CellTags -> 
+  "depersistedCelled0e8b34-f6c1-4397-a2d3-e82e42ac6c8d"]
