@@ -1,26 +1,25 @@
-System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[", 
-    System`RowBox[{"SOP`SOPFx", ",", "\[IndentingNewLine]", 
-      System`RowBox[{System`RowBox[{"RedefinePublicFunction", "[", 
-          "\[IndentingNewLine]", System`RowBox[
-           {System`RowBox[{"SOP`SOPFx", "[", "p_SparseOptimizationProblem", 
-              "]"}], "\[IndentingNewLine]", ",", "\"F(x0)\"", 
-            "\[IndentingNewLine]", ",", System`RowBox[{"Flatten", "@", 
-              System`RowBox[{"SOPEnergyVector", "[", "p", "]"}]}]}], 
-          "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
-        "\[IndentingNewLine]", System`RowBox[{"DefinePublicFunction", "[", 
-          "\[IndentingNewLine]", System`RowBox[
-           {System`RowBox[{System`RowBox[{"SOP`SOPFx", "[", System`RowBox[
-                 {"p_SparseOptimizationProblem", ",", System`RowBox[
-                   {"x", ":", System`RowBox[{"{", "__Real", "}"}]}]}], "]"}], 
-              "/;", System`RowBox[{System`RowBox[{"Length", "@", "x"}], 
-                "\[Equal]", System`RowBox[{"Length", "@", System`RowBox[
-                   {"SOPGetX0", "[", "p", "]"}]}]}]}], ",", 
-            "\[IndentingNewLine]", "\"F(x)\"", ",", "\[IndentingNewLine]", 
-            System`RowBox[{"Flatten", "@", System`RowBox[{"SOPEnergyVector", 
-                "[", System`RowBox[{"p", ",", "x"}], "]"}]}]}], 
-          "\[IndentingNewLine]", "]"}], ";"}]}], "\[IndentingNewLine]", 
-    "\[IndentingNewLine]", "]"}]], "Input", System`CellChangeTimes -> 
-  {{3.6809396824526873*^9, 3.680939780715475*^9}, 3.680939859967737*^9, 
-   {3.680940014586996*^9, 3.6809400345796576*^9}, 3.6809400926726427*^9, 
-   {3.6809401453813457*^9, 3.6809401538992205*^9}}, 
- System`CellTags -> "depersistedCellecf3fa98-3420-4b53-8e7a-807da574a9f1"]
+System`Cell[System`BoxData[System`RowBox[
+   {System`RowBox[{"PRedefinePublicFunction", "[", "\[IndentingNewLine]", 
+      System`RowBox[{System`RowBox[{System`RowBox[{"SOP`SOPFx", "[", 
+            System`RowBox[{"p_SparseOptimizationProblem", 
+              "\[IndentingNewLine]", ",", System`RowBox[{"x", ":", "_List", 
+                System`RowBox[{"(*", System`RowBox[{"should", " ", "be", " ", 
+                    "TODO", " ", System`RowBox[{"{", "__Real", "}"}]}], 
+                  "*)"}], ":", System`RowBox[{"{", "}"}]}]}], "]"}], "/;", 
+          System`RowBox[{System`RowBox[{System`RowBox[{"Length", "@", "x"}], 
+              "===", "0"}], "||", System`RowBox[{System`RowBox[{"Length", 
+                "@", "x"}], "===", System`RowBox[{"Length", "@", 
+                System`RowBox[{"SOPGetX0", "[", "p", "]"}]}]}]}]}], 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+        "\"F(x) for the stored x0 or for a user-specified x\"", ",", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        System`RowBox[{"Flatten", "@", System`RowBox[{"SOPEnergyVector", "[", 
+            System`RowBox[{"p", ",", System`RowBox[{"If", "[", System`RowBox[
+                 {System`RowBox[{"x", "===", System`RowBox[{"{", "}"}]}], 
+                  ",", System`RowBox[{"SOPGetX0", "[", "p", "]"}], ",", 
+                  "x"}], "]"}]}], "]"}]}]}], "\[IndentingNewLine]", 
+      "\[IndentingNewLine]", "]"}], ";"}]], "Input", 
+ System`CellChangeTimes -> {{3.681129289477418*^9, 3.6811293054220524*^9}, 
+  {3.681147800980341*^9, 3.681147813127285*^9}, {3.681147856199168*^9, 
+  3.6811478615644855*^9}}, System`CellTags -> 
+  "depersistedCell3dccaa88-dab6-4242-a89f-0eaebfa1f5a1"]

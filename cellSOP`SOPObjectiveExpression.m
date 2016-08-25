@@ -6,6 +6,9 @@ System`Cell[System`BoxData[System`RowBox[
         System`RowBox[{"Norm2", "@", System`RowBox[{"Flatten", "@", 
             System`RowBox[{"SOPObjectiveVector", "[", "p", "]"}]}]}]}], 
       "\[IndentingNewLine]", "]"}], ";"}]], "Input", 
- System`CellChangeTimes -> {{3.68027226127938*^9, 3.680272278476823*^9}, 
-   3.680274385150546*^9, {3.680379469607842*^9, 3.680379492644586*^9}, 
-   3.680933619174288*^9}, System`CellID -> 985490646]
+ System`GeneratedCell -> System`True, System`CellAutoOverwrite -> 
+  System`True, System`CellChangeTimes -> {{3.68027226127938*^9, 
+   3.680272278476823*^9}, 3.680274385150546*^9, {3.680379469607842*^9, 
+   3.680379492644586*^9}, 3.680933619174288*^9, 3.6811313513695774*^9}, 
+ System`CellTags -> "depersistedCelle35a531a-9e40-45af-9221-1d1b047d6bd9", 
+ System`CellID -> 985490646]

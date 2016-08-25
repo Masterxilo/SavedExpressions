@@ -74,18 +74,28 @@ onDataBuildFxAndJFxAndSolveRepeatedly", "[", "\[IndentingNewLine]",
                   "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[
                      {System`RowBox[{"solve", "[", "]"}], ";", System`RowBox[
                        {System`RowBox[{"--", " ", "done"}], " ", "above"}]}], 
-                    "*)"}], "\[IndentingNewLine]", System`RowBox[
-                   {"SOPCompiled`Private`xGet", "[", "]"}]}]}], 
-              System`RowBox[{"(*", System`RowBox[{"TODO", " ", "doing", " ", 
-                  "just", " ", "getY", " ", "would", " ", "submit", " ", 
-                  "less", " ", "data"}], "*)"}], "\[IndentingNewLine]", 
-              "]"}], "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
-            System`RowBox[{"x1_", "/;", System`RowBox[{System`RowBox[
-                 {"NumericVectorQ", "@", "x1"}], "&&", System`RowBox[
-                 {System`RowBox[{"Length", "@", "x1"}], ">", "0"}]}]}]}], 
-          "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
-        "\[IndentingNewLine]", System`RowBox[
-         {System`RowBox[{"Options", "@", 
+                    "*)"}], "\[IndentingNewLine]", System`RowBox[{"With", 
+                    "[", System`RowBox[{System`RowBox[{"{", System`RowBox[
+                         {"y1", "=", System`RowBox[
+                          {"SOPCompiled`Private`getY", "[", System`RowBox[
+                          {"Length", "@", "yIndicesCIndex"}], "]"}]}], 
+                        System`RowBox[{"(*", System`RowBox[{"need", " ", 
+                          "to", " ", "pass", " ", "size", " ", "of", " ", 
+                          "y", " ", "for", " ", "_Out", "_write", "_"}], 
+                          "*)"}], "}"}], ",", "\[IndentingNewLine]", 
+                      System`RowBox[{System`RowBox[{"Assert", "[", 
+                          System`RowBox[{System`RowBox[{"Length", "@", 
+                          "y1"}], "\[Equal]", System`RowBox[{"Length", "@", 
+                          "yIndicesCIndex"}]}], "]"}], ";", 
+                        "\[IndentingNewLine]", "y1"}]}], 
+                    "\[IndentingNewLine]", "]"}]}]}], "\[IndentingNewLine]", 
+              "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", 
+            "\[IndentingNewLine]", ",", System`RowBox[{"y1_", "/;", 
+              System`RowBox[{System`RowBox[{"NumericVectorQ", "@", "y1"}], 
+                "&&", System`RowBox[{System`RowBox[{"Length", "@", "y1"}], 
+                  ">", "0"}]}]}]}], "\[IndentingNewLine]", "]"}], ";", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        System`RowBox[{System`RowBox[{"Options", "@", 
             "SOPCompiled`SOPCompiledOptimizePreprocessed"}], "=", 
           System`RowBox[{"{", System`RowBox[{System`RowBox[{"MaxIterations", 
                 "\[Rule]", "1"}], ",", System`RowBox[{"Method", "\[Rule]", 
@@ -101,5 +111,6 @@ onDataBuildFxAndJFxAndSolveRepeatedly", "[", "\[IndentingNewLine]",
    3.6810518499503546*^9}, 3.6810659895520267*^9, {3.6810660586842937*^9, 
    3.681066073221874*^9}, {3.681066142822384*^9, 3.6810662676503468*^9}, 
    3.681067707675727*^9, {3.681067751274124*^9, 3.681067813226429*^9}, 
-   {3.6810738830095377*^9, 3.6810738972122765*^9}}, 
- System`CellTags -> "depersistedCell789a562f-06aa-4101-a96f-9f37aafa6f05"]
+   {3.6810738830095377*^9, 3.6810738972122765*^9}, {3.6811341021060715*^9, 
+   3.6811341322893934*^9}, {3.6811354876480103*^9, 3.681135556586088*^9}}, 
+ System`CellTags -> "depersistedCellf150edd2-3296-4b64-a8ce-5688cf5251f2"]

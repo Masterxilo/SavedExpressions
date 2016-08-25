@@ -1,29 +1,48 @@
 System`HoldComplete[Global`NeedsDefined[
-   PackageDeveloper`RedefinePublicFunction, SOP`SOPJF, SOP`sop, 
-   SOP`SparseOptimizationProblem, Global`a, paul`LetL, SOP`x0, SOP`xIndices, 
-   SOP`sparseDerivativeZtoYIndices, SOP`lengthz, SOP`lengthfz, SOP`lengthp, 
-   SOP`lengthFx, SOP`lengthY, SOP`ridf, SOP`J, paul`ForEach, Global`i, 
-   SOP`ztoYIndices, SOP`zIndices, SOP`yIndices, Global`z, SOP`dfzs, 
-   RIFunction`RIFunctionEvaluateNameless]; 
-  PackageDeveloper`RedefinePublicFunction[
+   PackageDeveloper`RedefinePublicFunction, SOP`SOPJF, System`Pattern, 
+   SOP`sop, SOP`SparseOptimizationProblem, SOPCompiled`Private`a, 
+   System`Blank, System`Association, paul`LetL, System`List, System`Set, 
+   SOP`x0, SOPCompiled`Private`xIndices, 
+   SOPCompiled`Private`sparseDerivativeZtoYIndices, 
+   SOPCompiled`Private`lengthz, SOPCompiled`Private`lengthfz, SOP`lengthp, 
+   SOP`lengthFx, SOP`lengthY, SOP`ridf, System`Module, SOP`J, 
+   System`CompoundExpression, System`Assert, System`Greater, 
+   System`SparseArray, paul`ForEach, SOPCompiled`Private`i, SOP`ztoYIndices, 
+   System`Part, SOP`zIndices, System`First, SOPCompiled`Private`yIndices, 
+   System`Last, Global`z, SOP`dfzs, System`Map, System`Function, 
+   RIFunction`RIFunctionEvaluateNameless, System`Slot, System`Equal, 
+   System`Length, System`Span, System`Plus, System`Times, System`Transpose, 
+   System`Null, System`Return]; PackageDeveloper`RedefinePublicFunction[
    SOP`SOPJF[SOP`sop:SOP`SparseOptimizationProblem[
-      Global`a_System`Association]], "construct the jacobian dF/dy \
-(x0)\n\nc.f. buildFxandJFx, variable names are chosen to match", 
-   paul`LetL[{SOP`x0 = Global`a["x0"], SOP`xIndices = Global`a["xIndices"], 
-     SOP`sparseDerivativeZtoYIndices = 
-      Global`a["sparseDerivativeZtoYIndices"], 
-     SOP`lengthz = Global`a["lengthz"], SOP`lengthfz = Global`a["lengthfz"], 
-     SOP`lengthp = Global`a["lengthp"], SOP`lengthFx = Global`a["lengthFx"], 
-     SOP`lengthY = Global`a["lengthY"], SOP`ridf = Global`a["ridf"]}, 
-    System`Module[{SOP`J}, SOP`J = System`SparseArray[{}, 
+      SOPCompiled`Private`a_System`Association]], "construct the jacobian \
+dF/dy (x0)\n\nc.f. buildFxandJFx, variable names are chosen to match", 
+   paul`LetL[{SOP`x0 = SOPCompiled`Private`a["x0"], 
+     SOPCompiled`Private`xIndices = SOPCompiled`Private`a["xIndices"], 
+     SOPCompiled`Private`sparseDerivativeZtoYIndices = 
+      SOPCompiled`Private`a["sparseDerivativeZtoYIndices"], 
+     SOPCompiled`Private`lengthz = SOPCompiled`Private`a["lengthz"], 
+     SOPCompiled`Private`lengthfz = SOPCompiled`Private`a["lengthfz"], 
+     SOP`lengthp = SOPCompiled`Private`a["lengthp"], 
+     SOP`lengthFx = SOPCompiled`Private`a["lengthFx"], 
+     SOP`lengthY = SOPCompiled`Private`a["lengthY"], 
+     SOP`ridf = SOPCompiled`Private`a["ridf"]}, System`Module[{SOP`J}, 
+     System`Assert[SOP`lengthFx > 0]; System`Assert[SOP`lengthY > 0]; 
+      System`Assert[SOP`lengthp > 0]; System`Assert[
+       SOPCompiled`Private`lengthz > 0]; System`Assert[
+       SOPCompiled`Private`lengthfz > 0]; SOP`J = System`SparseArray[{}, 
         {SOP`lengthFx, SOP`lengthY}, 0.]; paul`ForEach[
-       {Global`i, SOP`lengthp}, paul`LetL[{SOP`ztoYIndices = 
-          SOP`sparseDerivativeZtoYIndices[[Global`i]], 
-         SOP`zIndices = System`First[SOP`ztoYIndices], 
-         SOP`yIndices = System`Last[SOP`ztoYIndices], 
-         Global`z = SOP`x0[[SOP`xIndices[[Global`i]]]], 
+       {SOPCompiled`Private`i, SOP`lengthp}, 
+       paul`LetL[{SOP`ztoYIndices = 
+          SOPCompiled`Private`sparseDerivativeZtoYIndices[[
+           SOPCompiled`Private`i]], SOP`zIndices = System`First[
+           SOP`ztoYIndices], SOPCompiled`Private`yIndices = 
+          System`Last[SOP`ztoYIndices], Global`z = 
+          SOP`x0[[SOPCompiled`Private`xIndices[[SOPCompiled`Private`i]]]], 
          SOP`dfzs = (RIFunction`RIFunctionEvaluateNameless[#1, 
              Global`z] & ) /@ SOP`ridf[[SOP`zIndices]]}, 
-        SOP`J[[(Global`i - 1)*SOP`lengthfz + 1 ;; Global`i*SOP`lengthfz,
-           SOP`yIndices]] = System`Transpose[SOP`dfzs]; ]]; 
-      System`Return[SOP`J]; ]], _]]
+        System`Assert[System`Length[SOP`zIndices] == System`Length[
+            SOPCompiled`Private`yIndices]]; 
+         SOP`J[[(SOPCompiled`Private`i - 1)*SOPCompiled`Private`lengthfz + 
+             1 ;; SOPCompiled`Private`i*SOPCompiled`Private`lengthfz,
+           SOPCompiled`Private`yIndices]] = System`Transpose[SOP`dfzs]; ]]; 
+      System`Return[SOP`J]; ]], _, ""]]

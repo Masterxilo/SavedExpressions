@@ -1,6 +1,7 @@
 System`HoldComplete[Global`NeedsDefined[
    PackageDeveloper`RedefinePublicFunction, SOP`SOPDataAsRules, 
-   SOP`SparseOptimizationProblem, Global`a]; 
-  PackageDeveloper`RedefinePublicFunction[SOP`SOPDataAsRules[
-    SOP`SparseOptimizationProblem[Global`a_System`Association]], 
-   "one representation of data", Global`a["data"], _]]
+   SOP`SparseOptimizationProblem, System`Pattern, SOPCompiled`Private`a, 
+   System`Blank, System`Association]; PackageDeveloper`RedefinePublicFunction[
+   SOP`SOPDataAsRules[SOP`SparseOptimizationProblem[
+     SOPCompiled`Private`a_System`Association]], 
+   "one representation of data", SOPCompiled`Private`a["data"], _, ""]]
