@@ -10,15 +10,19 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
                 System`RowBox[{"OptionsPattern", "[", "]"}]}], 
               "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", 
             "\[IndentingNewLine]", ",", "\"\"", ",", "\[IndentingNewLine]", 
-            "\[IndentingNewLine]", System`RowBox[{System`RowBox[{
-                System`RowBox[{"SOPSolveForY", "[", System`RowBox[{"#", ",", 
-                    System`RowBox[{"Method", "\[Rule]", System`RowBox[
-                       {"OptionValue", "@", "Method"}]}], ",", System`RowBox[
-                     {"MaxIterations", "\[Rule]", System`RowBox[
-                       {"OptionValue", "@", "MaxIterations"}]}]}], "]"}], 
-                "&"}], "/@", System`RowBox[{"a", "[", "\"sops\"", "]"}]}]}], 
-          "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}], ";", 
-        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+            System`RowBox[{"(*", System`RowBox[{"TODO", " ", "parallelize"}], 
+              "*)"}], "\[IndentingNewLine]", System`RowBox[
+             {System`RowBox[{System`RowBox[{"SOPSolveForY", "[", 
+                  System`RowBox[{"#", ",", System`RowBox[{"Method", 
+                      "\[Rule]", System`RowBox[{"OptionValue", "@", 
+                        "Method"}]}], ",", System`RowBox[{"MaxIterations", 
+                      "\[Rule]", System`RowBox[{"OptionValue", "@", 
+                        "MaxIterations"}]}]}], "]"}], "&"}], "/@", 
+              System`RowBox[{"a", "[", "\"sops\"", "]"}]}], 
+            "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+            System`RowBox[{"{", System`RowBox[{System`RowBox[{"_", "?", 
+                  "NumericVectorQ"}], ".."}], "}"}]}], "\[IndentingNewLine]", 
+          "]"}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
         System`RowBox[{System`RowBox[{"Options", "@", "SOPDSolveForY"}], "=", 
           System`RowBox[{"{", System`RowBox[{System`RowBox[{"Method", 
                 "\[Rule]", "\"GaussNewton\""}], ",", System`RowBox[{
@@ -32,5 +36,6 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
    3.6811288246539617*^9}, {3.6811293372565413*^9, 3.6811293643863115*^9}, 
    {3.6811312081370044*^9, 3.681131235136011*^9}, {3.6811337104933624*^9, 
    3.6811337175546494*^9}, {3.681133767476751*^9, 3.681133874150301*^9}, 
-   3.681134284976097*^9, {3.6811345707395115*^9, 3.6811345841819696*^9}}, 
- System`CellTags -> "depersistedCell153bcc98-922a-4b1d-91d0-cda63f289bda"]
+   3.681134284976097*^9, {3.6811345707395115*^9, 3.6811345841819696*^9}, 
+   {3.6811673944950323*^9, 3.681167432656031*^9}}, 
+ System`CellTags -> "depersistedCell9bbf2ebc-55c6-435d-be24-e1bb49e98aa0"]

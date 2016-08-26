@@ -11,9 +11,11 @@ System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[",
       "\[IndentingNewLine]", ",", "\"create a sop for optimizing a and d of \
 this Scene2D. Depends on SparseOptimizationProblem`\"", 
       "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
+      System`RowBox[{"(*", System`RowBox[{"takes", " ", "forever", " ", 
+          "for", " ", "some", " ", "reason"}], "*)"}], "\[IndentingNewLine]", 
       System`RowBox[{System`RowBox[{"{", System`RowBox[{"sop", "=", 
-            System`RowBox[{"SparseOptimizationProblemMake", "[", 
-              "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+            System`RowBox[{"SOPD`SparseOptimizationProblemDecomposedMake", 
+              "[", "\[IndentingNewLine]", System`RowBox[{System`RowBox[
                  {"Scene2DEnergyf", "[", "s", "]"}], "\[IndentingNewLine]", 
                 ",", System`RowBox[{"Scene2DEnergySelect", "@", "s"}], 
                 "\[IndentingNewLine]", ",", System`RowBox[
@@ -21,10 +23,10 @@ this Scene2D. Depends on SparseOptimizationProblem`\"",
                     "block"}], "]"}], "\[IndentingNewLine]", ",", 
                 System`RowBox[{"Scene2DEnergyData", "[", System`RowBox[
                    {"s", ",", "weights"}], "]"}], "\[IndentingNewLine]", ",", 
-                System`RowBox[{"Scene2DEnergyYPDecomposed", "[", 
-                  System`RowBox[{"s", ",", "block"}], "]"}]}], 
-              "\[IndentingNewLine]", "]"}]}], "}"}], "~", "With", "~", 
-        System`RowBox[{"(", "\[IndentingNewLine]", System`RowBox[
+                System`RowBox[{"Scene2DEnergyYDecomposed", "[", System`RowBox[
+                   {"s", ",", "block"}], "]"}]}], "\[IndentingNewLine]", 
+              "]"}]}], "}"}], "~", "With", "~", System`RowBox[
+         {"(", "\[IndentingNewLine]", System`RowBox[
            {"(*", System`RowBox[{System`RowBox[{"Assert", "@", System`RowBox[
                  {"MachineRealQ", "@", System`RowBox[{"SOPEnergy", "@", 
                     "sop"}]}]}], ";"}], "*)"}], "\[IndentingNewLine]", "sop", 
@@ -39,6 +41,8 @@ this Scene2D. Depends on SparseOptimizationProblem`\"",
    3.680933915601369*^9}, 3.680953213076724*^9, {3.680953296687099*^9, 
    3.6809532987810354*^9}, {3.6809635074800096*^9, 3.6809635102463465*^9}, 
    {3.681140701839118*^9, 3.6811407852151127*^9}, {3.681140913907797*^9, 
-   3.6811409466128907*^9}}, System`CellTags -> 
-  "depersistedCell0f485790-c19d-4b9e-92c1-b0fe7bdd9399", 
+   3.6811409466128907*^9}, 3.6811662686815057*^9, {3.6811663031698523*^9, 
+   3.6811663090763493*^9}, 3.681166344526495*^9, {3.681166404880541*^9, 
+   3.6811664067399917*^9}, {3.681167043590516*^9, 3.6811670915203857*^9}}, 
+ System`CellTags -> "depersistedCell9bbf2ebc-55c6-435d-be24-e1bb49e98aa0", 
  System`CellID -> 132682286]

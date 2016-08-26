@@ -60,4 +60,5 @@ optimization Framework for the given function",
    SOPCompiled`SOPCompiled[SOPCompiled`Private`a_System`Association] /; 
     System`FileExistsQ[SOPCompiled`Private`a["targetName"]], "Hint: Probably \
 compilation of Framework.sln failed. Try manually compiling it. If the log \
-says 'Internal error', just try running it again."]]
+says 'Internal error' (nvcc error : 'ptxas' died with status 0xC0000005 \
+(ACCESS_VIOLATION) ), just try running it again."]]

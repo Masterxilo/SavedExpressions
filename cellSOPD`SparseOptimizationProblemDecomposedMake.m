@@ -16,42 +16,61 @@ System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[",
             "~", "ContainsAll", "~", System`RowBox[{"Flatten", "[", 
               System`RowBox[{"ys", ",", "1"}], "]"}]}], "&&", 
           System`RowBox[{System`RowBox[{"Length", "@", "ps"}], "===", 
-            System`RowBox[{"Length", "@", "ys"}]}], "&&", 
-          System`RowBox[{System`RowBox[{"Intersection", "@@", "ys"}], "===", 
-            System`RowBox[{"Intersection", "@@", "ps"}], "===", 
-            System`RowBox[{"{", "}"}]}]}]}], System`RowBox[
-       {"(*", System`RowBox[{System`RowBox[{"TODO", " ", "since", " ", 
-            "these", " ", "need", " ", "to", " ", "have", " ", "same", " ", 
-            "length"}], ",", " ", System`RowBox[{"another", " ", "syntax", 
-            " ", "might", " ", "be", " ", "more", " ", "suggestive"}]}], 
-        "*)"}], "\[IndentingNewLine]", "\[IndentingNewLine]", ",", "\"explici\
-t parallelization scheme with multiple energy defining points and target y\""\
-, ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      System`RowBox[{"With", "[", "\[IndentingNewLine]", 
-        System`RowBox[{System`RowBox[{"{", System`RowBox[{"rif", "=", 
-              System`RowBox[{"RIFunctionMakeFromExpressionList", "[", 
-                System`RowBox[{"f", ",", System`RowBox[{"Keys", "@", 
-                    System`RowBox[{"select", "@", System`RowBox[{"First", 
-                        "@", System`RowBox[{"First", "@", "ps"}]}]}]}]}], 
-                "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+            System`RowBox[{"Length", "@", "ys"}]}], "\[IndentingNewLine]", 
+          "&&", System`RowBox[{"(", System`RowBox[{System`RowBox[{
+                System`RowBox[{"Length", "@", "ys"}], ">", "1"}], 
+              "\[Implies]", System`RowBox[{System`RowBox[{"Intersection", 
+                  "@@", "ys"}], "===", System`RowBox[{"Intersection", "@@", 
+                  "ps"}], "===", System`RowBox[{"{", "}"}]}]}], ")"}]}]}], 
+      System`RowBox[{"(*", System`RowBox[{System`RowBox[{"TODO", " ", 
+            "since", " ", "these", " ", "need", " ", "to", " ", "have", " ", 
+            "same", " ", "length"}], ",", " ", System`RowBox[
+           {"another", " ", "syntax", " ", "might", " ", "be", " ", "more", 
+            " ", "suggestive"}]}], "*)"}], "\[IndentingNewLine]", 
+      System`RowBox[{"(*", System`RowBox[
+         {System`RowBox[{System`RowBox[{"TODO", " ", "memory", " ", "usage", 
+              " ", "explodes", " ", "then", " ", "drops", " ", "again"}], 
+            "..."}], " ", "256", "mb", " ", System`RowBox[
+           {"for", ":", "\[IndentingNewLine]", System`RowBox[
+             {"Scene2DSparseOptimizationProblemDecomposed", "[", 
+              System`RowBox[{System`RowBox[{"Scene2DMake1", "[", "]"}], ",", 
+                System`RowBox[{"{", System`RowBox[{"4", ",", "4"}], "}"}]}], 
+              "]"}]}]}], "\[IndentingNewLine]", "*)"}], 
+      "\[IndentingNewLine]", ",", "\"explicit parallelization scheme with \
+multiple energy defining points and target y\"", ",", "\[IndentingNewLine]", 
+      "\[IndentingNewLine]", System`RowBox[{"With", "[", 
+        "\[IndentingNewLine]", System`RowBox[
+         {System`RowBox[{"{", System`RowBox[{"rif", "=", System`RowBox[{
+                "EchoUnevaluatedWithAbsoluteTiming", "@", System`RowBox[
+                 {"RIFunctionMakeFromExpressionList", "[", System`RowBox[
+                   {"f", ",", System`RowBox[{"Keys", "@", System`RowBox[
+                       {"select", "@", System`RowBox[{"First", "@", 
+                          System`RowBox[{"First", "@", "ps"}]}]}]}]}], 
+                  "]"}]}]}], "}"}], ",", "\[IndentingNewLine]", 
           System`RowBox[{"{", System`RowBox[{"shared", "=", System`RowBox[{
-                "SOPMakeShared", "[", System`RowBox[{"rif", ",", "select", 
-                  ",", "data"}], "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
-          System`RowBox[{"{", System`RowBox[{"sops", "=", System`RowBox[{
-                System`RowBox[{"SparseOptimizationProblemMakeFromShared", 
-                  "[", System`RowBox[{System`RowBox[{"ps", "[", System`RowBox[
-                       {"[", "i", "]"}], "]"}], ",", System`RowBox[{"ys", 
-                      "[", System`RowBox[{"[", "i", "]"}], "]"}], ",", 
-                    "shared"}], "]"}], "~", "Table", "~", System`RowBox[
-                 {"{", System`RowBox[{"i", ",", System`RowBox[{"Length", "@", 
-                      "ps"}]}], "}"}]}]}], "}"}], ",", "\[IndentingNewLine]", 
+                "EchoUnevaluatedWithAbsoluteTiming", "@", System`RowBox[
+                 {"SOPMakeShared", "[", System`RowBox[{"rif", ",", "select", 
+                    ",", "data"}], "]"}]}]}], "}"}], ",", 
+          "\[IndentingNewLine]", System`RowBox[{"{", System`RowBox[
+             {"sops", "=", System`RowBox[{
+                "EchoUnevaluatedWithAbsoluteTiming", "[", System`RowBox[
+                 {System`RowBox[{"SparseOptimizationProblemMakeFromShared", 
+                    "[", System`RowBox[{System`RowBox[{"ps", "[", 
+                        System`RowBox[{"[", "i", "]"}], "]"}], ",", 
+                      System`RowBox[{"ys", "[", System`RowBox[{"[", "i", 
+                          "]"}], "]"}], ",", "shared"}], "]"}], "~", "Table", 
+                  "~", System`RowBox[{"{", System`RowBox[{"i", ",", 
+                      System`RowBox[{"Length", "@", "ps"}]}], "}"}]}], 
+                "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
           System`RowBox[{"{", System`RowBox[{System`RowBox[{"sop", "=", 
-                System`RowBox[{"First", "@", "sops"}]}], System`RowBox[{"(*", 
-                System`RowBox[{"reference", " ", "sop", " ", "for", " ", 
-                  "shared", " ", "stuff"}], "*)"}], ",", System`RowBox[{"y", 
-                "=", System`RowBox[{"Join", "@@", "ys"}]}]}], "}"}], ",", 
+                System`RowBox[{"EchoUnevaluatedWithAbsoluteTiming", "@", 
+                  System`RowBox[{"First", "@", "sops"}]}]}], System`RowBox[{
+                "(*", System`RowBox[{"reference", " ", "sop", " ", "for", 
+                  " ", "shared", " ", "stuff"}], "*)"}], 
+              "\[IndentingNewLine]", ",", System`RowBox[{"y", "=", 
+                System`RowBox[{"Join", "@@", "ys"}]}]}], "}"}], ",", 
           "\[IndentingNewLine]", "\[IndentingNewLine]", 
-          System`RowBox[{"{", System`RowBox[{"a", "=", System`RowBox[{
+          System`RowBox[{"{", System`RowBox[{"aa", "=", System`RowBox[{
                 "Association", "[", "\[IndentingNewLine]", System`RowBox[
                  {System`RowBox[{"\"sops\"", "\[Rule]", "sops"}], ",", 
                   "\[IndentingNewLine]", System`RowBox[{"\"sop\"", "\[Rule]", 
@@ -63,16 +82,20 @@ t parallelization scheme with multiple energy defining points and target y\""\
                   "\[IndentingNewLine]", System`RowBox[{"\"y\"", "\[Rule]", 
                     System`RowBox[{"Join", "@@", "ys"}]}], ",", 
                   "\[IndentingNewLine]", System`RowBox[{"\"yIndices\"", 
-                    "\[Rule]", System`RowBox[{"SOP`SOPyIndices", "[", 
-                      System`RowBox[{System`RowBox[{"SOPGetX", "@", "sop"}], 
-                        ",", "y"}], "]"}]}]}], "\[IndentingNewLine]", 
-                "]"}]}], "}"}], "\[IndentingNewLine]", ",", 
-          "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                    "\[Rule]", System`RowBox[
+                     {"EchoUnevaluatedWithAbsoluteTiming", "@", System`RowBox[
+                       {"SOP`SOPyIndices", "[", System`RowBox[{System`RowBox[
+                          {"SOPGetX", "@", "sop"}], ",", "y"}], "]"}]}]}]}], 
+                "\[IndentingNewLine]", "]"}]}], "}"}], "\[IndentingNewLine]", 
+          ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
           System`RowBox[{"SOPD`SparseOptimizationProblemDecomposed", "[", 
-            "a", "]"}]}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
-        "]"}], "\[IndentingNewLine]", ",", System`RowBox[
-       {"SOPD`SparseOptimizationProblemDecomposed", "[", "_Association", 
-        "]"}]}], "\[IndentingNewLine]", "]"}]], "Input", 
+            "aa", "]"}]}], System`RowBox[{"(*", System`RowBox[
+           {"do", " ", "we", " ", "need", " ", "to", " ", "use", " ", "aa", 
+            " ", "to", " ", "avoid", " ", "collision", " ", "with", " ", 
+            System`RowBox[{"a", "?"}]}], "*)"}], "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", ",", 
+      System`RowBox[{"SOPD`SparseOptimizationProblemDecomposed", "[", 
+        "_Association", "]"}]}], "\[IndentingNewLine]", "]"}]], "Input", 
  System`CellChangeTimes -> {{3.6803792555247297*^9, 3.680379272605027*^9}, 
    {3.680379331637703*^9, 3.68037936786489*^9}, 3.680933574904915*^9, 
    {3.680937480413157*^9, 3.6809374904214563*^9}, {3.6809375623617487*^9, 
@@ -109,6 +132,10 @@ t parallelization scheme with multiple energy defining points and target y\""\
    3.6811282982703214*^9}, 3.6811283516145782*^9, {3.681134308368035*^9, 
    3.681134398192073*^9}, {3.68113445621102*^9, 3.6811344671087227*^9}, 
    {3.6811352592047944*^9, 3.681135271908696*^9}, {3.6811353536664915*^9, 
-   3.681135358088213*^9}}, System`CellTags -> 
-  "depersistedCellf150edd2-3296-4b64-a8ce-5688cf5251f2", 
+   3.681135358088213*^9}, {3.6811664896272497*^9, 3.6811665251812763*^9}, 
+   3.6811665579081287*^9, 3.681166809202547*^9, {3.6811668539737687*^9, 
+   3.681166880015483*^9}, 3.681167033913679*^9, {3.681167105061121*^9, 
+   3.681167130271039*^9}, 3.68116716621507*^9, {3.6811672217126803*^9, 
+   3.6811672398083243*^9}, {3.681167331698286*^9, 3.681167349878615*^9}}, 
+ System`CellTags -> "depersistedCell9bbf2ebc-55c6-435d-be24-e1bb49e98aa0", 
  System`CellID -> 329412321]
