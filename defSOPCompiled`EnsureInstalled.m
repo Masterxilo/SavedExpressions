@@ -7,8 +7,10 @@ System`HoldComplete[Global`NeedsDefined[
    System`Links, SOPCompiled`$InstalledLink, System`Quiet, System`Check, 
    SOPCompiled`Private`get42, System`False, System`Throw, System`Uninstall, 
    System`SetEnvironment, System`Rule, System`Set, System`Install, 
-   System`Print, System`LinkPatterns, System`VerificationTest, 
-   SOPCompiled`Private`addf, System`HoldForm, SOPCompiled`Private`lengthzGet, 
+   Persist`DepersistDef, 
+   SOPCompiled`Private`flattenSparseDerivativeZtoYIndices, System`Print, 
+   System`LinkPatterns, System`VerificationTest, SOPCompiled`Private`addf, 
+   System`HoldForm, SOPCompiled`Private`lengthzGet, 
    SOPCompiled`Private`lengthfzGet, SOPCompiled`Private`printv, 
    System`RandomReal, SOPCompiled`Private`testMain, 
    SOPCompiled`Private`print, System`Null]; 
@@ -25,10 +27,11 @@ installed SOPCompiled engine is the one indicated",
         SOPCompiled`$InstalledExe]]; System`SetEnvironment[
        "NSIGHT_CUDA_DEBUGGER" -> "1"]; SOPCompiled`$InstalledLink = 
        System`Install[SOPCompiled`$InstalledExe = SOPCompiled`Private`a[
-          "targetName"]]; System`Print[System`LinkPatterns[
-        SOPCompiled`$InstalledLink]]; System`Print[System`VerificationTest[
-        SOPCompiled`Private`addf[2., 3.], 5.]]; 
-      System`Print[System`HoldForm[SOPCompiled`Private`get42[]]]; 
+          "targetName"]]; Persist`DepersistDef[
+       SOPCompiled`Private`flattenSparseDerivativeZtoYIndices]; 
+      System`Print[System`LinkPatterns[SOPCompiled`$InstalledLink]]; 
+      System`Print[System`VerificationTest[SOPCompiled`Private`addf[2., 3.], 
+        5.]]; System`Print[System`HoldForm[SOPCompiled`Private`get42[]]]; 
       System`Print[System`VerificationTest[System`HoldForm[
          SOPCompiled`Private`get42[]], 42]]; System`Print[
        System`VerificationTest[System`HoldForm[SOPCompiled`Private`lengthzGet[

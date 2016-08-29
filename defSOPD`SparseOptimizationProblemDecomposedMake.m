@@ -6,13 +6,11 @@ System`HoldComplete[Global`NeedsDefined[
    Global`ys, System`And, System`ContainsAll, System`Keys, System`Flatten, 
    System`SameQ, System`Length, System`Implies, System`Greater, System`Apply, 
    System`Intersection, System`With, System`Set, SOP`rif, 
-   paul`EchoUnevaluatedWithAbsoluteTiming, 
    RIFunction`RIFunctionMakeFromExpressionList, System`First, SOP`shared, 
-   SOP`SOPMakeShared, SOP`sops, System`Table, 
+   SOP`SOPMakeShared, SOP`sops, System`Identity, System`Table, 
    SOP`SparseOptimizationProblemMakeFromShared, System`Part, 
    SOPCompiled`Private`i, SOP`sop, SOPCompiled`Private`y, System`Join, 
-   Global`aa, System`Association, SOP`SOPyIndices, SOP`SOPGetX, 
-   SOPD`SparseOptimizationProblemDecomposed]; 
+   Global`aa, System`Association, SOPD`SparseOptimizationProblemDecomposed]; 
   PackageDeveloper`RedefinePublicFunction[
    SOPD`SparseOptimizationProblemDecomposedMake[SOPCompiled`Private`f:{__}, 
      SceneX`select_, SOP`ps:{{__}..}, Scene2D`data:{_System`Rule..}, 
@@ -22,22 +20,18 @@ System`HoldComplete[Global`NeedsDefined[
        1, System`Intersection @@ Global`ys === System`Intersection @@ 
         SOP`ps === {}], "explicit parallelization scheme with multiple energy \
 defining points and target y", System`With[
-    {SOP`rif = paul`EchoUnevaluatedWithAbsoluteTiming[
-       RIFunction`RIFunctionMakeFromExpressionList[SOPCompiled`Private`f, 
-        System`Keys[SceneX`select[System`First[System`First[SOP`ps]]]]]]}, 
-    {SOP`shared = paul`EchoUnevaluatedWithAbsoluteTiming[
-       SOP`SOPMakeShared[SOP`rif, SceneX`select, Scene2D`data]]}, 
-    {SOP`sops = paul`EchoUnevaluatedWithAbsoluteTiming[
-       System`Table[SOP`SparseOptimizationProblemMakeFromShared[
+    {SOP`rif = RIFunction`RIFunctionMakeFromExpressionList[
+       SOPCompiled`Private`f, System`Keys[SceneX`select[
+         System`First[System`First[SOP`ps]]]]]}, 
+    {SOP`shared = SOP`SOPMakeShared[SOP`rif, SceneX`select, Scene2D`data]}, 
+    {SOP`sops = System`Identity[System`Table[
+        SOP`SparseOptimizationProblemMakeFromShared[
          SOP`ps[[SOPCompiled`Private`i]], Global`ys[[SOPCompiled`Private`i]], 
          SOP`shared], {SOPCompiled`Private`i, System`Length[SOP`ps]}]]}, 
-    {SOP`sop = paul`EchoUnevaluatedWithAbsoluteTiming[
-       System`First[SOP`sops]], SOPCompiled`Private`y = 
+    {SOP`sop = System`First[SOP`sops], SOPCompiled`Private`y = 
       System`Join @@ Global`ys}, 
     {Global`aa = System`Association["sops" -> SOP`sops, "sop" -> SOP`sop, 
-       "partitions" -> System`Length[SOP`sops], 
-       "y" -> System`Join @@ Global`ys, "yIndices" -> 
-        paul`EchoUnevaluatedWithAbsoluteTiming[SOP`SOPyIndices[
-          SOP`SOPGetX[SOP`sop], SOPCompiled`Private`y]]]}, 
+       "partitions" -> System`Length[SOP`sops], "ys" -> Global`ys, 
+       "y" -> System`Join @@ Global`ys]}, 
     SOPD`SparseOptimizationProblemDecomposed[Global`aa]], 
    SOPD`SparseOptimizationProblemDecomposed[_System`Association], ""]]

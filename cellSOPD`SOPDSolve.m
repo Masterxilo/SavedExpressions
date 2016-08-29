@@ -11,13 +11,15 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
                     "[", "]"}]}]}], "\[IndentingNewLine]", "]"}], 
             "\[IndentingNewLine]", "\[IndentingNewLine]", ",", "\"\"", ",", 
             "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
-             {"SOPDSolveForY", "[", System`RowBox[{"sopd", ",", "o"}], 
-              "]"}]}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
-          System`RowBox[{"(*", System`RowBox[{",", System`RowBox[{
-                "_SparseOptimizationProblemDecomposed", " ", "TODO", " ", 
-                "construct", " ", "this"}]}], "*)"}], "\[IndentingNewLine]", 
-          "]"}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-        System`RowBox[{System`RowBox[{"Options", "@", "SOPDSolve"}], "=", 
+             {"SparseOptimizationProblemDecomposedMakeWithUpdatedY", "[", 
+              "\[IndentingNewLine]", System`RowBox[{"sopd", ",", 
+                System`RowBox[{"SOPDSolveForY", "[", System`RowBox[
+                   {"sopd", ",", "o"}], "]"}]}], "\[IndentingNewLine]", 
+              "]"}], "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+            "_SparseOptimizationProblemDecomposed"}], " ", 
+          "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", System`RowBox[
+         {System`RowBox[{"Options", "@", "SOPDSolve"}], "=", 
           System`RowBox[{"{", System`RowBox[{System`RowBox[{"Method", 
                 "\[Rule]", "\"GaussNewton\""}], ",", System`RowBox[{
                 "MaxIterations", "\[Rule]", "1"}]}], "}"}]}], ";"}]}], 
@@ -31,5 +33,6 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
    {3.6811312081370044*^9, 3.681131235136011*^9}, {3.6811337104933624*^9, 
    3.6811337175546494*^9}, {3.681133767476751*^9, 3.681133874150301*^9}, 
    3.681134284976097*^9, {3.6811345707395115*^9, 3.6811346211163893*^9}, 
-   {3.6811673626653*^9, 3.681167382960771*^9}}, 
- System`CellTags -> "depersistedCell9bbf2ebc-55c6-435d-be24-e1bb49e98aa0"]
+   {3.6811673626653*^9, 3.681167382960771*^9}, {3.681195788668293*^9, 
+   3.681195839439195*^9}}, System`CellTags -> 
+  "depersistedCellb2aa83c3-7d77-4a8a-99ae-4f2cc11b4408"]

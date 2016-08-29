@@ -2,13 +2,14 @@ System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[",
     "\[IndentingNewLine]", System`RowBox[
      {System`RowBox[{"SOPCompiled`SOPCompiledPrepare", "[", 
         System`RowBox[{"rif_RIFunction", ",", System`RowBox[
-           {System`RowBox[{"forceRebuild_", "?", "BooleanQ"}], "~", 
-            "Optional", "~", "False"}]}], "]"}], "\[IndentingNewLine]", 
-      "\[IndentingNewLine]", ",", "\"compiles and loads the sparse \
-optimization Framework for the given function\"", ",", "\[IndentingNewLine]", 
-      "\[IndentingNewLine]", System`RowBox[{"Module", "[", 
-        System`RowBox[{System`RowBox[{"{", System`RowBox[{"fn", ",", "fng", 
-              ",", "exe", ",", "link", ",", "lengthz", ",", "lengthfz", ",", 
+           {System`RowBox[{"(", System`RowBox[{"forceRebuild_", "?", 
+                "BooleanQ"}], ")"}], "~", "Optional", "~", "False"}]}], 
+        "]"}], "\[IndentingNewLine]", "\[IndentingNewLine]", ",", "\"compiles \
+and loads the sparse optimization Framework for the given function\"", ",", 
+      "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      System`RowBox[{"Module", "[", System`RowBox[
+         {System`RowBox[{"{", System`RowBox[{"fn", ",", "fng", ",", "exe", 
+              ",", "link", ",", "lengthz", ",", "lengthfz", ",", 
               "targetName", ",", "exportGeneratedText", ",", "targetFile"}], 
             "}"}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
           System`RowBox[{System`RowBox[{System`RowBox[{"fn", "@", "s_"}], 
@@ -86,7 +87,7 @@ optimization Framework for the given function\"", ",", "\[IndentingNewLine]",
                  {System`RowBox[{"TaskKill", "[", System`RowBox[
                      {"targetName", "<>", "\".exe\""}], "]"}], ";", 
                   "\[IndentingNewLine]", System`RowBox[{"Print", "@", 
-                    System`RowBox[{"MSBuild", "[", System`RowBox[
+                    System`RowBox[{"paul`MSBuild", "[", System`RowBox[
                        {System`RowBox[{"fn", "@", "\"Framework.sln\""}], ",", 
                         System`RowBox[{"{", System`RowBox[{"\"/t:Rebuild\"", 
                           System`RowBox[{"(*", System`RowBox[{"must", " ", 
@@ -133,5 +134,6 @@ error' (nvcc error : 'ptxas' died with status 0xC0000005 (ACCESS_VIOLATION) \
    {3.681061253075346*^9, 3.681061264746176*^9}, {3.681061312425886*^9, 
    3.6810613304362926*^9}, {3.681061708412974*^9, 3.6810617215002594*^9}, 
    {3.681084994047612*^9, 3.6810850031820087*^9}, {3.6811502339602346*^9, 
-   3.6811502929197288*^9}, {3.6811619424392815*^9, 3.681161953344472*^9}}, 
- System`CellTags -> "depersistedCell4aab9f39-e456-449b-93fe-276c05c380e3"]
+   3.6811502929197288*^9}, {3.6811619424392815*^9, 3.681161953344472*^9}, 
+   {3.6811983392221203*^9, 3.681198351457021*^9}, 3.6811983978366394*^9}, 
+ System`CellTags -> "depersistedCelld622a08e-ef0a-4c32-ba4f-3f51ee35f0e7"]

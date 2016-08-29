@@ -61,15 +61,56 @@ System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[",
                     System`RowBox[{System`RowBox[{"Head", "[", "sopdtest2", 
                         "]"}], ",", "SparseOptimizationProblemDecomposed", 
                       ",", System`RowBox[{"{", "}"}], ",", System`RowBox[
-                       {"{", "}"}]}], "]"}], "]"}], ",", System`RowBox[
+                       {"{", "}"}]}], "]"}], "]"}], ",", 
+                "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
                  {"Hold", "[", System`RowBox[{"VerificationTest", "[", 
-                    System`RowBox[{System`RowBox[{"SOPDGetX0", "[", 
-                        "sopdtest", "]"}], ",", System`RowBox[{"{", 
-                        System`RowBox[{"0.`", ",", "1.`", ",", "2.`", ",", 
-                          "3.`", ",", "4.`"}], "}"}], ",", System`RowBox[
-                       {"{", "}"}], ",", System`RowBox[{"{", "}"}]}], "]"}], 
-                  "]"}], ",", "\[IndentingNewLine]", System`RowBox[
-                 {"(*", "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+                    "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+                       {"SOPDMakeXWithY", "[", "\[IndentingNewLine]", 
+                        System`RowBox[{"sopdtest", ",", System`RowBox[
+                          {"{", System`RowBox[{System`RowBox[{"{", 
+                          System`RowBox[{"10.`", ",", "20.`"}], "}"}], ",", 
+                          System`RowBox[{"{", System`RowBox[{"30.`", ",", 
+                          "40.`"}], "}"}]}], "}"}]}], "\[IndentingNewLine]", 
+                        "]"}], "\[IndentingNewLine]", ",", 
+                      "\[IndentingNewLine]", System`RowBox[{"{", 
+                        System`RowBox[{"0.`", ",", "10.`", ",", "20.`", ",", 
+                          "30.`", ",", "40.`"}], "}"}], 
+                      "\[IndentingNewLine]", ",", System`RowBox[{"{", "}"}], 
+                      ",", System`RowBox[{"{", "}"}]}], 
+                    "\[IndentingNewLine]", "]"}], "]"}], ",", 
+                "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
+                 {"Hold", "[", System`RowBox[{"VerificationTest", "[", 
+                    "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+                       {System`RowBox[{"SOPD`SparseOptimizationProblemDecompo\
+sedMakeWithUpdatedY", "[", System`RowBox[{"sopdtest", ",", System`RowBox[
+                          {"{", System`RowBox[{System`RowBox[{"{", 
+                          System`RowBox[{"10.`", ",", "20.`"}], "}"}], ",", 
+                          System`RowBox[{"{", System`RowBox[{"30.`", ",", 
+                          "40.`"}], "}"}]}], "}"}]}], "]"}], "//", 
+                        "SOPDDataAsRules"}], "\[IndentingNewLine]", 
+                      "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
+                      "\[IndentingNewLine]", System`RowBox[{"{", 
+                        System`RowBox[{System`RowBox[{"x", "\[Rule]", 
+                          "0.`"}], ",", System`RowBox[{System`RowBox[{"z", 
+                          "[", "0", "]"}], "\[Rule]", "10.`"}], ",", 
+                          System`RowBox[{System`RowBox[{"z", "[", "1", "]"}], 
+                          "\[Rule]", "20.`"}], ",", System`RowBox[
+                          {System`RowBox[{"z", "[", "2", "]"}], "\[Rule]", 
+                          "30.`"}], ",", System`RowBox[{System`RowBox[{"z", 
+                          "[", "3", "]"}], "\[Rule]", "40.`"}]}], "}"}], 
+                      "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+                      System`RowBox[{"{", "}"}], ",", System`RowBox[
+                       {"{", "}"}]}], "\[IndentingNewLine]", "]"}], "]"}], 
+                ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                System`RowBox[{"Hold", "[", System`RowBox[
+                   {"VerificationTest", "[", System`RowBox[{System`RowBox[
+                       {"SOPDGetX0", "[", "sopdtest", "]"}], ",", 
+                      System`RowBox[{"{", System`RowBox[{"0.`", ",", "1.`", 
+                          ",", "2.`", ",", "3.`", ",", "4.`"}], "}"}], ",", 
+                      System`RowBox[{"{", "}"}], ",", System`RowBox[
+                       {"{", "}"}]}], "]"}], "]"}], ",", 
+                "\[IndentingNewLine]", System`RowBox[{"(*", 
+                  "\[IndentingNewLine]", System`RowBox[{System`RowBox[
                      {"Hold", "[", System`RowBox[{"VerificationTest", "[", 
                         System`RowBox[{System`RowBox[{"SOPDMakeXWithYs", "[", 
                           System`RowBox[{"sopdtest", ",", System`RowBox[
@@ -319,7 +360,35 @@ System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[",
                         "}"}], ",", System`RowBox[{"{", "}"}], ",", 
                       System`RowBox[{"{", System`RowBox[{"SameTest", 
                           "\[Rule]", "ApproximatelyEqual"}], "}"}]}], "]"}], 
-                  "]"}]}], "}"}], ",", "silent"}], "]"}]}]}], 
-    "\[IndentingNewLine]", "]"}]], "Input", System`CellChangeTimes -> 
-  {{3.681148923406629*^9, 3.681148993341089*^9}, {3.6811490981046104*^9, 
-  3.681149123294975*^9}}]
+                  "]"}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                System`RowBox[{"Hold", "[", System`RowBox[
+                   {"VerificationTest", "[", "\[IndentingNewLine]", 
+                    System`RowBox[{System`RowBox[{System`RowBox[{"SOPDSolve", 
+                          "[", "sopdtest", "]"}], "//", "SOPDGetY0"}], ",", 
+                      "\[IndentingNewLine]", System`RowBox[{"Table", "[", 
+                        System`RowBox[{"0.`", ",", "2", ",", "2"}], "]"}], 
+                      "\[IndentingNewLine]", ",", System`RowBox[{"{", "}"}], 
+                      ",", System`RowBox[{"{", System`RowBox[{"SameTest", 
+                          "\[Rule]", "ApproximatelyEqual"}], "}"}]}], 
+                    "\[IndentingNewLine]", "]"}], "]"}], ",", 
+                "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
+                 {"Hold", "[", System`RowBox[{"VerificationTest", "[", 
+                    "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+                       {System`RowBox[{"SOPDSolve", "[", "sopdtest2", "]"}], 
+                        "//", "SOPDGetY0"}], ",", "\[IndentingNewLine]", 
+                      System`RowBox[{"{", System`RowBox[{System`RowBox[
+                          {"{", System`RowBox[{"-", "1.5`"}], "}"}], ",", 
+                          System`RowBox[{"Table", "[", System`RowBox[{"0.`", 
+                          ",", "2"}], "]"}]}], "}"}], "\[IndentingNewLine]", 
+                      ",", System`RowBox[{"{", "}"}], ",", System`RowBox[
+                       {"{", System`RowBox[{"SameTest", "\[Rule]", 
+                          "ApproximatelyEqual"}], "}"}]}], 
+                    "\[IndentingNewLine]", "]"}], "]"}]}], 
+              "\[IndentingNewLine]", "\[IndentingNewLine]", "}"}], ",", 
+            "silent"}], "]"}]}]}], "\[IndentingNewLine]", "]"}]], "Input", 
+ System`CellChangeTimes -> {{3.681148923406629*^9, 3.681148993341089*^9}, 
+   {3.6811490981046104*^9, 3.681149123294975*^9}, 3.681195187150695*^9, 
+   {3.6811954435951204*^9, 3.6811954560096474*^9}, {3.681195747221466*^9, 
+   3.6811957602921743*^9}, {3.6811958823656597*^9, 3.681195912292448*^9}, 
+   {3.6811959466289425*^9, 3.6811959587700434*^9}}, 
+ System`CellTags -> "depersistedCell843ff217-8785-4388-8f25-b126f1503ab4"]

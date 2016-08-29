@@ -2,28 +2,31 @@ System`HoldComplete[Global`NeedsDefined[
    PackageDeveloper`RedefinePublicFunction, SOPD`SOPDTests, System`Optional, 
    System`PatternTest, System`Pattern, Global`silent, System`Blank, 
    System`BooleanQ, System`True, System`CompoundExpression, System`ClearAll, 
-   SOPCompiled`Private`x, SOPCompiled`Private`y, Global`z, Global`p, 
-   System`Set, Global`ftest, System`List, System`Plus, System`SetDelayed, 
-   Global`selecttest, System`Rule, Global`pstest, Global`datatest, 
-   Global`ystest, SOP`sopdtest, SOPD`SparseOptimizationProblemDecomposedMake, 
-   Global`ystest2, Global`sopdtest2, Testing`RunHeldVerificationTests, 
-   System`Hold, System`VerificationTest, System`Head, 
-   SOPD`SparseOptimizationProblemDecomposed, SOPD`SOPDGetX0, 
-   SOPD`SOPDDataAsRules, SOPD`SOPDGetYs, SOPD`SOPDGetF, 
-   SOPD`SOPDFullyAbstractfAt, System`Last, 
+   SOPCompiled`Private`x, SOPCompiled`Private`y, Global`z, 
+   SOPCompiled`Private`p, System`Set, Global`ftest, System`List, System`Plus, 
+   System`SetDelayed, Global`selecttest, System`Rule, Global`pstest, 
+   Global`datatest, Global`ystest, SOP`sopdtest, 
+   SOPD`SparseOptimizationProblemDecomposedMake, Global`ystest2, 
+   Global`sopdtest2, Testing`RunHeldVerificationTests, System`Hold, 
+   System`VerificationTest, System`Head, 
+   SOPD`SparseOptimizationProblemDecomposed, SOP`SOPDMakeXWithY, 
+   SOPD`SOPDDataAsRules, 
+   SOPD`SparseOptimizationProblemDecomposedMakeWithUpdatedY, SOPD`SOPDGetX0, 
+   SOPD`SOPDGetYs, SOPD`SOPDGetF, SOPD`SOPDFullyAbstractfAt, System`Last, 
    SOPD`SOPDFullyAbstractObjectiveVector, SOPD`SOPDDataWithoutYAsRules, 
    SOPD`SOPDObjectiveVector, SOPD`SOPDfAt, System`First, SOPD`SOPDFx, 
    SOPD`SOPDEnergyVector, SOPD`SOPDObjectiveExpression, System`Power, 
    SOPD`SOPDEnergy, SOPD`SOPDGetY0, SOPD`SOPDYData, SOPD`SOPDSolveForY, 
    System`Table, System`SameTest, numerics`ApproximatelyEqual, System`Method, 
-   System`FindMinimum]; PackageDeveloper`RedefinePublicFunction[
-   SOPD`SOPDTests[System`Optional[(Global`silent_)?System`BooleanQ, 
-     System`True]], "test case collection for SOPD", 
-   System`ClearAll[SOPCompiled`Private`x, SOPCompiled`Private`y, Global`z, 
-     Global`p]; Global`ftest = {SOPCompiled`Private`x + 
-       SOPCompiled`Private`y, SOPCompiled`Private`y}; 
-    Global`selecttest[Global`p_] := {SOPCompiled`Private`x -> 
-       SOPCompiled`Private`x, SOPCompiled`Private`y -> Global`z[Global`p]}; 
+   System`FindMinimum, SOPD`SOPDSolve]; 
+  PackageDeveloper`RedefinePublicFunction[SOPD`SOPDTests[
+    System`Optional[(Global`silent_)?System`BooleanQ, System`True]], 
+   "test case collection for SOPD", System`ClearAll[SOPCompiled`Private`x, 
+     SOPCompiled`Private`y, Global`z, SOPCompiled`Private`p]; 
+    Global`ftest = {SOPCompiled`Private`x + SOPCompiled`Private`y, 
+      SOPCompiled`Private`y}; Global`selecttest[SOPCompiled`Private`p_] := 
+     {SOPCompiled`Private`x -> SOPCompiled`Private`x, 
+      SOPCompiled`Private`y -> Global`z[SOPCompiled`Private`p]}; 
     Global`pstest = {{0, 1}, {2, 3}}; Global`datatest = 
      {SOPCompiled`Private`x -> 0., Global`z[0] -> 1., Global`z[1] -> 2., 
       Global`z[2] -> 3., Global`z[3] -> 4.}; Global`ystest = 
@@ -38,6 +41,13 @@ System`HoldComplete[Global`NeedsDefined[
         SOPD`SparseOptimizationProblemDecomposed, {}, {}]], 
       System`Hold[System`VerificationTest[System`Head[Global`sopdtest2], 
         SOPD`SparseOptimizationProblemDecomposed, {}, {}]], 
+      System`Hold[System`VerificationTest[SOP`SOPDMakeXWithY[SOP`sopdtest, 
+         {{10., 20.}, {30., 40.}}], {0., 10., 20., 30., 40.}, {}, {}]], 
+      System`Hold[System`VerificationTest[SOPD`SOPDDataAsRules[
+         SOPD`SparseOptimizationProblemDecomposedMakeWithUpdatedY[
+          SOP`sopdtest, {{10., 20.}, {30., 40.}}]], 
+        {SOPCompiled`Private`x -> 0., Global`z[0] -> 10., Global`z[1] -> 20., 
+         Global`z[2] -> 30., Global`z[3] -> 40.}, {}, {}]], 
       System`Hold[System`VerificationTest[SOPD`SOPDGetX0[SOP`sopdtest], 
         {0., 1., 2., 3., 4.}, {}, {}]], System`Hold[System`VerificationTest[
         SOPD`SOPDDataAsRules[SOP`sopdtest], {SOPCompiled`Private`x -> 0., 
@@ -97,4 +107,10 @@ System`HoldComplete[Global`NeedsDefined[
           numerics`ApproximatelyEqual}]], System`Hold[System`VerificationTest[
         SOPD`SOPDSolveForY[Global`sopdtest2, System`Method -> "SOPCompiled"], 
         {{-1.5}, System`Table[0., 2]}, {}, {System`SameTest -> 
-          numerics`ApproximatelyEqual}]]}, Global`silent], _, ""]]
+          numerics`ApproximatelyEqual}]], System`Hold[System`VerificationTest[
+        SOPD`SOPDGetY0[SOPD`SOPDSolve[SOP`sopdtest]], System`Table[0., 2, 2], 
+        {}, {System`SameTest -> numerics`ApproximatelyEqual}]], 
+      System`Hold[System`VerificationTest[SOPD`SOPDGetY0[
+         SOPD`SOPDSolve[Global`sopdtest2]], {{-1.5}, System`Table[0., 2]}, 
+        {}, {System`SameTest -> numerics`ApproximatelyEqual}]]}, 
+     Global`silent], _, ""]]

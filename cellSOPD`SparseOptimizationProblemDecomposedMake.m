@@ -41,61 +41,54 @@ multiple energy defining points and target y\"", ",", "\[IndentingNewLine]",
       "\[IndentingNewLine]", System`RowBox[{"With", "[", 
         "\[IndentingNewLine]", System`RowBox[
          {System`RowBox[{"{", System`RowBox[{"rif", "=", System`RowBox[{
-                "EchoUnevaluatedWithAbsoluteTiming", "@", System`RowBox[
-                 {"RIFunctionMakeFromExpressionList", "[", System`RowBox[
-                   {"f", ",", System`RowBox[{"Keys", "@", System`RowBox[
-                       {"select", "@", System`RowBox[{"First", "@", 
-                          System`RowBox[{"First", "@", "ps"}]}]}]}]}], 
-                  "]"}]}]}], "}"}], ",", "\[IndentingNewLine]", 
-          System`RowBox[{"{", System`RowBox[{"shared", "=", System`RowBox[{
-                "EchoUnevaluatedWithAbsoluteTiming", "@", System`RowBox[
-                 {"SOPMakeShared", "[", System`RowBox[{"rif", ",", "select", 
-                    ",", "data"}], "]"}]}]}], "}"}], ",", 
+                "RIFunctionMakeFromExpressionList", "[", System`RowBox[
+                 {"f", ",", System`RowBox[{"Keys", "@", System`RowBox[
+                     {"select", "@", System`RowBox[{"First", "@", 
+                        System`RowBox[{"First", "@", "ps"}]}]}]}]}], "]"}]}], 
+            "}"}], ",", "\[IndentingNewLine]", System`RowBox[
+           {"{", System`RowBox[{"shared", "=", System`RowBox[{
+                "SOPMakeShared", "[", System`RowBox[{"rif", ",", "select", 
+                  ",", "data"}], "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+          System`RowBox[{"{", System`RowBox[{"sops", "=", System`RowBox[{
+                "Identity", "[", System`RowBox[{System`RowBox[
+                   {"SparseOptimizationProblemMakeFromShared", "[", 
+                    System`RowBox[{System`RowBox[{"ps", "[", System`RowBox[
+                         {"[", "i", "]"}], "]"}], ",", System`RowBox[
+                       {"ys", "[", System`RowBox[{"[", "i", "]"}], "]"}], 
+                      ",", "shared"}], "]"}], "~", "Table", "~", 
+                  System`RowBox[{"{", System`RowBox[{"i", ",", System`RowBox[
+                       {"Length", "@", "ps"}]}], "}"}]}], "]"}]}], "}"}], 
+          ",", "\[IndentingNewLine]", System`RowBox[
+           {"{", System`RowBox[{System`RowBox[{"sop", "=", System`RowBox[
+                 {"First", "@", "sops"}]}], System`RowBox[{"(*", 
+                System`RowBox[{"reference", " ", "sop", " ", "for", " ", 
+                  "shared", " ", "stuff"}], "*)"}], "\[IndentingNewLine]", 
+              ",", System`RowBox[{"y", "=", System`RowBox[{"Join", "@@", 
+                  "ys"}]}]}], "}"}], ",", "\[IndentingNewLine]", 
           "\[IndentingNewLine]", System`RowBox[{"{", System`RowBox[
-             {"sops", "=", System`RowBox[{
-                "EchoUnevaluatedWithAbsoluteTiming", "[", System`RowBox[
-                 {System`RowBox[{"SparseOptimizationProblemMakeFromShared", 
-                    "[", System`RowBox[{System`RowBox[{"ps", "[", 
-                        System`RowBox[{"[", "i", "]"}], "]"}], ",", 
-                      System`RowBox[{"ys", "[", System`RowBox[{"[", "i", 
-                          "]"}], "]"}], ",", "shared"}], "]"}], "~", "Table", 
-                  "~", System`RowBox[{"{", System`RowBox[{"i", ",", 
-                      System`RowBox[{"Length", "@", "ps"}]}], "}"}]}], 
-                "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
-          System`RowBox[{"{", System`RowBox[{System`RowBox[{"sop", "=", 
-                System`RowBox[{"EchoUnevaluatedWithAbsoluteTiming", "@", 
-                  System`RowBox[{"First", "@", "sops"}]}]}], System`RowBox[{
-                "(*", System`RowBox[{"reference", " ", "sop", " ", "for", 
-                  " ", "shared", " ", "stuff"}], "*)"}], 
-              "\[IndentingNewLine]", ",", System`RowBox[{"y", "=", 
-                System`RowBox[{"Join", "@@", "ys"}]}]}], "}"}], ",", 
-          "\[IndentingNewLine]", "\[IndentingNewLine]", 
-          System`RowBox[{"{", System`RowBox[{"aa", "=", System`RowBox[{
-                "Association", "[", "\[IndentingNewLine]", System`RowBox[
-                 {System`RowBox[{"\"sops\"", "\[Rule]", "sops"}], ",", 
+             {"aa", "=", System`RowBox[{"Association", "[", 
+                "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+                   {"\"sops\"", "\[Rule]", "sops"}], ",", 
                   "\[IndentingNewLine]", System`RowBox[{"\"sop\"", "\[Rule]", 
                     "sop"}], ",", System`RowBox[{"(*", System`RowBox[
                      {"reference", " ", "sop", " ", "for", " ", "shared", 
                       " ", "stuff"}], "*)"}], "\[IndentingNewLine]", 
                   "\[IndentingNewLine]", System`RowBox[{"\"partitions\"", 
                     "\[Rule]", System`RowBox[{"Length", "@", "sops"}]}], ",", 
-                  "\[IndentingNewLine]", System`RowBox[{"\"y\"", "\[Rule]", 
-                    System`RowBox[{"Join", "@@", "ys"}]}], ",", 
-                  "\[IndentingNewLine]", System`RowBox[{"\"yIndices\"", 
-                    "\[Rule]", System`RowBox[
-                     {"EchoUnevaluatedWithAbsoluteTiming", "@", System`RowBox[
-                       {"SOP`SOPyIndices", "[", System`RowBox[{System`RowBox[
-                          {"SOPGetX", "@", "sop"}], ",", "y"}], "]"}]}]}]}], 
-                "\[IndentingNewLine]", "]"}]}], "}"}], "\[IndentingNewLine]", 
-          ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-          System`RowBox[{"SOPD`SparseOptimizationProblemDecomposed", "[", 
-            "aa", "]"}]}], System`RowBox[{"(*", System`RowBox[
-           {"do", " ", "we", " ", "need", " ", "to", " ", "use", " ", "aa", 
-            " ", "to", " ", "avoid", " ", "collision", " ", "with", " ", 
-            System`RowBox[{"a", "?"}]}], "*)"}], "\[IndentingNewLine]", 
-        "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", ",", 
-      System`RowBox[{"SOPD`SparseOptimizationProblemDecomposed", "[", 
-        "_Association", "]"}]}], "\[IndentingNewLine]", "]"}]], "Input", 
+                  "\[IndentingNewLine]", System`RowBox[{"\"ys\"", "\[Rule]", 
+                    "ys"}], ",", "\[IndentingNewLine]", System`RowBox[
+                   {"\"y\"", "\[Rule]", System`RowBox[{"Join", "@@", 
+                      "ys"}]}]}], "\[IndentingNewLine]", "]"}]}], "}"}], 
+          "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
+          "\[IndentingNewLine]", System`RowBox[
+           {"SOPD`SparseOptimizationProblemDecomposed", "[", "aa", "]"}]}], 
+        System`RowBox[{"(*", System`RowBox[{"do", " ", "we", " ", "need", 
+            " ", "to", " ", "use", " ", "aa", " ", "to", " ", "avoid", " ", 
+            "collision", " ", "with", " ", System`RowBox[{"a", "?"}]}], 
+          "*)"}], "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}], 
+      "\[IndentingNewLine]", ",", System`RowBox[
+       {"SOPD`SparseOptimizationProblemDecomposed", "[", "_Association", 
+        "]"}]}], "\[IndentingNewLine]", "]"}]], "Input", 
  System`CellChangeTimes -> {{3.6803792555247297*^9, 3.680379272605027*^9}, 
    {3.680379331637703*^9, 3.68037936786489*^9}, 3.680933574904915*^9, 
    {3.680937480413157*^9, 3.6809374904214563*^9}, {3.6809375623617487*^9, 
@@ -136,6 +129,10 @@ multiple energy defining points and target y\"", ",", "\[IndentingNewLine]",
    3.6811665579081287*^9, 3.681166809202547*^9, {3.6811668539737687*^9, 
    3.681166880015483*^9}, 3.681167033913679*^9, {3.681167105061121*^9, 
    3.681167130271039*^9}, 3.68116716621507*^9, {3.6811672217126803*^9, 
-   3.6811672398083243*^9}, {3.681167331698286*^9, 3.681167349878615*^9}}, 
- System`CellTags -> "depersistedCell9bbf2ebc-55c6-435d-be24-e1bb49e98aa0", 
+   3.6811672398083243*^9}, {3.681167331698286*^9, 3.681167349878615*^9}, 
+   3.6811945841912365*^9, {3.681194809714116*^9, 3.6811948098703713*^9}, 
+   {3.6811948405763273*^9, 3.681194853154956*^9}, 3.681194933999767*^9, 
+   {3.6811952826097803*^9, 3.6811952977490015*^9}, 3.6811956681479425*^9, 
+   {3.68119570577171*^9, 3.6811957058810816*^9}}, 
+ System`CellTags -> "depersistedCellb2aa83c3-7d77-4a8a-99ae-4f2cc11b4408", 
  System`CellID -> 329412321]

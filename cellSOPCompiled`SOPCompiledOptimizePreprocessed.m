@@ -7,9 +7,9 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
              {"SOPCompiled`SOPCompiledOptimizePreprocessed", "[", 
               "\[IndentingNewLine]", System`RowBox[{System`RowBox[
                  {"engine", ":", System`RowBox[{"SOPCompiled`SOPCompiled", 
-                    "[", "a_Association", "]"}]}], ",", System`RowBox[
-                 {"dataValues_", "?", "NumericVectorQ"}], ",", 
-                "\[IndentingNewLine]", System`RowBox[
+                    "[", System`RowBox[{"a", ":", "_Association"}], "]"}]}], 
+                ",", System`RowBox[{"dataValues_", "?", "NumericVectorQ"}], 
+                ",", "\[IndentingNewLine]", System`RowBox[
                  {"flattenedSparseDerivativeZtoYIndicesCIndex", ":", 
                   System`RowBox[{"{", "__Integer", "}"}]}], ",", 
                 "\[IndentingNewLine]", System`RowBox[{"xIndicesCIndex", ":", 
@@ -22,74 +22,111 @@ System`Cell[System`BoxData[System`RowBox[{"PTagSet", "[",
             "\[IndentingNewLine]", ",", "\"using the given engine, solves the \
 given optimization problem, taking ps, select and ys implicitly only, and \
 data only by values\"", ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-            System`RowBox[{"Module", "[", System`RowBox[{System`RowBox[
-                 {"{", System`RowBox[{"val", ",", System`RowBox[{"lengthz", 
-                      "=", System`RowBox[{"a", "@", "\"lengthz\""}]}], ",", 
-                    System`RowBox[{"lengthfz", "=", System`RowBox[{"a", "@", 
-                        "\"lengthfz\""}]}]}], "}"}], ",", 
-                "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
-                 {System`RowBox[{"SOPCompiled`EnsureInstalled", "@", 
-                    "engine"}], ";", "\[IndentingNewLine]", System`RowBox[
-                   {"Assert", "[", System`RowBox[{System`RowBox[
-                       {"SOPCompiled`Private`lengthzGet", "[", "]"}], "===", 
-                      "lengthz"}], "]"}], ";", "\[IndentingNewLine]", 
-                  System`RowBox[{"Assert", "[", System`RowBox[{System`RowBox[
-                       {"SOPCompiled`Private`lengthfzGet", "[", "]"}], "===", 
-                      "lengthfz"}], "]"}], ";", "\[IndentingNewLine]", 
-                  "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[
-                     {"actual", " ", "work"}], "*)"}], "\[IndentingNewLine]", 
-                  System`RowBox[{"If", "[", System`RowBox[{System`RowBox[
-                       {System`RowBox[{"OptionValue", "@", "Method"}], "===", 
-                        "\"CUDA\""}], ",", "\[IndentingNewLine]", 
-                      "\[IndentingNewLine]", System`RowBox[{System`RowBox[
-                         {"SOPCompiled`Private`receiveOptimizationData", "[", 
-                          "\[IndentingNewLine]", System`RowBox[{"dataValues", 
-                          ",", "\[IndentingNewLine]", 
-                          "flattenedSparseDerivativeZtoYIndicesCIndex", ",", 
-                          "\[IndentingNewLine]", "xIndicesCIndex", ",", 
-                          "\[IndentingNewLine]", "yIndicesCIndex"}], 
-                          "\[IndentingNewLine]", "]"}], ";", 
+            System`RowBox[{System`RowBox[{"{", System`RowBox[
+                 {System`RowBox[{"partitions", "=", "1"}], ",", System`RowBox[
+                   {"partition", "=", "0"}]}], "}"}], "~", "With", "~", 
+              System`RowBox[{"Module", "[", System`RowBox[{System`RowBox[
+                   {"{", System`RowBox[{"val", ",", "\[IndentingNewLine]", 
+                      "\[IndentingNewLine]", System`RowBox[{"(*", 
+                        System`RowBox[{"for", " ", "debugging"}], "*)"}], 
+                      "\[IndentingNewLine]", System`RowBox[
+                       {"SOPCompiled`lengthz", "=", System`RowBox[{"a", "@", 
+                          "\"lengthz\""}]}], ",", System`RowBox[{"(*", 
+                        System`RowBox[{"hackfix", ",", " ", System`RowBox[
+                          {"force", " ", "these", " ", "to", " ", "be", " ", 
+                          "not", " ", "in", " ", "SOPCompiled`Private`"}]}], 
+                        "*)"}], "\[IndentingNewLine]", System`RowBox[
+                       {"SOPCompiled`lengthfz", "=", System`RowBox[{"a", "@", 
+                          "\"lengthfz\""}]}]}], "\[IndentingNewLine]", 
+                    "\[IndentingNewLine]", "}"}], ",", "\[IndentingNewLine]", 
+                  "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+                     {"SOPCompiled`EnsureInstalled", "@", "engine"}], ";", 
+                    System`RowBox[{"(*", System`RowBox[{System`RowBox[
+                         {"TODO", " ", "this", " ", "does", " ", "ClearAll", 
+                          " ", "on", " ", "SOPCompiled`Private`"}], ",", " ", 
+                        System`RowBox[{"which", " ", "might", " ", "cause", 
+                          " ", "some", " ", "locals", " ", "here", " ", "to", 
+                          " ", "become", " ", System`RowBox[{"undefined", 
+                          "!"}]}]}], "*)"}], "\[IndentingNewLine]", 
+                    System`RowBox[{"Assert", "[", System`RowBox[
+                       {"SOPCompiled`lengthz", "//", "IntegerQ"}], "]"}], 
+                    ";", "\[IndentingNewLine]", System`RowBox[{"Assert", "[", 
+                      System`RowBox[{System`RowBox[
+                         {"SOPCompiled`Private`lengthzGet", "[", "]"}], 
+                        "===", "SOPCompiled`lengthz"}], "]"}], ";", 
+                    "\[IndentingNewLine]", System`RowBox[{"Assert", "[", 
+                      System`RowBox[{System`RowBox[
+                         {"SOPCompiled`Private`lengthfzGet", "[", "]"}], 
+                        "===", "SOPCompiled`lengthfz"}], "]"}], ";", 
+                    "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                    System`RowBox[{"(*", System`RowBox[{"actual", " ", 
+                        "work"}], "*)"}], "\[IndentingNewLine]", 
+                    System`RowBox[
+                     {"SOPCompiled`Private`receiveSharedOptimizationData", 
+                      "[", "dataValues", "]"}], ";", "\[IndentingNewLine]", 
+                    System`RowBox[{"Assert", "[", System`RowBox[
+                       {System`RowBox[{"SOPCompiled`Private`xGet", "[", 
+                          "]"}], "===", "dataValues"}], "]"}], ";", 
+                    "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                    System`RowBox[{"SOPCompiled`Private`setPartitions", "[", 
+                      "1", "]"}], ";", "\[IndentingNewLine]", 
+                    "\[IndentingNewLine]", System`RowBox[
+                     {"SOPCompiled`Private`receiveOptimizationData", "[", 
+                      "\[IndentingNewLine]", System`RowBox[{"partition", ",", 
                         "\[IndentingNewLine]", "\[IndentingNewLine]", 
-                        System`RowBox[{"buildFxAndJFxAndSolveRepeatedlyCUDA", 
-                          "[", System`RowBox[{"1", ",", "1", ",", 
-                          System`RowBox[{"OptionValue", "@", 
-                          "MaxIterations"}]}], "]"}], ";"}], 
-                      "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
-                      System`RowBox[{"(*", "else", "*)"}], System`RowBox[
-                       {System`RowBox[{"Assert", "[", System`RowBox[
-                          {System`RowBox[{"OptionValue", "@", "Method"}], 
-                          "===", "\"CPU\""}], "]"}], ";", 
-                        "\[IndentingNewLine]", "\[IndentingNewLine]", 
-                        System`RowBox[{"SOPCompiled`Private`receiveOptimizati\
-onDataBuildFxAndJFxAndSolveRepeatedly", "[", "\[IndentingNewLine]", 
-                          System`RowBox[{"dataValues", ",", 
-                          "\[IndentingNewLine]", 
-                          "flattenedSparseDerivativeZtoYIndicesCIndex", ",", 
-                          "\[IndentingNewLine]", "xIndicesCIndex", ",", 
-                          "\[IndentingNewLine]", "yIndicesCIndex", ",", 
+                        "flattenedSparseDerivativeZtoYIndicesCIndex", ",", 
+                        "\[IndentingNewLine]", "xIndicesCIndex", ",", 
+                        "\[IndentingNewLine]", "yIndicesCIndex"}], 
+                      "\[IndentingNewLine]", "]"}], ";", 
+                    "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                    "\[IndentingNewLine]", System`RowBox[{"If", "[", 
+                      System`RowBox[{System`RowBox[{System`RowBox[
+                          {"OptionValue", "@", "Method"}], "===", 
+                          "\"CUDA\""}], ",", "\[IndentingNewLine]", 
+                        "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+                          {"buildFxAndJFxAndSolveRepeatedlyCUDA", "[", 
+                          System`RowBox[{"1", ",", "1", ",", 
+                          "\[IndentingNewLine]", "partition", ",", 
                           "\[IndentingNewLine]", System`RowBox[
                           {"OptionValue", "@", "MaxIterations"}]}], 
-                          "\[IndentingNewLine]", "]"}], ";"}]}], 
-                    "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
-                  "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[
-                     {System`RowBox[{"solve", "[", "]"}], ";", System`RowBox[
-                       {System`RowBox[{"--", " ", "done"}], " ", "above"}]}], 
-                    "*)"}], "\[IndentingNewLine]", System`RowBox[{"With", 
-                    "[", System`RowBox[{System`RowBox[{"{", System`RowBox[
-                         {"y1", "=", System`RowBox[
-                          {"SOPCompiled`Private`getY", "[", System`RowBox[
-                          {"Length", "@", "yIndicesCIndex"}], "]"}]}], 
-                        System`RowBox[{"(*", System`RowBox[{"need", " ", 
+                          "\[IndentingNewLine]", "]"}], ";"}], 
+                        "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+                        System`RowBox[{"(*", "else", "*)"}], System`RowBox[
+                         {System`RowBox[{"Assert", "[", System`RowBox[
+                          {System`RowBox[{"OptionValue", "@", "Method"}], 
+                          "===", "\"CPU\""}], "]"}], ";", 
+                          "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                          System`RowBox[{"buildFxAndJFxAndSolveRepeatedly", 
+                          "[", "\[IndentingNewLine]", System`RowBox[
+                          {"partition", ",", "\[IndentingNewLine]", 
+                          System`RowBox[{"OptionValue", "@", 
+                          "MaxIterations"}]}], "\[IndentingNewLine]", "]"}], 
+                          ";"}]}], "\[IndentingNewLine]", 
+                      "\[IndentingNewLine]", "]"}], ";", 
+                    "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                    System`RowBox[{"(*", System`RowBox[{System`RowBox[
+                         {"solve", "[", "]"}], ";", System`RowBox[
+                         {System`RowBox[{"--", " ", "done"}], " ", 
+                          "above"}]}], "*)"}], "\[IndentingNewLine]", 
+                    System`RowBox[{"With", "[", System`RowBox[{System`RowBox[
+                         {"{", System`RowBox[{"y1", "=", System`RowBox[
+                          {"SOPCompiled`Private`getY", "[", 
+                          "\[IndentingNewLine]", System`RowBox[{"partition", 
+                          ",", "\[IndentingNewLine]", System`RowBox[
+                          {"Length", "@", "yIndicesCIndex"}]}], "]"}]}], 
+                          System`RowBox[{"(*", System`RowBox[{"need", " ", 
                           "to", " ", "pass", " ", "size", " ", "of", " ", 
                           "y", " ", "for", " ", "_Out", "_write", "_"}], 
-                          "*)"}], "}"}], ",", "\[IndentingNewLine]", 
-                      System`RowBox[{System`RowBox[{"Assert", "[", 
+                          "*)"}], "\[IndentingNewLine]", "}"}], ",", 
+                        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                        System`RowBox[{System`RowBox[{"Assert", "[", 
                           System`RowBox[{System`RowBox[{"Length", "@", 
                           "y1"}], "\[Equal]", System`RowBox[{"Length", "@", 
                           "yIndicesCIndex"}]}], "]"}], ";", 
-                        "\[IndentingNewLine]", "y1"}]}], 
-                    "\[IndentingNewLine]", "]"}]}]}], "\[IndentingNewLine]", 
-              "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", 
+                          "\[IndentingNewLine]", "y1"}]}], 
+                      "\[IndentingNewLine]", "\[IndentingNewLine]", 
+                      "]"}]}]}], "\[IndentingNewLine]", 
+                "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
             "\[IndentingNewLine]", ",", System`RowBox[{"y1_", "/;", 
               System`RowBox[{System`RowBox[{"NumericVectorQ", "@", "y1"}], 
                 "&&", System`RowBox[{System`RowBox[{"Length", "@", "y1"}], 
@@ -114,5 +151,8 @@ onDataBuildFxAndJFxAndSolveRepeatedly", "[", "\[IndentingNewLine]",
    {3.6810738830095377*^9, 3.6810738972122765*^9}, {3.6811341021060715*^9, 
    3.6811341322893934*^9}, {3.6811354876480103*^9, 3.681135556586088*^9}, 
    {3.6811658742966385*^9, 3.681165878740061*^9}, {3.681167512410055*^9, 
-   3.68116751562899*^9}}, System`CellTags -> 
-  "depersistedCell9bbf2ebc-55c6-435d-be24-e1bb49e98aa0"]
+   3.68116751562899*^9}, {3.6811976551349716*^9, 3.681197869469036*^9}, 
+   3.68119863740071*^9, {3.6811990752416306*^9, 3.6811990910772123*^9}, 
+   {3.6811995431286373*^9, 3.681199655104*^9}, {3.6811996931188326*^9, 
+   3.6811997128784046*^9}}, System`CellTags -> 
+  "depersistedCell31e6d138-2ea3-4a0f-a7f4-69c51260e355"]

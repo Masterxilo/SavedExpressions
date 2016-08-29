@@ -4,8 +4,8 @@ System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[",
           System`RowBox[{"s_Scene3D", ",", "height_Integer"}], "]"}], "/;", 
         System`RowBox[{"Between", "[", System`RowBox[{"height", ",", 
             System`RowBox[{"First", "@", System`RowBox[{
-                "Scene3DCoordinateBounds", "@", "trivialScene3D"}]}]}], 
-          "]"}]}], "\[IndentingNewLine]", "\[IndentingNewLine]", ",", "\"c.f. \
+                "Scene3DCoordinateBounds", "@", "s"}]}]}], "]"}]}], 
+      "\[IndentingNewLine]", "\[IndentingNewLine]", ",", "\"c.f. \
 Scene3DShowColorSlice & Scene3DShowAlbedo\n\nTODO other cross-sections, \
 general\"", ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
       System`RowBox[{System`RowBox[{System`RowBox[{"GDRestDimension", "[", 
@@ -21,6 +21,7 @@ general\"", ",", "\[IndentingNewLine]", "\[IndentingNewLine]",
    3.680981993542262*^9, {3.6811178811620893*^9, 3.6811178909495287*^9}, 
    {3.6811179533143377*^9, 3.681117955058401*^9}, {3.6811207063646135*^9, 
    3.681120772511211*^9}, {3.6811208397821884*^9, 3.681120869845413*^9}, 
-   {3.681120926094466*^9, 3.681120951176689*^9}}, 
- System`CellTags -> "depersistedCellaeb9b298-82bd-4ce8-b956-2a894e7daaa4", 
+   {3.681120926094466*^9, 3.681120951176689*^9}, {3.6811748841840973*^9, 
+   3.6811748899235697*^9}}, System`CellTags -> 
+  "depersistedCell95567fb6-a152-4e25-83a8-05a7008721dc", 
  System`CellID -> 92717101]
