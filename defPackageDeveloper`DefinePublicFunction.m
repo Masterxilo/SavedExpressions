@@ -9,11 +9,11 @@ unknown arguments.\n\nTODO this could also set the usage message and \
 documentation\nTODO this could also handle syntax hints for 'too many \
 argument' type situations."; System`SetAttributes[
    PackageDeveloper`DefinePublicFunction, System`HoldAll]; 
-  PackageDeveloper`DefinePublicFunction[Global`f_System`Symbol, Global`def_, 
-    Global`args_System`List, Global`cond:System`Null | _, 
-    Global`usage_System`String, Global`body_, Global`resultPattern_:_, 
-    Global`error_:""] := (System`Unprotect[Global`f]; 
-    PackageDeveloper`IllegalContext::msg = 
+  PackageDeveloper`DefinePublicFunction[Global`attributes:{___}, 
+    Global`f_System`Symbol, Global`def_, Global`args_System`List, 
+    Global`cond:System`Null | _, Global`usage_System`String, Global`body_, 
+    Global`resultPattern_:_, Global`error_:"", System`OptionsPattern[]] := 
+   (System`Unprotect[Global`f]; PackageDeveloper`IllegalContext::msg = 
      "Illegal context of definition symbol `` in definition ``.\n``"; 
     PackageDeveloper`AlreadyDefined::msg = "``. Or DownValueUsage was not \
 properly cleaned.\nDid you mean *Re*definePublicFunction?\n``"; 
@@ -42,7 +42,10 @@ properly cleaned.\nDid you mean *Re*definePublicFunction?\n``";
           System`Length[Global`args]}]]}, 
      System`SyntaxInformation[Global`f] = {"ArgumentsPattern" -> 
          PackageDeveloper`SyntaxInformationArgumentPatternForFixedArgumentCou\
-ntRange @@ Global`minmaxargc}; ]; Global`call:Global`def := 
+ntRange @@ Global`minmaxargc}; ]; System`SetAttributes[Global`f, 
+     Global`attributes]; System`Options[Global`f] = 
+     System`Join[System`Options[Global`f], System`OptionValue[
+       System`Options]]; Global`call:Global`def := 
      PackageDeveloper`CatchMessagesAndTypeCheck[Global`body, 
       Global`resultPattern, System`Row[
        {System`StringTemplate["In `` when called as ``. "][
@@ -53,17 +56,27 @@ ntRange @@ Global`minmaxargc}; ]; Global`call:Global`def :=
        System`Verbatim[System`HoldPattern[Global`a:Global`f[___]]] :> _]]; 
     System`AppendTo[System`DownValues[Global`f], 
      System`HoldPattern[Global`a:Global`f[___]] :> paul`MessageUndefined[
-       Global`a]]; System`Protect[Global`f]; paul`DisallowOwnValues[
-     Global`f]; ); PackageDeveloper`DefinePublicFunction[
-    Global`d:(Global`f_System`Symbol)[Global`args___], 
-    Global`usage_System`String, Global`body_, Global`resultPattern_:_, 
-    Global`error_:""] := PackageDeveloper`DefinePublicFunction[Global`f, 
-    Global`d, {Global`args}, System`Null, Global`usage, Global`body, 
-    Global`resultPattern, Global`error]; 
-  PackageDeveloper`DefinePublicFunction[
-    Global`d:System`Verbatim[System`Condition][(Global`f_System`Symbol)[
+       System`HoldForm[Global`a]]]; System`Protect[Global`f]; 
+    paul`DisallowOwnValues[Global`f]; ); 
+  PackageDeveloper`DefinePublicFunction[System`Optional[
+     Global`attributes_System`List /; System`Length[Global`attributes] > 0, 
+     {}], Global`d:System`Verbatim[System`Condition][(Global`f_System`Symbol)[
        Global`args___], Global`c_], Global`usage_System`String, Global`body_, 
-    Global`resultPattern_:_, Global`error_:""] := 
-   PackageDeveloper`DefinePublicFunction[Global`f, Global`d, {Global`args}, 
-    Global`c, Global`usage, Global`body, Global`resultPattern, Global`error]; 
+    Global`resultPattern_:_, Global`error_:"", 
+    Global`opts:System`OptionsPattern[]] := 
+   PackageDeveloper`DefinePublicFunction[Global`attributes, Global`f, 
+    Global`d, {Global`args}, Global`c, Global`usage, Global`body, 
+    Global`resultPattern, Global`error, Global`opts]; 
+  PackageDeveloper`DefinePublicFunction[System`Optional[
+     Global`attributes_System`List /; System`Length[Global`attributes] > 0, 
+     {}], Global`d:System`Except[System`Condition, Global`f_System`Symbol][
+      Global`args___], Global`usage_System`String, Global`body_, 
+    Global`resultPattern_:_, Global`error_:"", 
+    Global`opts:System`OptionsPattern[]] := 
+   PackageDeveloper`DefinePublicFunction[Global`attributes, Global`f, 
+    Global`d, {Global`args}, System`Null, Global`usage, Global`body, 
+    Global`resultPattern, Global`error, Global`opts]; 
+  System`Options[PackageDeveloper`DefinePublicFunction] = 
+   {System`Options -> {}}; paul`MakeUndefinedFunction[
+   PackageDeveloper`DefinePublicFunction]; 
   System`Protect[PackageDeveloper`DefinePublicFunction]; ]

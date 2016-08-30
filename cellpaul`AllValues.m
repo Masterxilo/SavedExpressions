@@ -1,0 +1,21 @@
+System`Cell[System`BoxData[System`RowBox[{"Persist", "[", 
+    System`RowBox[{"AllValues", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      ",", System`RowBox[{System`RowBox[{System`RowBox[{"AllValues", "::", 
+            "usage"}], "=", "\"AllValues[symbol] which can be given\nas a \
+Symbol or String. Returns OwnValues, DownValues, UpValues, SubValues\""}], 
+        ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        System`RowBox[{System`RowBox[{"AllValues", "[", "s_Symbol", "]"}], 
+          ":=", System`RowBox[{"Join", "@@", System`RowBox[{"Through", "[", 
+              System`RowBox[{System`RowBox[{"{", System`RowBox[{"OwnValues", 
+                    ",", "DownValues", ",", "UpValues", ",", "SubValues"}], 
+                  "}"}], "[", System`RowBox[{"Unevaluated", "@", "s"}], 
+                "]"}], "]"}]}]}], ";", "\n", System`RowBox[
+         {System`RowBox[{"AllValues", "[", "s_String", "]"}], ":=", 
+          System`RowBox[{"CallWithUnevaluatedSymbol", "[", 
+            System`RowBox[{"AllValues", ",", "s"}], "]"}]}], ";", "\n", 
+        System`RowBox[{"AllValues", "~", "SetAttributes", "~", "HoldAll"}], 
+        ";", "\[IndentingNewLine]", System`RowBox[{"AllValues", "//", 
+          "MakeUndefinedFunction"}]}]}], "\[IndentingNewLine]", "]"}]], 
+ "Input", System`CellChangeTimes -> {{3.6814915944665747*^9, 
+  3.6814916012590547*^9}, {3.6814924627543297*^9, 3.6814924651706305*^9}, 
+  {3.681502113994974*^9, 3.6815021384674892*^9}}]
