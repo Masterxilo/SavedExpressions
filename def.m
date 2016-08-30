@@ -1,1 +1,1 @@
-HoldComplete[x]
+System`HoldComplete[Global`x]

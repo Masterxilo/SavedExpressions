@@ -18,5 +18,7 @@ form.\n\nusage:\n{{{___Integer}, {___Integer}}?(AllEqual[Length]) ..}\"",
             "]"}], ",", System`RowBox[{System`RowBox[{"Equal", "@@", 
               System`RowBox[{"(", System`RowBox[{"property", "/@", "#"}], 
                 ")"}]}], "&"}]}], "}"}]}], "\[IndentingNewLine]", "]"}]], 
- "Input", System`CellChangeTimes -> {{3.681491510592868*^9, 
-  3.681491528402115*^9}, {3.6815049754404626*^9, 3.681505017127391*^9}}]
+ "Input", System`GeneratedCell -> System`True, 
+ System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
+  {{3.681491510592868*^9, 3.681491528402115*^9}, {3.6815049754404626*^9, 
+   3.681505017127391*^9}, 3.681557697651147*^9}]

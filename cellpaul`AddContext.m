@@ -10,7 +10,9 @@ strict symbol creation rules apply, c.f. $NewSymbol\""}], ";",
         "\[IndentingNewLine]", "\[IndentingNewLine]", 
         System`RowBox[{System`RowBox[{"paul`AddContext", "[", 
             System`RowBox[{"s_String", "/;", System`RowBox[{System`RowBox[
-                 {"paul`StringLast", "[", "s", "]"}], "===", "\"`\""}]}], 
+                 {System`RowBox[{"paul`StringLast", "[", "s", "]"}], "===", 
+                  "\"`\""}], "&&", System`RowBox[{System`RowBox[
+                   {"StringLength", "@", "s"}], "\[GreaterEqual]", "2"}]}]}], 
             "]"}], ":=", System`RowBox[{"With", "[", "\[IndentingNewLine]", 
             System`RowBox[{System`RowBox[{"{", System`RowBox[
                  {"paulsContexts", "=", System`RowBox[{System`RowBox[
@@ -30,4 +32,5 @@ strict symbol creation rules apply, c.f. $NewSymbol\""}], ";",
   {{3.6814825120339146*^9, 3.681482521893261*^9}, {3.681482576299482*^9, 
   3.68148268648707*^9}, {3.681482762425025*^9, 3.681482766709552*^9}, 
   {3.681482800536557*^9, 3.6814828281154003*^9}, {3.681483333603247*^9, 
-  3.6814833387530613*^9}, {3.681490087287752*^9, 3.681490177815274*^9}}]
+  3.6814833387530613*^9}, {3.681490087287752*^9, 3.681490177815274*^9}, 
+  {3.6815343840292826*^9, 3.6815343946231675*^9}}]
