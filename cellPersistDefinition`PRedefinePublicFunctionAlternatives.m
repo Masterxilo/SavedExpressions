@@ -13,25 +13,31 @@ natives[usage, {def1, body1}, {def2, body2}, ...]\""}], ";",
             " ", "real"}], "*)"}], "\[IndentingNewLine]", 
         System`RowBox[{System`RowBox[
            {"PersistDefinition`PRedefinePublicFunctionAlternatives", "[", 
-            System`RowBox[{"usage_String", ",", System`RowBox[{"definitions", 
-                ":", System`RowBox[{System`RowBox[{"{", System`RowBox[
-                     {"_", ",", "_"}], "}"}], ".."}]}]}], "]"}], ":=", 
-          System`RowBox[{"Module", "[", System`RowBox[
-             {System`RowBox[{"{", System`RowBox[{"$i", "=", "True"}], "}"}], 
-              ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-              System`RowBox[{System`RowBox[{"Function", "[", System`RowBox[
-                   {System`RowBox[{"{", System`RowBox[{"def", ",", "body"}], 
-                      "}"}], ",", "\[IndentingNewLine]", System`RowBox[
-                     {System`RowBox[{"If", "[", System`RowBox[{"$i", ",", 
-                          System`RowBox[{System`RowBox[{"$i", "=", "False"}], 
-                          ";", "PRedefinePublicFunction"}], ",", 
-                          "DefinePublicFunction"}], "]"}], "[", System`RowBox[
-                       {"def", ",", "usage", ",", "body"}], "]"}], ",", 
-                    "HoldAll"}], "]"}], "@@@", System`RowBox[{"Unevaluated", 
-                  "@", System`RowBox[{"{", "definitions", "}"}]}]}]}], 
-            "\[IndentingNewLine]", "]"}]}], ";", "\[IndentingNewLine]", 
-        "\[IndentingNewLine]", System`RowBox[{"MakeUndefinedFunction", "@", 
+            System`RowBox[{"usage_String", ",", "\[IndentingNewLine]", 
+              System`RowBox[{"definition1", ":", System`RowBox[
+                 {"{", System`RowBox[{System`RowBox[{"d1", ":", System`RowBox[
+                       {"f_Symbol", "[", "___", "]"}]}], ",", "b1_"}], 
+                  "}"}]}], ",", System`RowBox[{"definitions", ":", 
+                System`RowBox[{System`RowBox[{"{", System`RowBox[
+                     {System`RowBox[{"f_Symbol", "[", "___", "]"}], ",", 
+                      "_"}], "}"}], ".."}]}]}], "]"}], ":=", 
+          System`RowBox[{"Persist", "[", System`RowBox[{"f", ",", 
+              "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[{
+                System`RowBox[{"RedefinePublicFunction", "[", System`RowBox[
+                   {"d1", ",", "usage", ",", "b1"}], "]"}], ";", 
+                "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
+                 {System`RowBox[{"Function", "[", System`RowBox[
+                     {System`RowBox[{"{", System`RowBox[{"def", ",", 
+                          "body"}], "}"}], ",", "\[IndentingNewLine]", 
+                      System`RowBox[{"DefinePublicFunction", "[", 
+                        System`RowBox[{"def", ",", "usage", ",", "body"}], 
+                        "]"}], ",", "HoldAll"}], "]"}], "@@@", System`RowBox[
+                   {"Unevaluated", "@", System`RowBox[{"{", "definitions", 
+                      "}"}]}]}], ";"}]}], "\[IndentingNewLine]", "]"}]}], 
+        ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        System`RowBox[{"MakeUndefinedFunction", "@", 
           "PersistDefinition`PRedefinePublicFunctionAlternatives"}], ";"}]}], 
     "\[IndentingNewLine]", "]"}]], "Input", System`CellChangeTimes -> 
   {{3.681503909653963*^9, 3.6815041194828463*^9}, {3.6815041731230936*^9, 
-  3.6815041734200172*^9}, {3.681504250855586*^9, 3.681504332308375*^9}}]
+   3.6815041734200172*^9}, {3.681504250855586*^9, 3.681504332308375*^9}, 
+   3.6815099008002615*^9, {3.681509981416888*^9, 3.681510103808719*^9}}]
