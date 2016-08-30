@@ -23,19 +23,25 @@ System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[",
               "normals", ",", "inormals", ",", "litImage", ",", "litOutline", 
               ",", "litColors", ",", "diffuse", ",", System`RowBox[{
                 "colorDims", "=", System`RowBox[{System`RowBox[
-                   {"ImageChannels", "@", "img"}], "-", "1"}]}]}], "}"}], 
-          ",", System`RowBox[{System`RowBox[{System`RowBox[{"DPrint", "@", 
-                "colorDims"}], ";", "\[IndentingNewLine]", System`RowBox[{
-                "DPrint", "@", "img"}], ";", "\[IndentingNewLine]", 
-              System`RowBox[{"id", "=", System`RowBox[{"ImageData", "@", 
-                  "img"}]}], ";", "\[IndentingNewLine]", System`RowBox[{
-                "alpha", "=", System`RowBox[{"AlphaChannel", "@", "img"}]}], 
-              System`RowBox[{"(*", System`RowBox[{"inside", " ", "is", " ", 
-                  "white"}], "*)"}], ";", "\[IndentingNewLine]", 
-              System`RowBox[{"DPrint", "@", "alpha"}], ";", 
-              "\[IndentingNewLine]", System`RowBox[{"distanceField", "=", 
-                System`RowBox[{"ImageData", "@", System`RowBox[
-                   {"DistanceTransformFull", "@", "alpha"}]}]}], ";"}], 
+                   {"ImageChannels", "@", "img"}], "-", "1"}]}], ",", 
+              "DPrint"}], "}"}], ",", "\[IndentingNewLine]", 
+          System`RowBox[{System`RowBox[{"DPrint", "~", "SetAttributes", "~", 
+              "HoldAll"}], ";", "\[IndentingNewLine]", System`RowBox[
+             {System`RowBox[{"DPrint", "[", "___", "]"}], ":=", "Null"}], 
+            ";", System`RowBox[{"(*", System`RowBox[{"TODO", " ", "allow", 
+                " ", "controling", " ", "from", " ", "outside"}], "*)"}], 
+            "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[
+             {"DPrint", "@", "colorDims"}], ";", "\[IndentingNewLine]", 
+            System`RowBox[{"DPrint", "@", "img"}], ";", 
+            "\[IndentingNewLine]", System`RowBox[{"id", "=", System`RowBox[{
+                "ImageData", "@", "img"}]}], ";", "\[IndentingNewLine]", 
+            System`RowBox[{"alpha", "=", System`RowBox[{"AlphaChannel", "@", 
+                "img"}]}], System`RowBox[{"(*", System`RowBox[{"inside", " ", 
+                "is", " ", "white"}], "*)"}], ";", "\[IndentingNewLine]", 
+            System`RowBox[{"DPrint", "@", "alpha"}], ";", 
+            "\[IndentingNewLine]", System`RowBox[{"distanceField", "=", 
+              System`RowBox[{"ImageData", "@", System`RowBox[
+                 {"DistanceTransformFull", "@", "alpha"}]}]}], ";", 
             "\[IndentingNewLine]", System`RowBox[{"(*", System`RowBox[{
                 "distanceField", "=", System`RowBox[{System`RowBox[
                    {"ImageData", "@", System`RowBox[{"Blur", "[", 
@@ -172,5 +178,7 @@ System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[",
    3.6805649539622593*^9, {3.680651984559949*^9, 3.6806520597427597*^9}, 
    {3.6808932484013114*^9, 3.680893256354744*^9}, {3.6808933552963037*^9, 
    3.6808933909383802*^9}, {3.6808937840157185*^9, 3.680893800219486*^9}, 
-   {3.6808941068101006*^9, 3.6808941204825373*^9}}, 
- System`CellTags -> "depersistedCellc8c67770-4b2c-4451-ae22-512891c164b6"]
+   {3.6808941068101006*^9, 3.6808941204825373*^9}, 3.6815657138179398*^9, 
+   {3.6815663943985715*^9, 3.6815663945467567*^9}, {3.681566438893118*^9, 
+   3.681566463067297*^9}}, System`CellTags -> 
+  "depersistedCella25ef734-1bd5-4126-b82f-792ea1d3f101"]

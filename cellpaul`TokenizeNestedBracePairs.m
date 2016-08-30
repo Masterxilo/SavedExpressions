@@ -1,34 +1,36 @@
 System`Cell[System`BoxData[System`RowBox[{"Persist", "[", 
-    System`RowBox[{"TokenizeNestedBracePairs", ",", "\[IndentingNewLine]", 
-      "\[IndentingNewLine]", System`RowBox[
-       {System`RowBox[{"UnprotectClearAll", "@", 
-          "TokenizeNestedBracePairsBraces"}], ";", "\[IndentingNewLine]", 
-        System`RowBox[{System`RowBox[{"paul`TokenizeNestedBracePairsBraces", 
-            "[", "]"}], "=", System`RowBox[{"{", System`RowBox[
-             {System`RowBox[{"\"[\"", "\[Rule]", "\"]\""}], ",", 
-              System`RowBox[{"\"{\"", "\[Rule]", "\"}\""}], ",", 
-              System`RowBox[{"\"(\"", "\[Rule]", "\")\""}]}], 
-            System`RowBox[{"(*", System`RowBox[{",", System`RowBox[
-                 {"\"<\"", "\[Rule]", "\">\""}]}], "*)"}], "}"}]}], ";", 
+    System`RowBox[{"paul`TokenizeNestedBracePairs", ",", 
+      "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      System`RowBox[{System`RowBox[{"UnprotectClearAll", "@", 
+          "paul`TokenizeNestedBracePairsBraces"}], ";", 
         "\[IndentingNewLine]", System`RowBox[
+         {System`RowBox[{"paul`TokenizeNestedBracePairsBraces", "[", "]"}], 
+          "=", System`RowBox[{"{", System`RowBox[{System`RowBox[{"\"[\"", 
+                "\[Rule]", "\"]\""}], ",", System`RowBox[{"\"{\"", "\[Rule]", 
+                "\"}\""}], ",", System`RowBox[{"\"(\"", "\[Rule]", 
+                "\")\""}]}], System`RowBox[{"(*", System`RowBox[{",", 
+                System`RowBox[{"\"<\"", "\[Rule]", "\">\""}]}], "*)"}], 
+            "}"}]}], ";", "\[IndentingNewLine]", System`RowBox[
          {System`RowBox[{"paul`TokenizeNestedBracePairsBraces", "::", 
             "usage"}], "=", "\"Defines opening and closing braces for \
 TokenizeNestedBracePairs\""}], ";", "\[IndentingNewLine]", 
-        System`RowBox[{"Protect", "@", "TokenizeNestedBracePairsBraces"}], 
-        ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-        "\[IndentingNewLine]", System`RowBox[{"UnprotectClearAll", "@", 
-          "TokenizeNestedBracePairs"}], ";", "\[IndentingNewLine]", 
-        System`RowBox[{System`RowBox[{"TokenizeNestedBracePairs", "::", 
+        System`RowBox[{"Protect", "@", 
+          "paul`TokenizeNestedBracePairsBraces"}], ";", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        System`RowBox[{"UnprotectClearAll", "@", 
+          "paul`TokenizeNestedBracePairs"}], ";", "\[IndentingNewLine]", 
+        System`RowBox[{System`RowBox[{"paul`TokenizeNestedBracePairs", "::", 
             "unbalanced"}], "=", "\"Unbalanced parenthesis in ``.\\n``\""}], 
         ";", "\[IndentingNewLine]", System`RowBox[
-         {System`RowBox[{"TokenizeNestedBracePairs", "::", "usage"}], "=", "\
-\"TokenizeNestedBracePairs[text] splits text into a nested list of \
-strings,\nof the form {\\\"text with no braces\\\", {\\\"[\\\", {...}, \
-\\\"]\\\"}, \\\"text with no braces\\\", {\\\"(\\\", {...}, \\\")\\\"}, ... \
-etc}.\nHandles [] () and {}, c.f. TokenizeNestedBracePairsBraces.\""}], ";", 
-        "\[IndentingNewLine]", "\[IndentingNewLine]", "\n", 
-        System`RowBox[{"(*", System`RowBox[{"nest", " ", "substrings", " ", 
-            "based", " ", "on", " ", "parentheses", " ", System`RowBox[
+         {System`RowBox[{"paul`TokenizeNestedBracePairs", "::", "usage"}], 
+          "=", "\"TokenizeNestedBracePairs[text] splits text into a nested \
+list of strings,\nof the form {\\\"text with no braces\\\", {\\\"[\\\", \
+{...}, \\\"]\\\"}, \\\"text with no braces\\\", {\\\"(\\\", {...}, \
+\\\")\\\"}, ... etc}.\nHandles [] () and {}, c.f. \
+TokenizeNestedBracePairsBraces.\""}], ";", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", "\n", System`RowBox[
+         {"(*", System`RowBox[{"nest", " ", "substrings", " ", "based", " ", 
+            "on", " ", "parentheses", " ", System`RowBox[
              {"{", System`RowBox[{"(", "["}]}]}], "*)"}], 
         System`RowBox[{"(*", System`RowBox[{System`RowBox[
              {System`RowBox[{"TODO", " ", "consider", " ", "something", " ", 
@@ -45,7 +47,7 @@ etc}.\nHandles [] () and {}, c.f. TokenizeNestedBracePairsBraces.\""}], ";",
 (\\n    _Out_writes_(lengthz) double* z,\\n    const size_t rowz, \\n    \
 const size_t rowfz\\n    ), \\\"compute Fx[[rowfz;\"", "]"}]}], 
           "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
-        System`RowBox[{System`RowBox[{"TokenizeNestedBracePairs", "[", 
+        System`RowBox[{System`RowBox[{"paul`TokenizeNestedBracePairs", "[", 
             System`RowBox[{"x_String", ",", "closeparen_String"}], "]"}], 
           ":=", System`RowBox[{"Module", "[", System`RowBox[
              {System`RowBox[{"{", System`RowBox[{"opString", ",", "cpString", 
@@ -143,19 +145,20 @@ const size_t rowfz\\n    ), \\\"compute Fx[[rowfz;\"", "]"}]}],
         System`RowBox[{"(*", System`RowBox[{"TODO", " ", "proper", " ", 
             "error", " ", "message", " ", "on", " ", "unbalanced", " ", 
             "parentheses"}], "*)"}], "\[IndentingNewLine]", 
-        System`RowBox[{System`RowBox[{"TokenizeNestedBracePairs", "[", 
+        System`RowBox[{System`RowBox[{"paul`TokenizeNestedBracePairs", "[", 
             "s_String", "]"}], ":=", System`RowBox[{"First", "@", 
             System`RowBox[{"TokenizeNestedBracePairs", "[", System`RowBox[{
                 "s", ",", "\"\""}], "]"}]}]}], ";", "\[IndentingNewLine]", 
-        "\[IndentingNewLine]", System`RowBox[{"TokenizeNestedBracePairs", 
-          "//", "MakeUndefinedFunction"}], ";", "\[IndentingNewLine]", 
-        System`RowBox[{"Protect", "@", "TokenizeNestedBracePairs"}], ";"}]}], 
-    "\[IndentingNewLine]", "]"}]], "Input", System`CellChangeTimes -> 
-  {{3.6814915944665747*^9, 3.6814916012590547*^9}, {3.6814928159513626*^9, 
-   3.6814928222739058*^9}, {3.6815005277541533*^9, 3.681500594601642*^9}, 
-   {3.681500629086032*^9, 3.681500652383027*^9}, {3.6815375839503613*^9, 
-   3.6815376211968265*^9}, {3.6815376683775344*^9, 3.681537752931568*^9}, 
-   {3.6815378305750203*^9, 3.6815379121048145*^9}, 3.68154404334377*^9, 
-   {3.681547566607335*^9, 3.6815475710784416*^9}, {3.681547604854141*^9, 
-   3.6815477172465563*^9}, {3.681547768112449*^9, 3.6815477790120616*^9}, 
-   {3.681559661959135*^9, 3.6815596829281263*^9}}]
+        "\[IndentingNewLine]", System`RowBox[
+         {"paul`TokenizeNestedBracePairs", "//", "MakeUndefinedFunction"}], 
+        ";", "\[IndentingNewLine]", System`RowBox[{"Protect", "@", 
+          "paul`TokenizeNestedBracePairs"}], ";"}]}], "\[IndentingNewLine]", 
+    "]"}]], "Input", System`CellChangeTimes -> {{3.6814915944665747*^9, 
+   3.6814916012590547*^9}, {3.6814928159513626*^9, 3.6814928222739058*^9}, 
+   {3.6815005277541533*^9, 3.681500594601642*^9}, {3.681500629086032*^9, 
+   3.681500652383027*^9}, {3.6815375839503613*^9, 3.6815376211968265*^9}, 
+   {3.6815376683775344*^9, 3.681537752931568*^9}, {3.6815378305750203*^9, 
+   3.6815379121048145*^9}, 3.68154404334377*^9, {3.681547566607335*^9, 
+   3.6815475710784416*^9}, {3.681547604854141*^9, 3.6815477172465563*^9}, 
+   {3.681547768112449*^9, 3.6815477790120616*^9}, {3.681559661959135*^9, 
+   3.6815596829281263*^9}, {3.6815655356785526*^9, 3.6815655773175344*^9}}]
