@@ -1,3 +1,4 @@
-HoldComplete[RedefinePublicFunction[Scene2DShowAlbedo[s_Scene2D], 
-  "Visualize surface brightness", Image[GDSingleDatumToArray[s["GridData"], 
-    "a"]]]]
+System`HoldComplete[Global`RedefinePublicFunction[
+  Global`Scene2DShowAlbedo[Global`s_Global`Scene2D], 
+  "Visualize surface brightness", System`Image[Global`GDSingleDatumToArray[
+    Global`s["GridData"], "a"]], _, ""]]

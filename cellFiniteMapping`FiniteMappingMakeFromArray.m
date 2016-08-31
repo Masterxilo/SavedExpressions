@@ -17,6 +17,7 @@ System`Cell[System`BoxData[System`RowBox[
                 "FiniteMappingMakeFromArray", "[", System`RowBox[{"array", 
                   ",", " ", System`RowBox[{"ArrayDepth", "@", "array"}]}], 
                 "]"}]}], "}"}]}], "\n", "\n", "\n", "  ", "]"}], ";"}]}]], 
- "Code", System`CellChangeTimes -> {{3.6815674723302517*^9, 
-  3.68156758311055*^9}, {3.681567682990239*^9, 3.6815677013030987*^9}, 
-  {3.6815677352214437*^9, 3.6815678346405582*^9}}]
+ "Code", System`GeneratedCell -> System`True, System`CellAutoOverwrite -> 
+  System`True, System`CellChangeTimes -> {{3.6815674723302517*^9, 
+   3.68156758311055*^9}, {3.681567682990239*^9, 3.6815677013030987*^9}, 
+   {3.6815677352214437*^9, 3.6815678346405582*^9}, 3.681574751425415*^9}]

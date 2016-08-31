@@ -10,6 +10,9 @@ System`HoldComplete[paul`Load2[Global`s_System`String,
          System`StringJoin["depersistedCell", Global`id]]]]]; 
   paul`LoadInputField2[] := System`With[{Global`id = System`CreateUUID[]}, 
     System`CellPrint[System`Append[paul`MakeInputCell[Global`InputHere], 
-      {System`CellEvaluationFunction -> (paul`Load2[paul`FullSymbolName @@ 
-           System`ToExpression[#1, System`StandardForm, System`Hold], 
-          Global`id] & ), System`CellTags -> "", System`FontSize -> 24}]]]]
+      {System`CellEvaluationFunction -> 
+        (System`With[{Global`expr = System`ToExpression[#1, 
+             System`StandardForm, System`Hold]}, paul`Load2[
+           System`If[Global`expr[[1,0]] === System`String, System`ReleaseHold[
+             Global`expr], paul`FullSymbolName @@ Global`expr], 
+           Global`id]] & ), System`CellTags -> "", System`FontSize -> 24}]]]]

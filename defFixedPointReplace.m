@@ -1,3 +1,5 @@
-HoldComplete[RedefinePublicFunction[FixedPointReplace[expr_, rest___], 
-  "behaves like ReplaceRepeated, but only on the specified level", 
-  FixedPoint[Replace[#1, rest] & , expr]]]
+System`HoldComplete[Global`RedefinePublicFunction[
+  Global`FixedPointReplace[Global`expr_, Global`rest___], "FixedPointReplace[\
+expr, replacement, (levelspec)] behaves like ReplaceRepeated, but only on the \
+specified level.\nlevelspec as in Replace", 
+  System`FixedPoint[System`Replace[#1, Global`rest] & , Global`expr], _, ""]]

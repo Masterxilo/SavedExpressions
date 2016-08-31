@@ -1,14 +1,12 @@
-System`Cell[System`BoxData[
-  {System`RowBox[{System`RowBox[{"Persist", "[", System`RowBox[
-        {"\"MakeInputCell\"", ",", "\[IndentingNewLine]", 
-         System`RowBox[{System`RowBox[{"Global`MakeInputCell", "[", 
-             "Global`x_", "]"}], ":=", System`RowBox[{"Cell", "[", 
-             System`RowBox[{System`RowBox[{"BoxData", "[", System`RowBox[
-                  {"MakeBoxes", "[", System`RowBox[{"Global`x", ",", 
-                     "StandardForm"}], "]"}], "]"}], ",", "\"Input\""}], 
-             "]"}]}]}], "\[IndentingNewLine]", "]"}], 
-     "\[IndentingNewLine]"}], "\[IndentingNewLine]"}], "Input", 
- System`CellChangeTimes -> {{3.6806083331335793*^9, 3.680608393853346*^9}, 
-   3.6806237711658096*^9, {3.680624140662838*^9, 3.680624146615265*^9}, 
-   {3.680624329534547*^9, 3.6806243609286814*^9}, {3.6806366843532696*^9, 
-   3.6806367060473413*^9}, {3.6806367529798965*^9, 3.680636768447184*^9}}]
+System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
+    System`RowBox[{System`RowBox[{"MakeInputCell", "[", "x_", "]"}], ",", 
+      "\"Cell expression with Input style and content generated from x\"", 
+      ",", System`RowBox[{"Cell", "[", System`RowBox[
+         {System`RowBox[{"BoxData", "[", System`RowBox[{"MakeBoxes", "[", 
+              System`RowBox[{"x", ",", "StandardForm"}], "]"}], "]"}], ",", 
+          "\"Input\""}], "]"}]}], "\[IndentingNewLine]", "]"}]], "Input", 
+ System`CellChangeTimes -> {{3.6806457028238206*^9, 3.6806457043126345*^9}, 
+   3.6806457467706113*^9, {3.680695320023052*^9, 3.680695330731383*^9}, 
+   {3.6815104674146185*^9, 3.6815105098075438*^9}, 3.681641743932006*^9, 
+   3.6816417832500896*^9}, System`CellTags -> 
+  "depersistedCellc14d0a86-5a7d-462b-9020-f031b42c7b71"]

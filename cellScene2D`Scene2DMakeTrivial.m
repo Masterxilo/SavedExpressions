@@ -34,6 +34,8 @@ System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[",
           "\[IndentingNewLine]", System`RowBox[{"Scene2DMake", "[", 
             System`RowBox[{"trivialScene2Dl", ",", "trivialScene2Dgd"}], 
             "]"}]}], "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
-    "]"}]], "Input", System`CellChangeTimes -> {{3.6809331830862837*^9, 
-  3.6809332508594384*^9}, {3.6809332941370726*^9, 3.680933294730173*^9}}, 
- System`CellTags -> "depersistedCelladecc715-7b62-4218-bc5d-ce16f274dad1"]
+    "]"}]], "Code", System`GeneratedCell -> System`True, 
+ System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
+  {{3.6809331830862837*^9, 3.6809332508594384*^9}, {3.6809332941370726*^9, 
+   3.680933294730173*^9}, 3.6815782202328463*^9}, 
+ System`CellTags -> "depersistedCell35cf1e15-dc3e-4a3e-a635-35bd56e85111"]

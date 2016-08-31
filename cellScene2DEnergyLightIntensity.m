@@ -1,17 +1,17 @@
-Cell[BoxData[RowBox[{"Persist", "[", 
-    RowBox[{"\"Scene2DEnergyLightIntensity\"", ",", "\[IndentingNewLine]", 
-      RowBox[{RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
-          RowBox[{RowBox[{"Scene2DEnergyLightIntensity", "[", 
-              RowBox[{RowBox[{"l", ":", RowBox[{"{", RowBox[{"_", ",", "_"}], 
-                    "}"}]}], ",", RowBox[{"n", ":", RowBox[{"{", RowBox[
-                     {"_", ",", "_"}], "}"}]}]}], "]"}], 
-            "\[IndentingNewLine]", ",", 
-            "\"Scene2D lighting model. Symbolic and numeric\"", 
-            "\[IndentingNewLine]", ",", RowBox[{"Max", "[", 
-              RowBox[{RowBox[{"n", ".", "l"}], ",", "0."}], "]"}], 
-            "\[IndentingNewLine]", ",", RowBox[{"Except", "[", "_List", 
-              "]"}]}], "\[IndentingNewLine]", "]"}], ";"}]}], 
-    "\[IndentingNewLine]", "]"}]], "Input", GeneratedCell -> True, 
- CellAutoOverwrite -> True, CellChangeTimes -> 
-  {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
-   {3.68056362122238*^9, 3.680563623715169*^9}, 3.680564634770653*^9}]
+System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
+    "\[IndentingNewLine]", System`RowBox[
+     {System`RowBox[{"Scene2DEnergyLightIntensity", "[", 
+        System`RowBox[{System`RowBox[{"l", ":", System`RowBox[
+             {"{", System`RowBox[{"_", ",", "_"}], "}"}]}], ",", 
+          System`RowBox[{"n", ":", System`RowBox[{"{", System`RowBox[{"_", 
+                ",", "_"}], "}"}]}]}], "]"}], "\[IndentingNewLine]", 
+      "\[IndentingNewLine]", ",", "\"lighting model for 2d scenes, suitable \
+for symbolic and numeric computation\n\nl and n should be Normalized\"", ",", 
+      "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      System`RowBox[{"Max", "[", System`RowBox[{"0.", ",", 
+          System`RowBox[{"l", ".", "n"}]}], "]"}]}], "\[IndentingNewLine]", 
+    "]"}]], "Code", System`GeneratedCell -> System`True, 
+ System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
+  {3.680893575554121*^9, {3.68089362818128*^9, 3.680893690433812*^9}, 
+   3.681578612409436*^9, 3.6816353015383034*^9}, 
+ System`CellTags -> "depersistedCell35cf1e15-dc3e-4a3e-a635-35bd56e85111"]

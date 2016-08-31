@@ -1,16 +1,25 @@
-Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"FlattenNull\"", ",", 
+System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
+    "\[IndentingNewLine]", System`RowBox[
+     {System`RowBox[{"FlattenNull", "[", "expr_", "]"}], 
+      "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+      "\"Removes all Null arguments at level 1 in expression\"", ",", 
       "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
-        RowBox[{RowBox[{"FlattenNull", "[", "expr_", "]"}], ",", 
-          "\[IndentingNewLine]", 
-          "\"Removes all Null arguments at level 1 in expression\"", ",", 
-          "\[IndentingNewLine]", "\[IndentingNewLine]", 
-          RowBox[{"FixedPointReplace", "[", "\[IndentingNewLine]", 
-            RowBox[{"expr", ",", RowBox[{RowBox[{"x_", "[", RowBox[
-                   {"a___", ",", "Null", ",", "b___"}], "]"}], 
-                "\[RuleDelayed]", RowBox[{"x", "[", RowBox[{"a", ",", "b"}], 
-                  "]"}]}]}], "\[IndentingNewLine]", "]"}]}], 
-        "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]], "Input", 
- CellChangeTimes -> {{3.6806119398639555*^9, 3.6806119972215414*^9}}, 
- CellTags -> "depersistedCell9a8b53c2-8cb3-4d40-8672-fed04424b912"]
+      System`RowBox[{"FixedPointReplace", "[", "\[IndentingNewLine]", 
+        System`RowBox[{"expr", ",", System`RowBox[
+           {System`RowBox[{"x_", "[", System`RowBox[{"a___", ",", "Null", 
+                ",", "b___"}], "]"}], "\[RuleDelayed]", System`RowBox[
+             {"x", "[", System`RowBox[{"a", ",", "b"}], "]"}]}]}], 
+        System`RowBox[{"(*", System`RowBox[{System`RowBox[
+             {System`RowBox[{"why", " ", "not", " ", "Null"}], " ", 
+              "\[RuleDelayed]", " ", System`RowBox[{System`RowBox[
+                 {"Nothing", "?", " ", "Because"}], " ", "not", " ", "all", 
+                " ", "Held", " ", "expression", " ", "eliminate", " ", 
+                "these"}]}], ",", " ", System`RowBox[{"same", " ", "for", 
+              " ", System`RowBox[{"Sequence", "[", "]"}]}]}], "*)"}], 
+        "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+    "\[IndentingNewLine]", "]"}]], "Input", System`CellChangeTimes -> 
+  {{3.6806119398639555*^9, 3.6806119972215414*^9}, {3.680695044220897*^9, 
+  3.6806950588611655*^9}, {3.680695103975441*^9, 3.6806951084690638*^9}, 
+  {3.681534451014492*^9, 3.6815345272810698*^9}, {3.6816456388068066*^9, 
+  3.681645641732459*^9}}, System`CellTags -> 
+  "depersistedCell85791ed7-cf66-4d58-9f4b-04aa6876124e"]

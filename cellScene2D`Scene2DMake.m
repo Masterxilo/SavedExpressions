@@ -19,16 +19,17 @@ blurring, used to construct initial d and doriginal)\n\"", ",",
         System`RowBox[{System`RowBox[{"{", "\[IndentingNewLine]", 
             System`RowBox[{System`RowBox[{"canonicalGd", "=", System`RowBox[
                  {"GDDataSubset", "[", System`RowBox[{"gd", ",", 
-                    System`RowBox[{"Scene2D`Scene2DRequiredData", "~", 
+                    System`RowBox[{System`RowBox[
+                       {"Scene2D`Scene2DRequiredData", "[", "]"}], "~", 
                       "Join", "~", System`RowBox[{"(", System`RowBox[
                          {System`RowBox[{"GDDataNames", "[", "gd", "]"}], 
-                          "~", "Complement", "~", 
-                          "Scene2D`Scene2DRequiredData"}], ")"}]}]}], 
-                  "]"}]}], ",", "\[IndentingNewLine]", System`RowBox[{"f", 
-                "=", System`RowBox[{"FiniteMappingMakeFromRules", "[", 
-                  "\[IndentingNewLine]", System`RowBox[{"{", 
-                    "\[IndentingNewLine]", System`RowBox[{System`RowBox[
-                       {"\"l\"", "\[Rule]", "l"}], ",", 
+                          "~", "Complement", "~", System`RowBox[
+                          {"Scene2D`Scene2DRequiredData", "[", "]"}]}], 
+                        ")"}]}]}], "]"}]}], ",", "\[IndentingNewLine]", 
+              System`RowBox[{"f", "=", System`RowBox[
+                 {"FiniteMappingMakeFromRules", "[", "\[IndentingNewLine]", 
+                  System`RowBox[{"{", "\[IndentingNewLine]", System`RowBox[
+                     {System`RowBox[{"\"l\"", "\[Rule]", "l"}], ",", 
                       "\[IndentingNewLine]", System`RowBox[{"\"colorDim\"", 
                         "\[Rule]", System`RowBox[{"Length", "@", 
                           System`RowBox[{System`RowBox[{"(", System`RowBox[
@@ -40,7 +41,7 @@ blurring, used to construct initial d and doriginal)\n\"", ",",
                     "}"}], "\[IndentingNewLine]", "]"}]}]}], 
             "\[IndentingNewLine]", "}"}], "~", "LetL", "~", 
           System`RowBox[{"Scene2D", "[", "f", "]"}]}]}], 
-      "\[IndentingNewLine]", "]"}], ";"}]], "Input", 
+      "\[IndentingNewLine]", "]"}], ";"}]], "Code", 
  System`CellChangeTimes -> {{3.680279099635494*^9, 3.680279129666951*^9}, 
    {3.6803346945496063*^9, 3.6803347896784935*^9}, {3.6803348632596035*^9, 
    3.6803348633689623*^9}, {3.680376119270403*^9, 3.6803761513384137*^9}, 
@@ -49,6 +50,7 @@ blurring, used to construct initial d and doriginal)\n\"", ",",
    3.6809570147291327*^9}, {3.6809625609409385*^9, 3.6809625840044174*^9}, 
    {3.680962616728113*^9, 3.6809626570690756*^9}, {3.680982356710471*^9, 
    3.680982397855257*^9}, {3.6809829580672665*^9, 3.6809829618791723*^9}, 
-   3.6810673470492616*^9}, System`CellTags -> 
-  "depersistedCell7a98bb98-636f-4370-be0d-87790d794147", 
+   3.6810673470492616*^9, 3.6815781964962125*^9, {3.6815782380791245*^9, 
+   3.6815782539138937*^9}}, System`CellTags -> 
+  "depersistedCell35cf1e15-dc3e-4a3e-a635-35bd56e85111", 
  System`CellID -> 289223647]

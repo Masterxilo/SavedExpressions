@@ -8,5 +8,6 @@ System`Cell[System`BoxData[
              System`RowBox[{System`RowBox[{"FMAsRules", "@", "f"}], "~", 
                "UpdateRuleList", "~", System`RowBox[{"FMAsRules", "@", 
                  "g"}]}], "]"}]}], "\n", "  ", "]"}], ";"}], "\n"}], "\n"}], 
- "Code", System`CellChangeTimes -> {{3.6815682608556404*^9, 
-  3.681568263299692*^9}}]
+ "Code", System`GeneratedCell -> System`True, System`CellAutoOverwrite -> 
+  System`True, System`CellChangeTimes -> {{3.6815682608556404*^9, 
+   3.681568263299692*^9}, 3.6815747531766014*^9}]

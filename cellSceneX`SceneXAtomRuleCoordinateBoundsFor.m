@@ -1,12 +1,15 @@
 System`Cell[System`BoxData[System`RowBox[
    {System`RowBox[{"PRedefinePublicFunction", "[", "\[IndentingNewLine]", 
-      System`RowBox[{System`RowBox[{"SceneXAtomRuleCoordinateBoundsFor", "[", 
-          System`RowBox[{"s_Symbol", ",", System`RowBox[{"data", ":", 
-              "$SceneXEnergyDataPattern"}]}], "]"}], "\[IndentingNewLine]", 
+      System`RowBox[{System`RowBox[
+         {"SceneX`SceneXAtomRuleCoordinateBoundsFor", "[", 
+          System`RowBox[{"s_Symbol", ",", System`RowBox[{"data", "?", 
+              System`RowBox[{"(", System`RowBox[{"MatchesQ", "[", 
+                  System`RowBox[{"SceneX`SceneXEnergyDataPattern", "[", 
+                    "]"}], "]"}], ")"}]}]}], "]"}], "\[IndentingNewLine]", 
         "\[IndentingNewLine]", ",", "\"defined coordinateBounds\"", 
         "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
         System`RowBox[{"CoordinateBounds", "@", System`RowBox[
-           {"SceneXAtomRulePositionsFor", "[", System`RowBox[
+           {"SceneX`SceneXAtomRulePositionsFor", "[", System`RowBox[
              {"s", ",", "data"}], "]"}]}], "\[IndentingNewLine]", 
         "\[IndentingNewLine]", ",", System`RowBox[
          {"{", System`RowBox[{System`RowBox[{"{", "__Integer", "}"}], 
@@ -16,4 +19,5 @@ System`Cell[System`BoxData[System`RowBox[
    {3.680385237753171*^9, 3.6803852760970154*^9}, 3.6803853083052053*^9, 
    {3.68038538393559*^9, 3.680385390359605*^9}, {3.680385468729377*^9, 
    3.68038548736366*^9}, {3.6803855232754526*^9, 3.6803855339367404*^9}, 
-   3.680385589443*^9, 3.680933085117471*^9}, System`CellID -> 17031835]
+   3.680385589443*^9, 3.680933085117471*^9, {3.681586091380948*^9, 
+   3.6815861281909018*^9}}, System`CellID -> 17031835]

@@ -7,5 +7,6 @@ System`Cell[System`BoxData[System`RowBox[
               "[", System`RowBox[{"f", ",", " ", System`RowBox[{"x_", " ", 
                   "/;", " ", System`RowBox[{"MemberQ", "[", System`RowBox[
                      {"y", ",", "x"}], "]"}]}]}], "]"}]}], "\n", "  ", "]"}], 
-        ";"}], "\n", "\n"}]}]], "Code", System`CellChangeTimes -> 
-  {{3.68156823452477*^9, 3.6815682374794583*^9}}]
+        ";"}], "\n", "\n"}]}]], "Code", System`GeneratedCell -> System`True, 
+ System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
+  {{3.68156823452477*^9, 3.6815682374794583*^9}, 3.681574751963086*^9}]

@@ -1,3 +1,4 @@
-HoldComplete[RedefinePublicFunction[Scene2DCoordinateBounds[s_Scene2D], 
-   "maximum extents on which scene points exist", 
-   GDCoordinateBounds[s["GridData"]]]; ]
+System`HoldComplete[Global`RedefinePublicFunction[
+  Global`Scene2DCoordinateBounds[Global`s_Global`Scene2D], 
+  "maximum extents on which scene points exist", 
+  Global`GDCoordinateBounds[Global`s["GridData"]], _, ""]]

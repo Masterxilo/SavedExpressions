@@ -1,3 +1,4 @@
-HoldComplete[RedefinePublicFunction[Scene2DEnergyLightIntensity[l:{_, _}, 
-    n:{_, _}], "Scene2D lighting model. Symbolic and numeric", 
-   Max[n . l, 0.], Except[_List]]; ]
+System`HoldComplete[Global`RedefinePublicFunction[
+  Global`Scene2DEnergyLightIntensity[Global`l:{_, _}, Global`n:{_, _}], "ligh\
+ting model for 2d scenes, suitable for symbolic and numeric computation\n\nl \
+and n should be Normalized", System`Max[0., Global`l . Global`n], _, ""]]

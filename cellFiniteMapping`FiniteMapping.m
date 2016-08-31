@@ -216,5 +216,7 @@ System`Cell[System`BoxData[System`RowBox[
            {System`RowBox[{"FiniteMapping", "~", "SetAttributes", "~", 
               "HoldAllComplete"}], "\n", "\n", System`RowBox[
              {"Protect", "[", "FiniteMapping", "]"}]}], ";"}]}], "\n", "\n", 
-      "]"}]}]], "Code", System`CellChangeTimes -> {{3.6815674481650853*^9, 
-  3.6815674653655577*^9}, {3.681567600861724*^9, 3.681567628256911*^9}}]
+      "]"}]}]], "Code", System`GeneratedCell -> System`True, 
+ System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
+  {{3.6815674481650853*^9, 3.6815674653655577*^9}, {3.681567600861724*^9, 
+   3.681567628256911*^9}, 3.681574751334301*^9}]

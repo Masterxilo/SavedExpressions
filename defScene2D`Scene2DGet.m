@@ -1,28 +1,21 @@
-System`HoldComplete[Global`NeedsDefined[
-   PackageDeveloper`RedefinePublicFunction, Scene2D`Scene2DGet, Global`s, 
-   Scene2D`Scene2D, Scene2D`f, FiniteMapping`FiniteMapping, 
-   PackageDeveloper`DefinePublicFunction, Global`p, GridData`GDLookup, 
-   Scene2D`d, GridData`GDSingleDatumToArray, Scene2D`Scene2DProperties]; 
-  (System`Quiet[System`Needs["FiniteMappingSyntax`"]]; 
-   PackageDeveloper`RedefinePublicFunction[Scene2D`Scene2DGet[
-     Global`s:Scene2D`Scene2D[Scene2D`f_FiniteMapping`FiniteMapping], "l"], 
-    "Retrieve various Properties of a scene", Scene2D`f["l"]]; 
-   PackageDeveloper`DefinePublicFunction[Scene2D`Scene2DGet[
-     Global`s:Scene2D`Scene2D[Scene2D`f_FiniteMapping`FiniteMapping], 
-     "colorDim"], "Retrieve various Properties of a scene", 
-    Scene2D`f["colorDim"]]; PackageDeveloper`DefinePublicFunction[
-    Scene2D`Scene2DGet[Global`s:Scene2D`Scene2D[
-       Scene2D`f_FiniteMapping`FiniteMapping], "GridData"], "", 
-    Scene2D`f["GridData"]]; PackageDeveloper`DefinePublicFunction[
-    Scene2D`Scene2DGet[Global`s:Scene2D`Scene2D[
-       Scene2D`f_FiniteMapping`FiniteMapping], 
-     Global`p:{_System`Integer, _System`Integer}], "", 
-    GridData`GDLookup[Global`s["GridData"], Global`p]]; 
-   PackageDeveloper`DefinePublicFunction[Scene2D`Scene2DGet[
-     Global`s:Scene2D`Scene2D[Scene2D`f_FiniteMapping`FiniteMapping], 
-     Scene2D`d_System`String], "", GridData`GDSingleDatumToArray[
-     Scene2D`f["GridData"], Scene2D`d]]; 
-   (Global`s:Scene2D`Scene2D[__])["Properties"] := 
-    Scene2D`Scene2DProperties[Global`s]; 
-   (Global`s:Scene2D`Scene2D[__])[Scene2D`d__] := 
-    Scene2D`Scene2DGet[Global`s, Scene2D`d]; )]
+System`HoldComplete[System`Get["FiniteMappingSyntax`"]; 
+  Global`RedefinePublicFunction[Global`Scene2DGet[
+    Global`s:Global`Scene2D[Global`f_Global`FiniteMapping], "l"], 
+   "Retrieve various Properties of a scene", Global`f["l"]]; 
+  Global`DefinePublicFunction[Global`Scene2DGet[
+    Global`s:Global`Scene2D[Global`f_Global`FiniteMapping], "colorDim"], 
+   "Retrieve various Properties of a scene", Global`f["colorDim"]]; 
+  Global`DefinePublicFunction[Global`Scene2DGet[
+    Global`s:Global`Scene2D[Global`f_Global`FiniteMapping], "GridData"], "", 
+   Global`f["GridData"]]; Global`DefinePublicFunction[
+   Global`Scene2DGet[Global`s:Global`Scene2D[Global`f_Global`FiniteMapping], 
+    Global`p:{_System`Integer, _System`Integer}], "", 
+   Global`GDLookup[Global`s["GridData"], Global`p]]; 
+  Global`DefinePublicFunction[Global`Scene2DGet[
+    Global`s:Global`Scene2D[Global`f_Global`FiniteMapping], 
+    Global`d_System`String], "", Global`GDSingleDatumToArray[
+    Global`f["GridData"], Global`d]]; System`Unprotect[Global`Scene2D]; 
+  (Global`s:Global`Scene2D[__])["Properties"] := 
+   Global`Scene2DProperties[Global`s]; 
+  (Global`s:Global`Scene2D[__])[Global`d__] := Global`Scene2DGet[Global`s, 
+    Global`d]; System`Protect[Global`Scene2D]; ]
