@@ -1,4 +1,5 @@
-HoldComplete[RedefinePublicFunction[
-  SOPFullyAbstractfAt[SparseOptimizationProblem[f_, select_, P_, data_, y_], 
-    p_] /; Contains[P, p], "abstract energy vector at a p", f /. select[p], 
-  {__}]]
+System`HoldComplete[Global`RedefinePublicFunction[
+  Global`SOPFullyAbstractfAt[Global`sop_Global`SparseOptimizationProblem, 
+   Global`p_], "abstract energy vector at a p", 
+  Global`SOPGetF[Global`sop] /. Global`SOPSelect[Global`sop, Global`p], {__}, 
+  ""]]

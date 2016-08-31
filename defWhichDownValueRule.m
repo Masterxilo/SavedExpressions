@@ -3,7 +3,8 @@ System`HoldComplete[Global`RedefinePublicFunction[{System`HoldAll},
      Global`args___]], "Like WhichDownValue but also returns the right hand \
 side of the DownValue that applies if any.\nArguments will only be evaluated \
 if the Head's arguments say they should. Unless there are UpValues/SubValues \
-involved, this gives the next step of evaluation.", 
+involved, this gives the next step of evaluation.\n\nConditional (especially \
+on the right hand side) is also not correctly supported.\n", 
   System`Module[{Global`dummyHead, Global`evaluatedArguments, Global`x}, 
    System`SetAttributes[Global`dummyHead, System`Attributes[Global`f]]; 
     Global`evaluatedArguments = Global`dummyHead[Global`args]; 

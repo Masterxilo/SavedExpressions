@@ -1,13 +1,11 @@
-Cell[BoxData[RowBox[{"Persist", "[", "\[IndentingNewLine]", 
-    RowBox[{"\"SOPGetP\"", "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
-      "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      RowBox[{RowBox[{"RedefinePublicFunction", "[", 
-          RowBox[{RowBox[{"SOPGetP", "[", RowBox[{
-                "SparseOptimizationProblem", "[", RowBox[{"f_", ",", 
-                  "select_", ",", "p_", ",", "data_", ",", "y_"}], "]"}], 
-              "]"}], ",", "\"p points\"", ",", "p"}], "]"}], ";"}]}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]], "Input", 
- CellChangeTimes -> {{3.680596448127592*^9, 3.6805964559533396*^9}, 
-   {3.6805965077750015*^9, 3.680596617194547*^9}, 
-   {3.6805966555504074*^9, 3.680596721436619*^9}, 
-   {3.680596752742683*^9, 3.680596868863576*^9}}]
+System`Cell[System`BoxData[System`RowBox[
+   {System`RowBox[{"PRedefinePublicFunction", "[", 
+      System`RowBox[{System`RowBox[{"SOPGetP", "[", System`RowBox[
+           {"SparseOptimizationProblem", "[", "a_Association", "]"}], "]"}], 
+        ",", "\"p points\"", ",", System`RowBox[{"a", "@", "\"p\""}]}], 
+      "]"}], ";"}]], "Input", System`GeneratedCell -> System`True, 
+ System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
+  {3.6809336457559376*^9, {3.6809381043287115*^9, 3.680938114353557*^9}, 
+   3.6816499124139433*^9}, System`CellTags -> 
+  "depersistedCellecf3fa98-3420-4b53-8e7a-807da574a9f1", 
+ System`CellID -> 138321490]

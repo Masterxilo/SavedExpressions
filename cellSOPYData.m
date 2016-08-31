@@ -1,18 +1,16 @@
-Cell[BoxData[RowBox[{"Persist", "[", "\[IndentingNewLine]", 
-    RowBox[{"\"SOPYData\"", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      ",", "\[IndentingNewLine]", 
-      RowBox[{RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
-          RowBox[{RowBox[{"SOPYData", "[", "p_SparseOptimizationProblem", 
-              "]"}], "\[IndentingNewLine]", ",", 
-            "\"only data associated with y, as rules\"", 
-            "\[IndentingNewLine]", ",", RowBox[{"Cases", "[", 
-              RowBox[{RowBox[{"SOPDataAsRules", "@", "p"}], ",", 
-                RowBox[{RowBox[{"HoldPattern", "[", RowBox[{"v_", "\[Rule]", 
-                      "_"}], "]"}], "/;", RowBox[{"MemberQ", "[", RowBox[
-                     {RowBox[{"SOPGetY", "@", "p"}], ",", "v"}], "]"}]}]}], 
-              "]"}]}], "\[IndentingNewLine]", "]"}], ";"}]}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]], "Input", 
- CellChangeTimes -> {{3.680596448127592*^9, 3.6805964559533396*^9}, 
-   {3.6805965077750015*^9, 3.680596617194547*^9}, 
-   {3.6805966555504074*^9, 3.680596721436619*^9}, 
-   {3.680596752742683*^9, 3.6805968456746387*^9}}]
+System`Cell[System`BoxData[System`RowBox[
+   {System`RowBox[{"PRedefinePublicFunction", "[", "\[IndentingNewLine]", 
+      System`RowBox[{System`RowBox[{"SOPYData", "[", 
+          "p_SparseOptimizationProblem", "]"}], "\[IndentingNewLine]", ",", 
+        "\"only data associated with y, as rules\"", "\[IndentingNewLine]", 
+        ",", System`RowBox[{"Cases", "[", System`RowBox[
+           {System`RowBox[{"SOPDataAsRules", "@", "p"}], ",", 
+            System`RowBox[{System`RowBox[{"HoldPattern", "[", System`RowBox[
+                 {"v_", "\[Rule]", "_"}], "]"}], "/;", System`RowBox[{
+                "MemberQ", "[", System`RowBox[{System`RowBox[{"SOPGetY", "@", 
+                    "p"}], ",", "v"}], "]"}]}]}], "]"}]}], 
+      "\[IndentingNewLine]", "]"}], ";"}]], "Input", 
+ System`GeneratedCell -> System`True, System`CellAutoOverwrite -> 
+  System`True, System`CellChangeTimes -> {{3.680274840977332*^9, 
+   3.680274859933992*^9}, {3.6803803829594965*^9, 3.6803803958605957*^9}, 
+   3.680933625240054*^9, 3.6816499126883*^9}, System`CellID -> 540665373]

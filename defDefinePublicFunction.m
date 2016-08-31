@@ -14,8 +14,10 @@ argument' type situations."; System`SetAttributes[
   Global`DefinePublicFunction[Global`attributes:{___}, 
     Global`f_System`Symbol, Global`def_, Global`args_System`List, 
     Global`cond:System`Null | _, Global`usage_System`String, Global`body_, 
-    Global`resultPattern_:_, Global`error_:"", System`OptionsPattern[]] := 
-   (System`Unprotect[Global`f]; Global`IllegalContext::msg = 
+    Global`resultPattern:System`Except[System`Options -> _]:_, 
+    Global`error:System`Except[System`Options -> _]:"", 
+    Global`opts:System`OptionsPattern[]] := (System`Unprotect[Global`f]; 
+    Global`IllegalContext::msg = 
      "Illegal context of definition symbol `` in definition ``."; 
     Global`AlreadyDefined::msg = "`` already defined. Or DownValueUsage was \
 not properly cleaned.\nDid you mean *Re*definePublicFunction?"; 
@@ -58,19 +60,19 @@ not properly cleaned.\nDid you mean *Re*definePublicFunction?";
      System`HoldPattern[Global`a:Global`f[___]] :> Global`MessageUndefined[
        System`HoldForm[Global`a]]]; System`Protect[Global`f]; 
     Global`DisallowOwnValues[Global`f]; ); 
-  Global`DefinePublicFunction[System`Optional[
-     Global`attributes_System`List /; System`Length[Global`attributes] > 0, 
-     {}], Global`d:System`Verbatim[System`Condition][(Global`f_System`Symbol)[
+  Global`DefinePublicFunction[Global`attributes:{___}:{}, 
+    Global`d:System`Verbatim[System`Condition][(Global`f_System`Symbol)[
        Global`args___], Global`c_], Global`usage_System`String, Global`body_, 
-    Global`resultPattern_:_, Global`error_:"", 
+    Global`resultPattern:System`Except[System`Options -> _]:_, 
+    Global`error:System`Except[System`Options -> _]:"", 
     Global`opts:System`OptionsPattern[]] := Global`DefinePublicFunction[
     Global`attributes, Global`f, Global`d, {Global`args}, Global`c, 
     Global`usage, Global`body, Global`resultPattern, Global`error, 
-    Global`opts]; Global`DefinePublicFunction[System`Optional[
-     Global`attributes_System`List /; System`Length[Global`attributes] > 0, 
-     {}], Global`d:System`Except[System`Condition, Global`f_System`Symbol][
-      Global`args___], Global`usage_System`String, Global`body_, 
-    Global`resultPattern_:_, Global`error_:"", 
+    Global`opts]; Global`DefinePublicFunction[Global`attributes:{___}:{}, 
+    Global`d:System`Except[System`Condition | System`List, 
+       Global`f_System`Symbol][Global`args___], Global`usage_System`String, 
+    Global`body_, Global`resultPattern:System`Except[System`Options -> _]:_, 
+    Global`error:System`Except[System`Options -> _]:"", 
     Global`opts:System`OptionsPattern[]] := Global`DefinePublicFunction[
     Global`attributes, Global`f, Global`d, {Global`args}, System`Null, 
     Global`usage, Global`body, Global`resultPattern, Global`error, 

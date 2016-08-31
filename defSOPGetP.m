@@ -1,2 +1,3 @@
-HoldComplete[RedefinePublicFunction[SOPGetP[SparseOptimizationProblem[f_, 
-     select_, p_, data_, y_]], "p points", p]; ]
+System`HoldComplete[Global`RedefinePublicFunction[
+  Global`SOPGetP[Global`SparseOptimizationProblem[
+    Global`a_System`Association]], "p points", Global`a["p"], _, ""]]

@@ -1,2 +1,5 @@
-HoldComplete[RedefinePublicFunction[SOPEnergy[p_SparseOptimizationProblem], 
-   "current energy, a number", Norm2[Flatten[SOPEnergyVector[p]]], _Real]; ]
+System`HoldComplete[Global`RedefinePublicFunction[
+  Global`SOPEnergy[Global`p:Global`SparseOptimizationProblem[
+     Global`a_System`Association]], "current energy, a number", 
+  Global`Norm2[System`Flatten[Global`SOPEnergyVector[Global`p]]], 
+  _System`Real, ""]]

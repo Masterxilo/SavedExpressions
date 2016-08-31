@@ -1,2 +1,4 @@
-HoldComplete[RedefinePublicFunction[SOPGetY[SparseOptimizationProblem[f_, 
-     select_, p_, data_, y_]], "y variables optimized over", y]; ]
+System`HoldComplete[Global`RedefinePublicFunction[
+  Global`SOPGetY[Global`SparseOptimizationProblem[
+    Global`a_System`Association]], "y variables optimized over", 
+  Global`a["y"], _, ""]]

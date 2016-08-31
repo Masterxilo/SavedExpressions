@@ -1,15 +1,15 @@
-Cell[BoxData[RowBox[{"Persist", "[", "\[IndentingNewLine]", 
-    RowBox[{"\"SOPObjectiveExpression\"", "\[IndentingNewLine]", 
-      "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
-      RowBox[{RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
-          RowBox[{RowBox[{"SOPObjectiveExpression", "[", 
-              "p_SparseOptimizationProblem", "]"}], "\[IndentingNewLine]", 
-            ",", "\"norm2 of objective vector\"", "\[IndentingNewLine]", ",", 
-            RowBox[{"Norm2", "@", RowBox[{"Flatten", "@", RowBox[
-                 {"SOPObjectiveVector", "[", "p", "]"}]}]}]}], 
-          "\[IndentingNewLine]", "]"}], ";"}]}], "\[IndentingNewLine]", 
-    "\[IndentingNewLine]", "]"}]], "Input", 
- CellChangeTimes -> {{3.680596448127592*^9, 3.6805964559533396*^9}, 
-   {3.6805965077750015*^9, 3.680596617194547*^9}, 
-   {3.6805966555504074*^9, 3.680596721436619*^9}, 
-   {3.680596752742683*^9, 3.680596826901198*^9}}]
+System`Cell[System`BoxData[System`RowBox[
+   {System`RowBox[{"PRedefinePublicFunction", "[", "\[IndentingNewLine]", 
+      System`RowBox[{System`RowBox[{"SOPObjectiveExpression", "[", 
+          "p_SparseOptimizationProblem", "]"}], "\[IndentingNewLine]", ",", 
+        "\"norm2 of objective vector\"", "\[IndentingNewLine]", ",", 
+        System`RowBox[{"Norm2", "@", System`RowBox[{"Flatten", "@", 
+            System`RowBox[{"SOPObjectiveVector", "[", "p", "]"}]}]}]}], 
+      "\[IndentingNewLine]", "]"}], ";"}]], "Input", 
+ System`GeneratedCell -> System`True, System`CellAutoOverwrite -> 
+  System`True, System`CellChangeTimes -> {{3.68027226127938*^9, 
+   3.680272278476823*^9}, 3.680274385150546*^9, {3.680379469607842*^9, 
+   3.680379492644586*^9}, 3.680933619174288*^9, 3.6811313513695774*^9, 
+   3.681649912551114*^9}, System`CellTags -> 
+  "depersistedCelle35a531a-9e40-45af-9221-1d1b047d6bd9", 
+ System`CellID -> 985490646]

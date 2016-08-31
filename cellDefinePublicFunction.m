@@ -60,47 +60,52 @@ usage message and documentation\nTODO this could also handle syntax hints for \
                 "*)"}], "\n", "  ", "usage_String", ",", " ", 
               System`RowBox[{"(*", " ", System`RowBox[{System`RowBox[
                    {"::", "usage"}], " ", "message"}], " ", "*)"}], "\n", 
-              "  ", "body_", ",", " ", System`RowBox[{"(*", " ", 
-                "definition", " ", "*)"}], "\n", "  ", System`RowBox[{
-                "resultPattern_", " ", ":", " ", "_"}], ",", " ", 
-              System`RowBox[{"(*", " ", System`RowBox[{"return", " ", "type", 
-                  " ", "spec"}], " ", "*)"}], "\n", "  ", System`RowBox[{
-                "error_:", " ", "\"\""}], ",", " ", System`RowBox[{"(*", " ", 
-                System`RowBox[{System`RowBox[{"user", " ", "message", " ", 
-                    "displayed", " ", "on", " ", "function", " ", "error"}], 
-                  ",", " ", System`RowBox[{System`RowBox[{"e", ".", "g", ".", 
-                      " ", "telling"}], " ", "about", " ", "the", " ", 
-                    "likely", " ", "cause"}], ",", " ", System`RowBox[
-                   {"what", " ", "to", " ", "do", " ", "next"}]}], "*)"}], 
-              "\[IndentingNewLine]", System`RowBox[{"OptionsPattern", "[", 
-                "]"}]}], "\n", "]"}], " ", ":=", " ", System`RowBox[
-           {"(", "\n", System`RowBox[{System`RowBox[{"Unprotect", "@", "f"}], 
-              ";", "\n", System`RowBox[{"(*", " ", System`RowBox[{"Error", 
-                  " ", "messages"}], " ", "*)"}], "\n", System`RowBox[{"(*", 
-                " ", System`RowBox[{"We", " ", System`RowBox[{"use", " ", 
-                    "::", "msg"}], " ", "only", " ", "the", " ", "initial", 
-                  " ", "name", " ", "of", " ", "the", " ", "message", " ", 
-                  "is", " ", System`RowBox[{"displayed", ":", " ", 
-                    System`RowBox[{"make", " ", "that", " ", 
-                      "readable"}]}]}], " ", "*)"}], "\n", System`RowBox[{
-                "(*", " ", System`RowBox[{System`RowBox[{"final", " ", "``", 
-                    " ", "is", " ", "for", " ", System`RowBox[{"user", "'"}], 
-                    "s", " ", "error", " ", System`RowBox[{"message", "/", 
-                      "hint"}], " ", System`RowBox[{"(", System`RowBox[
-                       {"if", " ", "any"}], ")"}]}], ",", " ", System`RowBox[
-                   {"\\n", " ", "``", " ", "is", " ", "for", " ", 
-                    System`RowBox[{"StackTrace", "[", "]"}]}]}], " ", "*)"}], 
-              "\n", "  ", System`RowBox[{System`RowBox[{"IllegalContext", 
-                  "::", "msg"}], " ", "=", " ", "\"Illegal context of \
-definition symbol `` in definition ``.\""}], ";", "\n", "  ", 
-              System`RowBox[{System`RowBox[{"AlreadyDefined", "::", "msg"}], 
-                " ", "=", " ", "\"`` already defined. Or DownValueUsage was \
-not properly cleaned.\\nDid you mean *Re*definePublicFunction?\""}], ";", 
-              "\n", "  ", "\n", "  ", System`RowBox[{"(*", " ", System`RowBox[
-                 {"Create", " ", "usage", " ", "message"}], " ", "*)"}], 
-              "\n", "  ", System`RowBox[{"MessageAssert", "[", System`RowBox[
-                 {System`RowBox[{System`RowBox[{"Context", "@", "f"}], " ", 
-                    "=!=", " ", "\"System`\""}], ",", " ", System`RowBox[
+              "  ", "body_", " ", System`RowBox[{"(*", " ", "definition", 
+                " ", "*)"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+              ",", " ", System`RowBox[{"resultPattern", " ", ":", 
+                System`RowBox[{"Except", "[", System`RowBox[{"Options", 
+                    "\[Rule]", "_"}], "]"}], ":", "_"}], System`RowBox[{"(*", 
+                " ", System`RowBox[{"return", " ", "type", " ", "spec"}], 
+                " ", "*)"}], "\[IndentingNewLine]", ",", " ", 
+              System`RowBox[{"error", ":", System`RowBox[{"Except", "[", 
+                  System`RowBox[{"Options", "\[Rule]", "_"}], "]"}], ":", 
+                " ", "\"\""}], " ", System`RowBox[{"(*", " ", System`RowBox[
+                 {System`RowBox[{"user", " ", "message", " ", "displayed", 
+                    " ", "on", " ", "function", " ", "error"}], ",", " ", 
+                  System`RowBox[{System`RowBox[{"e", ".", "g", ".", " ", 
+                      "telling"}], " ", "about", " ", "the", " ", "likely", 
+                    " ", "cause"}], ",", " ", System`RowBox[{"what", " ", 
+                    "to", " ", "do", " ", "next"}]}], "*)"}], 
+              "\[IndentingNewLine]", ",", System`RowBox[{"opts", ":", 
+                System`RowBox[{"OptionsPattern", "[", "]"}]}]}], "\n", "]"}], 
+          " ", ":=", " ", System`RowBox[{"(", "\n", System`RowBox[
+             {System`RowBox[{"Unprotect", "@", "f"}], ";", "\n", 
+              System`RowBox[{"(*", " ", System`RowBox[{"Error", " ", 
+                  "messages"}], " ", "*)"}], "\n", System`RowBox[{"(*", " ", 
+                System`RowBox[{"We", " ", System`RowBox[{"use", " ", "::", 
+                    "msg"}], " ", "only", " ", "the", " ", "initial", " ", 
+                  "name", " ", "of", " ", "the", " ", "message", " ", "is", 
+                  " ", System`RowBox[{"displayed", ":", " ", System`RowBox[
+                     {"make", " ", "that", " ", "readable"}]}]}], " ", 
+                "*)"}], "\n", System`RowBox[{"(*", " ", System`RowBox[
+                 {System`RowBox[{"final", " ", "``", " ", "is", " ", "for", 
+                    " ", System`RowBox[{"user", "'"}], "s", " ", "error", 
+                    " ", System`RowBox[{"message", "/", "hint"}], " ", 
+                    System`RowBox[{"(", System`RowBox[{"if", " ", "any"}], 
+                      ")"}]}], ",", " ", System`RowBox[{"\\n", " ", "``", 
+                    " ", "is", " ", "for", " ", System`RowBox[{"StackTrace", 
+                      "[", "]"}]}]}], " ", "*)"}], "\n", "  ", 
+              System`RowBox[{System`RowBox[{"IllegalContext", "::", "msg"}], 
+                " ", "=", " ", "\"Illegal context of definition symbol `` in \
+definition ``.\""}], ";", "\n", "  ", System`RowBox[{System`RowBox[
+                 {"AlreadyDefined", "::", "msg"}], " ", "=", " ", "\"`` \
+already defined. Or DownValueUsage was not properly cleaned.\\nDid you mean \
+*Re*definePublicFunction?\""}], ";", "\n", "  ", "\n", "  ", System`RowBox[{
+                "(*", " ", System`RowBox[{"Create", " ", "usage", " ", 
+                  "message"}], " ", "*)"}], "\n", "  ", System`RowBox[{
+                "MessageAssert", "[", System`RowBox[{System`RowBox[
+                   {System`RowBox[{"Context", "@", "f"}], " ", "=!=", " ", 
+                    "\"System`\""}], ",", " ", System`RowBox[
                    {"IllegalContext", "::", "msg"}], ",", " ", System`RowBox[
                    {"Context", "@", "f"}], ",", " ", System`RowBox[
                    {"HoldForm", "@", "def"}]}], "]"}], ";", "\n", "  ", 
@@ -224,39 +229,46 @@ xInformationArgumentPatternForFixedArgumentCountRange", "@@",
               System`RowBox[{"DisallowOwnValues", "@", "f"}], ";"}], "\n", 
             ")"}]}], ";", "\n", "\[IndentingNewLine]", 
         System`RowBox[{System`RowBox[{"DefinePublicFunction", "[", 
-            System`RowBox[{System`RowBox[{"Optional", "[", System`RowBox[
-                 {System`RowBox[{"attributes_List", "/;", System`RowBox[
-                     {System`RowBox[{"Length", "[", "attributes", "]"}], ">", 
-                      "0"}]}], ",", System`RowBox[{"{", "}"}]}], "]"}], ",", 
+            System`RowBox[{System`RowBox[{"attributes", ":", System`RowBox[
+                 {"{", "___", "}"}], ":", System`RowBox[{"{", "}"}]}], ",", 
               System`RowBox[{"d", " ", ":", " ", System`RowBox[
                  {"(", System`RowBox[{System`RowBox[{"f_Symbol", "[", 
                       "args___", "]"}], "~", System`RowBox[{"Verbatim", "[", 
                       "Condition", "]"}], "~", "c_"}], ")"}]}], ",", " ", 
-              "usage_String", ",", " ", "body_", ",", " ", System`RowBox[{
-                "resultPattern_", " ", ":", " ", "_"}], ",", " ", 
-              System`RowBox[{"error_:", " ", "\"\""}], ",", System`RowBox[{
-                "opts", ":", System`RowBox[{"OptionsPattern", "[", "]"}]}]}], 
-            "]"}], " ", ":=", "\n", "    ", System`RowBox[
-           {"DefinePublicFunction", "[", System`RowBox[{"attributes", ",", 
-              "f", ",", " ", "d", ",", " ", System`RowBox[{"{", "args", 
-                "}"}], ",", " ", "c", ",", " ", "usage", ",", " ", "body", 
-              ",", "resultPattern", ",", "error", ",", "opts"}], "]"}]}], 
-        ";", "\n", "\[IndentingNewLine]", "\n", System`RowBox[
-         {System`RowBox[{"DefinePublicFunction", "[", System`RowBox[
-             {System`RowBox[{"Optional", "[", System`RowBox[{System`RowBox[
-                   {"attributes_List", "/;", System`RowBox[{System`RowBox[
-                       {"Length", "[", "attributes", "]"}], ">", "0"}]}], 
-                  ",", System`RowBox[{"{", "}"}]}], "]"}], System`RowBox[{
-                "(*", System`RowBox[{"cannot", " ", "use", " ", System`RowBox[
-                   {"{", "__", "}"}], " ", System`RowBox[{"bug", "?"}]}], 
-                "*)"}], ",", System`RowBox[{"d", " ", ":", System`RowBox[
-                 {System`RowBox[{"Except", "[", System`RowBox[{"Condition", 
+              "usage_String", ",", " ", "body_", "\[IndentingNewLine]", 
+              "\[IndentingNewLine]", ",", " ", System`RowBox[{
+                "resultPattern", " ", ":", System`RowBox[{"Except", "[", 
+                  System`RowBox[{"Options", "\[Rule]", "_"}], "]"}], ":", 
+                "_"}], "\[IndentingNewLine]", ",", " ", System`RowBox[{
+                "error", ":", System`RowBox[{"Except", "[", System`RowBox[
+                   {"Options", "\[Rule]", "_"}], "]"}], ":", " ", "\"\""}], 
+              "\[IndentingNewLine]", ",", System`RowBox[{"opts", ":", 
+                System`RowBox[{"OptionsPattern", "[", "]"}]}]}], 
+            "\[IndentingNewLine]", "]"}], " ", ":=", "\n", "    ", 
+          System`RowBox[{"DefinePublicFunction", "[", System`RowBox[
+             {"attributes", ",", "f", ",", " ", "d", ",", " ", 
+              System`RowBox[{"{", "args", "}"}], ",", " ", "c", ",", " ", 
+              "usage", ",", " ", "body", ",", "resultPattern", ",", "error", 
+              ",", "opts"}], "]"}]}], ";", "\n", "\[IndentingNewLine]", "\n", 
+        System`RowBox[{System`RowBox[{"DefinePublicFunction", "[", 
+            System`RowBox[{System`RowBox[{"attributes", ":", System`RowBox[
+                 {"{", "___", "}"}], ":", System`RowBox[{"{", "}"}]}], 
+              System`RowBox[{"(*", System`RowBox[{"cannot", " ", "use", " ", 
+                  System`RowBox[{"{", "__", "}"}], " ", System`RowBox[
+                   {"bug", "?"}]}], "*)"}], ",", System`RowBox[{"d", " ", 
+                ":", System`RowBox[{System`RowBox[{"Except", "[", 
+                    System`RowBox[{System`RowBox[{"Condition", "|", "List"}], 
                       ",", " ", "f_Symbol"}], "]"}], "[", "args___", "]"}]}], 
-              ",", " ", "usage_String", ",", " ", "body_", ",", " ", 
-              System`RowBox[{"resultPattern_", " ", ":", " ", "_"}], ",", 
-              " ", System`RowBox[{"error_:", " ", "\"\""}], ",", 
-              System`RowBox[{"opts", ":", System`RowBox[{"OptionsPattern", 
-                  "[", "]"}]}]}], "]"}], " ", ":=", "\n", "    ", 
+              ",", " ", "usage_String", ",", " ", "body_", 
+              "\[IndentingNewLine]", "\[IndentingNewLine]", ",", " ", 
+              System`RowBox[{"resultPattern", " ", ":", System`RowBox[
+                 {"Except", "[", System`RowBox[{"Options", "\[Rule]", "_"}], 
+                  "]"}], ":", "_"}], "\[IndentingNewLine]", ",", " ", 
+              System`RowBox[{"error", ":", System`RowBox[{"Except", "[", 
+                  System`RowBox[{"Options", "\[Rule]", "_"}], "]"}], ":", 
+                " ", "\"\""}], "\[IndentingNewLine]", ",", System`RowBox[{
+                "opts", ":", System`RowBox[{"OptionsPattern", "[", "]"}]}]}], 
+            "\[IndentingNewLine]", "]"}], " ", ":=", "\n", "    ", 
           System`RowBox[{"DefinePublicFunction", "[", System`RowBox[
              {"attributes", ",", "f", ",", " ", "d", ",", " ", 
               System`RowBox[{"{", "args", "}"}], ",", " ", "Null", ",", " ", 
@@ -285,4 +297,6 @@ xInformationArgumentPatternForFixedArgumentCountRange", "@@",
    3.6816322552708797*^9}, {3.681632321521661*^9, 3.681632360397202*^9}, 
    {3.6816328070433645*^9, 3.6816328340905666*^9}, 3.6816334984582367*^9, 
    {3.681633560943448*^9, 3.6816336020532875*^9}, {3.6816337760085773*^9, 
-   3.681633799977681*^9}, {3.681640643288972*^9, 3.681640658688196*^9}}]
+   3.681633799977681*^9}, {3.681640643288972*^9, 3.681640658688196*^9}, 
+   {3.6816600536652985*^9, 3.6816600875185757*^9}, {3.681660273056199*^9, 
+   3.681660374230504*^9}, {3.681661859727991*^9, 3.6816619097864647*^9}}]

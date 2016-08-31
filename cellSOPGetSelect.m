@@ -1,13 +1,13 @@
-Cell[BoxData[RowBox[{"Persist", "[", "\[IndentingNewLine]", 
-    RowBox[{"\"SOPGetSelect\"", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      RowBox[{RowBox[{"RedefinePublicFunction", "[", 
-          RowBox[{RowBox[{"SOPGetSelect", "[", RowBox[{
-                "SparseOptimizationProblem", "[", RowBox[{"f_", ",", 
-                  "select_", ",", "p_", ",", "data_", ",", "y_"}], "]"}], 
-              "]"}], ",", "\"global local selector\"", ",", "select"}], 
-          "]"}], ";"}]}], "\[IndentingNewLine]", "]"}]], "Input", 
- CellChangeTimes -> {{3.680596448127592*^9, 3.6805964559533396*^9}, 
-   {3.6805965077750015*^9, 3.680596617194547*^9}, 
-   {3.6805966555504074*^9, 3.680596721436619*^9}, 
-   {3.680596752742683*^9, 3.6805968767794514*^9}}]
+System`Cell[System`BoxData[System`RowBox[
+   {System`RowBox[{"PRedefinePublicFunction", "[", 
+      System`RowBox[{System`RowBox[{"SOPGetSelect", "[", 
+          System`RowBox[{"SparseOptimizationProblem", "[", "a_Association", 
+            "]"}], "]"}], ",", "\"global local selector\"", ",", 
+        System`RowBox[{"a", "@", "\"select\""}]}], "]"}], ";"}]], "Input", 
+ System`GeneratedCell -> System`True, System`CellAutoOverwrite -> 
+  System`True, System`CellChangeTimes -> {{3.680275114064063*^9, 
+   3.680275125435252*^9}, {3.6803804017779922*^9, 3.680380438522827*^9}, 
+   {3.680933632511376*^9, 3.68093364891978*^9}, {3.6809382231626225*^9, 
+   3.680938235077338*^9}, 3.681649912423971*^9}, 
+ System`CellTags -> "depersistedCellecf3fa98-3420-4b53-8e7a-807da574a9f1", 
+ System`CellID -> 398338092]

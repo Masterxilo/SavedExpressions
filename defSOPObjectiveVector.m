@@ -1,6 +1,6 @@
-HoldComplete[RedefinePublicFunction[SOPObjectiveVector[
-    p_SparseOptimizationProblem], 
-   "with data-y inserted, this is the objective optimized", 
-   With[{dataWithouty = DeleteCases[SOPDataAsRules[p], 
-       HoldPattern[v_ -> _] /; MemberQ[SOPGetY[p], v]]}, 
-    SOPFullyAbstractObjectiveVector[p] /. dataWithouty]]; ]
+System`HoldComplete[Global`RedefinePublicFunction[
+  Global`SOPObjectiveVector[Global`p_Global`SparseOptimizationProblem], 
+  "with data-y inserted, this is the objective optimized", 
+  System`With[{Global`dataWithouty = Global`SOPDataWithoutYAsRules[
+      Global`p]}, Global`SOPFullyAbstractObjectiveVector[Global`p] /. 
+    Global`dataWithouty], _, ""]]

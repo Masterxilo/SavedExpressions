@@ -1,2 +1,4 @@
-HoldComplete[RedefinePublicFunction[SOPGetF[SparseOptimizationProblem[f_, 
-     select_, p_, data_, y_]], "f local objective", f]; ]
+System`HoldComplete[Global`RedefinePublicFunction[
+  Global`SOPGetF[Global`SparseOptimizationProblem[
+    Global`a_System`Association]], "f local objective expression", 
+  Global`a["f"], _, ""]]

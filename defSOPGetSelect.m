@@ -1,2 +1,4 @@
-HoldComplete[RedefinePublicFunction[SOPGetSelect[SparseOptimizationProblem[
-     f_, select_, p_, data_, y_]], "global local selector", select]; ]
+System`HoldComplete[Global`RedefinePublicFunction[
+  Global`SOPGetSelect[Global`SparseOptimizationProblem[
+    Global`a_System`Association]], "global local selector", 
+  Global`a["select"], _, ""]]
