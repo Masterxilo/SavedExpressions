@@ -1,17 +1,17 @@
 System`HoldComplete[Global`UnprotectClearAll[
    Global`PRedefinePublicFunctionAlternatives]; 
-  System`MessageName[Global`PRedefinePublicFunctionAlternatives, 
-    Global`usage] = "PersistDefinition`PRedefinePublicFunctionAlternatives[{a\
-ttributes (optional)}, usage, {def1, body1}, {def2, body2}, ...]\n\nTakes \
-Option Options, specifying the options for the symbol.\n"; 
-  Global`PRedefinePublicFunctionAlternatives[Global`attributes_System`List:
-     {}, Global`usage_System`String, Global`definition1:
-     {Global`d1:System`Verbatim[System`Condition][
-         (Global`f:System`Except[System`List, _System`Symbol])[___], _] | 
-        (Global`f:System`Except[System`List, _System`Symbol])[___], 
-      Global`b1_}, Global`definitions:System`Longest[
-      {(Global`f_)[___] | System`Verbatim[System`Condition][(Global`f_)[___], 
-          _], Global`Omittable[_System`String], _}...], 
+  Global`PRedefinePublicFunctionAlternatives::usage = "PersistDefinition`PRed\
+efinePublicFunctionAlternatives[{attributes (optional)}, usage, {def1, \
+body1}, {def2, body2}, ...]\n\nTakes Option Options, specifying the options \
+for the symbol.\n"; Global`PRedefinePublicFunctionAlternatives[
+    Global`attributes_System`List:{}, Global`usage_System`String, 
+    Global`definition1:{Global`d1:System`Verbatim[System`Condition][
+         (Global`f:System`Except[System`List | System`Condition, 
+            _System`Symbol])[___], _] | 
+        (Global`f:System`Except[System`List | System`Condition, 
+           _System`Symbol])[___], Global`b1_}, Global`definitions:
+     System`Longest[{(Global`f_)[___] | System`Verbatim[System`Condition][
+          (Global`f_)[___], _], Global`Omittable[_System`String], _}...], 
     Global`expectedType:System`Except[(System`Options -> _) | 
         {(Global`f_)[___] | System`Verbatim[System`Condition][
            (Global`f_)[___], _], Global`Omittable[_System`String], _}]:_, 

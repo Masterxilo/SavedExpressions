@@ -6,5 +6,5 @@ call - uniformity - you have to define this to an array indexing operation \
   System`With[{Global`xrep = Global`RuleMapIndexed[
       Global`x[Global`CIndex[System`First[#2]]] & , 
       Global`RIFunctionArguments[Global`e]]}, 
-   (Global`cformSymbolic[#1, Global`xrep] & ) /@ 
-    Global`RIFunctionExpressionList[Global`e]], _, ""]]
+   (Global`CformSymbolic[#1, Global`xrep] & ) /@ 
+    Global`RIFunctionExpressionList[Global`e]], _System`List, ""]]

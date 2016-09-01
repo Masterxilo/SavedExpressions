@@ -29,25 +29,27 @@ nAlternatives[{attributes (optional)}, usage, {def1, body1}, {def2, body2}, \
                           {"Verbatim", "[", "Condition", "]"}], "[", 
                           System`RowBox[{System`RowBox[{System`RowBox[{"(", 
                           System`RowBox[{"f", ":", System`RowBox[{"Except", 
-                          "[", System`RowBox[{"List", ",", "_Symbol"}], 
-                          "]"}]}], ")"}], "[", "___", "]"}], ",", "_"}], 
-                          "]"}], "|", "\[IndentingNewLine]", System`RowBox[
-                         {System`RowBox[{"(", System`RowBox[{"f", ":", 
-                          System`RowBox[{"Except", "[", System`RowBox[
-                          {"List", ",", "_Symbol"}], "]"}]}], ")"}], "[", 
-                          "___", "]"}]}]}], "\[IndentingNewLine]", 
-                    "\[IndentingNewLine]", ",", "b1_"}], "}"}]}], ",", 
-              "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[{
-                "definitions", ":", System`RowBox[{"Longest", "[", 
-                  "\[IndentingNewLine]", System`RowBox[{System`RowBox[
-                     {"{", System`RowBox[{System`RowBox[{System`RowBox[
-                          {"f_", "[", "___", "]"}], "|", System`RowBox[
-                          {System`RowBox[{"Verbatim", "[", "Condition", 
-                          "]"}], "[", System`RowBox[{System`RowBox[{"f_", 
-                          "[", "___", "]"}], ",", "_"}], "]"}]}], ",", 
-                        System`RowBox[{"Omittable", "@", "_String"}], 
-                        System`RowBox[{"(*", "separateUsage", "*)"}], ",", 
-                        "_"}], System`RowBox[{"(*", "body", "*)"}], "}"}], 
+                          "[", System`RowBox[{System`RowBox[{"List", "|", 
+                          "Condition"}], ",", "_Symbol"}], "]"}]}], ")"}], 
+                          "[", "___", "]"}], ",", "_"}], "]"}], "|", 
+                        "\[IndentingNewLine]", System`RowBox[{System`RowBox[
+                          {"(", System`RowBox[{"f", ":", System`RowBox[
+                          {"Except", "[", System`RowBox[{System`RowBox[
+                          {"List", "|", "Condition"}], ",", "_Symbol"}], 
+                          "]"}]}], ")"}], "[", "___", "]"}]}]}], 
+                    "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
+                    "b1_"}], "}"}]}], ",", "\[IndentingNewLine]", 
+              "\[IndentingNewLine]", System`RowBox[{"definitions", ":", 
+                System`RowBox[{"Longest", "[", "\[IndentingNewLine]", 
+                  System`RowBox[{System`RowBox[{"{", System`RowBox[
+                       {System`RowBox[{System`RowBox[{"f_", "[", "___", 
+                          "]"}], "|", System`RowBox[{System`RowBox[
+                          {"Verbatim", "[", "Condition", "]"}], "[", 
+                          System`RowBox[{System`RowBox[{"f_", "[", "___", 
+                          "]"}], ",", "_"}], "]"}]}], ",", System`RowBox[
+                         {"Omittable", "@", "_String"}], System`RowBox[
+                         {"(*", "separateUsage", "*)"}], ",", "_"}], 
+                      System`RowBox[{"(*", "body", "*)"}], "}"}], 
                     "\[IndentingNewLine]", "..."}], "]"}]}], 
               "\[IndentingNewLine]", "\[IndentingNewLine]", ",", 
               System`RowBox[{"Optional", "[", System`RowBox[{System`RowBox[
@@ -162,4 +164,7 @@ nAlternatives[{attributes (optional)}, usage, {def1, body1}, {def2, body2}, \
    {3.6816615292864695*^9, 3.6816615690691323*^9}, {3.6816624076680164*^9, 
    3.681662486403323*^9}, {3.6816625228187885*^9, 3.6816625452147284*^9}, 
    {3.681662789372534*^9, 3.6816628375196543*^9}, {3.681666039935524*^9, 
-   3.6816660583174734*^9}, {3.6816661054913635*^9, 3.6816661937175055*^9}}]
+   3.6816660583174734*^9}, {3.6816661054913635*^9, 3.6816661937175055*^9}, 
+   {3.6816720497765903*^9, 3.6816720551674395*^9}, 3.6816780070373726*^9, 
+   {3.6816783660098476*^9, 3.6816783771196327*^9}, {3.681678445645259*^9, 
+   3.681678455130026*^9}}]

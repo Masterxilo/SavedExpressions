@@ -1,0 +1,11 @@
+System`Cell[System`BoxData[System`RowBox[{"PTest", "[", 
+    System`RowBox[{System`RowBox[{"Subexpressions", "[", 
+        System`RowBox[{"Hold", "[", System`FractionBox["0.5`", 
+           System`SqrtBox["y"]], "]"}], "]"}], ",", 
+      System`RowBox[{"{", System`RowBox[{"0.5`", ",", "y", ",", 
+          System`SqrtBox["y"], ",", System`RowBox[{"-", "1"}], ",", 
+          System`FractionBox["1", System`SqrtBox["y"]], ",", 
+          System`FractionBox["0.5`", System`SqrtBox["y"]], ",", 
+          System`RowBox[{"Hold", "[", System`FractionBox["0.5`", 
+             System`SqrtBox["y"]], "]"}]}], "}"}]}], "]"}]], "Input", 
+ System`CellChangeTimes -> {{3.6816745324226303*^9, 3.6816745346571217*^9}}]

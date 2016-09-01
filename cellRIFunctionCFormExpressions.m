@@ -13,12 +13,12 @@ TODO), 0-based\n\nf(const double* const x, double* out)\"", "\n", "  ", ",",
                           "#2"}]}]}], " ", "&"}], " ", ",", " ", 
                     System`RowBox[{"RIFunctionArguments", "@", "e"}]}], 
                   "]"}]}], "}"}], ",", "\n", "    ", System`RowBox[
-             {System`RowBox[{System`RowBox[{"cformSymbolic", "[", 
+             {System`RowBox[{System`RowBox[{"CformSymbolic", "[", 
                   System`RowBox[{"#", ",", " ", "xrep"}], "]"}], " ", "&"}], 
               " ", "/@", " ", System`RowBox[{"RIFunctionExpressionList", "@", 
-                "e"}]}]}], "\n", "  ", "]"}]}], "\n", "  ", "]"}], ";"}]], 
- "Input", System`GeneratedCell -> System`True, 
- System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
-  {3.6809442477589083*^9, {3.6810227773728104*^9, 3.681022806897086*^9}, 
-   3.681655341472637*^9}, System`CellTags -> 
-  "depersistedCell075c3583-be27-474b-b931-a615fc205850"]
+                "e"}]}]}], "\n", "  ", "]"}], "\[IndentingNewLine]", ",", 
+        "_List"}], "\n", "  ", "]"}], ";"}]], "Input", 
+ System`CellChangeTimes -> {3.6809442477589083*^9, {3.6810227773728104*^9, 
+   3.681022806897086*^9}, 3.681655341472637*^9, {3.6816792744371777*^9, 
+   3.681679290131771*^9}}, System`CellTags -> 
+  "depersistedCellacbf6ae7-4777-4a54-9921-e63178a9094c"]

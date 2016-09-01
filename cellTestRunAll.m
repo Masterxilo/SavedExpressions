@@ -7,9 +7,9 @@ health\"", ",", System`RowBox[{"Quiet", System`RowBox[
             "even", " ", "show", " ", "the", " ", "message", " ", 
             System`RowBox[{"(", System`RowBox[{"generated", " ", "by", " ", 
                 System`RowBox[{"VerificationTest", "?"}]}]}]}], "*)"}], "[", 
-        System`RowBox[{"ReleaseHold", "@", System`RowBox[
-           {"TestDepersistHeldDefAll", "[", "]"}]}], "]"}]}], "]"}]], 
- "Input", System`GeneratedCell -> System`True, 
- System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
-  {{3.681637907934121*^9, 3.681637949201664*^9}, {3.681638577090476*^9, 
-   3.681638646403021*^9}, 3.681640643939784*^9}]
+        System`RowBox[{"ReleaseHold", "~", "AssociationMap", "~", 
+          System`RowBox[{"TestDepersistHeldDefAllByPersistedNames", "[", 
+            "]"}]}], "]"}]}], "]"}]], "Input", 
+ System`CellChangeTimes -> {{3.681637907934121*^9, 3.681637949201664*^9}, 
+   {3.681638577090476*^9, 3.681638646403021*^9}, 3.681640643939784*^9, 
+   3.6816728297746353*^9, {3.6816728900010786*^9, 3.681672922722003*^9}}]
