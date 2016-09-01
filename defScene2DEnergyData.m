@@ -1,11 +1,1 @@
-HoldComplete[NeedsDefined[Scene2D, SceneXEnergyWeightPattern, 
-   SceneXEnergyTrivialWeights, SceneXEnergyWeightNames]; 
-  RedefinePublicFunction[Scene2DEnergyData[s_Scene2D, 
-    weights:SceneXEnergyWeightPattern[]:Unevaluated[
-      SceneXEnergyTrivialWeights[]]], "linearized version of all data \
-(constant and subject to change) that defines the sop\nincluding optimization \
-weights\n\nDepends on SceneXEnergy.nb", 
-   Join[Join[GDAsPairedAtomRules[s["GridData"], 
-      $SceneXAtomRuleNameConversion], 
-     Thread[Array[l, Scene2DEnergyLightIntensityParameterCount] -> s["l"]]], 
-    Thread[SceneXEnergyWeightNames[] -> weights]]]; ]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DEnergyData[System`Pattern[Global`s, System`Blank[Global`Scene2D]], System`Optional[System`PatternTest[System`Pattern[Global`weights, System`Blank[]], System`MatchQ[Global`SceneXEnergyWeightPattern[]]], System`Unevaluated[Global`Scene2DEnergyDefaultWeights[]]]], "linearized version of all data (constant and subject to change) that defines the sop\nincluding optimization weights", System`CompoundExpression[System`With[System`List[System`Set[Global`r, Global`Scene2DRequiredData]], System`Map[System`ClearAll, Global`r]], System`Join[System`Join[Global`GDAsPairedAtomRules[Global`s["GridData"], Global`SceneXAtomRuleNameConversion[]], System`Thread[System`Rule[System`Array[System`Symbol["l"], Global`Scene2DEnergyLightIntensityParameterCount[]], Global`s["l"]]]], System`Thread[System`Rule[Global`SceneXEnergyWeightNames[], Global`weights]]]], System`Blank[], ""]]

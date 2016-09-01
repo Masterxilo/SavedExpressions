@@ -1,0 +1,1 @@
+System`HoldComplete[System`CompoundExpression[Global`MakeHoldAllCompleteHead[Global`Scene3D], System`Null]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`SOPFullyAbstractObjectiveVector[Global`SOPMakeTest[]], System`List[System`List[System`Plus[Global`x, Global`z[0]], Global`z[0]], System`List[System`Plus[Global`x, Global`z[1]], Global`z[1]]], System`List[], System`List[]]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Not[Global`MachineRealQ[Global`Scene3DEnergyLightIntensity[System`Array[Global`l, Global`Scene3DEnergyLightIntensityParameterCount[]], System`Array[Global`n, 3]]]], System`True, System`List[], System`List[]]]

@@ -1,18 +1,1 @@
-Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Scene2DMakeFromImage\"", ",", 
-      "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      RowBox[{RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
-          RowBox[{RowBox[{"Scene2DMakeFromImage", "[", RowBox[{"i_Image", 
-                ",", RowBox[{"l_:", 
-                  "Scene2DEnergyLightIntensityExampleParameters"}], ",", 
-                RowBox[{"blur_Integer:", "8"}]}], "]"}], 
-            "\[IndentingNewLine]", ",", "\"Compute distance function of a \
-transparent image with color to create a scene\"", "\[IndentingNewLine]", 
-            ",", RowBox[{"Scene2DMake", "[", RowBox[{"l", ",", 
-                RowBox[{"CreateVsfs2DSceneGridDataFromImage", "[", 
-                  RowBox[{"i", ",", "Scene2DEnergyLightIntensity", ",", "l", 
-                    ",", "blur"}], "]"}]}], "]"}]}], "\[IndentingNewLine]", 
-          "]"}], ";"}]}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
-    "]"}]], "Input", GeneratedCell -> True, CellAutoOverwrite -> True, 
- CellChangeTimes -> {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
-   {3.68056362122238*^9, 3.680563770372223*^9}, 3.6805644876762266*^9, 
-   3.6805646353400755*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", "\[IndentingNewLine]", System`RowBox[System`List[System`RowBox[System`List["Scene2DMakeFromImage", "[", System`RowBox[System`List["i_Image", ",", System`RowBox[System`List["l_:", System`RowBox[System`List["Unevaluated", "@", System`RowBox[System`List["Scene2DEnergyLightIntensityExampleParameters", "[", "]"]]]]]], ",", System`RowBox[System`List["blur_Integer:", "8"]]]], "]"]], "\[IndentingNewLine]", ",", "\"Compute distance function of a transparent image with color to create a scene\"", "\[IndentingNewLine]", ",", System`RowBox[System`List["Scene2DMake", "[", System`RowBox[System`List["l", ",", System`RowBox[System`List["Scene2DCreateVsfs2DSceneGridDataFromImage", "[", System`RowBox[System`List["i", ",", "Scene2DEnergyLightIntensity", ",", System`RowBox[System`List["Evaluate", "@", "l"]], ",", "blur"]], "]"]]]], "]"]]]], "\[IndentingNewLine]", "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.68033292314948`*^9, 3.6803329384469213`*^9], System`List[3.680332998027486`*^9, 3.680333000918239`*^9], System`List[3.680333138642562`*^9, 3.6803331455959697`*^9], System`List[3.6803334162163477`*^9, 3.680333428935615`*^9], 3.680333569269452`*^9, 3.680333662335741`*^9, System`List[3.68037816058049`*^9, 3.6803781854995823`*^9], 3.680893219618875`*^9, 3.6808939764766517`*^9, 3.6817267122540636`*^9, System`List[3.681727860043399`*^9, 3.681727865919983`*^9], System`List[3.6817322579949074`*^9, 3.681732272938472`*^9]]], System`Rule[System`CellTags, "depersistedCell4b37c5d4-7d71-4113-865c-d53e74810f68"], System`Rule[System`CellID, 82630298]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`MakeHoldAllCompleteHead[System`Pattern[Global`s, System`Blank[System`Symbol]]], "make s[] HoldAllComplete, suitable for data-structure heads", System`CompoundExpression[Global`UnprotectClearAll[Global`s], System`SetAttributes[Global`s, System`HoldAllComplete], System`Protect[Global`s], System`Null], System`Blank[], ""]]

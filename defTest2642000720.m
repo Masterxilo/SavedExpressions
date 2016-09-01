@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Equal[Global`Scene2DEnergyColorDim[Global`Scene2DEnhance[Global`Scene2DMakeTrivial[]]], Global`Scene2DEnergyColorDim[Global`Scene2DMakeTrivial[]]], System`True, System`List[], System`List[]]]

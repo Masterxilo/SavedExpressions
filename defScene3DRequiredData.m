@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene3DRequiredData[], "", System`List["a", "d", "doriginal", "c"], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene3DEnergyColorDim[System`Pattern[Global`s, System`Blank[Global`Scene3D]]], "1 or 3", Global`s["colorDim"], System`Blank[], ""]]

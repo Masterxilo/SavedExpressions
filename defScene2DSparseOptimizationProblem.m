@@ -1,10 +1,1 @@
-HoldComplete[NeedsDefined[Scene2D, SceneXEnergyWeightPattern]; 
-  RedefinePublicFunction[Scene2DSparseOptimizationProblem[s_Scene2D, 
-    weights:SceneXEnergyWeightPattern[]], "create a sop for optimizing a and \
-d of this Scene2D. Depends on SparseOptimizationProblem`", 
-   With[{sop = SparseOptimizationProblemMake[Scene2DEnergyf[], 
-       Scene2DEnergySelect[s], Scene2DEnergyP[s], Scene2DEnergyData[s, 
-        weights], Scene2DEnergyY[s]]}, Assert[MachineRealQ[SOPEnergy[sop]], 
-      {12, "C:\\Users\\Paul\\Dropbox\\Paul\\MasterarbeitShared\\Research\\Mat\
-hematicaLibraries\\LocalObjects\\LocalSymbols\\defScene2DSparseOptimizationPr\
-oblem"}]; sop], _SparseOptimizationProblem]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DSparseOptimizationProblem[System`Pattern[Global`s, System`Blank[Global`Scene2D]], System`Optional[System`PatternTest[System`Pattern[Global`weights, System`Blank[]], System`MatchQ[Global`SceneXEnergyWeightPattern[]]], System`Unevaluated[Global`Scene2DEnergyDefaultWeights[]]]], "create a sop for optimizing a and d of this Scene2D. Depends on SparseOptimizationProblem`", System`With[System`List[System`Set[Global`sop, Global`SparseOptimizationProblemMake[Global`Scene2DEnergyf[Global`s], Global`Scene2DEnergySelect[Global`s], Global`Scene2DEnergyP[Global`s], Global`Scene2DEnergyData[Global`s, Global`weights], Global`Scene2DEnergyY[Global`s]]]], Global`sop], System`Blank[Global`SparseOptimizationProblem], ""]]

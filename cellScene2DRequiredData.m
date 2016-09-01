@@ -1,7 +1,1 @@
-Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Scene2DRequiredData\"", ",", 
-      "\[IndentingNewLine]", RowBox[{RowBox[{"Scene2DRequiredData", "=", 
-          RowBox[{"{", RowBox[{"\"a\"", ",", "\"d\"", ",", "\"doriginal\"", 
-              ",", "\"c\""}], "}"}]}], ";"}]}], "\[IndentingNewLine]", 
-    "]"}]], "Input", GeneratedCell -> True, CellAutoOverwrite -> True, 
- CellChangeTimes -> {{3.6805635175748672*^9, 3.6805635355956583*^9}, 
-   3.680564635450136*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", "\n", System`RowBox[System`List[System`RowBox[System`List["Scene2DRequiredData", "[", "]"]], ",", "\"data defined at every point\"", ",", System`RowBox[System`List["{", System`RowBox[System`List["\"a\"", ",", "\"d\"", ",", "\"doriginal\"", ",", "\"c\""]], "}"]]]], "\[IndentingNewLine]", "]"]]], "Code", System`Rule[System`CellChangeTimes, System`List[System`List[3.6805635175748672`*^9, 3.6805635355956583`*^9], 3.680564635450136`*^9, System`List[3.6806519131648636`*^9, 3.6806519364519205`*^9], System`List[3.6815782577957397`*^9, 3.6815782861681595`*^9], 3.6816353021661015`*^9, 3.6817267125509515`*^9, System`List[3.68172755473216`*^9, 3.681727554855411`*^9]]], System`Rule[System`CellTags, "depersistedCell35cf1e15-dc3e-4a3e-a635-35bd56e85111"]]

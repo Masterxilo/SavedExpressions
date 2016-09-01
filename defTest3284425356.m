@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`SOPEnergy[Global`SOPSolve[Global`SOPMakeTest2[]]], 0.`, System`List[], System`List[System`Rule[System`SameTest, Global`ApproximatelyEqual]]]]

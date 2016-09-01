@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`SOPDFullyAbstractfAt[Global`SparseOptimizationProblemDecomposed[System`Pattern[Global`a, System`Blank[System`Association]]], System`Pattern[Global`param, System`BlankNullSequence[]]], "", Global`SOPFullyAbstractfAt[Global`a["sop"], Global`param], System`Blank[], ""]]

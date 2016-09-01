@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ProtectedSymbolAtoms[System`Pattern[Global`expr, System`Blank[]]], "Return all Symbol atoms in expr that are Protected", System`Select[Global`SymbolAtoms[Global`expr, System`Rule[System`Heads, System`True]], Global`ProtectedQ], System`Blank[], ""]]

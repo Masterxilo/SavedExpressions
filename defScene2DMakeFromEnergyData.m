@@ -1,6 +1,1 @@
-HoldComplete[RedefinePublicFunction[Scene2DMakeFromEnergyData[
-   data:$SceneXEnergyDataPattern], "take linearized aribitrary data as rules \
-and produce a structured scene\n\nrestores only canonical arguments", 
-  With[{ls = Array[l, Scene2DEnergyLightIntensityParameterCount]}, 
-   Scene2DMakeFromArrays[ls /. data, SceneXRevertAtomRuleFor[data, 
-     Scene2DEnergyColorDim]]], _Scene2D]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DMakeFromEnergyData[System`PatternTest[System`Pattern[Global`data, System`Blank[]], System`MatchQ[Global`SceneXEnergyDataPattern[]]]], "take linearized aribitrary data as rules and produce a structured scene\n\nrestores only canonical arguments", System`With[System`List[System`Set[Global`ls, System`Array[System`Symbol["l"], Global`Scene2DEnergyLightIntensityParameterCount[]]], System`Set[Global`colorDim, Global`Scene2DGetColorDimFromEnergyData[Global`data]]], System`CompoundExpression[System`Assert[System`Greater[Global`colorDim, 0]], Global`Scene2DMakeFromArrays[System`ReplaceAll[Global`ls, Global`data], Global`SceneXRevertAtomRuleFor[Global`data, Global`colorDim]]]], System`Blank[Global`Scene2D], ""]]

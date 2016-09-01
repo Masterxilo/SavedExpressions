@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`List[Global`Scene2DEnergyLightIntensity[System`List[1.`, 0.`], System`List[1.`, 0.`]], Global`Scene2DEnergyLightIntensity[System`List[1.`, 0.`], System`List[-1.`, 0.`]]], System`List[1.`, 0.`], System`List[], System`List[]]]

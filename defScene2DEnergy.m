@@ -1,8 +1,1 @@
-HoldComplete[NeedsDefined[SceneXEnergyWeightPattern, SOPEnergy, 
-   Scene2DSparseOptimizationProblem, SceneXEnergyTrivialWeights]; 
-  RedefinePublicFunction[Scene2DEnergy[s_Scene2D, 
-    weights:SceneXEnergyWeightPattern[]], "current energy of the scene", 
-   SOPEnergy[Scene2DSparseOptimizationProblem[s, weights]], _Real]; 
-  DefinePublicFunction[Scene2DEnergy[s_Scene2D], 
-   "current energy of the scene", Scene2DEnergy[s, 
-    SceneXEnergyTrivialWeights[]], _Real]; ]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DEnergy[System`Pattern[Global`s, System`Blank[Global`Scene2D]], System`Optional[System`PatternTest[System`Pattern[Global`weights, System`Blank[]], Global`MatchesQ[Global`SceneXEnergyWeightPattern[]]], System`Unevaluated[Global`Scene2DEnergyDefaultWeights[]]]], "current energy of the scene", Global`SOPEnergy[Global`Scene2DSparseOptimizationProblem[Global`s, Global`weights]], System`Blank[System`Real], ""]]

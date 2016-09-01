@@ -1,15 +1,1 @@
-Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Scene2DImport\"", ",", 
-      "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      RowBox[{RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
-          RowBox[{RowBox[{"Scene2DImport", "[", RowBox[{
-                "imageFilename_String", ",", RowBox[{"l_:", 
-                  "Scene2DEnergyLightIntensityExampleParameters"}], ",", 
-                RowBox[{"blur_Integer:", "8"}]}], "]"}], 
-            "\[IndentingNewLine]", ",", "\"Import a png and make a scene\"", 
-            "\[IndentingNewLine]", ",", RowBox[{"Scene2DMakeFromImage", "[", 
-              RowBox[{RowBox[{"Import", "@", "imageFilename"}], ",", "l", 
-                ",", "blur"}], "]"}]}], "\[IndentingNewLine]", "]"}], 
-        ";"}]}], "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]], 
- "Input", GeneratedCell -> True, CellAutoOverwrite -> True, 
- CellChangeTimes -> {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
-   {3.68056362122238*^9, 3.6805637810470457*^9}, 3.680564635195957*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", "\[IndentingNewLine]", System`RowBox[System`List[System`RowBox[System`List["Scene2DImport", "[", System`RowBox[System`List["imageFilename_String", ",", System`RowBox[System`List["l_:", System`RowBox[System`List["Unevaluated", "@", System`RowBox[System`List["Scene2DEnergyLightIntensityExampleParameters", "[", "]"]]]]]], ",", System`RowBox[System`List["blur_Integer:", "8"]]]], "]"]], "\[IndentingNewLine]", ",", "\"Import a png and make a scene\"", "\[IndentingNewLine]", "\[IndentingNewLine]", ",", System`RowBox[System`List["Scene2DMakeFromImage", "[", System`RowBox[System`List[System`RowBox[System`List["Import", "@", "imageFilename"]], ",", System`RowBox[System`List["Evaluate", "@", "l"]], ",", "blur"]], "]"]], "\[IndentingNewLine]", "\[IndentingNewLine]", ",", "_Scene2D"]], "\[IndentingNewLine]", "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6802510954295073`*^9, 3.6802510968562865`*^9], System`List[3.680251183721676`*^9, 3.6802511963233995`*^9], System`List[3.68025125465722`*^9, 3.68025125588173`*^9], System`List[3.6802525062919416`*^9, 3.6802525199890327`*^9], System`List[3.680333117829216`*^9, 3.680333187472713`*^9], System`List[3.6803334040127773`*^9, 3.6803334120130906`*^9], System`List[3.680378189368395`*^9, 3.680378201291272`*^9], 3.680893222540884`*^9, 3.681726712065775`*^9, System`List[3.681727746193711`*^9, 3.6817277652353845`*^9], System`List[3.681732237370108`*^9, 3.681732253386812`*^9]]], System`Rule[System`CellTags, "depersistedCell4b37c5d4-7d71-4113-865c-d53e74810f68"], System`Rule[System`CellID, 64115672]]

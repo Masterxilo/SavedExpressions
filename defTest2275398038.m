@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`SOPEnergy[Global`SOPSolve[Global`SOPMakeTest[], System`Rule[System`Method, "SOPCompiled"], System`Rule[System`MaxIterations, 1]]], Global`SOPEnergy[Global`SOPSolve[Global`SOPMakeTest[], System`Rule[System`Method, "SOPCompiled"], System`Rule[System`MaxIterations, 2]]], System`List[], System`List[]]]

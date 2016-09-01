@@ -1,4 +1,1 @@
-HoldComplete[RedefinePublicFunction[Scene2DEnergyP[s_Scene2D], 
-  "set of positions defining the objective", 
-  SceneXEnergyPFromCoordinateBounds[Scene2DCoordinateBounds[s]], 
-  {{_Integer, _Integer}..}]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DEnergyP[System`Pattern[Global`s, System`Blank[Global`Scene2D]]], "set of positions defining the objective", Global`SceneXEnergyPFromCoordinateBounds[Global`Scene2DCoordinateBounds[Global`s]], System`List[System`Repeated[System`List[System`Blank[System`Integer], System`Blank[System`Integer]]]], ""]]

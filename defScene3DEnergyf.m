@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene3DEnergyf[System`Pattern[Global`s, System`Blank[Global`Scene3D]]], "sop local objective", Global`SceneXEnergyf[Global`Scene3DEnergyColorDim[Global`s], Global`Scene3DEnergyLightIntensity, Global`Scene3DEnergyLightIntensityParameterCount[], Global`Scene3DDimension[Global`s]], System`List[System`BlankSequence[]], ""]]

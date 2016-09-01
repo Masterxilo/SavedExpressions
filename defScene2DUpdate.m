@@ -1,5 +1,1 @@
-HoldComplete[RedefinePublicFunction[Scene2DUpdate[s1_Scene2D, s2_Scene2D], "P\
-refer Scene2 data over s1.\nNote: loses non-canonical (required) data \
-elements", LetL[{gd1c = GDDataSubset[s1["GridData"], Scene2DRequiredData], 
-     gd2c = GDDataSubset[s2["GridData"], Scene2DRequiredData]}, 
-    Scene2DMake[s2["l"], GDUpdate[gd1c, gd2c]]]]; ]
+System`HoldComplete[System`CompoundExpression[Global`RedefinePublicFunction[Global`Scene2DUpdate[System`Pattern[Global`s1, System`Blank[Global`Scene2D]], System`Pattern[Global`s2, System`Blank[Global`Scene2D]]], "Prefer Scene2 data over s1.\nNote: loses non-canonical (required) data elements", Global`LetL[System`List[System`Set[Global`gd1c, Global`GDDataSubset[Global`s1["GridData"], Global`Scene2DRequiredData[]]], System`Set[Global`gd2c, Global`GDDataSubset[Global`s2["GridData"], Global`Scene2DRequiredData[]]]], Global`Scene2DMake[Global`s2["l"], Global`GDUpdate[Global`gd1c, Global`gd2c]]]], System`Null]]

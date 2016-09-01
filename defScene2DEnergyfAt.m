@@ -1,5 +1,1 @@
-HoldComplete[RedefinePublicFunction[
-  Scene2DEnergyfAt[s_Scene2D, p:{_Integer, _Integer}, 
-    weights:$SceneXEnergyWeightPattern] /; Contains[Scene2DEnergyP[s], p], 
-  "Evaluate energy vector for a specific p", 
-  SOPfAt[Scene2DSparseOptimizationProblem[s, weights], p], _?NumericVectorQ]]
+System`HoldComplete[Global`RedefinePublicFunction[System`Condition[Global`Scene2DEnergyfAt[System`Pattern[Global`s, System`Blank[Global`Scene2D]], System`Pattern[Global`p, System`List[System`Blank[System`Integer], System`Blank[System`Integer]]], System`Optional[System`PatternTest[System`Pattern[Global`weights, System`Blank[]], Global`MatchesQ[Global`SceneXEnergyWeightPattern[]]], System`Unevaluated[Global`Scene2DEnergyDefaultWeights[]]]], Global`Contains[Global`Scene2DEnergyP[Global`s], Global`p]], "Evaluate energy vector for a specific p", Global`SOPfAt[Global`Scene2DSparseOptimizationProblem[Global`s, Global`weights], Global`p], System`PatternTest[System`Blank[], Global`NumericVectorQ], ""]]

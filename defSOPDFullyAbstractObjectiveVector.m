@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`SOPDFullyAbstractObjectiveVector[Global`SparseOptimizationProblemDecomposed[System`Pattern[Global`a, System`Blank[System`Association]]]], "", System`Map[Global`SOPFullyAbstractObjectiveVector, Global`a["sops"]], System`Blank[], ""]]

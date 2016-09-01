@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`SOPMakeTest2[], "creates another sop for testing", Global`SparseOptimizationProblemMakeWithNewY[Global`SOPMakeTest[], System`Map[Global`z, Global`SOPGetP[Global`SOPMakeTest[]]]], System`Blank[], ""]]

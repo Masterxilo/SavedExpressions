@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene3DMakeFromSparseOptimizationProblem[System`Pattern[Global`sop, System`Blank[Global`SparseOptimizationProblem]]], "after solving, convert back to a scene. Drop the weights", Global`Scene3DMakeFromEnergyData[Global`SOPDataAsRules[Global`sop]], System`Blank[Global`Scene3D], ""]]

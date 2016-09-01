@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`Scene2DEnergy[Global`Scene2DEnhance[Global`Scene2DMakeTrivial[], System`Rule[System`Method, "SOPCompiled"]]], Global`Scene2DEnergy[Global`Scene2DEnhance[Global`Scene2DMakeTrivial[], System`Rule[System`Method, "GaussNewton"]]], System`List[], System`List[System`Rule[System`SameTest, Global`ApproximatelyEqual]]]]

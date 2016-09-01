@@ -1,17 +1,1 @@
-Cell[BoxData[RowBox[{"Persist", "[", 
-    RowBox[{"\"Scene2DMakeFromSparseOptimizationProblem\"", ",", 
-      "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
-        RowBox[{RowBox[{"Scene2DMakeFromSparseOptimizationProblem", "[", 
-            "\[IndentingNewLine]", "sop_SparseOptimizationProblem", 
-            "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", ",", 
-          "\"after solving, convert back to a scene. Drop the weights\"", 
-          "\[IndentingNewLine]", ",", RowBox[{"Scene2DMakeFromEnergyData", 
-            "@", RowBox[{"SOPDataAsRules", "@", "sop"}]}], 
-          "\[IndentingNewLine]", ",", "_Scene2D"}], "\[IndentingNewLine]", 
-        "]"}]}], "\[IndentingNewLine]", "]"}]], "Input", 
- GeneratedCell -> True, CellAutoOverwrite -> True, 
- CellChangeTimes -> {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
-   {3.68056362122238*^9, 3.680563877380669*^9}, {3.6805639599082575*^9, 
-    3.6805640430372915*^9}, {3.6805640989959984*^9, 3.6805641441520557*^9}, 
-   3.680564635394115*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", "\[IndentingNewLine]", System`RowBox[System`List[System`RowBox[System`List["Scene2DMakeFromSparseOptimizationProblem", "[", "\[IndentingNewLine]", "sop_SparseOptimizationProblem", "\[IndentingNewLine]", "]"]], "\[IndentingNewLine]", ",", "\"after solving, convert back to a scene. Drop the weights (and any non-standard data, for now - they are already lost in conversion to the sop)\"", "\[IndentingNewLine]", ",", System`RowBox[System`List["Scene2DMakeFromEnergyData", "@", System`RowBox[System`List["SOPDataAsRules", "@", "sop"]]]], "\[IndentingNewLine]", ",", "_Scene2D"]], "\[IndentingNewLine]", "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6803845127555547`*^9, 3.6803846099508495`*^9], 3.6809342188432503`*^9, 3.6817267122853146`*^9, System`List[3.6817279028059187`*^9, 3.6817279217399426`*^9]]], System`Rule[System`CellID, 763939899]]

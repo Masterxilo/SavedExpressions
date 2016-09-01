@@ -1,7 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`SceneXGetColorDimFromEnergyData[
-   Global`data?(Global`MatchesQ[Global`SceneXEnergyDataPattern[]])], "", 
-  System`With[{Global`c = System`Symbol["c"]}, 
-   System`Length[System`DeleteDuplicates[System`Cases[Global`data, 
-      System`HoldPattern[Global`c[_System`List, Global`i_System`Integer] -> 
-         _] :> Global`i]]]], Global`x_System`Integer /; Global`x > 0, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`SceneXGetColorDimFromEnergyData[System`PatternTest[System`Pattern[Global`data, System`Blank[]], Global`MatchesQ[Global`SceneXEnergyDataPattern[]]]], "", System`With[System`List[System`Set[Global`c, System`Symbol["c"]]], System`Length[System`DeleteDuplicates[System`Cases[Global`data, System`RuleDelayed[System`HoldPattern[System`Rule[Global`c[System`Blank[System`List], System`Pattern[Global`i, System`Blank[System`Integer]]], System`Blank[]]], Global`i]]]]], System`Condition[System`Pattern[Global`x, System`Blank[System`Integer]], System`Greater[Global`x, 0]], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`Scene3DEnergyP[Global`Scene3DMakeTrivial[]], System`List[System`List[2, 2, 2]], System`List[], System`List[]]]

@@ -1,17 +1,1 @@
-Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Scene2DEnergyf\"", ",", 
-      "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
-        RowBox[{RowBox[{"Scene2DEnergyf", "[", "]"}], "\[IndentingNewLine]", 
-          ",", "\"sop local objective\"", "\[IndentingNewLine]", ",", 
-          RowBox[{"SceneXEnergyf", "[", "\[IndentingNewLine]", 
-            RowBox[{"Scene2DEnergyColorDim", "\[IndentingNewLine]", ",", 
-              "Scene2DEnergyLightIntensity", "\[IndentingNewLine]", ",", 
-              "Scene2DEnergyLightIntensityParameterCount", 
-              "\[IndentingNewLine]", ",", RowBox[{"Scene2DDimension", "[", 
-                "]"}]}], "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", 
-          ",", RowBox[{"{", "__", "}"}]}], "\[IndentingNewLine]", "]"}]}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]], "Input", 
- GeneratedCell -> True, CellAutoOverwrite -> True, 
- CellChangeTimes -> {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
-   {3.68056362122238*^9, 3.680563877380669*^9}, {3.6805639599082575*^9, 
-    3.680564034406146*^9}, 3.680564634698601*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", "\[IndentingNewLine]", System`RowBox[System`List[System`RowBox[System`List["Scene2DEnergyf", "[", "s_Scene2D", "]"]], "\[IndentingNewLine]", ",", "\"sop local objective\"", "\[IndentingNewLine]", ",", System`RowBox[System`List["SceneXEnergyf", "[", "\[IndentingNewLine]", System`RowBox[System`List[System`RowBox[System`List["Scene2DEnergyColorDim", "[", "s", "]"]], "\[IndentingNewLine]", ",", "Scene2DEnergyLightIntensity", ",", System`RowBox[System`List["Scene2DEnergyLightIntensityParameterCount", "[", "]"]], "\[IndentingNewLine]", ",", System`RowBox[System`List["Scene2DDimension", "[", "s", "]"]]]], "\[IndentingNewLine]", "]"]], "\[IndentingNewLine]", ",", System`RowBox[System`List["{", "__", "}"]]]], "\[IndentingNewLine]", "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[3.6803826081470222`*^9, System`List[3.680383243131374`*^9, 3.6803832454192286`*^9], 3.6809334930287733`*^9, System`List[3.6809629654174504`*^9, 3.6809629942155313`*^9], System`List[3.6815883866953993`*^9, 3.681588409234538`*^9], 3.68172671158138`*^9, System`List[3.681726869032056`*^9, 3.6817268691882925`*^9], System`List[3.6817270218957033`*^9, 3.681727030007185`*^9]]], System`Rule[System`CellTags, "depersistedCell9cbebc9e-d0f1-4722-95ca-d96b548e16dd"], System`Rule[System`CellID, 145613957]]

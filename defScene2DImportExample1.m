@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DImportExample1[], "trivialScenePointInCenter", Global`Scene2DImport["trivialScenePointInCenter.PNG", Global`Scene2DEnergyLightIntensityExampleParameters[], 0], System`Blank[], ""]]

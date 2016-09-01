@@ -1,8 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`Scene2DMakeFromArrays[Global`l_, 
-   Global`data:{(Global`a_)?Global`NumericMatrixQ, 
-     (Global`d_)?Global`NumericMatrixQ, (Global`doriginal_)?
-      Global`NumericMatrixQ, Global`c_ /; System`ArrayQ[Global`c, 3, 
-       System`NumericQ]}], "from pure data", Global`Scene2DMake[Global`l, 
-   Global`GridDataMakeFromArrays[Global`Scene2DRequiredData, Global`data, 
-    2]], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DMakeFromArrays[System`Pattern[Global`l, System`Blank[]], System`Pattern[Global`data, System`List[System`PatternTest[System`Pattern[Global`a, System`Blank[]], Global`NumericMatrixQ], System`PatternTest[System`Pattern[Global`d, System`Blank[]], Global`NumericMatrixQ], System`PatternTest[System`Pattern[Global`doriginal, System`Blank[]], Global`NumericMatrixQ], System`Condition[System`Pattern[Global`c, System`Blank[]], System`ArrayQ[Global`c, 3, System`NumericQ]]]]], "from pure data", Global`Scene2DMake[Global`l, Global`GridDataMakeFromArrays[Global`Scene2DRequiredData[], Global`data, 2]], System`Blank[Global`Scene2D], ""]]

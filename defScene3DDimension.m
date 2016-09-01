@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene3DDimension[System`BlankNullSequence[]], "", 3, System`Blank[], ""]]

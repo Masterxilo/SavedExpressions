@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`SOPDataAsRules[Global`SOPSolve[Global`SOPMakeTest2[], System`Rule[System`Method, "GaussNewton"]]], System`List[System`Rule[Global`x, 0.`], System`Rule[Global`z[0], 0.`], System`Rule[Global`z[1], 0.`]], System`List[], System`List[]]]

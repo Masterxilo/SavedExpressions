@@ -1,6 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`Scene2DShowDistanceField[Global`s_Global`Scene2D, 
-   Global`which_System`String:"d", Global`o___], 
-  "visualize scene distance field", Global`ShowDistanceField[
-   Global`GDSingleDatumToArray[Global`s["GridData"], Global`which], Global`o, 
-   System`PerformanceGoal -> "Speed"], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DShowDistanceField[System`Pattern[Global`s, System`Blank[Global`Scene2D]], System`Optional[System`Pattern[Global`which, System`Blank[System`String]], "d"], System`Pattern[Global`o, System`BlankNullSequence[]]], "visualize scene distance field", Global`ShowDistanceField[Global`GDSingleDatumToArray[Global`s["GridData"], Global`which], Global`o, System`Rule[System`PerformanceGoal, "Speed"]], System`Blank[], ""]]

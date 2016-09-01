@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Length[Global`Scene3DMakeTrivial[]["l"]], Global`Scene3DEnergyLightIntensityParameterCount[], System`List[], System`List[]]]

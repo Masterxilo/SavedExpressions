@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DEnergyDefaultWeights[], "", Global`SceneXEnergyTrivialWeights[], System`Blank[], ""]]

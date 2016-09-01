@@ -1,4 +1,1 @@
-HoldComplete[RedefinePublicFunction[Scene2DImport[imageFilename_String, 
-    l_:Scene2DEnergyLightIntensityExampleParameters, blur_Integer:8], 
-   "Import a png and make a scene", Scene2DMakeFromImage[
-    Import[imageFilename], l, blur]]; ]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DImport[System`Pattern[Global`imageFilename, System`Blank[System`String]], System`Optional[System`Pattern[Global`l, System`Blank[]], System`Unevaluated[Global`Scene2DEnergyLightIntensityExampleParameters[]]], System`Optional[System`Pattern[Global`blur, System`Blank[System`Integer]], 8]], "Import a png and make a scene", Global`Scene2DMakeFromImage[System`Import[Global`imageFilename], System`Evaluate[Global`l], Global`blur], System`Blank[Global`Scene2D], ""]]

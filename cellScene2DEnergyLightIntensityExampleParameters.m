@@ -1,14 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
-    "\n", System`RowBox[{System`RowBox[
-       {"Scene2DEnergyLightIntensityExampleParameters", "[", "]"}], ",", 
-      "\"valid lighting model parameters\"", ",", 
-      System`RowBox[{"Normalize", "@", System`RowBox[
-         {"{", System`RowBox[{"1.", ",", "1."}], "}"}]}]}], 
-    "\[IndentingNewLine]", "]"}]], "Code", System`GeneratedCell -> 
-  System`True, System`CellAutoOverwrite -> System`True, 
- System`CellChangeTimes -> {{3.6803330555610995*^9, 3.6803330690616493*^9}, 
-   3.680422066290514*^9, {3.6808930061414857*^9, 3.6808930107197933*^9}, 
-   {3.680983330997659*^9, 3.6809833402902384*^9}, {3.681578571557438*^9, 
-   3.681578592880056*^9}, 3.6816353015112696*^9}, 
- System`CellTags -> "depersistedCell35cf1e15-dc3e-4a3e-a635-35bd56e85111", 
- System`CellID -> 36851222]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", "\n", System`RowBox[System`List[System`RowBox[System`List["Scene2DEnergyLightIntensityExampleParameters", "[", "]"]], ",", "\"valid lighting model parameters\"", ",", System`RowBox[System`List["Normalize", "@", System`RowBox[System`List["{", System`RowBox[System`List["1.", ",", "1."]], "}"]]]]]], "\[IndentingNewLine]", "]"]]], "Code", System`Rule[System`GeneratedCell, System`True], System`Rule[System`CellAutoOverwrite, System`True], System`Rule[System`CellChangeTimes, System`List[System`List[3.6803330555610995`*^9, 3.6803330690616493`*^9], 3.680422066290514`*^9, System`List[3.6808930061414857`*^9, 3.6808930107197933`*^9], System`List[3.680983330997659`*^9, 3.6809833402902384`*^9], System`List[3.681578571557438`*^9, 3.681578592880056`*^9], 3.6817267116282587`*^9, 3.681730968393013`*^9]], System`Rule[System`CellTags, "depersistedCell4b37c5d4-7d71-4113-865c-d53e74810f68"], System`Rule[System`CellID, 36851222]]

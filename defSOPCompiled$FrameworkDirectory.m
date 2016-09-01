@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`SOPCompiled$FrameworkDirectory[], "", "C:\\Users\\Paul\\Dropbox\\Paul\\MasterarbeitShared\\Research\\MathematicaLibraries\\SOPCompiledFramework", System`Blank[], ""]]

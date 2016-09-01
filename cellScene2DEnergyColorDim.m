@@ -1,7 +1,1 @@
-Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Scene2DEnergyColorDim\"", 
-      ",", "\[IndentingNewLine]", 
-      RowBox[{RowBox[{"Scene2DEnergyColorDim", "=", "3"}], ";"}]}], 
-    "\[IndentingNewLine]", "]"}]], "Input", GeneratedCell -> True, 
- CellAutoOverwrite -> True, CellChangeTimes -> 
-  {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
-   {3.68056362122238*^9, 3.680563662690819*^9}, 3.6805646346305532*^9}]
+System`Cell[System`BoxData[System`List[System`RowBox[System`List["PRedefinePublicFunction", "[", System`RowBox[System`List[System`RowBox[System`List["Scene2DEnergyColorDim", "[", "s_Scene2D", "]"]], ",", "\"1 or 3\"", ",", System`RowBox[System`List["s", "@", "\"colorDim\""]]]], "]"]], "\[IndentingNewLine]"]], "Input", System`Rule[System`GeneratedCell, System`True], System`Rule[System`CellAutoOverwrite, System`True], System`Rule[System`CellChangeTimes, System`List[System`List[3.6802723762768555`*^9, 3.6802723763209105`*^9], 3.680348274566803`*^9, System`List[3.6808929953598113`*^9, 3.6808930019225254`*^9], 3.6809624447016525`*^9, System`List[3.6809624848261137`*^9, 3.680962520239461`*^9], 3.681726711487626`*^9]], System`Rule[System`CellTags, "depersistedCelld88e7ebc-a712-40b3-b7ed-4b2500adfd41"], System`Rule[System`CellID, 339500001]]

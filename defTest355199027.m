@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`MachineRealQ[Global`Scene2DEnergy[Global`Scene2DMakeTrivial[]]], System`True, System`List[], System`List[]]]

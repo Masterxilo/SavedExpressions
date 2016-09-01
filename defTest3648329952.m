@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`Scene2DMakeFromEnergyData[Global`Scene2DEnergyData[Global`Scene2DMakeTrivial[]]]["d"], Global`Scene2DMakeTrivial[]["d"], System`List[], System`List[]]]

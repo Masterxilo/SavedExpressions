@@ -1,17 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
-    "\[IndentingNewLine]", System`RowBox[
-     {System`RowBox[{"Scene2DEnergyLightIntensity", "[", 
-        System`RowBox[{System`RowBox[{"l", ":", System`RowBox[
-             {"{", System`RowBox[{"_", ",", "_"}], "}"}]}], ",", 
-          System`RowBox[{"n", ":", System`RowBox[{"{", System`RowBox[{"_", 
-                ",", "_"}], "}"}]}]}], "]"}], "\[IndentingNewLine]", 
-      "\[IndentingNewLine]", ",", "\"lighting model for 2d scenes, suitable \
-for symbolic and numeric computation\n\nl and n should be Normalized\"", ",", 
-      "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      System`RowBox[{"Max", "[", System`RowBox[{"0.", ",", 
-          System`RowBox[{"l", ".", "n"}]}], "]"}]}], "\[IndentingNewLine]", 
-    "]"}]], "Code", System`GeneratedCell -> System`True, 
- System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
-  {3.680893575554121*^9, {3.68089362818128*^9, 3.680893690433812*^9}, 
-   3.681578612409436*^9, 3.6816353015383034*^9}, 
- System`CellTags -> "depersistedCell35cf1e15-dc3e-4a3e-a635-35bd56e85111"]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", "\[IndentingNewLine]", System`RowBox[System`List[System`RowBox[System`List["Scene2DEnergyLightIntensity", "[", System`RowBox[System`List[System`RowBox[System`List["l", ":", System`RowBox[System`List["{", System`RowBox[System`List["_", ",", "_"]], "}"]]]], ",", System`RowBox[System`List["n", ":", System`RowBox[System`List["{", System`RowBox[System`List["_", ",", "_"]], "}"]]]]]], "]"]], "\[IndentingNewLine]", "\[IndentingNewLine]", ",", "\"lighting model for 2d scenes, suitable for symbolic and numeric computation\n\nl and n should be Normalized\"", ",", "\[IndentingNewLine]", "\[IndentingNewLine]", System`RowBox[System`List["Max", "[", System`RowBox[System`List["0.", ",", System`RowBox[System`List["l", ".", "n"]]]], "]"]], "\n", ",", System`RowBox[System`List["Except", "[", "_List", "]"]]]], "\[IndentingNewLine]", "]"]]], "Code", System`Rule[System`CellChangeTimes, System`List[3.680893575554121`*^9, System`List[3.68089362818128`*^9, 3.680893690433812`*^9], 3.681578612409436`*^9, 3.6817267116595078`*^9, System`List[3.6817270597139487`*^9, 3.681727067639065`*^9]]], System`Rule[System`CellTags, "depersistedCell35cf1e15-dc3e-4a3e-a635-35bd56e85111"]]

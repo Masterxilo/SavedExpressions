@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List["PTest", "[", System`RowBox[System`List[System`RowBox[System`List["HasAttributeQ", "[", System`RowBox[System`List["x", ",", "Protected"]], "]"]], ",", "True"]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6817247605226326`*^9, 3.6817247716786156`*^9]]]]

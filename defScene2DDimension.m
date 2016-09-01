@@ -1,2 +1,1 @@
-HoldComplete[RedefinePublicFunction[Scene2DDimension[___], 
-   "spatial dimensionality of the gridData", 2]; ]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DDimension[System`BlankNullSequence[]], "spatial dimensionality of the gridData", 2, System`Blank[], ""]]

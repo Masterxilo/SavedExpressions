@@ -1,4 +1,1 @@
-HoldComplete[RedefinePublicFunction[Scene2DMakeFromSparseOptimizationProblem[
-   sop_SparseOptimizationProblem], 
-  "after solving, convert back to a scene. Drop the weights", 
-  Scene2DMakeFromEnergyData[SOPDataAsRules[sop]], _Scene2D]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DMakeFromSparseOptimizationProblem[System`Pattern[Global`sop, System`Blank[Global`SparseOptimizationProblem]]], "after solving, convert back to a scene. Drop the weights (and any non-standard data, for now - they are already lost in conversion to the sop)", Global`Scene2DMakeFromEnergyData[Global`SOPDataAsRules[Global`sop]], System`Blank[Global`Scene2D], ""]]

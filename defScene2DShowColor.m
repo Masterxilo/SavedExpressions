@@ -1,5 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`Scene2DShowColor[Global`s_Global`Scene2D, 
-   Global`which_System`String:"c"], "Visualize color after lighting", 
-  System`Image[Global`GDSingleDatumToArray[Global`s["GridData"], 
-    Global`which]], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DShowColor[System`Pattern[Global`s, System`Blank[Global`Scene2D]], System`Optional[System`Pattern[Global`which, System`Blank[System`String]], "c"]], "Visualize color after lighting", System`Image[Global`GDSingleDatumToArray[Global`s["GridData"], Global`which]], System`Blank[], ""]]

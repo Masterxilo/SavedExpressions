@@ -1,3 +1,1 @@
-HoldComplete[RedefinePublicFunction[Scene2DEnergyf[], "sop local objective", 
-  SceneXEnergyf[Scene2DEnergyColorDim, Scene2DEnergyLightIntensity, 
-   Scene2DEnergyLightIntensityParameterCount, Scene2DDimension[]], {__}]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DEnergyf[System`Pattern[Global`s, System`Blank[Global`Scene2D]]], "sop local objective", Global`SceneXEnergyf[Global`Scene2DEnergyColorDim[Global`s], Global`Scene2DEnergyLightIntensity, Global`Scene2DEnergyLightIntensityParameterCount[], Global`Scene2DDimension[Global`s]], System`List[System`BlankSequence[]], ""]]

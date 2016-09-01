@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`SOPGetX0[Global`SparseOptimizationProblemMakeWithUpdatedX[Global`SOPMakeTest[], System`List[1.`, 2.`, 3.`]]], System`List[1.`, 2.`, 3.`], System`List[], System`List[]]]

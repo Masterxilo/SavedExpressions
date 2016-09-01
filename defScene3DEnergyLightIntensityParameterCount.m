@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene3DEnergyLightIntensityParameterCount[], "", 3, System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene3DEnergySelect[System`Pattern[Global`s, System`Blank[Global`Scene3D]]], "", Global`SceneXEnergySelect[Global`Scene3DDimension[Global`s], Global`Scene3DEnergyLightIntensityParameterCount[], Global`Scene3DEnergyColorDim[Global`s]], System`Blank[], ""]]

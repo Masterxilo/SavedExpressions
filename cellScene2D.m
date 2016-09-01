@@ -1,11 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"Persist", "[", 
-    System`RowBox[{"Scene2D", ",", "\n", System`RowBox[
-       {System`RowBox[{"UnprotectClearAll", "@", "Scene2D"}], ";", 
-        "\[IndentingNewLine]", System`RowBox[{"SetAttributes", "[", 
-          System`RowBox[{"Scene2D", ",", "HoldAllComplete"}], "]"}], ";", 
-        "\n", System`RowBox[{"Protect", "@", "Scene2D"}], ";"}]}], 
-    "\[IndentingNewLine]", "]"}]], "Code", System`GeneratedCell -> 
-  System`True, System`CellAutoOverwrite -> System`True, 
- System`CellChangeTimes -> {{3.681490376178083*^9, 3.6814903842028103*^9}, 
-   {3.681578177680725*^9, 3.6815781920376472*^9}, 3.6816353018406963*^9}, 
- System`CellTags -> "depersistedCell35cf1e15-dc3e-4a3e-a635-35bd56e85111"]
+System`Cell[System`BoxData[System`RowBox[System`List["Persist", "[", System`RowBox[System`List["Scene2D", ",", "\n", System`RowBox[System`List[System`RowBox[System`List["UnprotectClearAll", "@", "Scene2D"]], ";", "\[IndentingNewLine]", System`RowBox[System`List["SetAttributes", "[", System`RowBox[System`List["Scene2D", ",", "HoldAllComplete"]], "]"]], ";", "\n", System`RowBox[System`List["Protect", "@", "Scene2D"]], ";"]]]], "\[IndentingNewLine]", "]"]]], "Code", System`Rule[System`GeneratedCell, System`True], System`Rule[System`CellAutoOverwrite, System`True], System`Rule[System`CellChangeTimes, System`List[System`List[3.681490376178083`*^9, 3.6814903842028103`*^9], System`List[3.681578177680725`*^9, 3.6815781920376472`*^9], 3.6816353018406963`*^9, 3.6817275804305086`*^9]], System`Rule[System`CellTags, "depersistedCell4b37c5d4-7d71-4113-865c-d53e74810f68"]]

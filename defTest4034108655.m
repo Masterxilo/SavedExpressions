@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Less[Global`SOPEnergy[Global`SOPSolve[Global`SOPMakeTest2[], System`Rule[System`Method, System`FindMinimum]]], Global`SOPEnergy[Global`SOPMakeTest2[]]], System`True, System`List[], System`List[]]]

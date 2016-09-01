@@ -1,13 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[
-   {System`RowBox[{"PRedefinePublicFunction", "[", "\[IndentingNewLine]", 
-      System`RowBox[{System`RowBox[{"Scene2DGridDataNames", "[", "s_Scene2D", 
-          "]"}], "\[IndentingNewLine]", ",", 
-        "\"The names of the Properties defined at each grid point\"", 
-        "\[IndentingNewLine]", ",", System`RowBox[{"GDDataNames", "@", 
-          System`RowBox[{"s", "@", "\"GridData\""}]}]}], 
-      "\[IndentingNewLine]", "]"}], ";"}]], "Code", 
- System`GeneratedCell -> System`True, System`CellAutoOverwrite -> 
-  System`True, System`CellChangeTimes -> {3.6815786547472897*^9, 
-  3.681578766335596*^9, 3.681635301771595*^9}, 
- System`CellTags -> "depersistedCell35cf1e15-dc3e-4a3e-a635-35bd56e85111", 
- System`CellID -> 99708901]
+System`Cell[System`BoxData[System`RowBox[System`List[System`RowBox[System`List["PRedefinePublicFunction", "[", "\[IndentingNewLine]", System`RowBox[System`List[System`RowBox[System`List["Scene2DGridDataNames", "[", "s_Scene2D", "]"]], "\[IndentingNewLine]", ",", "\"The names of the Properties defined at each grid point\"", "\[IndentingNewLine]", ",", System`RowBox[System`List["GDDataNames", "@", System`RowBox[System`List["s", "@", "\"GridData\""]]]]]], "\[IndentingNewLine]", "]"]], ";"]]], "Code", System`Rule[System`GeneratedCell, System`True], System`Rule[System`CellAutoOverwrite, System`True], System`Rule[System`CellChangeTimes, System`List[3.6815786547472897`*^9, 3.681578766335596`*^9, 3.681726712003257`*^9]], System`Rule[System`CellTags, "depersistedCell35cf1e15-dc3e-4a3e-a635-35bd56e85111"], System`Rule[System`CellID, 99708901]]

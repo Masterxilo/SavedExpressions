@@ -1,6 +1,1 @@
-System`HoldComplete[Global`UnprotectClearAll[
-   Global`SparseOptimizationProblem]; System`SetAttributes[
-   Global`SparseOptimizationProblem, System`HoldAllComplete]; 
-  System`HoldPattern[System`RowBox[{"Global`SparseOptimizationProblem", "[", 
-      "Global`data___", "]"}]] := "SOP"[System`Short[{Global`data}]]; 
-  System`Protect[Global`SparseOptimizationProblem]; ]
+System`HoldComplete[System`CompoundExpression[Global`UnprotectClearAll[Global`SparseOptimizationProblem], System`SetAttributes[Global`SparseOptimizationProblem, System`HoldAllComplete], System`SetDelayed[System`HoldPattern[System`Format[Global`SparseOptimizationProblem[System`Pattern[Global`data, System`BlankNullSequence[]]], System`StandardForm]], "SOP"[System`Short[System`List[Global`data]]]], System`Protect[Global`SparseOptimizationProblem], System`Null]]

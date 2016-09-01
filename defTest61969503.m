@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`Scene3DGetColorDimFromEnergyData[Global`Scene3DEnergyData[Global`Scene3DMakeTrivial[]]], 3, System`List[], System`List[]]]

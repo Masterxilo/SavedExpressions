@@ -1,11 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
-    System`RowBox[{System`RowBox[
-       {"Scene2DEnergyLightIntensityParameterCount", "[", "]"}], ",", 
-      "\"2\"", ",", "2"}], "]"}]], "Code", System`GeneratedCell -> 
-  System`True, System`CellAutoOverwrite -> System`True, 
- System`CellChangeTimes -> {{3.6802729448783836*^9, 3.6802729494840865*^9}, 
-   {3.680892983374928*^9, 3.680892992203412*^9}, {3.68098319354515*^9, 
-   3.680983199658777*^9}, {3.6815786257120423*^9, 3.681578636150074*^9}, 
-   3.6816353015613484*^9}, System`CellTags -> 
-  "depersistedCell35cf1e15-dc3e-4a3e-a635-35bd56e85111", 
- System`CellID -> 88325488]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", System`RowBox[System`List[System`RowBox[System`List["Scene2DEnergyLightIntensityParameterCount", "[", "]"]], ",", "\"2\"", ",", "2"]], "]"]]], "Code", System`Rule[System`GeneratedCell, System`True], System`Rule[System`CellAutoOverwrite, System`True], System`Rule[System`CellChangeTimes, System`List[System`List[3.6802729448783836`*^9, 3.6802729494840865`*^9], System`List[3.680892983374928`*^9, 3.680892992203412`*^9], System`List[3.68098319354515`*^9, 3.680983199658777`*^9], System`List[3.6815786257120423`*^9, 3.681578636150074`*^9], 3.6817267116907463`*^9]], System`Rule[System`CellTags, "depersistedCell35cf1e15-dc3e-4a3e-a635-35bd56e85111"], System`Rule[System`CellID, 88325488]]

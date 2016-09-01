@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`SOPEnergyVector[Global`SOPMakeTest[], Global`SOPMakeXWithY[Global`SOPMakeTest[], System`List[42.`]]], System`List[System`List[43.`, 1.`], System`List[44.`, 2.`]], System`List[], System`List[]]]

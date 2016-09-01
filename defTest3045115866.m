@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Normal[Global`Scene2DImportExample1[]["d"]], System`List[System`List[System`Sqrt[2], 1, System`Sqrt[2]], System`List[1, 0, 1], System`List[System`Sqrt[2], 1, System`Sqrt[2]]], System`List[], System`List[System`Rule[System`SameTest, Global`ApproximatelyEqual]]]]

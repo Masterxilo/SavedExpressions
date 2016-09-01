@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene3DCoordinateBounds[System`Pattern[Global`s, System`Blank[Global`Scene3D]]], "extents", Global`GDCoordinateBounds[Global`s["GridData"]], System`Blank[], ""]]

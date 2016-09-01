@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`SOPDSolveForY[Global`SparseOptimizationProblemDecomposedMakeTest[], System`Rule[System`Method, "GaussNewton"]], System`Table[0.`, 2, 2], System`List[], System`List[System`Rule[System`SameTest, Global`ApproximatelyEqual]]]]

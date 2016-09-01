@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`Scene3DMakeTrivial[]["d"], System`Times[1.`, System`Table[System`List[System`List[1, 1, 1], System`List[1, 0, 1], System`List[1, 1, 1]], 3]], System`List[], System`List[System`Rule[System`SameTest, System`Equal]]]]

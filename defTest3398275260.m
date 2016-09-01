@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`MatchQ[Global`SOPMakeTest[], Global`SparseOptimizationProblem[System`Blank[System`Association]]], System`True, System`List[], System`List[]]]

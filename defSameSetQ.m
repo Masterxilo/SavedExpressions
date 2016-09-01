@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`SameSetQ[System`Pattern[Global`l1, System`Blank[System`List]], System`Pattern[Global`l2, System`Blank[System`List]]], "whether two lists, treated as sets of expressions, contain the same expressions", System`SameQ[System`Union[Global`l1], System`Union[Global`l2]], System`Blank[], ""]]

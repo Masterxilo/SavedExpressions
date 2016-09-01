@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Map[Global`SceneXEnergyYFromP, Global`Scene2DEnergyPDecomposed[Global`Scene2DMakeTrivial[], System`List[1, 1]]], System`Map[Global`SceneXEnergyYFromP, System`List[System`List[System`List[2, 2]]]], System`List[], System`List[]]]

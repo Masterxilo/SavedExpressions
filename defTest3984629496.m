@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Less[Global`Scene2DEnergy[Global`Scene2DEnhance[Global`Scene2DMakeTrivial[]]], Global`Scene2DEnergy[Global`Scene2DMakeTrivial[]]], System`True, System`List[], System`List[]]]

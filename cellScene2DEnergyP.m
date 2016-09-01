@@ -1,17 +1,1 @@
-Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Scene2DEnergyP\"", ",", 
-      "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
-        RowBox[{RowBox[{"Scene2DEnergyP", "[", "s_Scene2D", "]"}], 
-          "\[IndentingNewLine]", ",", 
-          "\"set of positions defining the objective\"", 
-          "\[IndentingNewLine]", ",", RowBox[
-           {"SceneXEnergyPFromCoordinateBounds", "[", 
-            RowBox[{"Scene2DCoordinateBounds", "@", "s"}], "]"}], 
-          "\[IndentingNewLine]", ",", RowBox[
-           {"{", RowBox[{RowBox[{"{", RowBox[{"_Integer", ",", "_Integer"}], 
-                "}"}], ".."}], "}"}]}], "\[IndentingNewLine]", "]"}]}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]], "Input", 
- GeneratedCell -> True, CellAutoOverwrite -> True, 
- CellChangeTimes -> {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
-   {3.68056362122238*^9, 3.680563877380669*^9}, {3.6805639599082575*^9, 
-    3.680564009288315*^9}, 3.6805646348747272*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", "\[IndentingNewLine]", System`RowBox[System`List[System`RowBox[System`List["Scene2DEnergyP", "[", "s_Scene2D", "]"]], "\[IndentingNewLine]", ",", "\"set of positions defining the objective\"", "\[IndentingNewLine]", ",", System`RowBox[System`List["SceneXEnergyPFromCoordinateBounds", "[", System`RowBox[System`List["Scene2DCoordinateBounds", "@", "s"]], "]"]], "\[IndentingNewLine]", ",", System`RowBox[System`List["{", System`RowBox[System`List[System`RowBox[System`List["{", System`RowBox[System`List["_Integer", ",", "_Integer"]], "}"]], ".."]], "}"]]]], "\[IndentingNewLine]", "]"]]], "Input", System`Rule[System`GeneratedCell, System`True], System`Rule[System`CellAutoOverwrite, System`True], System`Rule[System`CellChangeTimes, System`List[System`List[3.680381253032152`*^9, 3.6803812817219467`*^9], 3.6809333382813034`*^9, 3.681726711784514`*^9]], System`Rule[System`CellID, 203045789]]

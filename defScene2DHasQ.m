@@ -1,5 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`Scene2DHasQ[Global`s_Global`Scene2D, Global`attrib_System`String], 
-  "whether the scene has the given property", 
-  paul`Contains[Global`GDDataNames[Global`s["GridData"]], Global`attrib], _, 
-  ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DHasQ[System`Pattern[Global`s, System`Blank[Global`Scene2D]], System`Pattern[Global`attrib, System`Blank[System`String]]], "whether the scene has the given property", Global`Contains[Global`Scene2DProperties[Global`s], Global`attrib], System`Alternatives[System`True, System`False], ""]]

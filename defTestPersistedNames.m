@@ -1,3 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`TestPersistedNames[], "", Persist`PersistedNames[
-   "Test"~~System`DigitCharacter..], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`TestPersistedNames[], "", Persist`PersistedNames[System`StringExpression[System`StartOfString, "Test", System`Repeated[System`DigitCharacter], System`EndOfString]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene3DUpdate[], "undefined", Global`NotImplementedAbort[], System`Blank[], ""]]

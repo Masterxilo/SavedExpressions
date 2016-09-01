@@ -1,4 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`Scene2DGridDataNames[Global`s_Global`Scene2D], 
-  "The names of the Properties defined at each grid point", 
-  Global`GDDataNames[Global`s["GridData"]], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DGridDataNames[System`Pattern[Global`s, System`Blank[Global`Scene2D]]], "The names of the Properties defined at each grid point", Global`GDDataNames[Global`s["GridData"]], System`Blank[], ""]]

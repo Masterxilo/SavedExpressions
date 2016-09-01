@@ -1,8 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
-    System`RowBox[{System`RowBox[{"TestPersistedNames", "[", "]"}], ",", 
-      "\"\"", ",", System`RowBox[{"PersistedNames", "[", 
-        System`RowBox[{"\"Test\"", "~~", System`RowBox[{"DigitCharacter", 
-            ".."}]}], "]"}]}], "]"}]], "Input", 
- System`GeneratedCell -> System`True, System`CellAutoOverwrite -> 
-  System`True, System`CellChangeTimes -> {{3.681639127663822*^9, 
-   3.6816391354485254*^9}, 3.681640643962813*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", System`RowBox[System`List[System`RowBox[System`List["TestPersistedNames", "[", "]"]], ",", "\"\"", ",", System`RowBox[System`List["PersistedNames", "[", System`RowBox[System`List["StartOfString", "~~", "\"Test\"", "~~", System`RowBox[System`List["DigitCharacter", ".."]], "~~", "EndOfString"]], "]"]]]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.681639127663822`*^9, 3.6816391354485254`*^9], 3.681640643962813`*^9, System`List[3.6817290208877106`*^9, 3.681729036891776`*^9]]], System`Rule[System`CellTags, "depersistedCelle75323e5-c25b-4700-ba09-a529df143b48"]]

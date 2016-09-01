@@ -1,0 +1,1 @@
+System`HoldComplete[System`CompoundExpression[Global`UnprotectClearAll[Global`SOPCompiled], System`SetAttributes[Global`SOPCompiled, System`HoldAllComplete], System`Protect[Global`SOPCompiled], System`Null]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Times[1.`, Global`Scene2DMakeFromSparseOptimizationProblem[Global`Scene2DSparseOptimizationProblem[Global`Scene2DMakeTrivial[]]]["d"]], System`Times[1.`, System`List[System`List[1.`, 1.`, 1.`], System`List[1.`, 0.`, 1.`], System`List[1.`, 1.`, 1.`]]], System`List[], System`List[System`Rule[System`SameTest, System`Equal]]]]

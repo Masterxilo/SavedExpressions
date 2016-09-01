@@ -1,14 +1,1 @@
-Cell[BoxData[RowBox[{"Persist", "[", RowBox[{"\"Scene2DEnergySelect\"", ",", 
-      "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      RowBox[{"RedefinePublicFunction", "[", "\[IndentingNewLine]", 
-        RowBox[{RowBox[{"Scene2DEnergySelect", "[", "s_Scene2D", "]"}], 
-          "\[IndentingNewLine]", ",", "\"\"", "\[IndentingNewLine]", ",", 
-          RowBox[{"SceneXEnergySelect", "[", RowBox[
-             {RowBox[{"Scene2DDimension", "[", "]"}], ",", 
-              "Scene2DEnergyLightIntensityParameterCount", ",", 
-              "Scene2DEnergyColorDim"}], "]"}]}], "\[IndentingNewLine]", 
-        "]"}]}], "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]], 
- "Input", GeneratedCell -> True, CellAutoOverwrite -> True, 
- CellChangeTimes -> {{3.6805635175748672*^9, 3.6805635864137363*^9}, 
-   {3.68056362122238*^9, 3.680563877380669*^9}, {3.6805639599082575*^9, 
-    3.6805640265245504*^9}, 3.6805646349147544*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", "\[IndentingNewLine]", System`RowBox[System`List[System`RowBox[System`List["Scene2DEnergySelect", "[", "s_Scene2D", "]"]], "\[IndentingNewLine]", ",", "\"\"", "\[IndentingNewLine]", ",", System`RowBox[System`List["SceneXEnergySelect", "[", System`RowBox[System`List[System`RowBox[System`List["Scene2DDimension", "[", "s", "]"]], ",", System`RowBox[System`List["Scene2DEnergyLightIntensityParameterCount", "[", "]"]], ",", System`RowBox[System`List["Scene2DEnergyColorDim", "[", "s", "]"]]]], "]"]]]], "\[IndentingNewLine]", "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6803823896764374`*^9, 3.6803824482755547`*^9], 3.680933358586598`*^9, System`List[3.6809634905533676`*^9, 3.680963494241056`*^9], System`List[3.6809837677863436`*^9, 3.68098377851976`*^9], 3.6817267118157644`*^9, System`List[3.681727268157669`*^9, 3.6817272685327005`*^9]]], System`Rule[System`CellTags, "depersistedCellc1c49b6c-b132-4461-9613-3e24a17de1ee"], System`Rule[System`CellID, 114775245]]

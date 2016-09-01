@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`SOPDEnergy[Global`SparseOptimizationProblemDecomposedMakeTest[]], System`List[10.`, 50.`], System`List[], System`List[]]]

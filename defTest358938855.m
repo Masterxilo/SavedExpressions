@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Round[Global`Scene2DEnergy[Global`Scene2DMake1[]]], 45, System`List[], System`List[]]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`GDDataNames[Global`Scene2DImportExample1[]["GridData"]], System`List["a", "d", "doriginal", "c", "diffuse", "dsharp", "normalSharp"], System`List[], System`List[]]]

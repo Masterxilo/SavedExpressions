@@ -1,8 +1,1 @@
-HoldComplete[RedefinePublicFunction[Scene2DShow[s_Scene2D], 
-   "Interactively visualizes various properties of a Scene2D object.", 
-   Manipulate[Switch[which, "a", Framed[Scene2DShowAlbedo[s]], "c", 
-     Framed[Scene2DShowColor[s]], "diffuse", 
-     Framed[Scene2DShowColor[s, "diffuse"]], "d" | "doriginal" | "dsharp", 
-     Scene2DShowDistanceField[s, which], "normalSharp", 
-     ListNormalVectorPlot[s["normalSharp"]]], 
-    {which, Scene2DGridDataNames[s]}, TrackedSymbols :> which]]; ]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DShow[System`Pattern[Global`s, System`Blank[Global`Scene2D]]], "Interactively visualizes various properties of a Scene2D object.", System`Manipulate[System`Switch[Global`which, "a", System`Framed[Global`Scene2DShowAlbedo[Global`s]], "c", System`Framed[Global`Scene2DShowColor[Global`s]], "diffuse", System`Framed[Global`Scene2DShowColor[Global`s, "diffuse"]], System`Alternatives["d", "doriginal", "dsharp"], Global`Scene2DShowDistanceField[Global`s, Global`which], "normalSharp", Global`ListNormalVectorPlot[Global`s["normalSharp"]]], System`List[Global`which, Global`Scene2DGridDataNames[Global`s]], System`RuleDelayed[System`TrackedSymbols, Global`which]], System`Blank[], ""]]

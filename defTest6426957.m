@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Head[Global`Scene2DSparseOptimizationProblem[Global`Scene2DMakeTrivial[]]], Global`SparseOptimizationProblem, System`List[], System`List[]]]

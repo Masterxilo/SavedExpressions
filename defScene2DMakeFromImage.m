@@ -1,5 +1,1 @@
-HoldComplete[RedefinePublicFunction[Scene2DMakeFromImage[i_Image, 
-    l_:Scene2DEnergyLightIntensityExampleParameters, blur_Integer:8], "Comput\
-e distance function of a transparent image with color to create a scene", 
-   Scene2DMake[l, CreateVsfs2DSceneGridDataFromImage[i, 
-     Scene2DEnergyLightIntensity, l, blur]]]; ]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DMakeFromImage[System`Pattern[Global`i, System`Blank[System`Image]], System`Optional[System`Pattern[Global`l, System`Blank[]], System`Unevaluated[Global`Scene2DEnergyLightIntensityExampleParameters[]]], System`Optional[System`Pattern[Global`blur, System`Blank[System`Integer]], 8]], "Compute distance function of a transparent image with color to create a scene", Global`Scene2DMake[Global`l, Global`Scene2DCreateVsfs2DSceneGridDataFromImage[Global`i, Global`Scene2DEnergyLightIntensity, System`Evaluate[Global`l], Global`blur]], System`Blank[], ""]]

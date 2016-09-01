@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`MatchQ[Global`Scene2DEnergyfAt[Global`Scene2DMakeTrivial[], System`List[2, 2]], System`PatternTest[System`Table[System`Blank[], 8], Global`NumericVectorQ]], System`True, System`List[], System`List[]]]

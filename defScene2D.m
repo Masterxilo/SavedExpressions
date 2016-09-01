@@ -1,3 +1,1 @@
-System`HoldComplete[paul`UnprotectClearAll[Global`Scene2D]; 
-  System`SetAttributes[Global`Scene2D, System`HoldAllComplete]; 
-  System`Protect[Global`Scene2D]; ]
+System`HoldComplete[System`CompoundExpression[Global`UnprotectClearAll[Global`Scene2D], System`SetAttributes[Global`Scene2D, System`HoldAllComplete], System`Protect[Global`Scene2D], System`Null]]
