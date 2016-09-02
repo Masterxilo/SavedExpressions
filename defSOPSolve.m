@@ -1,9 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`SOPSolve[Global`p_Global`SparseOptimizationProblem, 
-   System`OptionsPattern[]], "construct a new SOP with less SOPEnergy", 
-  Global`SparseOptimizationProblemMakeWithUpdatedY[Global`p, 
-   Global`SOPSolveForY[Global`p, System`OptionValue[System`Method], 
-    System`OptionValue[System`MaxIterations]]], 
-  _Global`SparseOptimizationProblem | System`$Failed, "", 
-  System`Options -> {System`Method -> "GaussNewton", 
-    System`MaxIterations -> 1}]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`SOPSolve[System`Pattern[Global`p, System`Blank[Global`SparseOptimizationProblem]], System`Pattern[Global`options, System`OptionsPattern[]]], "construct a new SOP with less SOPEnergy", Global`SparseOptimizationProblemMakeWithUpdatedY[Global`p, Global`SOPSolveForY[Global`p, Global`options]], System`Alternatives[System`Blank[Global`SparseOptimizationProblem], System`$Failed], ""]]
