@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`CDeclareAssign[System`Pattern[Global`t, System`Blank[]], System`Pattern[Global`x, System`Blank[]], System`Pattern[Global`v, System`Blank[]]], "SymbolicC for C++-style declaration-assignment 't x = v;'", System`List[SymbolicC`CDeclare[Global`t, Global`x], SymbolicC`CAssign[Global`x, Global`v]], System`Blank[], ""]]

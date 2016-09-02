@@ -1,12 +1,1 @@
-System`Cell[System`BoxData[
-  {System`RowBox[{System`RowBox[{"PRedefinePublicFunction", "[", 
-       System`RowBox[{System`RowBox[{"CanonicalizeSplitCType", "[", 
-           "s_String", "]"}], ",", "\"Given a string describing a C type,\n  \
-splits it into {type__String} and\n  rearranges const in the type to always \
-be on the right of whatever it qualifies.\"", ",", System`RowBox[
-          {"ShiftUpConst", "[", System`RowBox[{System`RowBox[
-              {"StringTrim", "@", System`RowBox[{"StringSplit", "[", 
-                 System`RowBox[{"s", ",", "WordBoundary"}], "]"}]}], "/.", 
-             System`RowBox[{"\"\"", "\[Rule]", "Nothing"}]}], "]"}]}], "]"}], 
-     ";"}], "\n"}], "Input", System`CellChangeTimes -> 
-  {{3.681677849427307*^9, 3.681677853842523*^9}}]
+System`Cell[System`BoxData[System`List[System`RowBox[System`List[System`RowBox[System`List["PRedefinePublicFunction", "[", System`RowBox[System`List[System`RowBox[System`List["CanonicalizeSplitCType", "[", "s_String", "]"]], ",", "\"Given a string describing a C type,\n  splits it into {type__String} and\n  rearranges const in the type to always be on the right of whatever it qualifies.\"", ",", System`RowBox[System`List[System`RowBox[System`List["IdentityOnFailure", "[", "ShiftUpConst", "]"]], "[", System`RowBox[System`List[System`RowBox[System`List["StringTrim", "@", System`RowBox[System`List["StringSplit", "[", System`RowBox[System`List["s", ",", "WordBoundary"]], "]"]]]], "/.", System`RowBox[System`List["\"\"", "\[Rule]", "Nothing"]]]], "]"]]]], "]"]], ";"]], "\n"]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.681677849427307`*^9, 3.681677853842523`*^9], System`List[3.6817496943798304`*^9, 3.6817497070177603`*^9]]]]

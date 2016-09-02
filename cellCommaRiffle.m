@@ -1,12 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
-    System`RowBox[{System`RowBox[{"CommaRiffle", "[", 
-        System`RowBox[{"{", "s___String", "}"}], "]"}], 
-      "\[IndentingNewLine]", ",", 
-      "\"StringRiffle with a comma followed by a space\"", ",", 
-      "\[IndentingNewLine]", System`RowBox[{"StringRiffle", "[", 
-        System`RowBox[{"s", ",", "\", \""}], "]"}]}], "\[IndentingNewLine]", 
-    "]"}]], "Input", System`GeneratedCell -> System`True, 
- System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
-  {{3.6814915944665747*^9, 3.6814916012590547*^9}, {3.681492969246671*^9, 
-   3.6814929735458612*^9}, {3.681499931363793*^9, 3.68149994723096*^9}, 
-   3.681641739704728*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", "\[IndentingNewLine]", System`RowBox[System`List[System`RowBox[System`List["CommaRiffle", "[", System`RowBox[System`List["in", ":", System`RowBox[System`List["{", "___String", "}"]]]], "]"]], "\[IndentingNewLine]", ",", "\"StringRiffle with a comma followed by a space\"", ",", "\[IndentingNewLine]", System`RowBox[System`List["StringRiffle", "[", System`RowBox[System`List["in", ",", "\", \""]], "]"]], "\[IndentingNewLine]", ",", "_String"]], "\[IndentingNewLine]", "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6814915944665747`*^9, 3.6814916012590547`*^9], System`List[3.681492969246671`*^9, 3.6814929735458612`*^9], System`List[3.681499931363793`*^9, 3.68149994723096`*^9], 3.681641739704728`*^9, System`List[3.6817499840603757`*^9, 3.6817500477942586`*^9]]], System`Rule[System`CellTags, "depersistedCell078134e5-e3bd-4ec3-ab09-8dda8ec04c88"]]

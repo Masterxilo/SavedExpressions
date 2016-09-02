@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`Scene2DEnergy[Global`Scene2DEnhanceDecomposed[Global`Scene2DMake1[], Global`Scene2DInnerSize[Global`Scene2DMake1[]]]], Global`Scene2DEnergy[Global`Scene2DEnhance[Global`Scene2DMake1[]]], System`List[], System`List[System`Rule[System`SameTest, Global`ApproximatelyEqual]]]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`CTypePattern[], "pattern matching types as expected in SymbolicC`CFunction", System`List[System`BlankSequence[System`String]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DInnerSize[System`Pattern[Global`s, System`Blank[Global`Scene2D]]], "amount of points in each direction which can be optimized over, assuming dense scene", System`Plus[Global`Scene2DSize[Global`s], -2], System`Blank[], ""]]

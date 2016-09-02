@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ExtractSingleElement[System`List[System`Pattern[Global`x, System`Blank[]]]], "assert that this is a one-element list and take the element", Global`x, System`Blank[], ""]]

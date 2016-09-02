@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`CIndexToListIndex[System`Pattern[Global`i, System`Blank[]]], "+1", System`Plus[Global`i, 1], System`Blank[], ""]]

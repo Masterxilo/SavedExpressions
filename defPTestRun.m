@@ -1,7 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[{System`HoldAll}, 
-  Global`PTestRun[Global`blockvars_System`List, Global`test_, 
-   Global`expected_, Global`messages_System`List:{}, 
-   Global`options_System`List:{}], "run test without persisting", 
-  System`Module[{Global`result}, System`Quiet[System`Block[Global`blockvars, 
-     Global`result = System`VerificationTest[Global`test, Global`expected, 
-       Global`messages, Global`options]]]], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[System`List[System`HoldAll], Global`PTestRun[System`Pattern[Global`blockvars, System`Blank[System`List]], System`Pattern[Global`test, System`Blank[]], System`Pattern[Global`expected, System`Blank[]], System`Optional[System`Pattern[Global`messages, System`Blank[System`List]], System`List[]], System`Optional[System`Pattern[Global`options, System`Blank[System`List]], System`List[]]], "run test without persisting", System`Module[System`List[Global`result], System`Quiet[System`Block[Global`blockvars, System`Set[Global`result, Global`PrintEcho[System`VerificationTest[Global`test, Global`expected, Global`messages, Global`options], "PTestRun"]]]]], System`Blank[], ""]]

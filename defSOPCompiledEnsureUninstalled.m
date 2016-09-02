@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`SOPCompiledEnsureUninstalled[], "", System`CompoundExpression[System`Quiet[System`CheckAbort[System`Uninstall[Global`SOPCompiled$InstalledExe[]], System`Null]], System`Set[Global`SOPCompiled$InstalledLink[], System`Null], System`Set[Global`SOPCompiled$InstalledExe[], System`Null], System`Null], System`Blank[], ""]]

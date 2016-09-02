@@ -1,1 +1,1 @@
-HoldComplete[UndefinedPublicFunction[Scene2DEnhanceLightParameterEstimate[]]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DEnhanceLightParameterEstimate[], "enhances l to be more consistent with the lighting computed from the normals and albedo", Global`UndefinedPublicFunction[Global`Scene2DEnhanceLightParameterEstimate[]], System`Blank[], ""]]

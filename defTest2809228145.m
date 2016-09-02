@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], SymbolicC`ToCCodeString[Global`CDeclareAssign[System`List["int"], "x", 0]], "int x;\nx = 0;\n", System`List[], System`List[]]]

@@ -1,6 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`CanonicalizeSplitCType[Global`s_System`String], "Given a string \
-describing a C type,\n  splits it into {type__String} and\n  rearranges const \
-in the type to always be on the right of whatever it qualifies.", 
-  Global`ShiftUpConst[System`StringTrim[System`StringSplit[Global`s, 
-      System`WordBoundary]] /. "" -> System`Nothing], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`CanonicalizeSplitCType[System`Pattern[Global`s, System`Blank[System`String]]], "Given a string describing a C type,\n  splits it into {type__String} and\n  rearranges const in the type to always be on the right of whatever it qualifies.", Global`IdentityOnFailure[Global`ShiftUpConst][System`ReplaceAll[System`StringTrim[System`StringSplit[Global`s, System`WordBoundary]], System`Rule["", System`Nothing]]], System`Blank[], ""]]

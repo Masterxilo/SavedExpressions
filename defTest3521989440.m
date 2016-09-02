@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Less[Global`Scene2DEnergy[Global`Scene2DEnhanceDecomposed[Global`Scene2DMake1[], System`Times[Global`Scene2DInnerSize[Global`Scene2DMake1[]], System`Power[2, -1]]]], Global`Scene2DEnergy[Global`Scene2DMake1[]]], System`True, System`List[], System`List[]]]
