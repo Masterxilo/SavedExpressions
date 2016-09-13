@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMSerializeScene[Global`InfiniTAMScene[System`Pattern[Global`id, System`Blank[System`Integer]]], System`Pattern[Global`filename, System`Blank[System`String]]], "saves a scene from to file", InfiniTAM`Private`serializeScene[Global`id, Global`filename], System`Blank[], ""]]

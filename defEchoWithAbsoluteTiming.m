@@ -1,7 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[{System`HoldAll}, 
-  Global`EchoWithAbsoluteTiming[Global`x_], "Echoes and returns the given \
-value, capturing the AbsoluteTiming of evaluation", 
-  System`With[{Global`t = System`AbsoluteTiming[Global`x]}, 
-   System`Echo[System`Short[System`Last[Global`t]], 
-     System`Quantity[System`First[Global`t], "Seconds"]]; 
-    System`Last[Global`t]], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[System`List[System`HoldAll], Global`EchoWithAbsoluteTiming[System`Pattern[Global`x, System`Blank[]]], "Echoes and returns the given value, capturing the AbsoluteTiming of evaluation", System`With[System`List[System`Set[Global`t, System`CompoundExpression[System`Echo[System`Short[System`HoldForm[Global`x]], "Begin"], System`AbsoluteTiming[Global`x]]]], System`CompoundExpression[System`Echo[System`Short[System`Last[Global`t]], System`Quantity[System`First[Global`t], "Seconds"]], System`Last[Global`t]]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMProcessFrameAt[System`Pattern[Global`args, System`BlankSequence[]]], "", Global`InfiniTAMProcessFrame[0, Global`args], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GlobalUppercaseSymbols[], "Return list of all upercase symbols in Global`", System`Names[System`StringExpression["Global`", System`PatternTest[System`Blank[], System`UpperCaseQ], System`RepeatedNull[System`Except["`"]]]], System`List[System`BlankNullSequence[System`String]], ""]]

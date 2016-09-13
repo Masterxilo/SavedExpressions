@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`PoseMatrixQ[System`Pattern[Global`x, System`Blank[]]], "whether something is a rigid pose matrix, such that T.{p,1} = R.p + t for some R and p", Global`NumericMatrixQ[Global`x, System`List[4, 4]], System`PatternTest[System`Blank[], System`BooleanQ], ""]]

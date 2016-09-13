@@ -1,5 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`RulesToVerbatimFunction2[Global`rules:{___System`Rule}], 
-  "like RulesToVerbatimFunction", 
-  System`With[{Global`association = System`Association[Global`rules]}, 
-   System`Lookup[Global`association, #1] & ], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`RulesToVerbatimFunction2[System`Pattern[Global`rules, System`List[System`BlankNullSequence[System`Rule]]]], "like RulesToVerbatimFunction", System`With[System`List[System`Set[Global`association, System`Association[Global`rules]]], System`Function[System`Lookup[Global`association, System`Key[System`Slot[1]]]]], System`Blank[], ""]]

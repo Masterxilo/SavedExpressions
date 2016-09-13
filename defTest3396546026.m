@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Quiet[System`CheckAbort[Global`Positions[System`List[Global`a, Global`b]][Global`a], System`$Failed]], System`CompoundExpression["can only look up multiple values", System`$Failed], System`List[], System`List[]]]

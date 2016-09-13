@@ -1,15 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
-    System`RowBox[{System`RowBox[{"RulesToVerbatimFunction2", "[", 
-        System`RowBox[{"rules", ":", System`RowBox[{"{", "___Rule", "}"}]}], 
-        "]"}], "\[IndentingNewLine]", ",", 
-      "\"like RulesToVerbatimFunction\"", ",", "\[IndentingNewLine]", 
-      System`RowBox[{"With", "[", System`RowBox[
-         {System`RowBox[{"{", System`RowBox[{"association", "=", 
-              System`RowBox[{"Association", "@", "rules"}]}], "}"}], ",", 
-          System`RowBox[{System`RowBox[{"association", "~", "Lookup", "~", 
-              "#"}], "&"}]}], "]"}]}], "\[IndentingNewLine]", "]"}]], 
- "Input", System`GeneratedCell -> System`True, 
- System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
-  {{3.6814915944665747*^9, 3.6814916012590547*^9}, {3.6814918399760036*^9, 
-   3.681491842779747*^9}, {3.681502817622301*^9, 3.6815028226994123*^9}, 
-   3.681641746377058*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", System`RowBox[System`List[System`RowBox[System`List["RulesToVerbatimFunction2", "[", System`RowBox[System`List["rules", ":", System`RowBox[System`List["{", "___Rule", "}"]]]], "]"]], "\[IndentingNewLine]", ",", "\"like RulesToVerbatimFunction\"", ",", "\[IndentingNewLine]", System`RowBox[System`List["With", "[", System`RowBox[System`List[System`RowBox[System`List["{", System`RowBox[System`List["association", "=", System`RowBox[System`List["Association", "@", "rules"]]]], "}"]], ",", System`RowBox[System`List[System`RowBox[System`List["association", "~", "Lookup", "~", System`RowBox[System`List["Key", "@", "#"]]]], "&"]]]], "]"]]]], "\[IndentingNewLine]", "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6814915944665747`*^9, 3.6814916012590547`*^9], System`List[3.6814918399760036`*^9, 3.681491842779747`*^9], System`List[3.681502817622301`*^9, 3.6815028226994123`*^9], 3.681641746377058`*^9, System`List[3.6818149221166067`*^9, 3.6818149336033163`*^9]]]]

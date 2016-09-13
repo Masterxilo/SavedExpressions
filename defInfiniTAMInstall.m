@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMInstall[], "", System`CompoundExpression[System`Quiet[System`Uninstall[Global`InfiniTAMExe[]]], Global`UnprotectClearAll[Global`InfiniTAMLink], System`Set[Global`InfiniTAMLink[], System`Install[Global`InfiniTAMExe[]]], System`Protect[Global`InfiniTAMLink], System`Null], System`Blank[], ""]]

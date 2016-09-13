@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`AssertNull[System`Pattern[Global`x, System`Blank[]]], "", System`Assert[System`SameQ[Global`x, System`Null], Global`x, " was expected to be Null"], System`Blank[], ""]]

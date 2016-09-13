@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[System`List[System`HoldAll], Global`AbsoluteTimingOnly[System`Pattern[Global`e, System`Blank[]]], "", System`First[System`AbsoluteTiming[Global`e]], System`Blank[System`Real], ""]]

@@ -1,8 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[{System`HoldAll}, 
-  Global`EchoUnevaluatedWithAbsoluteTiming[Global`x_], "Echoes the \
-unevaluated expression and returns the given value, capturing the \
-AbsoluteTiming of evaluation", System`With[
-   {Global`t = System`AbsoluteTiming[Global`x]}, 
-   System`Echo[System`Short[System`HoldForm[Global`x]], 
-     System`Quantity[System`First[Global`t], "Seconds"]]; 
-    System`Last[Global`t]], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[System`List[System`HoldAll], Global`EchoUnevaluatedWithAbsoluteTiming[System`Pattern[Global`x, System`Blank[]]], "Echoes the unevaluated expression and returns the given value, capturing the AbsoluteTiming of evaluation", System`With[System`List[System`Set[Global`t, System`CompoundExpression[System`Echo[Global`FastShallow[System`HoldForm[Global`x]], "Begin"], System`AbsoluteTiming[Global`x]]]], System`CompoundExpression[System`Echo[Global`FastShallow[System`HoldForm[Global`x]], System`Quantity[System`First[Global`t], "Seconds"]], System`Last[Global`t]]], System`Blank[], ""]]

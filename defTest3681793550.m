@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`AllEqual[System`List[System`List[223, 164], System`List[223, 164], System`List[223, 164]]], System`True, System`List[], System`List[]]]

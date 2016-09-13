@@ -1,1 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DImportExample2[], "TestScene1", Global`Scene2DImport["TestScene1.png", System`Normalize[System`List[-3.`, -1.`]]], System`Blank[], ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DImportExample2[System`Optional[System`Pattern[Global`blur, System`Blank[System`Integer]], 8]], "TestScene1", Global`Scene2DImport["TestScene1.png", System`Normalize[System`List[-3.`, -1.`]], Global`blur], System`Blank[], ""]]

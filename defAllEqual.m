@@ -1,14 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-   Global`AllEqual[Global`list_System`List, Global`property_], "AllEqual[list\
-, property] check whether applying property to each element of list\nyields \
-elements which are Equal.\nEqual@@(property  /@ list)\n\nAllEqual[property] \
-Operator form.\n\nusage:\n{{{___Integer}, {___Integer}}?(AllEqual[Length]) \
-..}", System`Equal @@ Global`property /@ Global`list]; 
-  System`Apply[System`Function[{Global`def$, Global`body$}, 
-    Global`DefinePublicFunction[Global`def$, "AllEqual[list, property] check \
-whether applying property to each element of list\nyields elements which are \
-Equal.\nEqual@@(property  /@ list)\n\nAllEqual[property] Operator \
-form.\n\nusage:\n{{{___Integer}, {___Integer}}?(AllEqual[Length]) ..}", 
-     Global`body$], System`HoldAll], System`Unevaluated[
-    {{Global`AllEqual[Global`property_], 
-      System`Equal @@ Global`property /@ #1 & }}], {1}]; ]
+System`HoldComplete[System`CompoundExpression[Global`RedefinePublicFunction[System`List[], Global`AllEqual[System`Pattern[Global`list, System`Blank[System`List]], System`Pattern[Global`property, System`Blank[]]], "AllEqual[list, property] check whether applying property to each element of list\nyields elements which are Equal.\nEqual@@(property  /@ list)\n\nAllEqual[property] Operator form.\n\nusage:\n{{{___Integer}, {___Integer}}?(AllEqual[Length]) ..}", System`Apply[System`Equal, System`Map[Global`property, Global`list]], System`Blank[], "", System`Rule[System`Options, System`OptionValue[Global`PRedefinePublicFunctionAlternatives, System`List[], System`Options]]], System`Module[System`List[Global`defineAlternative$], System`CompoundExpression[System`SetAttributes[Global`defineAlternative$, System`HoldAll], System`SetDelayed[Global`defineAlternative$[System`Pattern[Global`def$, System`Blank[]], System`Pattern[Global`separateUsage$, System`Blank[System`String]], System`Pattern[Global`body$, System`Blank[]]], Global`DefinePublicFunction[Global`def$, Global`separateUsage$, Global`body$, System`Blank[], ""]], System`SetDelayed[Global`defineAlternative$[System`Pattern[Global`def$, System`Blank[]], System`Pattern[Global`body$, System`Blank[]]], Global`DefinePublicFunction[Global`def$, "AllEqual[list, property] check whether applying property to each element of list\nyields elements which are Equal.\nEqual@@(property  /@ list)\n\nAllEqual[property] Operator form.\n\nusage:\n{{{___Integer}, {___Integer}}?(AllEqual[Length]) ..}", Global`body$, System`Blank[], ""]], System`Apply[Global`defineAlternative$, System`Unevaluated[System`List[System`List[Global`AllEqual[System`Optional[System`Pattern[Global`property, System`Blank[]], System`Except[System`Blank[System`List]]]], System`Function[System`Apply[System`Equal, System`Map[Global`property, System`Slot[1]]]]], System`List[Global`AllEqual[System`Pattern[Global`list, System`Blank[System`List]]], System`Apply[System`Equal, Global`list]]]], System`List[1]], System`Null]], System`Null]]

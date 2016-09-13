@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMEstimateLighting[Global`InfiniTAMScene[System`Pattern[Global`id, System`Blank[System`Integer]]]], "", InfiniTAM`Private`estimateLighting[Global`id], System`Blank[], ""]]

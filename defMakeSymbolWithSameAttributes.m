@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[System`List[System`HoldAll], Global`MakeSymbolWithSameAttributes[System`Pattern[Global`f, System`Blank[System`Symbol]]], "", System`Module[System`List[Global`dummyHead], System`CompoundExpression[System`SetAttributes[Global`dummyHead, System`Attributes[Global`f]], Global`dummyHead]], System`Blank[], ""]]

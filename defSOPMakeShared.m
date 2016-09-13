@@ -1,16 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`SOPMakeShared[Global`rif_Global`RIFunction, Global`select_, 
-   Global`data:{_System`Rule..}], "make the part of the Association in a \
-SparseOptimizationProblem that can be shared across multiple \
-\nSparseOptimizationProblem used in a SparseOptimizationProblemDecomposed", 
-  System`With[{Global`xs = System`Keys[Global`data]}, 
-   System`Association["f" -> Global`RIFunctionExpressionList[Global`rif], 
-    "lengthz" -> Global`RIFunctionArgumentsLength[Global`rif], 
-    "lengthfz" -> Global`RIFunctionOutputsLength[Global`rif], 
-    "rif" -> Global`RIFunctionCompile[Global`rif], 
-    "ridf" -> System`Array[Global`RIFunctionCompile[
-        Global`RIFunctionMakeDerivativeIndexed[Global`rif, #1]] & , 
-      Global`RIFunctionArgumentsLength[Global`rif]], 
-    "select" -> Global`select, "data" -> Global`data, 
-    "x0" -> System`Values[Global`data], "x" -> Global`xs]], 
-  _System`Association, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`SOPMakeShared[System`Pattern[Global`rif, System`Blank[Global`RIFunction]], System`Pattern[Global`select, System`Blank[]], System`Pattern[Global`data, System`List[System`Repeated[System`Blank[System`Rule]]]]], "make the part of the Association in a SparseOptimizationProblem that can be shared across multiple \nSparseOptimizationProblem used in a SparseOptimizationProblemDecomposed", System`With[System`List[System`Set[Global`xs, System`Keys[Global`data]]], System`Association[System`Rule["f", Global`RIFunctionExpressionList[Global`rif]], System`Rule["lengthz", Global`RIFunctionArgumentsLength[Global`rif]], System`Rule["lengthfz", Global`RIFunctionOutputsLength[Global`rif]], System`Rule["rif", Global`RIFunctionCompile[Global`rif]], System`Rule["ridf", System`Array[System`Function[Global`RIFunctionCompile[Global`RIFunctionMakeDerivativeIndexed[Global`rif, System`Slot[1]]]], Global`RIFunctionArgumentsLength[Global`rif]]], System`Rule["select", Global`select], System`Rule["data", Global`data], System`Rule["x0", System`Values[Global`data]], System`Rule["x", Global`xs], System`Rule["xPositionFunction", Global`Positions[Global`xs, System`True]]]], System`Blank[System`Association], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMGetVoxelSize[Global`InfiniTAMScene[System`Pattern[Global`id, System`Blank[System`Integer]]]], "", InfiniTAM`Private`getSceneVoxelSize[Global`id], System`Blank[], ""]]

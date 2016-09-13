@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Block[System`List[Global`$rec, Global`f], System`CompoundExpression[System`SetAttributes[Global`f, System`HoldAll], System`CheckAbort[Global`RecordExpressionThenAbort[Global`$rec, Global`f[System`Plus[2, 2]]], Global`$rec]]], System`Hold[Global`f[System`Plus[2, 2]]], System`List[], System`List[]]]

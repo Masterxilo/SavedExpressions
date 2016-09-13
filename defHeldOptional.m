@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[System`List[System`HoldRest], Global`HeldOptional[System`Pattern[Global`pattern, System`Blank[]], System`Pattern[Global`value, System`Blank[]]], "Same as Optional, but evaluates the right-hand side only when the function is called", System`HoldPattern[System`Optional[Global`pattern, Global`value]], System`Blank[], ""]]
