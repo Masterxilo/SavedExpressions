@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Assert[Global`ApproximatelyEqual[System`Times[1, System`Power[System`Power[10, 4], -1]]][0, 0]], System`Null, System`List[], System`List[]]]

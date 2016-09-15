@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`AllLess[System`Pattern[Global`a, System`Blank[System`List]], System`Pattern[Global`b, System`Blank[System`List]]], "AllLess[{1, 1}, {2, 2}] === True, AllLess[{1, 3}, {2, 2}] === False", System`Apply[System`And, System`Thread[System`Less[Global`a, Global`b]]], System`Blank[], ""]]

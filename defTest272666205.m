@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`AllLess[System`List[1, 1], System`List[2, 2]], System`True, System`List[], System`List[]]]

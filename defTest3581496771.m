@@ -1,1 +1,0 @@
-System`HoldComplete[Global`PTestRun[System`List[], System`Times["cannot use pattern variable s in rhs of ?", Global`Contains[Global`InfiniTAMBuildSphereScene, System`PatternTest[System`Pattern[Global`s, System`Blank[System`Symbol]], System`StringContainsQ[System`SymbolName[Global`s], "InfiniTAM"]]]], System`False, System`List[], System`List[]]]

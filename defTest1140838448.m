@@ -1,4 +1,1 @@
-System`HoldComplete[Global`PTestRun[{}, SymbolicC`ToCCodeString[
-   Global`RIFunctionCFormAllDerivativesIndexed[Global`RIFunctionMakeTrivial1[
-     ]]], "switch ( i)\n{\ncase 0:\n{\nout[0] = 1.;\nout[1] = \
--1.;\n}\nbreak;\n}\n", {System`StringTrim::strse}, {}]]
+System`HoldComplete[Global`PTestRun[System`List[], SymbolicC`ToCCodeString[Global`RIFunctionCFormAllDerivativesIndexed[Global`RIFunctionMakeTrivial1[]]], "switch ( i)\n{\ncase 0:\n{\nout[0] = 1.;\nout[1] = -1.;\n}\nbreak;\n}\n", System`List[System`MessageName[System`StringTrim, "strse"]], System`List[]]]

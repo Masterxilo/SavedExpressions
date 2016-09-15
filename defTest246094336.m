@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`CoordinateListErosion[System`Keys[System`Most[System`ArrayRules[System`DiamondMatrix[2]]]]], System`Keys[System`Most[System`ArrayRules[System`ImageData[System`Erosion[System`Image[System`DiamondMatrix[2]], 1]]]]], System`List[], System`List[]]]
