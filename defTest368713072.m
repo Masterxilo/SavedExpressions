@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`HeadChangesQ[System`Sin[0.`]], System`True, System`List[], System`List[]]]

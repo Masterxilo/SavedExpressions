@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ShowMeshDiffuse[System`Pattern[Global`g, System`Blank[]]], "show mesh only with its vertex colors. Use in combination with ImportObjVC.", System`Graphics3D[System`List[System`EdgeForm[], Global`g], System`Rule[System`Lighting, System`List[System`List["Ambient", System`White]]]], System`Blank[], ""]]

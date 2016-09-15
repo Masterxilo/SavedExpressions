@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMExampleVoxelGridData[], "", Global`InfiniTAMVoxelListToGridData[Global`InfiniTAMExampleVoxelData[]], System`Blank[], ""]]

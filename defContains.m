@@ -1,17 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[{}, 
-   Global`Contains[Global`x_, Global`a_], 
-   "Not@*FreeQ, or MemberQ[expr, pat, {0,Infinity}, Heads -> True]", 
-    !System`FreeQ[System`Unevaluated[Global`x], System`Unevaluated[
-      Global`a]], _, "", System`Options -> System`OptionValue[
-     Global`PRedefinePublicFunctionAlternatives, {}, System`Options]]; 
-  System`Module[{Global`defineAlternative$}, 
-   System`SetAttributes[Global`defineAlternative$, System`HoldAll]; 
-    Global`defineAlternative$[Global`def$_, 
-      Global`separateUsage$_System`String, Global`body$_] := 
-     Global`DefinePublicFunction[Global`def$, Global`separateUsage$, 
-      Global`body$, _, ""]; Global`defineAlternative$[Global`def$_, 
-      Global`body$_] := Global`DefinePublicFunction[Global`def$, 
-      "Not@*FreeQ, or MemberQ[expr, pat, {0,Infinity}, Heads -> True]", 
-      Global`body$, _, ""]; System`Apply[Global`defineAlternative$, 
-     System`Unevaluated[{{Global`Contains[Global`a_], 
-        Global`Contains[#1, System`Unevaluated[Global`a]] & }}], {1}]; ]; ]
+System`HoldComplete[System`CompoundExpression[Global`RedefinePublicFunction[System`List[], Global`Contains[System`Pattern[Global`x, System`Blank[]], System`Pattern[Global`pattern, System`Blank[]]], "Not@*FreeQ, or MemberQ[expr, pat, {0,Infinity}, Heads -> True]", System`Not[System`FreeQ[System`Unevaluated[Global`x], System`Unevaluated[Global`pattern]]], System`Blank[], "", System`Rule[System`Options, System`OptionValue[Global`PRedefinePublicFunctionAlternatives, System`List[], System`Options]]], System`Module[System`List[Global`defineAlternative$], System`CompoundExpression[System`SetAttributes[Global`defineAlternative$, System`HoldAll], System`SetDelayed[Global`defineAlternative$[System`Pattern[Global`def$, System`Blank[]], System`Pattern[Global`separateUsage$, System`Blank[System`String]], System`Pattern[Global`body$, System`Blank[]]], Global`DefinePublicFunction[Global`def$, Global`separateUsage$, Global`body$, System`Blank[], ""]], System`SetDelayed[Global`defineAlternative$[System`Pattern[Global`def$, System`Blank[]], System`Pattern[Global`body$, System`Blank[]]], Global`DefinePublicFunction[Global`def$, "Not@*FreeQ, or MemberQ[expr, pat, {0,Infinity}, Heads -> True]", Global`body$, System`Blank[], ""]], System`Apply[Global`defineAlternative$, System`Unevaluated[System`List[System`List[Global`Contains[System`Pattern[Global`pattern, System`Blank[]]], System`Function[Global`Contains[System`Slot[1], System`Unevaluated[Global`pattern]]]]]], System`List[1]], System`Null]], System`Null]]

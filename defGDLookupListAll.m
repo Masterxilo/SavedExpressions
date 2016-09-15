@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GDLookupListAll[System`Pattern[Global`g, System`Blank[Global`GridData]]], "GDLookupList[g, GDDomain@g]", Global`GDLookupListMultiple[Global`g, Global`GDDomain[Global`g]], System`Blank[], ""]]

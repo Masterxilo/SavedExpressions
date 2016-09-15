@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DMake1Tight[], "less extra space in Scene2DMake1", Global`Scene2DTake[Global`Scene2DMake1[], System`List[System`List[5, 20], System`List[3, 34]]], System`Blank[], ""]]

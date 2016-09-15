@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMGridDataToVoxelList[System`Pattern[Global`voxels, System`Blank[Global`GridData]]], "", Global`GDLookupListAll[Global`voxels], System`Blank[], ""]]

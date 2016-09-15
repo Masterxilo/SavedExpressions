@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Equal[System`Last[Global`InfiniTAMGetVoxelBlock[Global`InfiniTAMCreateExampleScene[], 1]], Global`InfiniTAMExampleVoxelData[]], System`True, System`List[], System`List[]]]

@@ -1,6 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`TestDepersistHeldDefContainingByPersistedNames[Global`e_], "Try \
-searching for Unevaluated[] argument if nothing shows up: \
-\!\(\*FractionBox[\(0.5`\), SqrtBox[\(y\)]]\)", 
-  System`Select[Global`TestDepersistHeldDefAllByPersistedNames[], 
-   Global`Contains[System`Unevaluated[Global`e]]], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`TestDepersistHeldDefContainingByPersistedNames[System`Pattern[Global`e, System`Blank[]]], "\nFind all tests, including their names, containing e.\nTry searching for Unevaluated[] argument if nothing shows up: \!\(\*FractionBox[\(0.5`\), SqrtBox[\(y\)]]\)", System`Select[Global`TestDepersistHeldDefAllByPersistedNames[], Global`Contains[System`Unevaluated[Global`e]]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[System`List[System`HoldAll], Global`HeadChangesQ[System`Pattern[Global`h, System`Blank[]][System`Pattern[Global`v, System`BlankNullSequence[]]]], "evaluate h[v], and test whether the result has a different head", System`UnsameQ[System`Head[Global`h[Global`v]], Global`h], System`Blank[], ""]]

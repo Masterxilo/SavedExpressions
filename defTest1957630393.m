@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`InfiniTAMExampleSceneData[]["Properties"], System`List["voxelSize", "voxelBlocks"], System`List[], System`List[]]]

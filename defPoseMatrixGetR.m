@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`PoseMatrixGetR[System`PatternTest[System`Pattern[Global`m, System`Blank[]], Global`PoseMatrixQ]], "", System`Part[Global`m, System`Span[1, 3], System`Span[1, 3]], System`Blank[], ""]]

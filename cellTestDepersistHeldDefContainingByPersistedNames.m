@@ -1,14 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
-    System`RowBox[{System`RowBox[
-       {"TestDepersistHeldDefContainingByPersistedNames", "[", "e_", "]"}], 
-      ",", "\"Try searching for Unevaluated[] argument if nothing shows up: \
-\!\(\*FractionBox[\(0.5`\), SqrtBox[\(y\)]]\)\"", ",", "\[IndentingNewLine]", 
-      System`RowBox[{System`RowBox[
-         {"TestDepersistHeldDefAllByPersistedNames", "[", "]"}], "~", 
-        "Select", "~", System`RowBox[{"Contains", "[", System`RowBox[
-           {"Unevaluated", "@", "e"}], "]"}]}]}], "\[IndentingNewLine]", 
-    "]"}]], "Input", System`CellChangeTimes -> {{3.6816408097748113*^9, 
-   3.6816408302053165*^9}, {3.681673889679597*^9, 3.6816739043208103*^9}, 
-   3.681674086302041*^9, {3.6816748060735254*^9, 3.6816748079373207*^9}, 
-   {3.681674880782363*^9, 3.681674904029597*^9}}, 
- System`CellTags -> "depersistedCellc617cdf8-82bd-41b7-a646-9675b57334c3"]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", System`RowBox[System`List[System`RowBox[System`List["TestDepersistHeldDefContainingByPersistedNames", "[", "e_", "]"]], ",", "\"\nFind all tests, including their names, containing e.\nTry searching for Unevaluated[] argument if nothing shows up: \!\(\*FractionBox[\(0.5`\), SqrtBox[\(y\)]]\)\"", ",", "\[IndentingNewLine]", System`RowBox[System`List[System`RowBox[System`List["TestDepersistHeldDefAllByPersistedNames", "[", "]"]], "~", "Select", "~", System`RowBox[System`List["Contains", "[", System`RowBox[System`List["Unevaluated", "@", "e"]], "]"]]]]]], "\[IndentingNewLine]", "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6816408097748113`*^9, 3.6816408302053165`*^9], System`List[3.681673889679597`*^9, 3.6816739043208103`*^9], 3.681674086302041`*^9, System`List[3.6816748060735254`*^9, 3.6816748079373207`*^9], System`List[3.681674880782363`*^9, 3.681674904029597`*^9], System`List[3.6828501694461513`*^9, 3.6828501890646424`*^9]]], System`Rule[System`CellTags, "depersistedCell742b16d2-568d-4722-8a1c-b343548fa1f5"]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[Global`a], System`CompoundExpression[System`Set[Global`a, Global`GridDataMakeFromArray[System`List[System`List[42]]]], Global`GDLookupListMultiple[Global`a, Global`GDDomain[Global`a]]], System`List[System`List[42]], System`List[], System`List[]]]

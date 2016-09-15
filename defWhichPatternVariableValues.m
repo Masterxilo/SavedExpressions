@@ -1,18 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[{System`HoldAll}, 
-  Global`WhichPatternVariableValues[Global`thisShouldNotConflict_], "WhichPat\
-ternVariableValues[f[1,2,3,...]] finds which DownValue of f is applicable in \
-the given case and returns a List of rules mapping the pattern variable \
-symbols to the values they have in the given case.\n\nThis is what you would \
-see in the 'local variables' of the debugger.\n\ndoes not currently handle \
-any attributes of f", System`With[{Global`vanilladownValueHoldPattern = 
-     Global`WhichDownValue[Global`thisShouldNotConflict]}, 
-   {Global`downValueHoldPattern = Global`PatternVariablesAppend$All[
-      Global`vanilladownValueHoldPattern]}, 
-   {Global`vanillaPatternVars = System`DeleteDuplicates[
-      Global`PatternVariables[Global`vanilladownValueHoldPattern]]}, 
-   {Global`patternVars = System`Identity[System`HoldForm /@ 
-       System`DeleteDuplicates[Global`PatternVariables[
-         Global`downValueHoldPattern]]]}, System`Identity[
-    System`Replace[System`Unevaluated[Global`thisShouldNotConflict], 
-     Global`downValueHoldPattern :> System`Thread[
-       Global`vanillaPatternVars -> Global`patternVars]]]], _, ""]]
+System`HoldComplete[System`CompoundExpression[Global`RedefinePublicFunction[System`List[System`HoldAll], Global`WhichPatternVariableValues[System`Alternatives[System`Hold, System`HoldForm, System`HoldComplete][System`Pattern[Global`x, System`Blank[]]]], "WhichPatternVariableValues[f[1,2,3,...]] finds which DownValue of f is applicable in the given case and returns a List of rules mapping the pattern variable symbols to the values they have in the given case.\n\nThis is what you would see in the 'local variables' of the debugger.\n\ndoes not currently handle any attributes of f", Global`WhichPatternVariableValues[Global`x], System`Blank[], "", System`Rule[System`Options, System`OptionValue[Global`PRedefinePublicFunctionAlternatives, System`List[], System`Options]]], System`Module[System`List[Global`defineAlternative$], System`CompoundExpression[System`SetAttributes[Global`defineAlternative$, System`HoldAll], System`SetDelayed[Global`defineAlternative$[System`Pattern[Global`def$, System`Blank[]], System`Pattern[Global`separateUsage$, System`Blank[System`String]], System`Pattern[Global`body$, System`Blank[]]], Global`DefinePublicFunction[Global`def$, Global`separateUsage$, Global`body$, System`Blank[], ""]], System`SetDelayed[Global`defineAlternative$[System`Pattern[Global`def$, System`Blank[]], System`Pattern[Global`body$, System`Blank[]]], Global`DefinePublicFunction[Global`def$, "WhichPatternVariableValues[f[1,2,3,...]] finds which DownValue of f is applicable in the given case and returns a List of rules mapping the pattern variable symbols to the values they have in the given case.\n\nThis is what you would see in the 'local variables' of the debugger.\n\ndoes not currently handle any attributes of f", Global`body$, System`Blank[], ""]], System`Apply[Global`defineAlternative$, System`Unevaluated[System`List[System`List[Global`WhichPatternVariableValues[System`Pattern[Global`thisShouldNotConflict, System`Blank[]]], System`With[System`List[System`Set[Global`vanilladownValueHoldPattern, Global`WhichDownValue[Global`thisShouldNotConflict]]], System`List[System`Set[Global`downValueHoldPattern, Global`PatternVariablesAppend$All[Global`vanilladownValueHoldPattern]]], System`List[System`Set[Global`vanillaPatternVars, System`DeleteDuplicates[Global`PatternVariables[Global`vanilladownValueHoldPattern]]]], System`List[System`Set[Global`patternVars, System`Identity[System`Map[System`HoldForm, System`DeleteDuplicates[Global`PatternVariables[Global`downValueHoldPattern]]]]]], System`Identity[System`Replace[System`Unevaluated[Global`thisShouldNotConflict], System`RuleDelayed[Global`downValueHoldPattern, System`Thread[System`Rule[Global`vanillaPatternVars, Global`patternVars]]]]]]]]], System`List[1]], System`Null]], System`Null]]

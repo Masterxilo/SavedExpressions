@@ -1,15 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`PartitionRangeApproximately2DByLength[
-   {{Global`xmin_System`Integer, Global`xmax_System`Integer}, 
-    {Global`ymin_System`Integer, Global`ymax_System`Integer}}, 
-   {Global`lengthx_System`Integer, Global`lengthy_System`Integer}], "Split \
-the interval from min to max into exactly nSplits subintervals of equal \
-size.\nThe numbers max and min may be dropped from the result.\n\nThen expand \
-the result into a list of matrices of coordinates.\n", 
-  System`Module[{Global`r1, Global`r2}, 
-   Global`r1 = Global`PartitionRangeApproximatelyByLength[Global`xmin, 
-      Global`xmax, Global`lengthx]; Global`r2 = 
-     Global`PartitionRangeApproximatelyByLength[Global`ymin, Global`ymax, 
-      Global`lengthy]; System`CoordinateBoundsArray /@ 
-     System`Tuples[{Global`r1, Global`r2}]], 
-  {_?(Global`ArrayQOp[3, System`IntegerQ])..}, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`PartitionRangeApproximately2DByLength[System`List[System`List[System`Pattern[Global`xmin, System`Blank[System`Integer]], System`Pattern[Global`xmax, System`Blank[System`Integer]]], System`List[System`Pattern[Global`ymin, System`Blank[System`Integer]], System`Pattern[Global`ymax, System`Blank[System`Integer]]]], System`List[System`Pattern[Global`lengthx, System`Blank[System`Integer]], System`Pattern[Global`lengthy, System`Blank[System`Integer]]]], "Split the grid into blocks of size {lengthx, lengthy}\n\nThen expand the result into a list of *matrices* of coordinates.\n", System`Module[System`List[Global`r1, Global`r2], System`CompoundExpression[System`Set[Global`r1, Global`PartitionRangeApproximatelyByLength[Global`xmin, Global`xmax, Global`lengthx]], System`Set[Global`r2, Global`PartitionRangeApproximatelyByLength[Global`ymin, Global`ymax, Global`lengthy]], System`Map[System`CoordinateBoundsArray, System`Tuples[System`List[Global`r1, Global`r2]]]]], System`List[System`Repeated[System`PatternTest[System`Blank[], Global`ArrayQOp[3, System`IntegerQ]]]], ""]]

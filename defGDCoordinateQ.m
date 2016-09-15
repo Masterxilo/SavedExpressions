@@ -1,8 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-   Global`GDCoordinateQ[Global`g_Global`GridData, 
-     Global`c:{__System`Integer}] /; Global`LengthQ[Global`c, 
-     Global`GDArrayDepth[Global`g]], "Determine whether an expression is \
-possibly a valid coordinate of the grid g.\n\nFor this, it must be a list of \
-Integers and have Length = Array depth.", System`True]; 
-  Global`DefinePublicFunction[Global`GDCoordinateQ[Global`g_Global`GridData, 
-    Global`c_], "most things are not coordinates", System`False]; ]
+System`HoldComplete[System`CompoundExpression[Global`RedefinePublicFunction[System`Condition[Global`GDCoordinateQ[System`Pattern[Global`g, System`Blank[Global`GridData]], System`Pattern[Global`c, System`List[System`BlankSequence[System`Integer]]]], Global`LengthQ[Global`c, Global`GDArrayDepth[Global`g]]], "Determine whether an expression is possibly a valid coordinate of the grid g.\n\nFor this, it must be a list of Integers and have Length = Array depth.", System`True], Global`DefinePublicFunction[Global`GDCoordinateQ[System`Pattern[Global`g, System`Blank[Global`GridData]], System`Pattern[Global`c, System`Blank[]]], "most things are not coordinates", System`False], Global`DefinePublicFunction[Global`GDCoordinateQ[System`Pattern[Global`g, System`Blank[Global`GridData]]], "operator form", System`Function[Global`GDCoordinateQ[Global`g, System`Slot[1]]]], System`Null]]

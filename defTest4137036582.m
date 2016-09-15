@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`CompoundExpression["can use pattern variable s in rhs of /;", Global`Contains[Global`InfiniTAMBuildSphereScene, System`Condition[System`Pattern[Global`s, System`Blank[System`Symbol]], System`StringContainsQ[System`SymbolName[Global`s], "InfiniTAM"]]]], System`True, System`List[], System`List[]]]

@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List["PTest", "[", System`RowBox[System`List[System`RowBox[System`List["HeadChangesQ", "@", System`RowBox[System`List["Sin", "[", "0.", "]"]]]], ",", "True"]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.682781028431734`*^9, 3.6827810446510005`*^9]]]]
