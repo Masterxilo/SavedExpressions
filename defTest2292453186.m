@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Head[Global`Scene3DMakeExampleFromInfiniTAMSceneData[]], Global`Scene3D, System`List[], System`List[]]]

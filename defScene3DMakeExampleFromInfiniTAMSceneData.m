@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene3DMakeExampleFromInfiniTAMSceneData[], "", Global`Scene3DMakeFromInfiniTAMSceneData[Global`Scene3DEnergyLightIntensityExampleParameters[], Global`InfiniTAMExampleSceneData[]], System`Blank[Global`Scene3D], ""]]

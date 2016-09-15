@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMExampleSceneData2[], "", System`With[System`List[System`Set[Global`a, System`Association[System`Rule["voxelSize", 0.005`], System`Rule["voxelBlocks", Global`InfiniTAMExampleVoxelBlocksGridData2[]]]]], Global`InfiniTAMSceneData[Global`a]], Global`InfiniTAMSceneData[System`Blank[System`Association]], ""]]

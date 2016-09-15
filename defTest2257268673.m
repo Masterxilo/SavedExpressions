@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`Scene3DCoordinateBounds[Global`Scene3DMakeFromRules[Global`Scene3DEnergyLightIntensityExampleParameters[], Global`InfiniTAMExampleScene3DRules2[]]], System`List[System`List[0, 23], System`List[0, 7], System`List[0, 7]], System`List[], System`List[]]]

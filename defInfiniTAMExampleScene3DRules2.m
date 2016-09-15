@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMExampleScene3DRules2[], "", Global`InfiniTAMVoxelBlocksGridDataAsScene3DRules[Global`InfiniTAMExampleVoxelBlocksGridData2[]], System`Blank[], ""]]
