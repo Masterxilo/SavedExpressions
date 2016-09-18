@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMSceneDataImportExample[], "", System`Import["relief.bin.InfiniTAMSceneData.mx"], System`Blank[Global`InfiniTAMSceneData], ""]]

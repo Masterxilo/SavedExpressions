@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMMakeSceneData1TightAligned[], "s", Global`InfiniTAMMakeSceneDataFromScene3DRules[0.005`, Global`Scene3DGetRules[Global`Scene3DColorDimEnsure3[Global`Scene3DMake1TightAligned[]]]], System`Blank[Global`InfiniTAMSceneData], ""]]

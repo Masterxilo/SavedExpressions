@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene3DGetColorAsArray[System`Pattern[Global`s, System`Blank[Global`Scene3D]]], "", Global`GDSingleDatumToArray[Global`s["GridData"], "c"], System`Blank[], ""]]

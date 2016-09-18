@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`InfiniTAMVoxelBlocksGridDataAsScene3DRules[Global`InfiniTAMExampleVoxelBlocksGridData2[]], Global`Scene3DGetRules[Global`Scene3DMakeFromInfiniTAMSceneData[Global`InfiniTAMExampleSceneData2[]]], System`List[], System`List[]]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Head[Global`Scene3DSparseOptimizationProblemDecomposed[Global`Scene3DMake1Tight[], System`Table[6, 3]]], Global`SparseOptimizationProblemDecomposed, System`List[], System`List[]]]

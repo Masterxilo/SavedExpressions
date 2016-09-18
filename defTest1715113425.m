@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`CoordinatesAddAll[Global`Scene3DDomain[Global`Scene3DMakeTrivial[]], System`List[-1, -1, -1]], Global`Scene3DDomain[Global`Scene3DShift[Global`Scene3DMakeTrivial[], System`List[-1, -1, -1]]], System`List[], System`List[]]]

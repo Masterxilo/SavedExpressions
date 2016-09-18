@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene3DGetDistanceFieldAsArray[System`Pattern[Global`s, System`Blank[Global`Scene3D]], System`Optional[System`Pattern[Global`which, System`Blank[System`String]], "d"]], "", Global`GDSingleDatumToArray[Global`s["GridData"], Global`which], System`Blank[], ""]]

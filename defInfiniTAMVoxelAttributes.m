@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMVoxelAttributes[], "", System`List["normalizedSDF", "sdfSampleCount", "color", "colorSampleCount"], System`Blank[], ""]]

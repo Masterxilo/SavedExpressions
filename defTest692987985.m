@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`FlatArrayReshape[System`Range[System`Power[3, 3]], System`List[3, 3, 3]], System`ArrayReshape[System`Range[System`Power[3, 3]], System`List[3, 3, 3]], System`List[], System`List[]]]

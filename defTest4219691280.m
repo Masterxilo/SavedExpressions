@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Length[Global`Scene3DEnergyPDecomposed[Global`Scene3DMake1Tight[], System`Table[6, 3]]], 10, System`List[], System`List[]]]
