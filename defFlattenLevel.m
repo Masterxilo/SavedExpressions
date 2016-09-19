@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`FlattenLevel[System`Pattern[Global`l, System`Blank[System`List]], System`Pattern[Global`level, System`Blank[System`Integer]]], "", System`Map[System`Function[System`Apply[System`Sequence, System`Slot[1]]], Global`l, System`List[Global`level]], System`Blank[], ""]]

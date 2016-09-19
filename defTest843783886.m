@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`FlattenLevel[System`List[System`List[System`List[System`List[0, 0, 0], System`List[0, 1, 0], System`List[0, 0, 1]]]], 2], System`List[System`List[System`List[0, 0, 0], System`List[0, 1, 0], System`List[0, 0, 1]]], System`List[], System`List[]]]

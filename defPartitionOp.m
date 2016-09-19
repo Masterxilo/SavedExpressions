@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`PartitionOp[System`Pattern[Global`params, System`BlankSequence[]]], "like Partition", System`Function[System`Partition[System`Slot[1], Global`params]], System`Blank[], ""]]
