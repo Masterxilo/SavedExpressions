@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`StringRiffleLines[System`List["a", "b"]], "a\nb", System`List[], System`List[]]]

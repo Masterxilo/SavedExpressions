@@ -1,3 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`SOPGetP[Global`SparseOptimizationProblem[
-    Global`a_System`Association]], "p points", Global`a["p"], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`SOPGetP[Global`SparseOptimizationProblem[System`Pattern[Global`a, System`Blank[System`Association]]]], "p points", Global`FMAsList[Global`a["p"]], System`Blank[], ""]]

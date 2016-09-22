@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Values[Global`FMAsRules[Global`FMDomainAsFM[Global`FiniteMappingExampleFromFunctions2[]]]], Global`FMDomain[Global`FiniteMappingExampleFromFunctions2[]], System`List[], System`List[]]]

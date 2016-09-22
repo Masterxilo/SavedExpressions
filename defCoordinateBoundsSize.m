@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`CoordinateBoundsSize[System`Pattern[Global`cb, System`Blank[System`List]]], "max - min + 1", System`Plus[1, System`Apply[System`Subtract, System`Map[System`Reverse, Global`cb], System`List[1]]], System`Blank[], ""]]

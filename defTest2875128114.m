@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`EProverFOFForm[System`And[Global`x, Global`y]], "(x & y)", System`List[], System`List[]]]

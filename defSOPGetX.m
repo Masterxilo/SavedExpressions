@@ -1,4 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`SOPGetX[Global`SparseOptimizationProblem[
-    Global`a_System`Association]], "x, lhs of data", Global`a["x"], 
-  System`Except[_?Global`NumericVectorQ, {__}], ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`SOPGetX[Global`SparseOptimizationProblem[System`Pattern[Global`a, System`Blank[System`Association]]]], "x, lhs of data", Global`FMAsList[Global`a["x"]], System`Except[System`PatternTest[System`Blank[], Global`NumericVectorQ], System`List[System`BlankSequence[]]], ""]]

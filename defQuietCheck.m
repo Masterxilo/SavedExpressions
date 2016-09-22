@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[System`List[System`HoldAll], Global`QuietCheck[System`Pattern[Global`e, System`Blank[]], System`Pattern[Global`a, System`Blank[]]], "", System`Quiet[System`Check[Global`e, Global`a]], System`Blank[], ""]]

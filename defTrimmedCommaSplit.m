@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`TrimmedCommaSplit[System`Pattern[Global`s, System`Blank[System`String]]], "Like CommaSplit, but trims whitespace around results and drops empty strings", System`DeleteCases[System`StringTrim[Global`CommaSplit[Global`s]], ""], System`Blank[], ""]]

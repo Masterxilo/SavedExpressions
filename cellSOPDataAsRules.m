@@ -1,15 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[
-   {System`RowBox[{"PRedefinePublicFunction", "[", "\[IndentingNewLine]", 
-      System`RowBox[{System`RowBox[{"SOPDataAsRules", "[", 
-          System`RowBox[{"SparseOptimizationProblem", "[", "a_Association", 
-            "]"}], "]"}], "\[IndentingNewLine]", ",", 
-        "\"one representation of data\"", "\[IndentingNewLine]", ",", 
-        System`RowBox[{"a", "@", "\"data\""}]}], "\[IndentingNewLine]", 
-      "]"}], ";"}]], "Input", System`CellChangeTimes -> 
-  {{3.68027183815642*^9, 3.680271861877002*^9}, {3.680272187367141*^9, 
-   3.680272204925047*^9}, {3.6803792871822324*^9, 3.6803793029749227*^9}, 
-   3.680933579339805*^9, {3.6809380373734474*^9, 3.6809380528002205*^9}, 
-   {3.681131315896761*^9, 3.6811313187807646*^9}, {3.681649912286805*^9, 
-   3.6816499222802787*^9}}, System`CellTags -> 
-  "depersistedCelle35a531a-9e40-45af-9221-1d1b047d6bd9", 
- System`CellID -> 224972519]
+System`Cell[System`BoxData[System`RowBox[System`List[System`RowBox[System`List["PRedefinePublicFunction", "[", "\[IndentingNewLine]", System`RowBox[System`List[System`RowBox[System`List["SOPDataAsRules", "[", "s_SparseOptimizationProblem", "]"]], "\[IndentingNewLine]", ",", "\"one representation of data\"", "\[IndentingNewLine]", ",", System`RowBox[System`List["FMAsRules", "@", System`RowBox[System`List["SOPDataAsFM", "@", "s"]]]]]], "\[IndentingNewLine]", "]"]], ";"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.68027183815642`*^9, 3.680271861877002`*^9], System`List[3.680272187367141`*^9, 3.680272204925047`*^9], System`List[3.6803792871822324`*^9, 3.6803793029749227`*^9], 3.680933579339805`*^9, System`List[3.6809380373734474`*^9, 3.6809380528002205`*^9], System`List[3.681131315896761`*^9, 3.6811313187807646`*^9], System`List[3.681649912286805`*^9, 3.6816499222802787`*^9], System`List[3.683469007421014`*^9, 3.6834690113895893`*^9], System`List[3.683472319816473`*^9, 3.683472344862167`*^9]]], System`Rule[System`CellTags, "depersistedCell50c728a1-b2db-4de6-b730-b2f5b403c4e5"], System`Rule[System`CellID, 224972519]]

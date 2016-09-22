@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`FMInjectiveQ[Global`FiniteMappingMakeRange[1, 10]], System`True, System`List[], System`List[]]]

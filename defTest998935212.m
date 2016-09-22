@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`FMAsRules[Global`FiniteMappingExampleFromFunctions2[]], System`List[System`Rule[Global`a, Global`f[Global`a]], System`Rule[Global`b, Global`f[Global`b]]], System`List[], System`List[]]]

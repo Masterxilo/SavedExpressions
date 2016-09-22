@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`EProverFOFQuantifier["!", System`List[Global`X], "mortal(X)"], "![X]:(mortal(X))", System`List[], System`List[]]]

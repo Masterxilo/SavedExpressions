@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[System`List[System`HoldAll], Global`CheckMissing[System`Pattern[Global`a, System`Blank[]], System`Pattern[Global`b, System`Blank[]]], "return a unless it is MissingQ, in which case b is evaluated and returned. b is not evaluated if a is not missing", System`If[System`MissingQ[Global`a], Global`b, Global`a], System`Blank[], ""]]

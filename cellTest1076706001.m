@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List["PTest", "[", System`RowBox[System`List[System`RowBox[System`List["EProverParseSZSAnswersTuple", "@", "\"# SZS answers Tuple [[socrates]|_]\""]], ",", "socrates"]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.683324047823382`*^9, 3.683324069610573`*^9]]]]

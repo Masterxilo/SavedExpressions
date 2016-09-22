@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DEnergyLightParameters[], "", System`Array[Global`l, Global`Scene2DEnergyLightIntensityParameterCount[]], System`Blank[], ""]]

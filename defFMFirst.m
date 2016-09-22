@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`FMFirst[System`Pattern[Global`f, System`Blank[Global`FiniteMapping]]], "", Global`FMEvaluate[Global`f, Global`FMDomainFirst[Global`f]], System`Blank[], ""]]

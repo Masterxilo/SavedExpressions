@@ -1,12 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[
-   {"\n", System`RowBox[{System`RowBox[{"PRedefinePublicFunction", "[", "\n", 
-        System`RowBox[{System`RowBox[{"FiniteMappingMakeFromList", "[", 
-            "l_List", "]"}], "\n", " ", ",", " ", 
-          "\"same as from a 1-d array\"", "\n", "  ", ",", 
-          System`RowBox[{"FiniteMappingMakeFromArray", "[", 
-            System`RowBox[{"l", ",", " ", "1"}], "]"}]}], "\n", "]"}], 
-      ";"}]}]], "Code", System`GeneratedCell -> System`True, 
- System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
-  {{3.6815674723302517*^9, 3.68156758311055*^9}, {3.681567682990239*^9, 
-   3.6815677013030987*^9}, {3.6815677352214437*^9, 3.681567742512546*^9}, 
-   3.681574751508518*^9, 3.681647934696992*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["\n", System`RowBox[System`List[System`RowBox[System`List["PRedefinePublicFunction", "[", "\n", System`RowBox[System`List[System`RowBox[System`List["FiniteMappingMakeFromList", "[", "l_List", "]"]], "\n", " ", ",", " ", "\"Integer to element in list\"", "\n", "  ", ",", " ", System`RowBox[System`List["With", "[", System`RowBox[System`List[System`RowBox[System`List["{", System`RowBox[System`List["len", " ", "=", " ", System`RowBox[System`List["Length", "@", "l"]]]], "}"]], ",", "\n", "  ", System`RowBox[System`List["FiniteMappingMakeFromFunctions", "[", System`RowBox[System`List[System`RowBox[System`List[System`RowBox[System`List["l", "[", System`RowBox[System`List["[", "#", "]"]], "]"]], "&"]], ",", System`RowBox[System`List["FiniteMappingMakeRange", "@", "len"]]]], "]"]]]], "\n", "  ", "]"]]]], "\n", "]"]], ";"]]]]], "Code", System`Rule[System`CellChangeTimes, System`List[System`List[3.6815674723302517`*^9, 3.68156758311055`*^9], System`List[3.681567682990239`*^9, 3.6815677013030987`*^9], System`List[3.6815677352214437`*^9, 3.681567742512546`*^9], 3.681574751508518`*^9, 3.681647934696992`*^9, System`List[3.6834536300306334`*^9, 3.6834537571477175`*^9]]], System`Rule[System`CellTags, "depersistedCell34dc715f-cf87-4a16-9f37-c279023f0824"]]

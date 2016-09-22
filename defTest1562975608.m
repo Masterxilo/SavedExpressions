@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`EProverFOFString["proof"], "'proof'", System`List[], System`List[]]]

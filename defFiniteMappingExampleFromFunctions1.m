@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`FiniteMappingExampleFromFunctions1[], "", Global`FiniteMappingMakeFromFunctions[System`Function[System`Slot[1]], Global`FiniteMappingMakeFromList[System`List[1]]], System`Blank[], ""]]

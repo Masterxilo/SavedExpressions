@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List[System`RowBox[System`List["FMFirst", "@", System`RowBox[System`List["FiniteMappingExampleFromFunctions2", "[", "]"]]]], "~", "PTest", "~", System`RowBox[System`List["f", "[", "a", "]"]]]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.683286556800002`*^9, 3.6832865616159296`*^9]]]]

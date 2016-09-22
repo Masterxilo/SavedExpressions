@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", System`RowBox[System`List[System`RowBox[System`List["EProverExampleFOF2", "[", "]"]], ",", "\"\"", ",", "\"(![X1]:(man(X1)=>mortal(X1)))\""]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.683325815908715`*^9, 3.683325841470021`*^9]]]]

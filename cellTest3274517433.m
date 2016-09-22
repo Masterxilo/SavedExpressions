@@ -1,12 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"PTest", "[", 
-    System`RowBox[{System`RowBox[{System`RowBox[
-         {"FiniteMappingMakeFromRules", "[", System`RowBox[
-           {"{", System`RowBox[{System`RowBox[{"a", "\[Rule]", "b"}], ",", 
-              System`RowBox[{"c", "\[Rule]", "0"}]}], "}"}], "]"}], 
-        "\[NotEqual]", System`RowBox[{"FiniteMappingMakeFromRules", "[", 
-          System`RowBox[{"{", System`RowBox[{System`RowBox[{"c", "\[Rule]", 
-                "0"}], ",", System`RowBox[{"a", "\[Rule]", "b"}]}], "}"}], 
-          "]"}]}], ",", "True", ",", System`RowBox[{"{", "}"}], ",", 
-      System`RowBox[{"{", "}"}]}], "]"}]], "Input", 
- System`GeneratedCell -> System`True, System`CellAutoOverwrite -> 
-  System`True, System`CellChangeTimes -> {3.6816483356625576*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["PTest", "[", System`RowBox[System`List[System`RowBox[System`List[System`RowBox[System`List["FiniteMappingMakeFromRules", "[", System`RowBox[System`List["{", System`RowBox[System`List[System`RowBox[System`List["a", "\[Rule]", "b"]], ",", System`RowBox[System`List["c", "\[Rule]", "0"]]]], "}"]], "]"]], "\[NotEqual]", System`RowBox[System`List["FiniteMappingMakeFromRules", "[", System`RowBox[System`List["{", System`RowBox[System`List[System`RowBox[System`List["c", "\[Rule]", "0"]], ",", System`RowBox[System`List["a", "\[Rule]", "b"]]]], "}"]], "]"]]]], ",", "True", ",", System`RowBox[System`List["{", "}"]], ",", System`RowBox[System`List["{", "}"]]]], "]"]]], "Input", System`Rule[System`GeneratedCell, System`True], System`Rule[System`CellAutoOverwrite, System`True], System`Rule[System`CellChangeTimes, System`List[3.6816483356625576`*^9, 3.6833093224537497`*^9]]]

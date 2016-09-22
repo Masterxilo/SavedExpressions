@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`CoordinateBoundsMin[System`Pattern[Global`b, System`Blank[System`List]]], "First of each", System`Map[System`First, Global`b], System`Blank[], ""]]

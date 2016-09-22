@@ -1,5 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`FMMakeListDomainNames[Global`length_System`Integer], " this will be \
-the FMDomain of a list of length\nThis can be considered a default naming \
-scheme, used in case the user does not care.", System`Array[System`List, 
-   Global`length], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`FMMakeListDomainNames[System`Pattern[Global`length, System`Blank[System`Integer]]], "This will be the FMDomain of a list of the given length.\nThis can be considered a default naming scheme, used in case the user does not care.\n\nTODO this is no longer the default naming - instead we use flat integers now.\nThis makes 1-dimensional arrays and Lists distinct, which they arguably are.", System`Array[System`List, Global`length], System`Blank[], ""]]

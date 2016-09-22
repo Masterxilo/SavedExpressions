@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`StringLines[System`Pattern[Global`s, System`Blank[System`String]]], "split at linebreaks", System`StringSplit[Global`s, System`Alternatives["\r\n", "\n", "\r"]], System`Blank[], ""]]

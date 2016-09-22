@@ -1,3 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`SOPGetX0[Global`SparseOptimizationProblem[
-    Global`a_System`Association]], "x0, rhs of data", Global`a["x0"], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`SOPGetX0[Global`SparseOptimizationProblem[System`Pattern[Global`a, System`Blank[System`Association]]]], "x0, rhs of data", Global`a["x0"], System`PatternTest[System`Blank[], Global`NumericVectorQ], ""]]

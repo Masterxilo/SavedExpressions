@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`EProverExampleFOF2[], "", "(![X1]:(man(X1)=>mortal(X1)))", System`Blank[], ""]]

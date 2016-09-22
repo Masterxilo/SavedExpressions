@@ -1,11 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[
-   {System`RowBox[{"PRedefinePublicFunction", "[", 
-      System`RowBox[{System`RowBox[{"SOPGetP", "[", System`RowBox[
-           {"SparseOptimizationProblem", "[", "a_Association", "]"}], "]"}], 
-        ",", "\"p points\"", ",", System`RowBox[{"a", "@", "\"p\""}]}], 
-      "]"}], ";"}]], "Input", System`GeneratedCell -> System`True, 
- System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
-  {3.6809336457559376*^9, {3.6809381043287115*^9, 3.680938114353557*^9}, 
-   3.6816499124139433*^9}, System`CellTags -> 
-  "depersistedCellecf3fa98-3420-4b53-8e7a-807da574a9f1", 
- System`CellID -> 138321490]
+System`Cell[System`BoxData[System`RowBox[System`List[System`RowBox[System`List["PRedefinePublicFunction", "[", System`RowBox[System`List[System`RowBox[System`List["SOPGetP", "[", System`RowBox[System`List["SparseOptimizationProblem", "[", "a_Association", "]"]], "]"]], ",", "\"p points\"", ",", System`RowBox[System`List["FMAsList", "@", System`RowBox[System`List["a", "@", "\"p\""]]]]]], "]"]], ";"]]], "Input", System`Rule[System`CellChangeTimes, System`List[3.6809336457559376`*^9, System`List[3.6809381043287115`*^9, 3.680938114353557`*^9], 3.6816499124139433`*^9, System`List[3.683469023289609`*^9, 3.683469029166423`*^9]]], System`Rule[System`CellTags, "depersistedCell50c728a1-b2db-4de6-b730-b2f5b403c4e5"], System`Rule[System`CellID, 138321490]]

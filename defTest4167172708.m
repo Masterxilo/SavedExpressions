@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`FMEvaluateAll[Global`FMDomainAsFM[Global`FiniteMappingMakeFromArray[System`IdentityMatrix[3]]]], System`List[System`List[1, 1], System`List[1, 2], System`List[1, 3], System`List[2, 1], System`List[2, 2], System`List[2, 3], System`List[3, 1], System`List[3, 2], System`List[3, 3]], System`List[], System`List[]]]

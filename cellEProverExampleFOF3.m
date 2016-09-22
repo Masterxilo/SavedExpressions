@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", System`RowBox[System`List[System`RowBox[System`List["EProverExampleFOF3", "[", "]"]], ",", "\"\"", ",", "\"fof(who_is_mortal,question,\\\\n    ?[X]:mortal(X)\\\\n).\""]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.683325815908715`*^9, 3.683325876335898`*^9]]]]

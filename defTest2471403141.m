@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`FMAsRules[Global`FiniteMappingMakeRange[1, 10, 3]], System`List[System`Rule[1, 1], System`Rule[2, 4], System`Rule[3, 7], System`Rule[4, 10]], System`List[], System`List[]]]

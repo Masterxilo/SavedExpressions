@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`FMCompose[Global`FiniteMappingMakeFromRules[System`List[System`Rule[Global`a, Global`b]]], Global`FiniteMappingMakeFromRules[System`List[System`Rule[Global`c, Global`a]]]][Global`c], Global`b, System`List[], System`List[]]]

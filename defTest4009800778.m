@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`EProverFOFList[System`List["x", "y"]], "[x, y]", System`List[], System`List[]]]

@@ -1,4 +1,1 @@
-System`HoldComplete[Global`PTestRun[{}, 
-  Global`FiniteMappingMakeFromRules[{Global`a -> Global`b, Global`c -> 0}] != 
-   Global`FiniteMappingMakeFromRules[{Global`c -> 0, Global`a -> Global`b}], 
-  System`True, {}, {}]]
+System`HoldComplete[Global`PTestRun[System`List[], System`Unequal[Global`FiniteMappingMakeFromRules[System`List[System`Rule[Global`a, Global`b], System`Rule[Global`c, 0]]], Global`FiniteMappingMakeFromRules[System`List[System`Rule[Global`c, 0], System`Rule[Global`a, Global`b]]]], System`True, System`List[], System`List[]]]

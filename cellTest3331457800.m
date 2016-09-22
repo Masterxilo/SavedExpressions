@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List[System`RowBox[System`List["EProverParseFOF", "[", "\"x\"", "]"]], "~", "PTest", "~", "x"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.683324209513482`*^9, 3.6833242135095344`*^9]]]]

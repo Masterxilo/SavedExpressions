@@ -1,6 +1,1 @@
-System`HoldComplete[Global`PTestRun[{}, 
-  Global`RIFunctionCFormOutputArrayAssignments[Global`RIFunctionMakeTrivial1[
-    ]], SymbolicC`CBlock[{SymbolicC`CAssign[SymbolicC`CArray["out", 0], 
-     SymbolicC`CCall["x", {0}]], SymbolicC`CAssign[SymbolicC`CArray["out", 
-      1], SymbolicC`CCall["plus", {1, SymbolicC`CCall["neg", 
-        {SymbolicC`CCall["x", {0}]}]}]]}], {System`StringTrim::strse}, {}]]
+System`HoldComplete[Global`PTestRun[System`List[], Global`RIFunctionCFormOutputArrayAssignments[Global`RIFunctionMakeTrivial1[]], SymbolicC`CBlock[System`List[SymbolicC`CAssign[SymbolicC`CArray["out", 0], SymbolicC`CCall["x", System`List[0]]], SymbolicC`CAssign[SymbolicC`CArray["out", 1], SymbolicC`CCall["plus", System`List[1, SymbolicC`CCall["neg", System`List[SymbolicC`CCall["x", System`List[0]]]]]]]]], System`List[System`MessageName[System`StringTrim, "strse"]], System`List[]]]

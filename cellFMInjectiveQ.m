@@ -1,13 +1,1 @@
-System`Cell[System`BoxData[
-  {System`RowBox[{System`RowBox[{"PRedefinePublicFunction", "[", 
-       System`RowBox[{System`RowBox[{"FMInjectiveQ", "[", "f_FiniteMapping", 
-           "]"}], "\n", "  ", ",", "\"Whether f is injective (bijective)\"", 
-         "\n", "  ", ",", System`RowBox[{System`RowBox[{"Length", "@", 
-             System`RowBox[{"FMDomain", "@", "f"}]}], " ", "===", " ", 
-           System`RowBox[{"Length", "@", System`RowBox[{"DeleteDuplicates", 
-               "@", System`RowBox[{"FMEvaluateAll", "[", "f", "]"}]}]}]}]}], 
-       "\n", "]"}], ";"}], "\n"}], "Code", System`GeneratedCell -> 
-  System`True, System`CellAutoOverwrite -> System`True, 
- System`CellChangeTimes -> {{3.6815678988026567*^9, 3.6815679057863755*^9}, 
-   {3.6815679655429745*^9, 3.681567978444081*^9}, 3.681569253026259*^9, 
-   3.681574752601884*^9, 3.681647934968339*^9}]
+System`Cell[System`BoxData[System`List[System`RowBox[System`List[System`RowBox[System`List["PRedefinePublicFunctionAlternatives", "[", "\n", "  ", System`RowBox[System`List["\"Whether f is injective (bijective)\"", "\n", "  ", "\n", "  ", ",", System`RowBox[System`List["{", System`RowBox[System`List[System`RowBox[System`List["FMInjectiveQ", "@", System`RowBox[System`List["FiniteMapping", "[", System`RowBox[System`List["Range", ",", " ", "___"]], "]"]]]], ",", "True"]], "}"]], "\n", "    ", ",", System`RowBox[System`List["{", System`RowBox[System`List[System`RowBox[System`List["FMInjectiveQ", "@", System`RowBox[System`List["FiniteMapping", "[", System`RowBox[System`List["FlatCoordinateBoundsArray", ",", " ", "___"]], "]"]]]], ",", "True"]], "}"]], "\n", "    ", ",", System`RowBox[System`List["{", System`RowBox[System`List[System`RowBox[System`List["FMInjectiveQ", "@", System`RowBox[System`List["FiniteMapping", "[", System`RowBox[System`List["InverseFunction", ",", " ", "___"]], "]"]]]], ",", "True"]], "}"]], "\n", "  ", ",", System`RowBox[System`List["{", System`RowBox[System`List[System`RowBox[System`List["FMInjectiveQ", "[", "f_FiniteMapping", "]"]], ",", System`RowBox[System`List[System`RowBox[System`List["Length", "@", System`RowBox[System`List["FMDomain", "@", "f"]]]], " ", "===", " ", System`RowBox[System`List["Length", "@", System`RowBox[System`List["DeleteDuplicates", "@", System`RowBox[System`List["FMEvaluateAll", "[", "f", "]"]]]]]]]]]], "}"]]]], "\n", "]"]], ";"]], "\n"]], "Code", System`Rule[System`CellChangeTimes, System`List[System`List[3.6815678988026567`*^9, 3.6815679057863755`*^9], System`List[3.6815679655429745`*^9, 3.681567978444081`*^9], 3.681569253026259`*^9, 3.681574752601884`*^9, 3.681647934968339`*^9, System`List[3.6832855742845526`*^9, 3.6832856273576164`*^9], System`List[3.6834570810119963`*^9, 3.683457096528034`*^9]]], System`Rule[System`CellTags, "depersistedCell34dc715f-cf87-4a16-9f37-c279023f0824"]]

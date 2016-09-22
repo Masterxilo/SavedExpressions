@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DEnergySelectNew[System`Pattern[Global`s, System`Blank[Global`Scene2D]]], "", Global`SceneXEnergySelectNew[Global`Scene2DDimension[Global`s], Global`Scene2DEnergyLightIntensityParameterCount[], Global`Scene2DEnergyColorDim[Global`s]], System`Blank[], ""]]

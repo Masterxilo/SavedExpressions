@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`EProverFOFApply[System`Pattern[Global`func, System`Blank[System`String]], System`Pattern[Global`args, System`List[System`BlankNullSequence[System`String]]]], "", System`StringTemplate["``(``)"][Global`func, Global`CommaRiffle[Global`args]], System`Blank[], ""]]

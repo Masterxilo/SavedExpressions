@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`EProverFOFInfix[System`Pattern[Global`a, System`Blank[System`String]], System`Pattern[Global`op, System`Blank[System`String]], System`Pattern[Global`b, System`Blank[System`String]]], "", System`StringTemplate["(`` `` ``)"][Global`a, Global`op, Global`b], System`Blank[], ""]]

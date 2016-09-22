@@ -1,4 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`FMForgetDomain[Global`f_Global`FiniteMapping], 
-  "drop all input names: treat as a plain list from now on", 
-  Global`FiniteMappingMakeFromList[Global`FMEvaluateAll[Global`f]], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`FMForgetDomain[System`Pattern[Global`f, System`Blank[Global`FiniteMapping]]], "drop all input names: treat as a plain list from now on", Global`FMEvaluateAllAsFM[Global`f], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`SOPyIndices[Global`FiniteMappingMakeFromFunctions[Global`x, Global`FiniteMappingMakeRange[6]], Global`FiniteMappingMakeFromList[System`List[Global`x[3], Global`x[5]]]], System`List[3, 5], System`List[], System`List[]]]

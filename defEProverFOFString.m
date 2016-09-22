@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`EProverFOFString[System`Pattern[Global`a, System`Blank[System`String]]], "", System`StringTemplate["'``'"][Global`a], System`Blank[], ""]]

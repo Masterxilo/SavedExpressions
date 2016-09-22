@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`EProverRunSplit[System`Pattern[Global`inputtptp3, System`Blank[System`String]]], "", Global`EProverSplitPrintVersion[Global`EProverRun[Global`inputtptp3]], System`Blank[], ""]]

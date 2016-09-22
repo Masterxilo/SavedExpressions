@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`VerificationTestOutcome[System`Pattern[Global`r, System`Blank[System`TestResultObject]]], "", Global`r["Outcome"], System`Blank[], ""]]

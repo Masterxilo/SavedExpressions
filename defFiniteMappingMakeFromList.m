@@ -1,4 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`FiniteMappingMakeFromList[Global`l_System`List], 
-  "same as from a 1-d array", Global`FiniteMappingMakeFromArray[Global`l, 1], 
-  _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`FiniteMappingMakeFromList[System`Pattern[Global`l, System`Blank[System`List]]], "Integer to element in list", System`With[System`List[System`Set[Global`len, System`Length[Global`l]]], Global`FiniteMappingMakeFromFunctions[System`Function[System`Part[Global`l, System`Slot[1]]], Global`FiniteMappingMakeRange[Global`len]]], System`Blank[], ""]]

@@ -1,7 +1,1 @@
-System`HoldComplete[Global`PTestRun[{Global`y}, 
-  (Global`y = 0; ); {System`SymbolName[System`Symbol["y"]], 
-    System`Context[System`Evaluate[System`Symbol["y"]]], 
-    Global`CallWithUnevaluatedSymbol[System`SymbolName, "y"], 
-    Global`CallWithUnevaluatedSymbol[System`Context, "y"]}, 
-  {System`SymbolName[0], System`Context[0], "y", "Global`"}, 
-  {System`SymbolName::sym, System`Context::ssle}, {}]]
+System`HoldComplete[Global`PTestRun[System`List[Global`y], System`CompoundExpression[System`CompoundExpression[System`Set[Global`y, 0], System`Null], System`List[System`SymbolName[System`Symbol["y"]], System`Context[System`Evaluate[System`Symbol["y"]]], Global`CallWithUnevaluatedSymbol[System`SymbolName, "y"], Global`CallWithUnevaluatedSymbol[System`Context, "y"]]], System`List[System`SymbolName[0], System`Context[0], "y", "Global`"], System`List[System`MessageName[System`SymbolName, "sym"], System`MessageName[System`Context, "ssle"]], System`List[]]]

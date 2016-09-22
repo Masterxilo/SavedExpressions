@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`FlatCoordinateBoundsArray[System`List[2, 2, 2]], System`List[System`List[1, 1, 1], System`List[1, 1, 2], System`List[1, 2, 1], System`List[1, 2, 2], System`List[2, 1, 1], System`List[2, 1, 2], System`List[2, 2, 1], System`List[2, 2, 2]], System`List[], System`List[]]]

@@ -1,3 +1,1 @@
-System`HoldComplete[Global`PTestRun[{}, System`CheckAbort[
-   Global`TokenizeNestedBracePairs["(()"], System`$Aborted], System`$Aborted, 
-  {Global`TokenizeNestedBracePairs::unbalanced}, {}]]
+System`HoldComplete[Global`PTestRun[System`List[], System`CheckAbort[Global`TokenizeNestedBracePairs["(()"], System`$Aborted], System`$Aborted, System`List[System`MessageName[Global`TokenizeNestedBracePairs, "unbalanced"]], System`List[]]]

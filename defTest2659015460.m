@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Length[Global`Scene2DEnergyData[Global`Scene2DMakeFromSparseOptimizationProblem[Global`Scene2DSparseOptimizationProblem[Global`Scene2DMake1[]]]]], Global`FMLength[Global`Scene2DEnergyDataAsFM[Global`Scene2DMake1[]]], System`List[], System`List[]]]

@@ -1,7 +1,1 @@
-System`HoldComplete[Global`PTestRun[{Global`v}, 
-  System`ArrayReshape[Global`v, {3, 3, 1}], 
-  {{{Global`v[[1]]}, {Global`v[[2]]}, {Global`v[[3]]}}, 
-   {{Global`v[[4]]}, {Global`v[[5]]}, {Global`v[[6]]}}, 
-   {{Global`v[[7]]}, {Global`v[[8]]}, {Global`v[[9]]}}}, 
-  {System`ArrayReshape::list, System`Part::partd, System`Part::partd, 
-   System`Part::partd, System`General::stop}, {}]]
+System`HoldComplete[Global`PTestRun[System`List[Global`v], System`ArrayReshape[Global`v, System`List[3, 3, 1]], System`List[System`List[System`List[System`Part[Global`v, 1]], System`List[System`Part[Global`v, 2]], System`List[System`Part[Global`v, 3]]], System`List[System`List[System`Part[Global`v, 4]], System`List[System`Part[Global`v, 5]], System`List[System`Part[Global`v, 6]]], System`List[System`List[System`Part[Global`v, 7]], System`List[System`Part[Global`v, 8]], System`List[System`Part[Global`v, 9]]]], System`List[System`MessageName[System`ArrayReshape, "list"], System`MessageName[System`Part, "partd"], System`MessageName[System`Part, "partd"], System`MessageName[System`Part, "partd"], System`MessageName[System`General, "stop"]], System`List[]]]

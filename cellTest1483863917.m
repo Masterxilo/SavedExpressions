@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List[System`RowBox[System`List["FMDomainPart", "[", System`RowBox[System`List[System`RowBox[System`List["FiniteMappingExampleRange", "[", "]"]], ",", "10"]], "]"]], "~", "PTest", "~", "10"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6832864122276263`*^9, 3.683286424549489`*^9]]]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`EProverParseSZSAnswersTuple["# SZS answers Tuple [[socrates]|_]"], Global`socrates, System`List[], System`List[]]]

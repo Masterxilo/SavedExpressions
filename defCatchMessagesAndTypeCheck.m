@@ -1,16 +1,1 @@
-System`HoldComplete[Global`UnprotectClearAll[
-   Global`CatchMessagesAndTypeCheck]; Global`UnexpectedResultType::msg = 
-   "Expected result type `` got ``. ``\n``"; Global`UnexpectedMessages::msg = 
-   "``\n``"; Global`CatchMessagesAndTypeCheck::usage = "CatchMessagesAndTypeC\
-heck[body, resultPattern, error] run body, checking the return value for \
-result pattern and throwing an error with additional message given by error \
-when something is wrong"; System`SetAttributes[
-   Global`CatchMessagesAndTypeCheck, System`HoldAll]; 
-  Global`CatchMessagesAndTypeCheck[Global`body_, Global`resultPattern_, 
-    Global`error_] := System`Check[System`With[{Global`result = Global`body}, 
-     System`If[ !System`MatchQ[Global`result, Global`resultPattern], 
-      Global`MessageAbort[Global`UnexpectedResultType::msg, 
-       Global`resultPattern, System`HoldForm[Global`result], Global`error], 
-      Global`result]], Global`MessageAbort[Global`UnexpectedMessages::msg, 
-     Global`error]]; Global`MakeUndefinedFunctionProtect[
-   Global`CatchMessagesAndTypeCheck]; ]
+System`HoldComplete[System`CompoundExpression[Global`UnprotectClearAll[Global`CatchMessagesAndTypeCheck], System`Set[System`MessageName[Global`UnexpectedResultType, "msg"], "Expected result type `` got ``.\n``\n``"], System`Set[System`MessageName[Global`UnexpectedMessages, "msg"], "``\n``"], System`Set[System`MessageName[Global`CatchMessagesAndTypeCheck, "usage"], "CatchMessagesAndTypeCheck[body, resultPattern, error] run body, checking the return value for result pattern and throwing an error with additional message given by error when something is wrong"], System`SetAttributes[Global`CatchMessagesAndTypeCheck, System`HoldAll], System`SetDelayed[Global`CatchMessagesAndTypeCheck[System`Pattern[Global`body, System`Blank[]], System`Pattern[Global`resultPattern, System`Blank[]], System`Pattern[Global`error, System`Blank[]]], System`Check[System`With[System`List[System`Set[Global`result, Global`body]], System`If[System`Not[System`MatchQ[Global`result, Global`resultPattern]], Global`MessageAbort[System`MessageName[Global`UnexpectedResultType, "msg"], Global`resultPattern, System`HoldForm[Global`result], Global`error], Global`result]], Global`MessageAbort[System`MessageName[Global`UnexpectedMessages, "msg"], Global`error]]], Global`MakeUndefinedFunctionProtect[Global`CatchMessagesAndTypeCheck], System`Null]]

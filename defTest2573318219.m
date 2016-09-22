@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`FMEvaluate[Global`Scene2DEnergyDataAsFM[Global`Scene2DMakeTrivial[]], System`List[2, 2, 4]], 1.`, System`List[], System`List[]]]

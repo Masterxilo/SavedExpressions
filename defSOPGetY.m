@@ -1,4 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`SOPGetY[Global`SparseOptimizationProblem[
-    Global`a_System`Association]], "y variables optimized over", 
-  Global`a["y"], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`SOPGetY[Global`SparseOptimizationProblem[System`Pattern[Global`a, System`Blank[System`Association]]]], "y variables optimized over", Global`FMAsList[Global`a["y"]], System`Blank[], ""]]

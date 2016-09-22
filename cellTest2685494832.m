@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List[System`RowBox[System`List["FMInjectiveQ", "@", System`RowBox[System`List["FiniteMappingExampleFromFunctions2", "[", "]"]]]], "~", "PTest", "~", "True"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6832842278960543`*^9, 3.6832842386056075`*^9]]]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`FirstLast[System`Pattern[Global`x, System`List[System`BlankSequence[]]]], "", System`List[System`First[Global`x], System`Last[Global`x]], System`List[System`Blank[], System`Blank[]], ""]]

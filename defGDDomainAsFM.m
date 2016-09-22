@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GDDomainAsFM[Global`GridData[System`Pattern[Global`dataNames, System`Blank[System`List]], System`Pattern[Global`f, System`Blank[Global`FiniteMapping]]]], "list all valid positions", Global`FMDomainAsFM[Global`f], System`Blank[], ""]]

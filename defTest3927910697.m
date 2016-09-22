@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`EProverFOFForm[Global`fof[Global`a, Global`question, System`Or[Global`a, Global`b]]], "fof(a, question, (a | b)).", System`List[], System`List[]]]

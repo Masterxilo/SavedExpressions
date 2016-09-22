@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DSparseQ[System`Pattern[Global`s, System`Blank[Global`Scene2D]]], "", Global`GDSparseQ[Global`s["GridData"]], System`PatternTest[System`Blank[], System`BooleanQ], ""]]

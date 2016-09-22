@@ -1,12 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[
-   {"\n", System`RowBox[{System`RowBox[{"PRedefinePublicFunction", "[", "\n", 
-        "  ", System`RowBox[{System`RowBox[{"FMForgetDomain", "[", 
-            "f_FiniteMapping", "]"}], "\n", "  ", ",", 
-          "\"drop all input names: treat as a plain list from now on\"", 
-          "\n", "  ", ",", System`RowBox[{"FiniteMappingMakeFromList", "@", 
-            System`RowBox[{"FMEvaluateAll", "@", "f"}]}]}], "\n", "  ", 
-        "]"}], ";"}]}]], "Code", System`GeneratedCell -> System`True, 
- System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
-  {{3.6815674723302517*^9, 3.68156758311055*^9}, {3.681567682990239*^9, 
-   3.6815677013030987*^9}, {3.6815677352214437*^9, 3.6815677512824945*^9}, 
-   3.681574752517779*^9, 3.681647934948307*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["\n", System`RowBox[System`List[System`RowBox[System`List["PRedefinePublicFunction", "[", "\n", "  ", System`RowBox[System`List[System`RowBox[System`List["FMForgetDomain", "[", "f_FiniteMapping", "]"]], "\n", "\n", ",", "\"drop all input names: treat as a plain list from now on\"", "\n", "\n", ",", System`RowBox[System`List["FMEvaluateAllAsFM", "@", "f"]]]], "\n", "]"]], ";"]]]]], "Code", System`Rule[System`CellChangeTimes, System`List[System`List[3.6815674723302517`*^9, 3.68156758311055`*^9], System`List[3.681567682990239`*^9, 3.6815677013030987`*^9], System`List[3.6815677352214437`*^9, 3.6815677512824945`*^9], 3.681574752517779`*^9, 3.681647934948307`*^9, 3.6832895367114`*^9, System`List[3.6832896076219683`*^9, 3.6832896109345913`*^9], System`List[3.6832898032432213`*^9, 3.6832898132003365`*^9]]], System`Rule[System`CellTags, "depersistedCell2f2b6221-bbe3-4937-b14f-6d14c807a9eb"]]

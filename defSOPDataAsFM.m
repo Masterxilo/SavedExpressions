@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`SOPDataAsFM[Global`SparseOptimizationProblem[System`Pattern[Global`a, System`Blank[System`Association]]]], "one representation of data", Global`a["data"], System`Blank[], ""]]

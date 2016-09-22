@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`EProverFOFQuestion[System`Pattern[Global`q, System`Blank[]]], "", Global`fof[Global`a, Global`question, Global`q], System`Blank[], ""]]

@@ -1,7 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
-    System`RowBox[{System`RowBox[{"SOPGetX0", "[", System`RowBox[
-         {"SparseOptimizationProblem", "[", "a_Association", "]"}], "]"}], 
-      ",", "\"x0, rhs of data\"", ",", System`RowBox[{"a", "@", "\"x0\""}]}], 
-    "]"}]], "Input", System`CellChangeTimes -> {{3.680939479718727*^9, 
-  3.6809395260947037*^9}, {3.681649912433967*^9, 3.681649922178134*^9}}, 
- System`CellTags -> "depersistedCellecf3fa98-3420-4b53-8e7a-807da574a9f1"]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", System`RowBox[System`List[System`RowBox[System`List["SOPGetX0", "[", System`RowBox[System`List["SparseOptimizationProblem", "[", "a_Association", "]"]], "]"]], ",", "\"x0, rhs of data\"", ",", System`RowBox[System`List["a", "@", "\"x0\""]], ",", System`RowBox[System`List["_", "?", "NumericVectorQ"]]]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.680939479718727`*^9, 3.6809395260947037`*^9], System`List[3.681649912433967`*^9, 3.681649922178134`*^9], 3.683469051270557`*^9, System`List[3.6834691073216324`*^9, 3.683469113406004`*^9]]], System`Rule[System`CellTags, "depersistedCell50c728a1-b2db-4de6-b730-b2f5b403c4e5"]]

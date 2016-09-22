@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`CoordinateBoundsMax[System`Pattern[Global`b, System`Blank[System`List]]], "Last of each", System`Map[System`Last, Global`b], System`Blank[], ""]]

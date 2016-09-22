@@ -1,12 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[
-   {"\n", System`RowBox[{System`RowBox[{"PRedefinePublicFunction", "[", "\n", 
-        System`RowBox[{System`RowBox[{"FMMakeListDomainNames", "[", 
-            "length_Integer", "]"}], "\n", "  ", ",", "\" this will be the \
-FMDomain of a list of length\nThis can be considered a default naming scheme, \
-used in case the user does not care.\"", "\n", "  ", ",", "  ", 
-          System`RowBox[{"Array", "[", System`RowBox[{"List", ",", " ", 
-              "length"}], "]"}]}], "\n", "]"}], ";"}]}]], "Code", 
- System`GeneratedCell -> System`True, System`CellAutoOverwrite -> 
-  System`True, System`CellChangeTimes -> {{3.6815674723302517*^9, 
-   3.68156758311055*^9}, {3.681567682990239*^9, 3.6815677013030987*^9}, 
-   3.6815677352214437*^9, 3.6815747527230353*^9, 3.6816479349983687*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["\n", System`RowBox[System`List[System`RowBox[System`List["PRedefinePublicFunction", "[", "\n", System`RowBox[System`List[System`RowBox[System`List["FMMakeListDomainNames", "[", "length_Integer", "]"]], "\n", "  ", ",", "\"This will be the FMDomain of a list of the given length.\nThis can be considered a default naming scheme, used in case the user does not care.\n\nTODO this is no longer the default naming - instead we use flat integers now.\nThis makes 1-dimensional arrays and Lists distinct, which they arguably are.\"", "\n", "  ", ",", "  ", System`RowBox[System`List["Array", "[", System`RowBox[System`List["List", ",", " ", "length"]], "]"]]]], "\n", "]"]], ";"]]]]], "Code", System`Rule[System`CellChangeTimes, System`List[System`List[3.6815674723302517`*^9, 3.68156758311055`*^9], System`List[3.681567682990239`*^9, 3.6815677013030987`*^9], 3.6815677352214437`*^9, 3.6815747527230353`*^9, 3.6816479349983687`*^9, System`List[3.683470224423086`*^9, 3.683470295875492`*^9], System`List[3.683470356066691`*^9, 3.6834703570198946`*^9]]], System`Rule[System`CellTags, "depersistedCell50c728a1-b2db-4de6-b730-b2f5b403c4e5"]]

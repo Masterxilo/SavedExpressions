@@ -1,12 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"Block", "[", 
-    System`RowBox[{System`RowBox[{"{", "}"}], ",", 
-      System`RowBox[{"PTest", "[", System`RowBox[
-         {System`RowBox[{"CheckAbort", "[", System`RowBox[
-             {System`RowBox[{"TokenizeNestedBracePairs", "[", "\"(()\"", 
-                "]"}], ",", "$Aborted"}], "]"}], ",", "$Aborted", ",", 
-          System`RowBox[{"{", System`StyleBox[System`RowBox[
-              {"TokenizeNestedBracePairs", "::", "unbalanced"}], 
-             "MessageName"], "}"}], ",", System`RowBox[{"{", "}"}]}], 
-        "]"}]}], "]"}]], "Input", System`GeneratedCell -> System`True, 
- System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
-  {3.6816452991332893*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["Block", "[", System`RowBox[System`List[System`RowBox[System`List["{", "}"]], ",", System`RowBox[System`List["PTest", "[", System`RowBox[System`List[System`RowBox[System`List["CheckAbort", "[", System`RowBox[System`List[System`RowBox[System`List["TokenizeNestedBracePairs", "[", "\"(()\"", "]"]], ",", "$Aborted"]], "]"]], ",", "$Aborted", ",", System`RowBox[System`List["{", System`StyleBox[System`RowBox[System`List["TokenizeNestedBracePairs", "::", "unbalanced"]], "MessageName"], "}"]], ",", System`RowBox[System`List["{", "}"]]]], "]"]]]], "]"]]], "Input", System`Rule[System`GeneratedCell, System`True], System`Rule[System`CellAutoOverwrite, System`True], System`Rule[System`CellChangeTimes, System`List[3.6816452991332893`*^9, 3.6833093224381227`*^9]]]

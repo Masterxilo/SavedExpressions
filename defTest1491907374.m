@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`SameQ[Global`FMAsList[Global`FMDomainAsFM[Global`Scene2DEnergyDataAsFM[Global`Scene2DMakeTrivial[]]]], Global`FMDomain[Global`Scene2DEnergyDataAsFM[Global`Scene2DMakeTrivial[]]]], System`True, System`List[], System`List[]]]

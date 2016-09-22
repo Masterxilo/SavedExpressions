@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`EProverFOFForm[System`Implies[Global`man[Global`X], Global`mortal[Global`X]]], "(man(X) => mortal(X))", System`List[], System`List[]]]

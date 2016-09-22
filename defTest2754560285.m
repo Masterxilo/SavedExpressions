@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`VerificationTestOutcome[System`VerificationTest[System`True]], "Success", System`List[], System`List[]]]
