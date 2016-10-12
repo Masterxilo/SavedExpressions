@@ -1,7 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`GDToImage[Global`g_Global`GridData] /; 
-   System`MemberQ[{1, 2, 3, 4}, System`Length[Global`GDDataNames[
-       Global`g]]] && Global`GDArrayDepth[Global`g] == 2, "Visualize data as \
-an image.\nAssumes data at each point is a list of numbers, individual \
-attributes are thus single numbers", System`Image[Global`GDToArray[Global`g], 
-   System`ColorSpace -> "RGB"], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[System`Condition[Global`GDToImage[System`Pattern[Global`g, System`Blank[Global`GridData]]], System`And[System`MemberQ[System`List[1, 2, 3, 4], Global`GDDataNamesLength[Global`g]], System`MemberQ[System`List[2, 3], Global`GDArrayDepth[Global`g]]]], "Visualize GridData as a 2D or 3D image by first converting to a dense array indexed with array coordinates.\nAssumes data at each point is a list of numbers, individual attributes are thus single numbers.\n\nTODO How to deal with negative coordinates? -> c.f. GDToArray", System`With[System`List[System`Set[Global`imageType, System`If[System`Equal[Global`GDArrayDepth[Global`g], 2], System`Image, System`Image3D]]], System`If[System`MemberQ[System`List[3, 4], Global`GDDataNamesLength[Global`g]], Global`imageType[Global`GDToArray[Global`g], System`Rule[System`ColorSpace, "RGB"]], Global`imageType[Global`GDToArray[Global`g]]]], System`Blank[], ""]]

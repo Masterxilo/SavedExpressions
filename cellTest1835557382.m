@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List[System`RowBox[System`List["BitStringStringApplyFromString", "[", System`RowBox[System`List["C49", ",", "\"111\""]], "]"]], "~", "PTest", "~", "\"111111\""]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.684273971024706`*^9, 3.684273994279767`*^9]]]]

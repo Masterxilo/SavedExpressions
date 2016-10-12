@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`BitStringStringApplyFromString[System`Pattern[Global`f, System`Blank[]], System`Pattern[Global`s, System`Blank[System`String]]], "", Global`BitStringToString[Global`f[Global`BitStringFromString[Global`s]]], System`Blank[System`String], ""]]

@@ -1,6 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`GDToImage3D[Global`g_Global`GridData] /; 
-   System`MemberQ[{1, 2, 3, 4}, System`Length[Global`GDDataNames[
-       Global`g]]] && Global`GDArrayDepth[Global`g] == 3, 
-  "same for 3d image", System`Image3D[Global`GDToArray[Global`g], 
-   System`ColorSpace -> "RGB"], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[System`Condition[Global`GDToImage3D[System`Pattern[Global`g, System`Blank[Global`GridData]]], System`And[System`MemberQ[System`List[1, 2, 3, 4], System`Length[Global`GDDataNames[Global`g]]], System`Equal[Global`GDArrayDepth[Global`g], 3]]], "GDToImage for 3d image only.", Global`GDToImage[Global`g], System`Blank[], ""]]

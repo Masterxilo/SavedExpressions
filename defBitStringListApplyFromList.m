@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`BitStringListApplyFromList[System`Pattern[Global`f, System`Blank[]], System`Pattern[Global`l, System`List[System`RepeatedNull[System`Alternatives[0, 1]]]]], "", Global`BitStringAsList[Global`f[Global`BitStringFromList[Global`l]]], System`List[System`RepeatedNull[System`Alternatives[0, 1]]], ""]]

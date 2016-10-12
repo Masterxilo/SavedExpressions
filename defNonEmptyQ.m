@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`NonEmptyQ[System`Pattern[Global`l, System`Blank[]]], "Whether the expression l has subexpressions", System`Unequal[System`Length[Global`l], 0], System`Blank[], ""]]

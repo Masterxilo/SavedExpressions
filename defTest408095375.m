@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`BitStringListApplyFromList[System`Composition[Global`C37, Global`C33], System`List[1]], System`List[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], System`List[], System`List[]]]

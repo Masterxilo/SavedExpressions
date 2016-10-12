@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`BitString1Q[Global`BitStringApplyFromList[Global`C36, System`List[1, 0]]], System`False, System`List[], System`List[]]]

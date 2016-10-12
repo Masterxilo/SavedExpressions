@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMInstalledQ[], "", System`And[Global`HasOwnValue[Global`InfiniTAMLink], Global`LinkValidQ[Global`InfiniTAMLink[]]], System`Blank[], ""]]

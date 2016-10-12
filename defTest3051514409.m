@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`BitStringStringApplyFromString[Global`C82, "11111111000000000000000000000000"], "00000000100000000000000000000000", System`List[], System`List[]]]

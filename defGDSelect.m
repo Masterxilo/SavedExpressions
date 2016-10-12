@@ -1,9 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`GDSelect[Global`GridData[Global`dataNames_System`List, 
-    Global`f_Global`FiniteMapping], Global`select_], "Call \
-select[FiniteMapping[dataNames, data], position] on each valid \
-position.\nKeep only those where select returns True.\n\nThis sparsifies the \
-array.", Global`GridDataMakeFromFiniteMapping[Global`dataNames, 
-   Global`FMRuleCases[Global`f, _[Global`position_, Global`dataList_] /; 
-     Global`select[Global`FiniteMappingMakeFromLists[Global`dataNames, 
-       Global`dataList], Global`position]]], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`GDSelect[Global`GridData[System`Pattern[Global`dataNames, System`Blank[System`List]], System`Pattern[Global`f, System`Blank[Global`FiniteMapping]]], System`Pattern[Global`select, System`Blank[]]], "Calls\n\nselect[FiniteMapping[dataNames, data], position]\n\non each valid position. Keep only those where select returns True. This sparsifies the array.", Global`GridDataMakeFromFiniteMapping[Global`dataNames, Global`FMRuleCases[Global`f, System`Condition[System`Blank[][System`Pattern[Global`position, System`Blank[]], System`Pattern[Global`dataList, System`Blank[]]], Global`select[Global`FiniteMappingMakeFromLists[Global`dataNames, Global`dataList], Global`position]]]], System`Blank[], ""]]

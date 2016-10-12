@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`BitStringEmptyQ[System`Pattern[Global`b, System`Blank[Global`BitString]]], "", Global`BitStringEqualsList[Global`b, System`List[]], System`Blank[], ""]]

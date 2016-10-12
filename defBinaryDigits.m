@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`BinaryDigits[System`Pattern[Global`i, System`Blank[System`Integer]]], "", System`IntegerDigits[Global`i, 2], System`Blank[], ""]]

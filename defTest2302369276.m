@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`BitStringAsList[Global`BitStringApplyFromList[Global`C45, System`Table[1, 64]]], System`Append[System`Table[0, 64], 1], System`List[], System`List[]]]

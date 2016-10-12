@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", System`RowBox[System`List[System`RowBox[System`List["Clamp", "[", "x___", "]"]], ",", "\"Alias for Clip\"", ",", System`RowBox[System`List["Clip", "[", "x", "]"]]]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.684653357558237`*^9, 3.684653391939185`*^9]]]]

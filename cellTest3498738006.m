@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List["PTest", "[", System`RowBox[System`List[System`RowBox[System`List["StringMost", "@", "\"abcdefghijklm\""]], ",", "\"abcdefghijkl\""]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6846046045036173`*^9, 3.684604614214761`*^9]]]]

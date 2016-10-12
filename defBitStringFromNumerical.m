@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`BitStringFromNumerical[System`PatternTest[System`Pattern[Global`i, System`Blank[System`Integer]], System`NonNegative]], "converts i to B2:1 format", Global`BitStringFromList[System`Reverse[Global`BinaryDigits[Global`i]]], System`Blank[Global`BitString], ""]]

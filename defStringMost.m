@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`StringMost[System`Pattern[Global`s, System`Blank[System`String]]], "Take[-1]", System`StringDrop[Global`s, -1], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMDumpSceneVoxelPositionsBlockwise[Global`InfiniTAMScene[System`PatternTest[System`Pattern[Global`id, System`Blank[System`Integer]], System`NonNegative]], System`Pattern[Global`fn, System`Blank[System`String]]], "", InfiniTAM`Private`dumpSceneVoxelPositionsBlockwise[Global`id, Global`fn], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`BitStringAsList[Global`BitStringJoin[Global`BitStringFromList[System`List[1, 0]], Global`BitStringFromList[System`List[0, 1]]]], System`List[1, 0, 0, 1], System`List[], System`List[]]]

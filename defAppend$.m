@@ -1,4 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`Append$[Global`s_System`Symbol], "create x$", 
-  System`With[{Global`sn = System`StringJoin[Global`FullSymbolName[Global`s], 
-      "$"]}, System`Symbol[Global`sn]], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`Append$[System`Pattern[Global`s, System`Blank[System`Symbol]]], "From the symbol s, create the symbol s$, i.e. the symbol with the same name but $ appended. This is done by some internal renaming routines, but sometimes leaks to the front end where it might need to be emulated like this.", System`With[System`List[System`Set[Global`sn, System`StringJoin[Global`FullSymbolName[Global`s], "$"]]], System`Symbol[Global`sn]], System`Blank[], ""]]

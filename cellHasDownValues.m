@@ -1,12 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
-    System`RowBox[{System`RowBox[{"HasDownValues", "[", "symbolName_String", 
-        "]"}], "\[IndentingNewLine]", "\[IndentingNewLine]", ",", "\"\"", 
-      ",", "\[IndentingNewLine]", System`RowBox[
-       {System`RowBox[{"Length", "@", System`RowBox[
-           {"CallWithUnevaluatedSymbol", "[", System`RowBox[
-             {"DownValues", ",", "symbolName"}], "]"}]}], ">", "0"}]}], 
-    "\[IndentingNewLine]", "]"}]], "Input", System`GeneratedCell -> 
-  System`True, System`CellAutoOverwrite -> System`True, 
- System`CellChangeTimes -> {{3.6814915944665747*^9, 3.6814916012590547*^9}, 
-   {3.68149215410637*^9, 3.681492156368594*^9}, {3.681502550982168*^9, 
-   3.6815025552359242*^9}, 3.6816417424371395*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunctionAlternatives", "[", "\[IndentingNewLine]", System`RowBox[System`List["\"Whether the given symbol has down values.\nTODO Use Length@DownValues for implementation?\"", "\[IndentingNewLine]", "\[IndentingNewLine]", ",", System`RowBox[System`List["{", System`RowBox[System`List[System`RowBox[System`List["HasDownValues", "[", "symbolName_String", "]"]], ",", System`RowBox[System`List[System`RowBox[System`List["Length", "@", System`RowBox[System`List["CallWithUnevaluatedSymbol", "[", System`RowBox[System`List["DownValues", ",", "symbolName"]], "]"]]]], ">", "0"]]]], "}"]], "\[IndentingNewLine]", ",", System`RowBox[System`List["{", System`RowBox[System`List[System`RowBox[System`List["HasDownValues", "[", System`RowBox[System`List["s_Symbol", "?", "AtomQ"]], "]"]], ",", System`RowBox[System`List["HasDownValues", "@", System`RowBox[System`List["SymbolName", "@", System`RowBox[System`List["Unevaluated", "@", "s"]]]]]]]], "}"]]]], "\[IndentingNewLine]", "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6814915944665747`*^9, 3.6814916012590547`*^9], System`List[3.68149215410637`*^9, 3.681492156368594`*^9], System`List[3.681502550982168`*^9, 3.6815025552359242`*^9], 3.6816417424371395`*^9, System`List[3.685174144252474`*^9, 3.6851742308656054`*^9]]], System`Rule[System`CellTags, "depersistedCell94fafef1-31ae-4fac-9e11-c31f6f44899f"]]

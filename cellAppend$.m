@@ -1,9 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
-    "\[IndentingNewLine]", System`RowBox[
-     {System`RowBox[{"Append$", "[", "s_Symbol", "]"}], ",", "\"create x$\"", 
-      ",", System`RowBox[{System`RowBox[{"{", System`RowBox[
-           {"sn", "=", System`RowBox[{System`RowBox[{"FullSymbolName", "@", 
-                "s"}], "<>", "\"$\""}]}], "}"}], "~", "With", "~", 
-        System`RowBox[{"Symbol", "@", "sn"}]}]}], "\[IndentingNewLine]", 
-    "]"}]], "Input", System`CellChangeTimes -> {{3.68166360720753*^9, 
-  3.6816636931748466*^9}}]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", "\[IndentingNewLine]", System`RowBox[System`List[System`RowBox[System`List["Append$", "[", "s_Symbol", "]"]], ",", "\"From the symbol s, create the symbol s$, i.e. the symbol with the same name but $ appended. This is done by some internal renaming routines, but sometimes leaks to the front end where it might need to be emulated like this.\"", ",", System`RowBox[System`List[System`RowBox[System`List["{", System`RowBox[System`List["sn", "=", System`RowBox[System`List[System`RowBox[System`List["FullSymbolName", "@", "s"]], "<>", "\"$\""]]]], "}"]], "~", "With", "~", System`RowBox[System`List["Symbol", "@", "sn"]]]]]], "\[IndentingNewLine]", "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.68166360720753`*^9, 3.6816636931748466`*^9], System`List[3.6852781429008627`*^9, 3.6852781892232046`*^9]]], System`Rule[System`CellTags, "depersistedCell0b18a973-8f8c-4d2a-8384-f88412ec92fa"]]

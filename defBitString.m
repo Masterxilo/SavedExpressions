@@ -1,0 +1,1 @@
+System`HoldComplete[System`CompoundExpression["valid forms: \[IndentingNewLine]BitString[i_Integer?NonNegative, length_Integer]\n\nwhere PadRight[Reverse@IntegerDigits[i,2],length] is a List form of the bit string represented\nand Length@IntegerDigits[i,2] <= length\n\nBitString[] for the empty bit string", Global`DeclareDataStructureHead[Global`BitString], System`Null]]
