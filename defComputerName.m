@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ComputerName[], "", System`Environment["COMPUTERNAME"], System`Blank[], ""]]

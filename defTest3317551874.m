@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`FromCform["f(g(h(1),1,2),3)"], Global`f[Global`g[Global`h[1], 1, 2], 3], System`List[], System`List[]]]

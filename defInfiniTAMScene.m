@@ -1,1 +1,1 @@
-System`HoldComplete[System`CompoundExpression[Global`UnprotectClearAll[Global`InfiniTAMScene], System`SetAttributes[Global`InfiniTAMScene, System`HoldAllComplete], System`Protect[Global`InfiniTAMScene]]]
+System`HoldComplete[Global`DeclareDataStructureHead[Global`InfiniTAMScene]]

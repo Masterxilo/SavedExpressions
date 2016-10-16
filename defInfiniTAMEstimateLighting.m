@@ -1,1 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMEstimateLighting[Global`InfiniTAMScene[System`Pattern[Global`id, System`Blank[System`Integer]]]], "", InfiniTAM`Private`estimateLighting[Global`id], System`Blank[], ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAMEstimateLighting[Global`InfiniTAMScene[System`Pattern[Global`id, System`Blank[System`Integer]]]], "Estimate the lighting model parameters", InfiniTAM`Private`estimateLighting[Global`id], System`PatternTest[System`Blank[], Global`NumericVectorQ], ""]]

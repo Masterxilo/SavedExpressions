@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`CformSymbolic[System`Piecewise[System`List[System`List[1, System`Equal[Global`a, Global`b]]], 2], System`List[System`Rule[Global`a, Global`a], System`Rule[Global`b, Global`b]]], SymbolicC`CCall["ifthenelse", System`List[SymbolicC`CCall["equal", System`List["a", "b"]], 1, 2]], System`List[], System`List[]]]

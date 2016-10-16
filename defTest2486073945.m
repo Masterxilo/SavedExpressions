@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`Cform[System`And[Global`a, Global`b, Global`c], System`Map[Global`IdentityRule, System`List[Global`a, Global`b, Global`c]]], "and(and(a, b), c)", System`List[], System`List[]]]

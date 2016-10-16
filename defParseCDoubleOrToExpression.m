@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ParseCDoubleOrToExpression[System`Pattern[Global`s, System`Blank[System`String]]], "Use ParseCDouble if s contains a ., ToExpression otherwise", System`If[System`StringContainsQ[Global`s, "."], Global`ParseCDouble[Global`s], System`ToExpression[Global`s]], System`Blank[], ""]]

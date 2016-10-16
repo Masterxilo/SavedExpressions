@@ -1,13 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[
-  Global`ImportObjVC[Global`file_System`String], "ImportObjVC[file] Imports v \
-(6 component xyzrgb) and f data from an obj file and constructs a \
-GraphicsComplex. Handles obj files with v and f directives only", 
-  System`Module[{Global`tmp}, 
-   Global`tmp = System`Import[Global`file, "Table"] /. 
-      {{"v", Global`rest__} :> System`TakeDrop[{Global`rest}, 3], 
-       {"f", Global`rest__} :> System`Polygon[{Global`rest}]}; 
-    System`GraphicsComplex[System`Cases[Global`tmp, 
-      (Global`m_)?System`MatrixQ :> Global`m[[1]]], 
-     System`Cases[Global`tmp, _System`Polygon], System`VertexColors -> 
-      System`Cases[Global`tmp, (Global`m_)?System`MatrixQ :> 
-        Global`m[[-1]]]]], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`ImportObjVC[System`Pattern[Global`file, System`Blank[System`String]]], "ImportObjVC[file] Imports v (6 component xyzrgb) and f (Faces) data from an obj file and constructs a GraphicsComplex. Handles obj files with v and f directives only, no groups, texture coordinates etc.", System`Module[System`List[Global`tmp], System`CompoundExpression[System`Set[Global`tmp, System`ReplaceAll[System`Import[Global`file, "Table"], System`List[System`RuleDelayed[System`List["v", System`Pattern[Global`rest, System`BlankSequence[]]], System`TakeDrop[System`List[Global`rest], 3]], System`RuleDelayed[System`List["f", System`Pattern[Global`rest, System`BlankSequence[]]], System`Polygon[System`List[Global`rest]]]]]], System`GraphicsComplex[System`Cases[Global`tmp, System`RuleDelayed[System`PatternTest[System`Pattern[Global`m, System`Blank[]], System`MatrixQ], System`Part[Global`m, 1]]], System`Cases[Global`tmp, System`Blank[System`Polygon]], System`Rule[System`VertexColors, System`Cases[Global`tmp, System`RuleDelayed[System`PatternTest[System`Pattern[Global`m, System`Blank[]], System`MatrixQ], System`Part[Global`m, -1]]]]]]], System`Blank[System`GraphicsComplex], ""]]

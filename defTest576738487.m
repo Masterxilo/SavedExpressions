@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`FromCform["times(1.,f(x))"], Global`times[1.`, Global`f[Global`x]], System`List[], System`List[]]]

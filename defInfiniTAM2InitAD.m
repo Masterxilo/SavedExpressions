@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAM2InitAD[Global`InfiniTAM2Scene[System`PatternTest[System`Pattern[Global`id, System`Blank[System`Integer]], System`NonNegative]]], "initializes d(refined) = d and a = 1", InfiniTAM2`Private`initAD[Global`id], System`Blank[], ""]]

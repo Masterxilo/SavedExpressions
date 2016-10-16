@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAM2EnsureInstalled[], "", System`If[System`Not[Global`InfiniTAM2InstalledQ[]], Global`InfiniTAM2Install[]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`FromCformStringHeads["f(g(h(1),1,2),3)"], "f"["g"["h"["1"], "1", "2"], "3"], System`List[], System`List[]]]
