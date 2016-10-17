@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List["PTest", "[", System`RowBox[System`List[System`RowBox[System`List["IsPowerOf2", "[", "1024", "]"]], ",", "True"]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6857062158656225`*^9, 3.6857062214927983`*^9]]]]

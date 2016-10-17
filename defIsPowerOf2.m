@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`IsPowerOf2[System`Pattern[Global`x, System`Blank[]]], "", System`IntegerQ[System`Log2[Global`x]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene3DAlign[System`Pattern[Global`s, System`Blank[Global`Scene3D]]], "less extra space in lower corner (move to 0)", System`With[System`List[System`Set[Global`o, System`Map[System`First, Global`Scene3DCoordinateBounds[Global`s]]]], Global`Scene3DShift[Global`s, System`Times[-1, Global`o]]], System`Blank[], ""]]

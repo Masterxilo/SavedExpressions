@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`CFormWrapLambda[System`Pattern[Global`code, System`Blank[]]], "generates a lambda that is immediately called, [&]{code}()", System`StringTemplate["[&]``()"][SymbolicC`ToCCodeString[SymbolicC`CBlock[Global`code]]], System`Blank[], ""]]

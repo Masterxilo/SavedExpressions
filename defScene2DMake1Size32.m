@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DMake1Size32[], "(32 x 32)", Global`Scene2DTake[Global`Scene2DMake1[], System`List[System`List[System`Plus[5, -4], System`Plus[20, 12]], System`List[3, 34]]], System`Blank[], ""]]

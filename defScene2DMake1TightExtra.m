@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Scene2DMake1TightExtra[], "less extra space in Scene2DMake1, size is a multiple of 8x8-blocks plus 1 extra (16 + 2 x 32 + 2) -> can solve in 7^2 blocks", Global`Scene2DTake[Global`Scene2DMake1[], System`List[System`List[4, 21], System`List[2, 35]]], System`Blank[], ""]]

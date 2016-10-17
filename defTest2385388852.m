@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`IsPowerOf2[1023], System`False, System`List[], System`List[]]]
