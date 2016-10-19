@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`RGB2YUVY[System`Pattern[Global`i, System`Blank[System`Image]]], "convert rgb to yuv and return only y. sIMILAR TO Grayscale", Global`YUVGetY[Global`RGB2YUV[Global`i]], System`Blank[], ""]]

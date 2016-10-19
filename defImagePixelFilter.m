@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ImagePixelFilter[System`Pattern[Global`f, System`Blank[]], System`Pattern[Global`i, System`Blank[]]], "alias for RGBImageFilter", Global`RGBImageFilter[Global`f, Global`i], System`Blank[], ""]]

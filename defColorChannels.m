@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ColorChannels[System`Pattern[Global`i, System`Blank[System`Image]]], "ImageChannels", System`ImageChannels[Global`i], System`Blank[], ""]]

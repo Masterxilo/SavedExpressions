@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Grayscale[System`Pattern[Global`i, System`Blank[System`Image]]], "", System`ColorConvert[Global`i, "Grayscale"], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ImageUpsample[System`Pattern[Global`img, System`Blank[System`Image]]], "double the size", System`ImageResize[Global`img, System`Scaled[2]], System`Blank[], ""]]

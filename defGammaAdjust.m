@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GammaAdjust[System`Pattern[Global`i, System`Blank[System`Image]], System`Pattern[Global`gamma, System`Blank[]]], "", System`Image[System`Power[System`ImageData[Global`i], Global`gamma]], System`Blank[], ""]]
