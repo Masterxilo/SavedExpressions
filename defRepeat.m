@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[System`List[System`HoldAll], Global`Repeat[System`PatternTest[System`Pattern[Global`n, System`Blank[System`Integer]], System`Positive], System`Pattern[Global`code, System`Blank[]]], "like Do ForEach but intended for positive integer amounts", Global`ForEach[Global`n, Global`code], System`Blank[], ""]]

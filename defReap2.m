@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[System`List[System`HoldAll], Global`Reap2[System`Pattern[Global`x, System`Blank[]]], "similar to Reap, use with Sow2 to just sow a list of untagged values, without any extra counts and unpacking hassles", System`Part[System`Reap[Global`x], 2, 1], System`Blank[], ""]]

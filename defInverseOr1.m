@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InverseOr1[System`Pattern[Global`x, System`Blank[]]], "If[x\[Equal]0,1,1/x]", System`If[System`Equal[Global`x, 0], 1, System`Times[1, System`Power[Global`x, -1]]], System`Blank[], ""]]

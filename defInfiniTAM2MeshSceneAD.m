@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAM2MeshSceneAD[System`Pattern[Global`s, System`Blank[Global`InfiniTAM2Scene]], System`Pattern[Global`baseFilename, System`Blank[System`String]]], "", Global`InfiniTAM2MeshScene[Global`s, Global`baseFilename, "mesh_d_a", 0.`], System`Blank[], ""]]
