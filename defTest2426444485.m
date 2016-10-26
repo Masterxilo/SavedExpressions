@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`StringBeginsWith[":beep"][":beep frequency=660 length=100ms;"], System`True, System`List[], System`List[]]]

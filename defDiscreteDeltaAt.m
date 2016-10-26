@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`DiscreteDeltaAt[System`Pattern[Global`t0, System`Blank[]]], "gives DiscreteDelta 0 everywhere except 1 at t0", System`Function[System`DiscreteDelta[System`Plus[System`Slot[1], System`Times[-1, Global`t0]]]], System`Blank[], ""]]

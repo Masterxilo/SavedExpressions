@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`SameSign[System`List[1, 1, 2]], System`True, System`List[], System`List[]]]

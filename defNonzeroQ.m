@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`NonzeroQ[System`Pattern[Global`x, System`Blank[]]], "", System`Not[Global`ZeroQ[Global`x]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`RGBDViewShowDepthPoints3D[System`Pattern[Global`r, System`Blank[Global`RGBDView]]], "", Global`ShowPoints3D[Global`RGBDViewDepthImageValidDataUnproject[Global`r]], System`Blank[], ""]]

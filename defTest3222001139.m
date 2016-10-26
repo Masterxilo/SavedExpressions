@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`AllPairwiseTrue[System`List[1, 1, 0], System`Equal], System`False, System`List[], System`List[]]]

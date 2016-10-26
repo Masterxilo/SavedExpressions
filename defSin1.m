@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Sin1[System`Pattern[Global`x, System`Blank[]]], "cos(2pi x)", System`Cos[System`Times[2, System`Pi, Global`x]], System`Blank[], ""]]

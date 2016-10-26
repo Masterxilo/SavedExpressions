@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`HomogeneousToCartesian[System`List[System`Pattern[Global`x, System`BlankSequence[]], System`Pattern[Global`w, System`Blank[]]]], "aka perspective division", System`Times[System`List[Global`x], System`Power[Global`w, -1]], System`Blank[], ""]]

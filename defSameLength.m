@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`SameLength[System`Pattern[Global`xs, System`Blank[System`List]]], "whether xs all have the same Length", Global`AllEqual[Global`xs, System`Length], System`Blank[], ""]]

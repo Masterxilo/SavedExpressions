@@ -1,12 +1,1 @@
-System`Cell[System`BoxData[System`RowBox[{"PRedefinePublicFunction", "[", 
-    System`RowBox[{System`RowBox[{"{", "HoldAll", "}"}], ",", 
-      System`RowBox[{"ForEach", "[", System`RowBox[{"iter_", ",", "body_"}], 
-        "]"}], "\[IndentingNewLine]", ",", 
-      "\"ForEach like Do, but with the iterator part first\"", ",", 
-      "\[IndentingNewLine]", System`RowBox[{"Do", "[", 
-        System`RowBox[{"body", ",", "iter"}], "]"}]}], "\[IndentingNewLine]", 
-    "]"}]], "Input", System`GeneratedCell -> System`True, 
- System`CellAutoOverwrite -> System`True, System`CellChangeTimes -> 
-  {{3.6814915944665747*^9, 3.6814916012590547*^9}, {3.6814921606908007*^9, 
-   3.6814921703215585*^9}, {3.6815024861206584*^9, 3.68150249725277*^9}, 
-   3.681641742084699*^9}]
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", System`RowBox[System`List[System`RowBox[System`List["{", "HoldAll", "}"]], ",", System`RowBox[System`List["ForEach", "[", System`RowBox[System`List["iter_", ",", "body_"]], "]"]], "\[IndentingNewLine]", ",", "\"ForEach like Do, but with the iterator part first. Supports Break[]\"", ",", "\[IndentingNewLine]", System`RowBox[System`List["Do", "[", System`RowBox[System`List["body", ",", "iter"]], "]"]]]], "\[IndentingNewLine]", "]"]]], "Input", System`Rule[System`GeneratedCell, System`True], System`Rule[System`CellAutoOverwrite, System`True], System`Rule[System`CellChangeTimes, System`List[System`List[3.6814915944665747`*^9, 3.6814916012590547`*^9], System`List[3.6814921606908007`*^9, 3.6814921703215585`*^9], System`List[3.6815024861206584`*^9, 3.68150249725277`*^9], 3.681641742084699`*^9, System`List[3.6860789749902782`*^9, 3.686078979676255`*^9], 3.6860792192558985`*^9]], System`Rule[System`CellTags, "depersistedCelle51b66ad-8f42-45cb-8daf-6f6c2156fcfa"]]

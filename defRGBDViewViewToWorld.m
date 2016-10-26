@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`RGBDViewViewToWorld[System`Pattern[Global`r, System`Blank[Global`RGBDView]]], "", Global`RGBDCameraViewToWorld[Global`RGBDViewRGBDCamera[Global`r]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`StrictlyUpperTriangularize[System`Pattern[Global`A, System`Blank[]]], "strictly lower-triangular part of A", System`UpperTriangularize[Global`A, 1], System`Blank[], ""]]

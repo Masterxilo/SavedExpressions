@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`RGBDCameraIntrinsicsD[System`Pattern[Global`r, System`Blank[Global`RGBDCamera]]], "", System`First[Global`r]["intrinsicsD"], System`Blank[], ""]]

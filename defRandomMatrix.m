@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`RandomMatrix[System`Pattern[Global`dim, System`List[System`BlankSequence[System`Integer]]]], "random matrix with entries in 0-1", System`RandomReal[1.`, Global`dim], System`Blank[], ""]]

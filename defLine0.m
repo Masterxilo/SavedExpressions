@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Line0[System`Pattern[Global`x, System`Blank[]]], "line from origin to x", System`Line[System`List[Global`Zeros[System`Length[Global`x]], Global`x]], System`Blank[], ""]]

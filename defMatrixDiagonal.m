@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`MatrixDiagonal[System`Pattern[Global`matrix, System`Blank[]]], "Diagonal", System`Diagonal[Global`matrix], System`Blank[], ""]]

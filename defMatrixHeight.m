@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`MatrixHeight[System`Pattern[Global`m, System`Blank[]]], "", System`Length[Global`m], System`Blank[], ""]]

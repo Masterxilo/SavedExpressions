@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`DiscreteImpulseAt[System`Pattern[Global`x, System`BlankSequence[]]], "", Global`DiscreteDeltaAt[Global`x], System`Blank[], ""]]

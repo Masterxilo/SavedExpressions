@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`ExpIMinus[System`Times[Global`n, Global`t]], System`Power[System`E, System`Times[System`Times[-1, System`I], Global`n, Global`t]], System`List[], System`List[]]]

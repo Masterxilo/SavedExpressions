@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`UpperTriangularizeStrictly[System`Pattern[Global`A, System`Blank[]]], "strictly upper-triangular part of A", System`UpperTriangularize[Global`A, 1], System`Blank[], ""]]

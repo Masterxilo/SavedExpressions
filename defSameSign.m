@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`SameSign[System`Pattern[Global`x, System`Blank[System`List]]], "whether all x have the same Sign", Global`AllEqual[Global`x, System`Sign], System`Blank[], ""]]

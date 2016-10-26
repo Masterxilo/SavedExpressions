@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ExplorerOpen[System`Pattern[Global`fn, System`Blank[System`String]]], "uses explorer.exe on the given argument, typically performing the same action as double clicking the given file", System`RunProcess[System`List["explorer.exe", Global`fn]], System`Blank[], ""]]

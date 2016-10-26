@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`StationaryIterativeMethodStep[System`Pattern[Global`B, System`Blank[]], System`Pattern[Global`x, System`Blank[]], System`Pattern[Global`c, System`Blank[]]], "iterative linear solver step, c.f. templates.pdf", System`Plus[System`Dot[Global`B, Global`x], Global`c], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`RGBDViewDepthImageValidData[System`Pattern[Global`r, System`Blank[Global`RGBDView]]], "", Global`DepthImageValidData[System`First[Global`r]["depthImage"]], System`Blank[System`List], ""]]

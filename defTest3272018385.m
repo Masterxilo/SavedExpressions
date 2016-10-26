@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`HomogeneousToCartesian[System`List[Global`x, Global`y, Global`z, Global`w]], System`List[System`Times[Global`x, System`Power[Global`w, -1]], System`Times[Global`y, System`Power[Global`w, -1]], System`Times[Global`z, System`Power[Global`w, -1]]], System`List[], System`List[]]]

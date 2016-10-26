@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`IndicatorNonNegative[System`Pattern[Global`x, System`Blank[]]], "1 iff x >= 0", System`UnitStep[Global`x], System`Blank[], ""]]

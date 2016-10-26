@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`StringBeginsWith[System`Pattern[Global`x, System`BlankNullSequence[]]], "synonym for StringStartsQ", System`StringStartsQ[Global`x], System`Blank[], ""]]

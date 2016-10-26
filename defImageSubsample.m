@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ImageSubsample[System`Pattern[Global`x, System`Blank[System`Image]]], "ImageDownsample, to half the size", Global`ImageDownsample[Global`x], System`Blank[], ""]]

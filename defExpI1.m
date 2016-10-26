@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ExpI1[System`Pattern[Global`x, System`Blank[]]], "exp(2*Pi*i*x) running through unit circle counterclockwise as x goes from 0 to 1", Global`ExpI[System`Times[2, System`Pi, Global`x]], System`Blank[], ""]]

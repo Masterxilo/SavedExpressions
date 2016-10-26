@@ -1,4 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[{System`HoldAll}, 
-  Global`ForEach[Global`iter_, Global`body_], 
-  "ForEach like Do, but with the iterator part first", 
-  System`Do[Global`body, Global`iter], _, ""]]
+System`HoldComplete[Global`RedefinePublicFunction[System`List[System`HoldAll], Global`ForEach[System`Pattern[Global`iter, System`Blank[]], System`Pattern[Global`body, System`Blank[]]], "ForEach like Do, but with the iterator part first. Supports Break[]", System`Do[Global`body, Global`iter], System`Blank[], ""]]

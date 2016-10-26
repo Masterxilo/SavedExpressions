@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`LargestSingularValue[System`Pattern[Global`matrix, System`Blank[]]], "", Global`ExtractSingleElement[System`Quiet[System`SingularValueList[Global`matrix, 1]]], System`Blank[], ""]]

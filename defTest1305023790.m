@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`DiagonalSet0To1[System`Times[2.`, System`Plus[1.`, System`Times[-1, System`IdentityMatrix[3]]]]], System`List[System`List[1.`, 2.`, 2.`], System`List[2.`, 1.`, 2.`], System`List[2.`, 2.`, 1.`]], System`List[], System`List[]]]

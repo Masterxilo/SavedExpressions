@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List["PTest", "[", System`RowBox[System`List[System`RowBox[System`List["SameSign", "@", System`RowBox[System`List["{", System`RowBox[System`List["1", ",", "1", ",", "2"]], "}"]]]], ",", "True"]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.686239467091612`*^9, 3.6862394742215776`*^9]]]]

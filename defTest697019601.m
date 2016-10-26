@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Times[Global`LimitSupport[System`Function[System`Slot[1]], System`List[0, 1]][1], System`Power[2, -1]], System`Times[1, System`Power[2, -1]], System`List[], System`List[]]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`PinholeCameraProject[System`List[0.`, 0.`, 1.`], System`List[1148.11`, 1224.65`, 640.`, 512.`, 1280, 1024]], System`List[640.`, 512.`], System`List[], System`List[]]]

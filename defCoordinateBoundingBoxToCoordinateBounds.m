@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`CoordinateBoundingBoxToCoordinateBounds[System`Pattern[Global`cb, System`Blank[]]], "", System`Transpose[Global`cb], System`Blank[], ""]]

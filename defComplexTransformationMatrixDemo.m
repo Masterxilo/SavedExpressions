@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ComplexTransformationMatrixDemo[], "", System`Manipulate[Global`ShowMatrix2D[Global`ComplexTransformationMatrix[Global`ExpI[Global`t]]], System`List[Global`t, 0, System`Times[2, System`Pi]]], System`Blank[], ""]]

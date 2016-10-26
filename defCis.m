@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Cis[System`Pattern[Global`x, System`Blank[]]], "exp(i*x) = cos(x) + i sin(x) (aka. cis(x)), giving the points on the complex-plane unit circle when x is real-valued, running though it counterclockwise.", System`Exp[System`Times[System`I, Global`x]], System`Blank[], ""]]

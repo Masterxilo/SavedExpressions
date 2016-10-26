@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`SymmetricPositiveDefiniteMatrixQ[System`Pattern[Global`m, System`Blank[]]], "", System`And[System`SymmetricMatrixQ[Global`m], System`PositiveDefiniteMatrixQ[Global`m]], System`Blank[], ""]]

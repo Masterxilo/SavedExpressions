@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`JacobiMethodSuccessExample[], "works because it is strictly diagonally dominant? c.f. numerics lecture?", System`List[System`Times[1.`, System`List[System`List[2, 0, 1], System`List[1, 2, 0], System`List[0, 1, 3]]], System`Times[1.`, System`List[1, 1, 1]]], System`Blank[], ""]]

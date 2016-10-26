@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`DiracImpulseAt[System`Pattern[Global`x, System`BlankSequence[]]], "", Global`DiracDeltaAt[Global`x], System`Blank[], ""]]

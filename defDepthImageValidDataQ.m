@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`DepthImageValidDataQ[System`PatternTest[System`Pattern[Global`x, System`Blank[]], System`NumericQ]], "", System`Greater[Global`x, 0], System`Blank[], ""]]

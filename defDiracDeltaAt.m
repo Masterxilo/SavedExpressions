@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`DiracDeltaAt[System`Pattern[Global`t0, System`Blank[]]], "gives diracDelta 0 everywhere except at t0", System`Function[System`DiracDelta[System`Plus[System`Slot[1], System`Times[-1, Global`t0]]]], System`Blank[], ""]]

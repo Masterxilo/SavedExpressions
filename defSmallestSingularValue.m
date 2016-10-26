@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`SmallestSingularValue[System`Pattern[Global`matrix, System`Blank[]]], "", System`Last[System`Quiet[System`SingularValueList[Global`matrix]]], System`Blank[], ""]]

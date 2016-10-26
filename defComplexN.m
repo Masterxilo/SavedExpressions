@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ComplexN[System`Pattern[Global`x, System`Blank[]]], "make x a machine precision complex number", System`N[System`Plus[Global`x, System`Times[0.`, System`I]]], System`Blank[], ""]]

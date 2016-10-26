@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Arrow0[System`Pattern[Global`x, System`Blank[]]], "Arrow from origin to x", System`Arrow[System`List[Global`Zeros[System`Length[Global`x]], Global`x]], System`Blank[], ""]]

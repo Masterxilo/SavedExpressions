@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Polar1ToCartesian[System`Pattern[Global`phi, System`Blank[]], System`Optional[System`Pattern[Global`r, System`Blank[]], 1]], "phi in percent [0,1]", System`ReIm[System`Times[Global`r, Global`ExpI1[Global`phi]]], System`Blank[], ""]]

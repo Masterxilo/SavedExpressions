@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Saturate[System`Pattern[Global`x, System`Blank[]]], "Clamps the specified value within the range of 0 to 1.", Global`Clamp[Global`x, System`List[0, 1]], System`Blank[], ""]]
