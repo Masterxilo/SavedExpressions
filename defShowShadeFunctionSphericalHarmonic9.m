@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ShowShadeFunctionSphericalHarmonic9[System`Pattern[Global`l, System`Blank[]]], "", Global`ShowShadeFunction[Global`ShadingSphericalHarmonic9[Global`l]], System`Blank[], ""]]

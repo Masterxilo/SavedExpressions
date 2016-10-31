@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GraphicsComplexShadeCowDemo[], "", Global`ShowMeshDiffuse[Global`GraphicsComplexShadeCow[System`Function[System`Blue]]], System`Blank[], ""]]

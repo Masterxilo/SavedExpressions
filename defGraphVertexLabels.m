@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GraphVertexLabels[System`Pattern[Global`g, System`Blank[System`Graph]]], "None if there are none, otherwise a list of rules", System`PropertyValue[Global`g, System`VertexLabels], System`Alternatives[System`None, System`List[System`BlankSequence[System`Rule]]], ""]]

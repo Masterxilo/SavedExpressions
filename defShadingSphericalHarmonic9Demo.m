@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ShadingSphericalHarmonic9Demo[], "", Global`ShowS2ToRFunction[Global`ShadingSphericalHarmonic9[System`List[0.249024`, 0.000052072`, -0.498386`, 0.0000546394`, 4.42551`*^-6, 2.55137`*^-6, 0.15622`, 2.54847`*^-6, -2.55896`*^-6]]], System`Blank[], ""]]

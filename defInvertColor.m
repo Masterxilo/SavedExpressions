@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InvertColor[System`Pattern[Global`x, System`Blank[]]], "", System`ColorNegate[Global`x], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`GraphLeaves[Global`ExpressionTreeGraph[1[2, 3, 4[5, 6]], System`Rule[System`Method, System`DirectedEdge]]], System`List[2, 3, 4, 6, 7, 8], System`List[], System`List[]]]

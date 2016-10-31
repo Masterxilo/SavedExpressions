@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`ImageShiftWrap[System`ExampleData[System`List["TestImage", "Lena"]], System`List[0, 0]], System`ExampleData[System`List["TestImage", "Lena"]], System`List[], System`List[]]]

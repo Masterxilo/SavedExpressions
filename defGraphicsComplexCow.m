@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GraphicsComplexCow[], "", System`Import["cow.obj", "GraphicsComplex"], System`Blank[System`GraphicsComplex], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GraphicsComplexShadeCow[System`Pattern[Global`normalToColorFunction, System`Blank[]]], "", Global`GraphicsComplexShade[Global`normalToColorFunction, Global`GraphicsComplexCow[]], System`Blank[System`GraphicsComplex], ""]]

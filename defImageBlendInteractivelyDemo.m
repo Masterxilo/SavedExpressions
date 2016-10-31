@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ImageBlendInteractivelyDemo[], "", System`With[System`List[System`Set[Global`i1, System`Import["imageBlend1.jpg"]], System`Set[Global`i2, System`Import["imageBlend2.jpg"]]], Global`ImageBlendInteractively[Global`i1, Global`i2]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ImageResizeToSameSize[System`Pattern[Global`i1, System`Blank[System`Image]], System`Pattern[Global`i2, System`Blank[System`Image]]], "", System`ImageResize[Global`i1, System`ImageDimensions[Global`i2]], System`Blank[], ""]]

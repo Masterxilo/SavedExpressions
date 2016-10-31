@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GraphicsComplexSetOptions[System`Pattern[Global`mesh, System`Blank[System`GraphicsComplex]], System`Pattern[Global`o, System`Blank[System`List]]], "drop all options and set new ones", System`Append[Global`GraphicsComplexDropOptions[Global`mesh], Global`o], System`Blank[System`GraphicsComplex], ""]]

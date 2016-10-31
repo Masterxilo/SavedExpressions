@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ShowTransformationMatrix[System`Pattern[Global`m, System`Blank[]], System`Pattern[Global`x, System`BlankNullSequence[]]], "Visualization for transformation matrix", Global`ShowPoseMatrices[System`List[Global`m], Global`x], System`Blank[], ""]]

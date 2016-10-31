@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`DropRuleFromListByLHS[System`List[System`Rule[Global`a, 0], System`Rule[Global`b, 1]], Global`b], System`List[System`Rule[Global`a, 0]], System`List[], System`List[]]]

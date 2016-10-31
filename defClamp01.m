@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Clamp01[System`Pattern[Global`x, System`BlankNullSequence[]]], "Alias for Clip01", Global`Clip01[Global`x], System`Blank[], ""]]

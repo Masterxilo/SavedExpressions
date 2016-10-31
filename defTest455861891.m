@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`ReplaceSymbolsWithPostOrderNumberingUnique[Global`x[Global`x]], System`List[1[1], 2, System`Association[System`Rule[Global`x, 1]]], System`List[], System`List[]]]

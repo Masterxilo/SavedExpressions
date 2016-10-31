@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GraphicsComplexVertexNormals[System`Pattern[Global`mesh, System`Blank[System`GraphicsComplex]]], "get VertexNormals if available", System`ReplaceAll[System`VertexNormals, Global`GraphicsComplexOptions[Global`mesh]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ImageShiftWrapDemo[], "", Global`ImageShiftWrap[System`ExampleData[System`List["TestImage", "Lena"]], System`List[16, 32]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Map[Global`GraphDropOptions, Global`TreesWithNVertices[3]], System`List[System`Graph[System`List[1, 2, 3], System`List[System`UndirectedEdge[2, 3], System`UndirectedEdge[1, 2]]], System`Graph[System`List[1, 2, 3], System`List[System`UndirectedEdge[1, 2], System`UndirectedEdge[1, 3]]]], System`List[], System`List[]]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`GraphJoinConnectingFirstVertex[System`Graph[System`List[1], System`List[]], System`List[System`Graph[System`List[2], System`List[]]], System`Rule[System`Method, System`UndirectedEdge]], System`Graph[System`List[1, 2], System`List[System`UndirectedEdge[1, 2]]], System`List[], System`List[]]]

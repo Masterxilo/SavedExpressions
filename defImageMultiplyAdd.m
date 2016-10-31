@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ImageMultiplyAdd[System`Pattern[Global`i1, System`Blank[System`Image]], System`Pattern[Global`x, System`Blank[]], System`Pattern[Global`i2, System`Blank[System`Image]]], "i1*x+i2, FMA with images", System`ImageAdd[System`ImageMultiply[Global`i1, Global`x], Global`i2], System`Blank[], ""]]

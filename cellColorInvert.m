@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List["PRedefinePublicFunction", "[", System`RowBox[System`List[System`RowBox[System`List["ColorInvert", "[", "x_", "]"]], ",", "\"\"", ",", System`RowBox[System`List["ColorNegate", "@", "x"]]]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6866597938406563`*^9, 3.686659811208059`*^9]]]]

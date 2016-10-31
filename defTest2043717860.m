@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`NaturalNumberLeafTreeExpressionDecode[Global`NaturalNumberLeafTreeExpressionEncode[Global`a[Global`b, Global`c]]], Global`a[Global`b, Global`c], System`List[], System`List[]]]

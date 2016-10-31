@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ImageWidth[System`Pattern[Global`i, System`Blank[System`Image]]], "", System`First[System`ImageDimensions[Global`i]], System`Blank[], ""]]

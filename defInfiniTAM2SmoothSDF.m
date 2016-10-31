@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAM2SmoothSDF[Global`InfiniTAM2Scene[System`PatternTest[System`Pattern[Global`id, System`Blank[System`Integer]], System`NonNegative]]], "compute unrefined d as average of 1-neighborhood", InfiniTAM2`Private`smoothSDF[Global`id], System`Blank[], ""]]

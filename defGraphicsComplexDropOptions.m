@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GraphicsComplexDropOptions[System`Pattern[Global`mesh, System`Blank[System`GraphicsComplex]]], "", System`Take[Global`mesh, 2], System`GraphicsComplex[System`Pattern[Global`points, System`Blank[]], System`Pattern[Global`data, System`Blank[]]], ""]]

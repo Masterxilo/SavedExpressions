@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GraphicsComplexRemoveVertexNormals[System`Pattern[Global`mesh, System`Blank[System`GraphicsComplex]]], "drop an option if present", Global`GraphicsComplexRemoveOption[Global`mesh, System`VertexNormals], System`Blank[System`GraphicsComplex], ""]]

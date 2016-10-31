@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ShadingSphericalHarmonic9NegativeZCoefficients[], "demo coefficients such that the light seems to be coming approximately from -nz, similar to n.L with L = {0,0,-1}", System`List[0.249024`, 0.000052072`, -0.498386`, 0.0000546394`, 4.42551`*^-6, 2.55137`*^-6, 0.15622`, 2.54847`*^-6, -2.55896`*^-6], System`Blank[], ""]]

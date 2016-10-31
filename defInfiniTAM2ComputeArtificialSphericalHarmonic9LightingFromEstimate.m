@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAM2ComputeArtificialSphericalHarmonic9LightingFromEstimate[System`Pattern[Global`s, System`Blank[Global`InfiniTAM2Scene]]], "", Global`InfiniTAM2ComputeArtificialSphericalHarmonic9Lighting[Global`s, Global`InfiniTAM2EstimateLighting[Global`s]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAM2MeshSceneAndShow[System`Pattern[Global`s, System`Blank[Global`InfiniTAM2Scene]]], "", System`CompoundExpression[Global`InfiniTAM2MeshScene[Global`s, "temp"], Global`ExplorerOpen["temp.obj"]], System`Blank[], ""]]

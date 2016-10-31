@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`CompositionsNonzeroAll[System`Pattern[Global`n, System`Blank[]]], "Gives all compositions of integer n into k = 1 to n parts, all of which are nonzero.", System`Apply[System`Join, System`Table[Global`CompositionsNonzero[Global`n, Global`k], System`List[Global`k, 1, Global`n]]], System`Blank[], ""]]

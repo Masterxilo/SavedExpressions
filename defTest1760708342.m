@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`List[Global`CrossProductMatrix[System`List[1, 0, 0]], Global`CrossProductMatrix[System`List[0, 1, 0]], Global`CrossProductMatrix[System`List[0, 0, 1]]], Global`LieBasisSO3[], System`List[], System`List[]]]

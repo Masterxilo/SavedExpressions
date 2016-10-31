@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ShowHDR1Interactive[System`Pattern[Global`imageData, System`Blank[]]], "", System`Manipulate[Global`GammaAdjust[System`Image[System`Log[System`Plus[Global`imageData, 1]]], Global`\[Gamma]], System`List[System`List[Global`\[Gamma], System`Times[1, System`Power[2.2`, -1]]], 0, 2.2`]], System`Blank[], ""]]

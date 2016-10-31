@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`HighlightGraphLeaves[System`Pattern[Global`g, System`Blank[System`Graph]]], "", System`HighlightGraph[Global`g, Global`GraphLeaves[Global`g]], System`Blank[], ""]]

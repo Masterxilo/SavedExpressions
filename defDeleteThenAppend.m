@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`DeleteThenAppend[System`Pattern[Global`x, System`Blank[System`List]], System`Pattern[Global`element, System`Blank[]]], "Remove element from x and add it back in at the end", System`Append[System`DeleteCases[Global`x, Global`element], Global`element], System`Blank[], ""]]

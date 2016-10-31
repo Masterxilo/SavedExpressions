@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GraphicsComplexShadeShowDiffuse[System`Pattern[Global`normalToColorFunction, System`Blank[]], System`Pattern[Global`mesh, System`Blank[System`GraphicsComplex]]], "", Global`ShowMeshDiffuse[Global`GraphicsComplexShade[Global`normalToColorFunction, Global`mesh]], System`Blank[], ""]]

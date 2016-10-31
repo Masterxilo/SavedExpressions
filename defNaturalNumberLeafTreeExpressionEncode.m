@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`NaturalNumberLeafTreeExpressionEncode[System`Pattern[Global`expr, System`Blank[]]], "", System`With[System`List[System`Set[Global`e, Global`ReplaceAtomsWithPostOrderNumberingUnique[Global`expr]]], System`List[Global`NaturalNumberLeafTreeToNumber[System`First[Global`e]], System`Last[Global`e]]], System`Blank[], ""]]

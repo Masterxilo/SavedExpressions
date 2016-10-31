@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ShowMatrix3DDemo[], "", Global`ShowMatrix3D[System`List[System`List[1, 0, 0], System`List[1, 1, 0], System`List[0, 0, 1]]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ImageTranslate[System`Pattern[Global`p, System`BlankSequence[]]], "same as ImageShift", Global`ImageShift[Global`p], System`Blank[System`Image], ""]]

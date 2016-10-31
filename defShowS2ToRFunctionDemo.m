@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ShowS2ToRFunctionDemo[], "", Global`ShowS2ToRFunction[System`Function[System`First[System`Slot[1]]]], System`Blank[], ""]]

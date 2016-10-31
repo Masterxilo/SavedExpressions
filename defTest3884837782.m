@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`Atoms[1[2, 3, 2, 1], System`Rule[System`Heads, System`True]], System`List[1, 2, 3, 2, 1], System`List[], System`List[]]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GraphicsComplexVertexColors[System`Pattern[Global`mesh, System`Blank[System`GraphicsComplex]]], "get VertexColors if available", System`ReplaceAll[System`VertexColors, Global`GraphicsComplexOptions[Global`mesh]], System`Blank[], ""]]

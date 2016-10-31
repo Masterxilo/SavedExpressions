@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Atoms[System`Pattern[Global`e, System`Blank[]], System`OptionsPattern[]], "", Global`AtomsMatching[Global`e, System`Blank[], System`Rule[System`Heads, System`OptionValue[System`Heads]]], System`Blank[], "", System`Rule[System`Options, System`List[System`Rule[System`Heads, System`False]]]]]

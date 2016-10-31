@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ListToExpression[System`List[System`Pattern[Global`head, System`Blank[]], System`Pattern[Global`children, System`BlankNullSequence[]]]], "head[children]", Global`head[Global`children], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAM2CountVoxelBlocks[Global`InfiniTAM2Scene[System`Pattern[Global`id, System`Blank[System`Integer]]]], "", InfiniTAM2`Private`countVoxelBlocks[Global`id], System`Blank[], ""]]

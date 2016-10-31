@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`SphericalHarmonicUnscaledByNormalDemo[], "", System`Manipulate[Global`ParametricPlot3DSphericalNormalScalar[System`Function[System`Abs[Global`SphericalHarmonicUnscaledByNormal[Global`i][System`Slot[1]]]]], System`List[Global`i, 0, 8, 1]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ExpressionTreeGraphDemo[], "", Global`ExpressionTreeGraph[Global`x[Global`a, Global`b, Global`c][Global`a, Global`b, Global`c]], System`Blank[], ""]]

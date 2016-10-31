@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`HDRExampleImageData[], "", System`Transpose[System`First[System`Import["hdrread_memorial_o876.mat"]], System`List[3, 1, 2]], System`Blank[], ""]]

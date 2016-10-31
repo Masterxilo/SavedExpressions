@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`DownValuesLength[System`Pattern[Global`x, System`Blank[]]], "", System`Length[System`DownValues[Global`x]], System`Blank[], ""]]

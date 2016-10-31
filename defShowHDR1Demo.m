@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ShowHDR1Demo[], "", Global`ShowHDR1[Global`HDRExampleImageData[]], System`Blank[], ""]]

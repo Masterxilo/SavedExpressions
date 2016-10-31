@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List["PTest", "[", System`RowBox[System`List[System`RowBox[System`List["NaturalNumberLeafTreeToNumber", "[", "1", "]"]], ",", "2"]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.686681933483452`*^9, 3.686681940418105`*^9]]]]

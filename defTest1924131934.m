@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`DeleteThenAppend[System`List[0, 1, 2], 0], System`List[1, 2, 0], System`List[], System`List[]]]

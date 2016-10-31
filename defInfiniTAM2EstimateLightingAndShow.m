@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`InfiniTAM2EstimateLightingAndShow[System`Pattern[Global`s, System`Blank[Global`InfiniTAM2Scene]]], "Estimate the lighting model parameters and show them", Global`ShowShadeFunctionSphericalHarmonic9[Global`InfiniTAM2EstimateLighting[Global`s]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ShowMatrix3DDemo2[], "lie basis", System`Map[Global`ShowMatrix3D, Global`LieBasisSO3[]], System`Blank[], ""]]
