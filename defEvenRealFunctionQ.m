@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`EvenRealFunctionQ[System`Pattern[Global`f, System`Blank[]]], "definition of f is an even function", Global`ResolveOrRefuteReals[System`ForAll[System`List[Global`x], System`Equal[Global`f[System`Times[-1, Global`x]], Global`f[Global`x]]]], System`Blank[], ""]]

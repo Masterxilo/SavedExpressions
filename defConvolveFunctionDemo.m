@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ConvolveFunctionDemo[], "", Global`HoldFormEvaluate[Global`ConvolveFunction[System`UnitBox, System`UnitBox]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`GridLeftFramed[System`Pattern[Global`m, System`Blank[]]], "Grid with Left alignment and Frame", System`Grid[Global`m, System`Rule[System`Alignment, System`Left], System`Rule[System`Frame, System`All]], System`Blank[], ""]]

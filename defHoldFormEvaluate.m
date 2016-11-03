@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[System`List[System`HoldAll], Global`HoldFormEvaluate[System`Pattern[Global`x, System`Blank[]]], "{HoldForm@x, x}", System`List[System`HoldForm[Global`x], Global`x], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`FindSupport[System`Pattern[Global`f, System`Blank[]], System`Pattern[Global`x, System`Blank[]]], "give an equation in x where f@x is not 0", System`Reduce[System`Unequal[Global`f[Global`x], 0], Global`x], System`Blank[], ""]]

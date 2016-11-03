@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`FindFunctionInstance[System`Pattern[Global`fx, System`Blank[]], System`Pattern[Global`x, System`Blank[]]], "find a pure function f such that f@x == fx", System`Function[Global`fx], System`Blank[], ""]]

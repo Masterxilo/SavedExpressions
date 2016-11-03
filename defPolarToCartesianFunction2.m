@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`PolarToCartesianFunction2[], "Pure function taking {phi, r}, phi in radians, returning {x,y}", System`Function[System`ReIm[System`Times[System`Part[System`Slot[1], 2], Global`ExpI[System`Part[System`Slot[1], 1]]]]], System`Blank[], ""]]

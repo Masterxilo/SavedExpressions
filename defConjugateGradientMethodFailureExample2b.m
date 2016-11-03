@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ConjugateGradientMethodFailureExample2b[], "", Global`ImportTableFlatten["ConjugateGradientMethodFailureExample2b.Table.Flatten.txt"], System`Blank[], ""]]

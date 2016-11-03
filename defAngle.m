@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`Angle[System`Pattern[Global`x, System`Blank[]]], "Arg", System`Arg[Global`x], System`Blank[], ""]]

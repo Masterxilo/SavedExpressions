@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`SlotNToPartSlot1[System`Pattern[Global`expression, System`Blank[]]], "in expression, replace Slot[n] with Part[Slot[1],n]", System`ReplaceAll[Global`expression, System`RuleDelayed[System`Slot[System`Pattern[Global`n, System`Blank[]]], System`Part[System`Slot[1], Global`n]]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`EvenRealFunctionQ[System`Cos], System`True, System`List[], System`List[]]]

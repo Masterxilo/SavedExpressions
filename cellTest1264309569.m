@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List["PTest", "[", System`RowBox[System`List[System`RowBox[System`List[System`RowBox[System`List["ImpulseTrain", "[", "1", "]"]], "[", "0.5", "]"]], ",", "0"]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6871184392564096`*^9, 3.6871184628208046`*^9]]]]

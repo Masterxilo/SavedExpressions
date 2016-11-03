@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`Expand[Global`CompleteSquare[System`Plus[4, System`Times[2, Global`x], System`Times[3, System`Power[Global`x, 2]]]]], System`Plus[4, System`Times[2, Global`x], System`Times[3, System`Power[Global`x, 2]]], System`List[], System`List[]]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ShiftFunction[System`Pattern[Global`f, System`Blank[]], System`Pattern[Global`delta, System`Blank[]]], "f(x-delta)", System`Function[Global`f[System`Plus[System`Slot[1], System`Times[-1, Global`delta]]]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`UnsameQ[Global`OddRealFunctionQ[System`Cos], System`True], System`True, System`List[], System`List[]]]

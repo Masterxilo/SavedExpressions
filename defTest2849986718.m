@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], System`VertexCount[Global`ExpressionTreeGraph[1[1, 1, 1, 2]]], 6, System`List[], System`List[]]]

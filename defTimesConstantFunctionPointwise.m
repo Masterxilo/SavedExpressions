@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`TimesConstantFunctionPointwise[System`Pattern[Global`a, System`Blank[]], System`Pattern[Global`f, System`Blank[]]], "", System`Function[System`Times[Global`a, Global`f[System`Slot[1]]]], System`Blank[], ""]]

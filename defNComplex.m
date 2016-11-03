@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`NComplex[System`Pattern[Global`x, System`Blank[]]], "alias for ComplexN", Global`ComplexN[Global`x], System`Blank[], ""]]

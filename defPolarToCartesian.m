@@ -1,1 +1,1 @@
-System`HoldComplete[Global`RedefinePublicFunction[Global`PolarToCartesian[System`Pattern[Global`phi, System`Blank[]], System`Optional[System`Pattern[Global`r, System`Blank[]], 1]], "phi in radians", System`ReIm[System`Times[Global`r, Global`ExpI[Global`phi]]], System`Blank[], ""]]
+System`HoldComplete[Global`RedefinePublicFunction[Global`PolarToCartesian[System`Pattern[Global`phi, System`Blank[]], System`Optional[System`Pattern[Global`r, System`Blank[]], 1]], "phi in radians", Global`PolarToCartesianFunction[][Global`phi, Global`r], System`Blank[], ""]]

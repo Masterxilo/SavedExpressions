@@ -1,0 +1,1 @@
+System`Cell[System`BoxData[System`RowBox[System`List["PTest", "[", System`RowBox[System`List[System`RowBox[System`List["OddRealFunctionQ", "@", "Sin"]], ",", "True"]], "]"]]], "Input", System`Rule[System`CellChangeTimes, System`List[System`List[3.6871182551788373`*^9, 3.687118264245144`*^9]]]]

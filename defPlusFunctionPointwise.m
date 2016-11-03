@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`PlusFunctionPointwise[System`Pattern[Global`f, System`Blank[]], System`Pattern[Global`g, System`Blank[]]], "", System`Function[System`Plus[Global`f[System`Slot[1]], Global`g[System`Slot[1]]]], System`Blank[], ""]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ConjugateGradientMethodFailureExample2A[], "cg on normal equations behaves badly with this matrix. Note that you need to compute A^t.A first!", System`Import["ConjugateGradientMethodFailureExample2A.mtx"], System`Blank[], ""]]

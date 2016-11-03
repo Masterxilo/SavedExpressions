@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ExpressionTreeGraphVertexCount[System`Pattern[Global`expr, System`Blank[]]], "equivalent to ExpressionTreeGraph@expr//VertexCount but could be done more efficiently (TODO)", System`VertexCount[Global`ExpressionTreeGraph[Global`expr]], System`PatternTest[System`Blank[System`Integer], System`Positive], ""]]

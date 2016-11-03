@@ -1,0 +1,1 @@
+System`HoldComplete[Global`PTestRun[System`List[], Global`PeriodicRealFunctionQ[System`Function[System`Sin[System`Slot[1]]], System`Times[2, System`Pi]], System`True, System`List[], System`List[]]]

@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`OddRealFunctionQ[System`Pattern[Global`f, System`Blank[]]], "definition of f is an odd function. Not perfect: fails with DiracDelta...", Global`ResolveOrRefuteReals[System`ForAll[System`List[Global`x], System`Equal[Global`f[System`Times[-1, Global`x]], System`Times[-1, Global`f[Global`x]]]]], System`Blank[], ""]]

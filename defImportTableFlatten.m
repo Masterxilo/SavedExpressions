@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`ImportTableFlatten[System`Pattern[Global`fn, System`Blank[System`String]]], "imports as Table and applies Flatten", System`Flatten[System`Import[Global`fn, "Table"]], System`Blank[], ""]]

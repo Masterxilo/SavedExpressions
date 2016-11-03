@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`CartesianToPolarFunction[], "pure function taking {x,y} returning {phi, r}", System`Function[System`List[System`Apply[System`ArcTan, System`Slot[1]], System`Norm[System`Slot[1]]]], System`Blank[], ""]]

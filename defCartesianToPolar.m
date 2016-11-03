@@ -1,0 +1,1 @@
+System`HoldComplete[Global`RedefinePublicFunction[Global`CartesianToPolar[System`Pattern[Global`p, System`List[System`Pattern[Global`x, System`Blank[]], System`Pattern[Global`y, System`Blank[]]]]], "returns {phi, r}, phi in [-pi, pi]", System`List[System`Apply[System`ArcTan, Global`p], System`Norm[Global`p]], System`Blank[], ""]]
